@@ -7,18 +7,25 @@ import {TextInput} from "../text";
 import {IRequireName} from "../props";
 
 export interface INumberInputProps extends IRequireName {
+  allowNegative?: boolean;
   readOnly?: boolean;
 }
 
-export const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
-  if (e.keyCode === 69 || e.keyCode === 189 || (e.shiftKey && e.keyCode === 187)) {
-    // disallow e/-/+
+export interface ICurrencyInputKeyDownProps {
+  allowNegative: boolean;
+}
+
+export const handleKeyDown = ({allowNegative}: ICurrencyInputKeyDownProps) => (
+  e: KeyboardEvent<HTMLInputElement>,
+): void => {
+  if (e.keyCode === 69 || (!allowNegative && e.keyCode === 189) || (e.shiftKey && e.keyCode === 187)) {
+    // disallow e/-?/+
     e.preventDefault();
   }
 };
 
 export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
-  const {name, ...rest} = props;
+  const {name, allowNegative = false, ...rest} = props;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
@@ -26,7 +33,7 @@ export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
   return (
     <TextInput
       type="number"
-      onKeyDown={handleKeyDown}
+      onKeyDown={handleKeyDown({allowNegative})}
       value={value === null && value === void 0 ? "" : Number(value)}
       name={name}
       {...rest}
