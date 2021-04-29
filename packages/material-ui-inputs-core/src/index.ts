@@ -1,4 +1,5 @@
 export * from "./checkbox";
+export * from "./currency";
 export * from "./number";
 export * from "./password";
 export * from "./search";
