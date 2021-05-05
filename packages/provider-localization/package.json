@@ -11,7 +11,7 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "react": "17.0.2",
     "react-intl": "5.17.4"
   },
