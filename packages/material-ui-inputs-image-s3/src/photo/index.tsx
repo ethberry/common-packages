@@ -11,6 +11,7 @@ import {S3FileInput} from "@trejgun/material-ui-inputs-file-s3";
 
 import {popup} from "../popup";
 import {useStyles} from "./styles";
+import {useDeleteUrl} from "../utils";
 
 interface IPhotoInputProps {
   name: string;
@@ -25,6 +26,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
   const [isLoading, setIsLoading] = useState(false);
   const [isDeleteImageDialogOpen, setIsDeleteImageDialogOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const deleteUrl = useDeleteUrl();
 
   const handleOptionDelete = (index: number): (() => void) => {
     return (): void => {
@@ -37,8 +39,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
     const newValue = formik.values[name];
     const [deleted] = newValue.splice(selectedImageIndex, 1);
 
-    // TODO delete image
-    await Promise.resolve(deleted.imageUrl);
+    await deleteUrl(deleted.imageUrl);
 
     formik.setFieldValue(name, newValue);
     setIsDeleteImageDialogOpen(false);
@@ -95,7 +96,12 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
             >
               <Grid item>
                 <ProgressOverlay isLoading={isLoading}>
-                  <S3FileInput onChange={handleFileChange} classes={{root: classes.media}} accept={accept} />
+                  <S3FileInput
+                    onProgress={() => {}}
+                    onChange={handleFileChange}
+                    classes={{root: classes.media}}
+                    accept={accept}
+                  />
                 </ProgressOverlay>
               </Grid>
               {formik.values[name].map((option: {imageUrl: string; title: string}, i: number) => (

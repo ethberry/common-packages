@@ -11,6 +11,8 @@
     "@trejgun/material-ui-inputs-core": "0.0.178",
     "@trejgun/material-ui-inputs-file-s3": "0.0.17",
     "@trejgun/material-ui-progress": "0.0.153",
+    "@trejgun/provider-api": "0.0.64",
+    "notistack": "1.0.6",
     "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
