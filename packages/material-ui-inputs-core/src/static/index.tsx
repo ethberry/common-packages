@@ -1,13 +1,12 @@
 import React, {FC, ReactElement} from "react";
-import {InputBaseComponentProps, TextFieldProps} from "@material-ui/core";
+import {InputBaseComponentProps} from "@material-ui/core";
 import {getIn, useFormikContext} from "formik";
 
-import {TextInput} from "../text";
-import {IRequireName} from "../props";
+import {ITextInputProps, TextInput} from "../text";
 
-export interface IStaticInputProps extends IRequireName {}
+export type IStaticInputProps = ITextInputProps;
 
-export const StaticInput: FC<IStaticInputProps & TextFieldProps> = props => {
+export const StaticInput: FC<IStaticInputProps> = props => {
   const {InputLabelProps, InputProps, name, ...rest} = props;
 
   const formik = useFormikContext<any>();

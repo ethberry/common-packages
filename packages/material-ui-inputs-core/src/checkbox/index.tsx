@@ -4,13 +4,12 @@ import {useFormikContext, getIn} from "formik";
 
 import {Checkbox, CheckboxProps, FormControlLabel} from "@material-ui/core";
 
-import {IRequireName} from "../props";
-
-export interface ICheckboxInputProps extends IRequireName {
+export interface ICheckboxInputProps extends CheckboxProps {
+  name: string;
   label?: string;
 }
 
-export const CheckboxInput: FC<ICheckboxInputProps & CheckboxProps> = props => {
+export const CheckboxInput: FC<ICheckboxInputProps> = props => {
   const {name, label, ...rest} = props;
 
   const suffix = name.split(".").pop() as string;

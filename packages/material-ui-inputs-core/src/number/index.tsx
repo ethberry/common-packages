@@ -1,17 +1,23 @@
 import React, {FC, KeyboardEvent} from "react";
 import {getIn, useFormikContext} from "formik";
 
-import {TextFieldProps} from "@material-ui/core";
+import {IFilledTextInputProps, IOutlinedTextInputProps, IStandardTextInputProps, TextInput} from "../text";
 
-import {TextInput} from "../text";
-import {IRequireName} from "../props";
-
-export interface INumberInputProps extends IRequireName {
+export interface IStandardNumberInputProps extends IStandardTextInputProps {
   allowNegative?: boolean;
-  readOnly?: boolean;
 }
 
-export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
+export interface IFilledNumberInputProps extends IFilledTextInputProps {
+  allowNegative?: boolean;
+}
+
+export interface IOutlinedNumberInputProps extends IOutlinedTextInputProps {
+  allowNegative?: boolean;
+}
+
+export type INumberInputProps = IStandardNumberInputProps | IFilledNumberInputProps | IOutlinedNumberInputProps;
+
+export const NumberInput: FC<INumberInputProps> = props => {
   const {name, allowNegative = false, ...rest} = props;
 
   const formik = useFormikContext<any>();

@@ -4,9 +4,8 @@ import {getIn, useFormikContext} from "formik";
 
 import {FormControlLabel, Switch, SwitchProps} from "@material-ui/core";
 
-import {IRequireName} from "../props";
-
-export interface ISwitchInputProps extends IRequireName {
+export interface ISwitchInputProps extends SwitchProps {
+  name: string;
   label?: string;
 }
 

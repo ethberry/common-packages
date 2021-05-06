@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.158 (2021-05-06)
+
+**Note:** Version bump only for package @trejgun/material-ui-toolbar
+
+
+
+
+
 ## 0.0.157 (2021-04-30)
 
 **Note:** Version bump only for package @trejgun/material-ui-toolbar

@@ -17,13 +17,13 @@ describe("<NumberInput />", () => {
   it("renders positive value", () => {
     const props = {
       name: "number",
-      value: "50",
+      value: 50,
     };
 
     const formikProps = {
       onSubmit: jest.fn(),
       initialValues: {
-        number: "50",
+        number: 50,
       },
     };
 
@@ -43,13 +43,13 @@ describe("<NumberInput />", () => {
   it("renders negative value", () => {
     const props = {
       name: "number",
-      value: "-50",
+      value: -50,
     };
 
     const formikProps = {
       onSubmit: jest.fn(),
       initialValues: {
-        number: "-50",
+        number: -50,
       },
     };
 
@@ -69,13 +69,13 @@ describe("<NumberInput />", () => {
   it("renders decimal value", () => {
     const props = {
       name: "number",
-      value: "9.99",
+      value: 9.99,
     };
 
     const formikProps = {
       onSubmit: jest.fn(),
       initialValues: {
-        number: "9.99",
+        number: 9.99,
       },
     };
 

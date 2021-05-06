@@ -7,13 +7,13 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/history": "0.0.96",
+    "@trejgun/history": "0.0.97",
     "content-disposition": "0.5.3"
   },
   "description": "react context provider",
   "devDependencies": {
     "@types/content-disposition": "0.5.3",
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "react": "17.0.2"
   },
   "engines": {
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.64"
+  "version": "0.0.65"
 }

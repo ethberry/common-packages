@@ -1,15 +1,26 @@
 import React, {FC} from "react";
 import {useIntl} from "react-intl";
 import {getIn, useFormikContext} from "formik";
-import {TextField, TextFieldProps} from "@material-ui/core";
+import {TextField, StandardTextFieldProps, FilledTextFieldProps, OutlinedTextFieldProps} from "@material-ui/core";
 
-import {IRequireName} from "../props";
-
-interface ITextInputProps extends IRequireName {
+export interface IStandardTextInputProps extends StandardTextFieldProps {
+  name: string;
   readOnly?: boolean;
 }
 
-export const TextInput: FC<ITextInputProps & TextFieldProps> = props => {
+export interface IFilledTextInputProps extends FilledTextFieldProps {
+  name: string;
+  readOnly?: boolean;
+}
+
+export interface IOutlinedTextInputProps extends OutlinedTextFieldProps {
+  name: string;
+  readOnly?: boolean;
+}
+
+export type ITextInputProps = IStandardTextInputProps | IFilledTextInputProps | IOutlinedTextInputProps;
+
+export const TextInput: FC<ITextInputProps> = props => {
   const {name, readOnly, InputProps, label, placeholder, ...rest} = props;
 
   const suffix = name.split(".").pop() as string;

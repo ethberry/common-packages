@@ -7,11 +7,11 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/provider-user": "0.0.107"
+    "@trejgun/provider-user": "0.0.108"
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "react": "17.0.2"
   },
   "engines": {
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.108"
+  "version": "0.0.109"
 }

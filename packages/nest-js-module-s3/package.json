@@ -7,8 +7,8 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-validators": "0.0.209",
-    "aws-sdk": "2.897.0",
+    "@trejgun/nest-js-validators": "0.0.210",
+    "aws-sdk": "2.901.0",
     "uuid": "8.3.2"
   },
   "devDependencies": {
@@ -47,5 +47,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.21"
+  "version": "0.0.22"
 }

@@ -4,13 +4,12 @@ import {getIn, useFormikContext} from "formik";
 
 import {FormControlLabel, Slider, SliderProps} from "@material-ui/core";
 
-import {IRequireName} from "../props";
-
-export interface ISliderInputProps extends IRequireName {
+export interface ISliderInputProps extends SliderProps {
+  name: string;
   label?: string;
 }
 
-export const SliderInput: FC<ISliderInputProps & SliderProps> = props => {
+export const SliderInput: FC<ISliderInputProps> = props => {
   const {name, label, ...rest} = props;
 
   const suffix = name.split(".").pop() as string;
@@ -37,4 +36,17 @@ export const SliderInput: FC<ISliderInputProps & SliderProps> = props => {
       label={localizedLabel}
     />
   );
+  // <FormControl>
+  //   <InputLabel htmlFor="my-input">{localizedLabel}</InputLabel>
+  //   <Slider
+  //     name={name}
+  //     value={value}
+  //     onChange={(_event: ChangeEvent<unknown>, value): void => {
+  //       formik.setFieldValue(name, value);
+  //     }}
+  //     onBlur={formik.handleBlur}
+  //     {...rest}
+  //   />
+  //   <FormHelperText id="my-helper-text">Well never share your email.</FormHelperText>
+  // </FormControl>
 };

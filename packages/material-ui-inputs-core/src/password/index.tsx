@@ -1,14 +1,13 @@
 import React, {FC, useState, MouseEvent} from "react";
 
-import {IconButton, InputAdornment, TextFieldProps} from "@material-ui/core";
+import {IconButton, InputAdornment} from "@material-ui/core";
 import {Visibility, VisibilityOff} from "@material-ui/icons";
 
-import {TextInput} from "../text";
-import {IRequireName} from "../props";
+import {TextInput, ITextInputProps} from "../text";
 
-export interface IPasswordInputProps extends IRequireName {}
+export type IPasswordInputProps = ITextInputProps;
 
-export const PasswordInput: FC<IPasswordInputProps & TextFieldProps> = props => {
+export const PasswordInput: FC<IPasswordInputProps> = props => {
   const [show, setShow] = useState(false);
 
   const handleClick = (e: MouseEvent): void => {

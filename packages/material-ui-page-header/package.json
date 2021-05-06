@@ -7,20 +7,21 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-toolbar": "0.0.157"
+    "@trejgun/material-ui-toolbar": "0.0.158"
   },
   "description": "react widget",
   "devDependencies": {
     "@material-ui/core": "4.11.4",
+    "@storybook/react": "6.2.9",
     "@testing-library/jest-dom": "5.12.0",
     "@testing-library/react": "11.2.6",
     "@types/jest": "26.0.23",
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "jest": "26.6.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-intl": "5.17.4",
-    "ts-jest": "26.5.5"
+    "ts-jest": "26.5.6"
   },
   "engines": {
     "node": ">=10"
@@ -57,5 +58,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.167"
+  "version": "0.0.168"
 }
