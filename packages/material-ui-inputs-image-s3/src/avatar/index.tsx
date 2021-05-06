@@ -26,7 +26,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
   const suffix = name.split(".").pop() as string;
   const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
   const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
-  const imageUrl = formik.values[name];
+  const imageUrl = getIn(formik.values, name);
 
   const onChange = (url: string) => {
     formik.setFieldValue(name, url);

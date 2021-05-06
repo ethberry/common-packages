@@ -4,15 +4,14 @@ import {useIntl} from "react-intl";
 
 import {IApiContext, IAuth, ApiContext} from "@trejgun/provider-api";
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const useDeleteUrl = () => {
+export const useDeleteUrl = (): ((url: string) => Promise<void>) => {
   const api = useContext<IApiContext<IAuth>>(ApiContext);
 
   const {enqueueSnackbar} = useSnackbar();
   const {formatMessage} = useIntl();
 
-  return async (url: string) => {
-    return await api
+  return async (url: string): Promise<void> => {
+    await api
       .fetch({
         url: "/s3/delete",
         data: {
