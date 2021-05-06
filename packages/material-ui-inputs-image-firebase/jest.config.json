@@ -1,0 +1,11 @@
+{
+  "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
+  "coverageDirectory": "../coverage",
+  "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "json"],
+  "rootDir": "src",
+  "testRegex": ".test.tsx?$",
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "verbose": true
+}

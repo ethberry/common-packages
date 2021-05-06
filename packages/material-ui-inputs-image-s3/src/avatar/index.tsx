@@ -48,7 +48,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
             <Delete fontSize="inherit" />
           </IconButton>
         </Tooltip>
-        <img src={imageUrl} className={classes.image} alt={`form.labels.${name}`} />
+        <img src={imageUrl} className={classes.image} alt={formatMessage({id: `form.labels.${name}`})} />
         {localizedHelperText && (
           <FormHelperText id={`${name}-helper-text`} error>
             {localizedHelperText}
