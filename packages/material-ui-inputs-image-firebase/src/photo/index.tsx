@@ -5,7 +5,6 @@ import {FormattedMessage} from "react-intl";
 import path from "path";
 import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
 
-import firebase from "@trejgun/firebase";
 import {TextInput} from "@trejgun/material-ui-inputs-core";
 import {ProgressOverlay} from "@trejgun/material-ui-progress";
 import {ConfirmationDialog} from "@trejgun/material-ui-dialog-confirmation";
@@ -13,6 +12,7 @@ import {FirebaseFileInput} from "@trejgun/material-ui-inputs-file-firebase";
 
 import {popup} from "../popup";
 import {useStyles} from "./styles";
+import {deleteUrl} from "../utils";
 
 interface IPhotoInputProps {
   name: string;
@@ -39,17 +39,9 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
     const newValue = formik.values[name];
     const [deleted] = newValue.splice(selectedImageIndex, 1);
     const fileName = path.basename(new URL(deleted.imageUrl).pathname);
-    const storageRef = firebase.storage().ref();
 
-    await storageRef
-      .child(fileName)
-      .delete()
-      .catch(e => {
-        console.error("Can't delete file:", e);
-        if (e.code !== "storage/object-not-found") {
-          throw e;
-        }
-      });
+    await deleteUrl(fileName);
+
     formik.setFieldValue(name, newValue);
     setIsDeleteImageDialogOpen(false);
   };

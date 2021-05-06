@@ -7,6 +7,7 @@ import {FormattedMessage, useIntl} from "react-intl";
 import {FirebaseFileInput} from "@trejgun/material-ui-inputs-file-firebase";
 
 import useStyles from "./styles";
+import {deleteUrl} from "../utils";
 
 export interface IAvatarInputProps {
   name: string;
@@ -30,7 +31,8 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
     formik.setFieldValue(name, urls[0]);
   };
 
-  const onDelete = () => {
+  const onDelete = async () => {
+    await deleteUrl(imageUrl);
     formik.setFieldValue(name, "");
   };
 
