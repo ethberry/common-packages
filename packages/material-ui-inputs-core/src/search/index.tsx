@@ -6,7 +6,9 @@ import {getIn, useFormikContext} from "formik";
 
 import {useStyles} from "./styles";
 
-export const SearchInput: FC<InputBaseProps> = props => {
+export interface ISearchInputProps extends InputBaseProps {}
+
+export const SearchInput: FC<ISearchInputProps> = props => {
   const {name = "search", ...rest} = props;
   const classes = useStyles();
 

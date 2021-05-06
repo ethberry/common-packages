@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AvatarInput /> renders empty field with error: image is required 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root AvatarInput-root-18 MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root AvatarInput-label-19 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink="true"
+      id="avatar-select-label"
+    >
+      Avatar
+    </label>
+    <div
+      class="InputFile-placeholder-23 AvatarInput-input-22"
+      tabindex="0"
+    >
+      <input
+        accept="image/jpeg,image/png"
+        autocomplete="off"
+        multiple=""
+        style="display: none;"
+        tabindex="-1"
+        type="file"
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root InputFile-icon-24"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"
+        />
+      </svg>
+    </div>
+    <p
+      class="MuiFormHelperText-root Mui-error"
+      id="avatar-helper-text"
+    >
+      Avatar is required
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AvatarInput /> renders image with error from server 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root AvatarInput-root-13 MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root AvatarInput-label-14 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink="true"
+      id="avatar-select-label"
+    >
+      Avatar
+    </label>
+    <button
+      aria-label="delete"
+      class="MuiButtonBase-root MuiIconButton-root AvatarInput-button-15"
+      tabindex="0"
+      title="Delete"
+      type="button"
+    >
+      <span
+        class="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <img
+      alt="Avatar"
+      class="AvatarInput-image-16"
+      src="https://lms2-dev.s3-us-west-2.amazonaws.com/7f0f427f-eeba-4ffb-a1c8-f730721bfd46.jpeg"
+    />
+    <p
+      class="MuiFormHelperText-root Mui-error"
+      id="avatar-helper-text"
+    >
+      Property Avatar is not recognized
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AvatarInput /> renders the empty field 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root AvatarInput-root-1 MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root AvatarInput-label-2 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink="true"
+      id="avatar-select-label"
+    >
+      Avatar
+    </label>
+    <div
+      class="InputFile-placeholder-6 AvatarInput-input-5"
+      tabindex="0"
+    >
+      <input
+        accept="image/jpeg,image/png"
+        autocomplete="off"
+        multiple=""
+        style="display: none;"
+        tabindex="-1"
+        type="file"
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root InputFile-icon-7"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"
+        />
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<AvatarInput /> renders the field with image 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root AvatarInput-root-8 MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root AvatarInput-label-9 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+      data-shrink="true"
+      id="avatar-select-label"
+    >
+      Avatar
+    </label>
+    <button
+      aria-label="delete"
+      class="MuiButtonBase-root MuiIconButton-root AvatarInput-button-10"
+      tabindex="0"
+      title="Delete"
+      type="button"
+    >
+      <span
+        class="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <img
+      alt="Avatar"
+      class="AvatarInput-image-11"
+      src="https://lms2-dev.s3-us-west-2.amazonaws.com/7f0f427f-eeba-4ffb-a1c8-f730721bfd46.jpeg"
+    />
+  </div>
+</DocumentFragment>
+`;

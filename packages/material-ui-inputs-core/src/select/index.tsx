@@ -3,13 +3,12 @@ import {FormControl, InputLabel, MenuItem, Select, SelectProps} from "@material-
 import {FormattedMessage, useIntl} from "react-intl";
 import {getIn, useFormikContext} from "formik";
 
-import {IRequireName} from "../props";
-
-interface ISelectInputProps extends IRequireName {
+export interface ISelectInputProps extends SelectProps {
+  name: string;
   options: any; // enum
 }
 
-export const SelectInput: FC<ISelectInputProps & SelectProps> = props => {
+export const SelectInput: FC<ISelectInputProps> = props => {
   const {options, name, multiple, ...rest} = props;
 
   const suffix = name.split(".").pop() as string;

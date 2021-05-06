@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/types-validation": "0.0.88",
+    "@trejgun/types-validation": "0.0.89",
     "class-validator": "0.13.1",
     "zxcvbn": "4.4.2"
   },
@@ -41,5 +41,5 @@
   },
   "title": "nest js validators",
   "types": "./dist/index.d.ts",
-  "version": "0.0.209"
+  "version": "0.0.210"
 }

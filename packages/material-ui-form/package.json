@@ -7,16 +7,16 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-toolbar": "0.0.157"
+    "@trejgun/material-ui-toolbar": "0.0.158"
   },
   "description": "react widget",
   "devDependencies": {
     "@material-ui/core": "4.11.4",
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "@types/react-router-dom": "5.1.7",
     "formik": "2.2.6",
     "react": "17.0.2",
-    "react-intl": "5.17.2",
+    "react-intl": "5.17.4",
     "react-router-dom": "5.2.0"
   },
   "engines": {
@@ -53,5 +53,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.171"
+  "version": "0.0.172"
 }

@@ -6,12 +6,13 @@ import {ButtonToolbar} from "@trejgun/material-ui-toolbar";
 
 import useStyles from "./styles";
 
-interface IPageHeader {
+export interface IPageHeader {
   message: string;
   data?: any;
 }
 
-export const PageHeader: FC<IPageHeader> = ({children, message, data}) => {
+export const PageHeader: FC<IPageHeader> = props => {
+  const {children, message, data} = props;
   const classes = useStyles();
   return (
     <Grid className={classes.header} container justify="space-between" alignItems="center">

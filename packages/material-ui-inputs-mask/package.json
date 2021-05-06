@@ -7,17 +7,17 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/material-ui-inputs-core": "0.0.178",
+    "@trejgun/material-ui-inputs-core": "0.0.179",
     "imask": "6.0.7",
     "react-imask": "6.0.7"
   },
   "description": "react widget",
   "devDependencies": {
     "@material-ui/core": "4.11.4",
-    "@types/react": "17.0.4",
+    "@types/react": "17.0.5",
     "formik": "2.2.6",
     "react": "17.0.2",
-    "react-intl": "5.17.2"
+    "react-intl": "5.17.4"
   },
   "engines": {
     "node": ">=10"
@@ -53,5 +53,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.175"
+  "version": "0.0.176"
 }

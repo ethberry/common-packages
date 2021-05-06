@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "Material UI social network flat icons",
   "types": "./dist/index.d.ts",
-  "version": "0.0.149"
+  "version": "0.0.150"
 }

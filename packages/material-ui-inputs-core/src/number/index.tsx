@@ -1,27 +1,34 @@
 import React, {FC, KeyboardEvent} from "react";
 import {getIn, useFormikContext} from "formik";
 
-import {TextFieldProps} from "@material-ui/core";
+import {IFilledTextInputProps, IOutlinedTextInputProps, IStandardTextInputProps, TextInput} from "../text";
 
-import {TextInput} from "../text";
-import {IRequireName} from "../props";
-
-export interface INumberInputProps extends IRequireName {
-  readOnly?: boolean;
+export interface IStandardNumberInputProps extends IStandardTextInputProps {
+  allowNegative?: boolean;
 }
 
-export const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
-  if (e.keyCode === 69 || (e.shiftKey && e.keyCode === 187)) {
-    // disallow e/+
-    e.preventDefault();
-  }
-};
+export interface IFilledNumberInputProps extends IFilledTextInputProps {
+  allowNegative?: boolean;
+}
 
-export const NumberInput: FC<INumberInputProps & TextFieldProps> = props => {
-  const {name, ...rest} = props;
+export interface IOutlinedNumberInputProps extends IOutlinedTextInputProps {
+  allowNegative?: boolean;
+}
+
+export type INumberInputProps = IStandardNumberInputProps | IFilledNumberInputProps | IOutlinedNumberInputProps;
+
+export const NumberInput: FC<INumberInputProps> = props => {
+  const {name, allowNegative = false, ...rest} = props;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
+
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>): void => {
+    if (e.keyCode === 69 || (!allowNegative && e.keyCode === 189) || (e.shiftKey && e.keyCode === 187)) {
+      // disallow e/-/+
+      e.preventDefault();
+    }
+  };
 
   return (
     <TextInput

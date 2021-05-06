@@ -1,13 +1,12 @@
 import React, {FC} from "react";
 
-import {useMediaQuery, TextFieldProps, Theme} from "@material-ui/core";
+import {Theme, useMediaQuery} from "@material-ui/core";
 
-import {TextInput} from "../text";
-import {IRequireName} from "../props";
+import {ITextInputProps, TextInput} from "../text";
 
-export interface ITextAreaProps extends IRequireName {}
+export type ITextAreaProps = ITextInputProps;
 
-export const TextArea: FC<ITextAreaProps & TextFieldProps> = props => {
+export const TextArea: FC<ITextAreaProps> = props => {
   const isSmallScreen = useMediaQuery<Theme>(theme => theme.breakpoints.down("sm"));
 
   return <TextInput multiline rows={isSmallScreen ? 2 : 5} rowsMax={Infinity} {...props} />;

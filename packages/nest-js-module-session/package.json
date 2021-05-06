@@ -7,14 +7,14 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "@trejgun/nest-js-create-middleware-module": "0.0.29",
+    "@trejgun/nest-js-create-middleware-module": "0.0.30",
     "connect-redis": "5.2.0",
     "express-session": "1.17.1"
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.16",
     "@types/express-session": "1.17.3",
-    "ioredis": "4.27.1"
+    "ioredis": "4.27.2"
   },
   "engines": {
     "node": ">=10"
@@ -46,5 +46,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.17"
+  "version": "0.0.18"
 }

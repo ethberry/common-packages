@@ -9,13 +9,20 @@ export interface IValidationError {
   constraints?: Record<string, string>;
 }
 
+enum ValidationTypes {
+  WHITELIST = "whitelistValidation",
+}
+
 export function localizeErrors(messages: Array<IValidationError>): Record<string, string> {
-  return messages.reduce(
-    (memo: Record<string, string>, message: IValidationError) => ({
+  return messages.reduce((memo: Record<string, string>, message: IValidationError) => {
+    const constraints = message.constraints || {};
+    if (ValidationTypes.WHITELIST in constraints) {
+      constraints[ValidationTypes.WHITELIST] = ValidationTypes.WHITELIST;
+    }
+    return {
       ...memo,
       // TODO get errors from nested schemas
-      ...{[message.property]: `form.validations.${Object.values(message.constraints || {})[0]}`},
-    }),
-    {},
-  );
+      ...{[message.property]: `form.validations.${Object.values(constraints)[0]}`},
+    };
+  }, {});
 }
