@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "dependencies": {
-    "date-fns": "2.21.2"
+    "date-fns": "2.21.3"
   },
   "description": "react widget",
   "devDependencies": {
