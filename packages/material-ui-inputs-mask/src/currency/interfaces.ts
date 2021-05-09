@@ -13,6 +13,7 @@ export interface ICurrencyLibrary {
 }
 
 export interface ICurrencyProps {
+  name: string;
   precision: number;
   symbol: string;
 }
