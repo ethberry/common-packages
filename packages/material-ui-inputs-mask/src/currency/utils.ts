@@ -1,12 +1,12 @@
-import {ICurrencyProps} from "./interfaces";
-import {currencyLibrary} from "./currencyLibrary";
+import {currencyLibrary, SupportedCurrency, ICurrencyProps} from "./currencyLibrary";
 
 export const getCurrencyProps = (currencyCode: string): ICurrencyProps => {
   const formattedCurrencyCode = currencyCode.toUpperCase();
 
-  const currencyProp = currencyLibrary[formattedCurrencyCode];
+  const currencyName: string = SupportedCurrency[<keyof typeof SupportedCurrency>formattedCurrencyCode];
+  const currencyProp: any = currencyLibrary[<keyof typeof currencyLibrary>currencyName];
 
-  return currencyProp || currencyLibrary.USD;
+  return (currencyProp as ICurrencyProps) || currencyLibrary[SupportedCurrency.USD];
 };
 
 export const getFormattedCurrency = (value: string): number => {
@@ -16,5 +16,3 @@ export const getFormattedCurrency = (value: string): number => {
 export const getNormalCurrency = (value: number): string => {
   return value ? (value / 100).toString() : "";
 };
-
-export const doNothing = (): void => {};

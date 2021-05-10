@@ -10,20 +10,23 @@ export interface IMaskedInputProps {
   readOnly?: boolean;
   disabled?: boolean;
   mask: any;
+  unmask?: boolean | "typed";
   dispatch?: (appended: string, dynamicMasked: any) => any;
   onBlur?: (event: Event) => void;
   onChange?: (event: Event) => void;
   onFocus?: (event: Event) => void;
   definitions?: any;
+  maskedRef?: any;
   blocks?: any;
   lazy?: boolean;
-  prepare?: (value: string) => string;
+  prepare?: (value: string, masked: any) => string;
   commit?: (value: string, masked: any) => void;
 }
 
 export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
   const {
     mask,
+    unmask,
     readOnly,
     dispatch,
     definitions,
@@ -47,6 +50,7 @@ export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
         inputComponent: MaskedInputWrapper,
         inputProps: {
           mask,
+          unmask,
           definitions,
           blocks,
           lazy,

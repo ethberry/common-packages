@@ -1,2 +1,2 @@
-export * from "./CurrencyInput";
+export * from "./input";
 export * from "./currencyLibrary";

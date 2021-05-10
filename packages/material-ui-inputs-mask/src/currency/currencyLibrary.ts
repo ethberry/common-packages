@@ -1,18 +1,28 @@
-import {ICurrencyLibrary} from "./interfaces";
+export enum SupportedCurrency {
+  "IDR" = "IDR",
+  "USD" = "USD",
+  "YEN" = "YEN",
+}
+
+export type ICurrencyLibrary = {
+  [key in SupportedCurrency]: ICurrencyProps;
+};
+
+export interface ICurrencyProps {
+  precision: number;
+  symbol: string;
+}
 
 export const currencyLibrary: ICurrencyLibrary = {
-  IDR: {
-    name: "IDR",
+  [SupportedCurrency.IDR]: {
     precision: 2,
     symbol: "Rp",
   },
-  USD: {
-    name: "USD",
+  [SupportedCurrency.USD]: {
     precision: 2,
     symbol: "$",
   },
-  YEN: {
-    name: "YEN",
+  [SupportedCurrency.YEN]: {
     precision: 0,
     symbol: "¥",
   },
