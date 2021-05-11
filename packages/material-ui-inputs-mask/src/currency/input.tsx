@@ -5,33 +5,28 @@ import {MaskedInput} from "../mask";
 
 import {getFormattedCurrency, getNormalCurrency} from "./utils";
 
-export interface ICurrencyProps {
-  precision: number;
-  symbol: string;
-}
-
 export interface ICurrencyInputProps {
   allowNegative?: boolean;
   fractionalDelimiter?: string;
   fillByZeros?: string;
   name: string;
   readOnly?: boolean;
+  precision?: number;
+  symbol?: string;
   thousandsSeparator?: string;
-  currencyProps: ICurrencyProps;
 }
 
 export const CurrencyInput: FC<ICurrencyInputProps> = props => {
   const {
     allowNegative = false,
-    currencyProps = {precision: 2, symbol: "$"},
     fractionalDelimiter = ".",
     fillByZeros = false,
     name,
+    precision = 2,
+    symbol = "$",
     thousandsSeparator = " ",
     ...rest
   } = props;
-
-  const {precision, symbol} = currencyProps;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
