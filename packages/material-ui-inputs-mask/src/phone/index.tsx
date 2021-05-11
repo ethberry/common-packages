@@ -2,7 +2,7 @@ import React, {FC} from "react";
 
 import {MaskedInput} from "../mask";
 
-interface IPhoneInputProps {
+export interface IPhoneInputProps {
   name: string;
   disabled?: boolean;
   readOnly?: boolean;

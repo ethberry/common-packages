@@ -3,7 +3,7 @@ import {MaskedEnum} from "imask";
 
 import {MaskedInput} from "../mask";
 
-interface IPlateInputProps {
+export interface IPlateInputProps {
   name: string;
   disabled?: boolean;
   readOnly?: boolean;

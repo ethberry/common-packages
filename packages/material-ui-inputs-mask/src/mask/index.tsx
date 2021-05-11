@@ -1,5 +1,6 @@
-import React, {FC} from "react";
+import React, {FC, useRef} from "react";
 import {TextFieldProps} from "@material-ui/core";
+import {getIn, useFormikContext} from "formik";
 
 import {TextInput} from "@trejgun/material-ui-inputs-core";
 
@@ -19,12 +20,16 @@ export interface IMaskedInputProps {
   maskedRef?: any;
   blocks?: any;
   lazy?: boolean;
+  value?: any;
+  useMaskedValue?: boolean;
+  updateValue?: (ref: any) => void;
   prepare?: (value: string, masked: any) => string;
   commit?: (value: string, masked: any) => void;
 }
 
 export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
   const {
+    name,
     mask,
     unmask,
     readOnly,
@@ -36,11 +41,30 @@ export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
     prepare,
     InputLabelProps,
     inputProps,
+    updateValue,
+    useMaskedValue = true,
+    value,
     ...rest
   } = props;
 
+  const maskedRef = useRef<any>(null);
+  const formik = useFormikContext<any>();
+  const defaultValue = getIn(formik.values, name);
+
+  const handleOnBlur = (): void => {
+    if (updateValue) return updateValue(maskedRef);
+
+    const val = useMaskedValue ? maskedRef.current.value : maskedRef.current.unmaskedValue;
+    formik.setFieldValue(name, val);
+  };
+
   return (
     <TextInput
+      name={name}
+      value={value || defaultValue}
+      onBlur={() => {}}
+      onFocus={() => {}}
+      onChange={() => {}}
       InputLabelProps={{
         ...InputLabelProps,
         shrink: true,
@@ -56,6 +80,8 @@ export const MaskedInput: FC<IMaskedInputProps & TextFieldProps> = props => {
           lazy,
           prepare,
           commit,
+          maskedRef,
+          onBlur: handleOnBlur,
           ...(dispatch ? {dispatch} : {}), // ??
           ...inputProps,
         },

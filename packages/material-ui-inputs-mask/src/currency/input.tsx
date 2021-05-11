@@ -1,25 +1,29 @@
-import React, {FC, useRef} from "react";
+import React, {FC} from "react";
 import {getIn, useFormikContext} from "formik";
 
 import {MaskedInput} from "../mask";
 
-import {getCurrencyProps, getFormattedCurrency, getNormalCurrency} from "./utils";
-import {SupportedCurrency} from "./currencyLibrary";
+import {getFormattedCurrency, getNormalCurrency} from "./utils";
+
+export interface ICurrencyProps {
+  precision: number;
+  symbol: string;
+}
 
 export interface ICurrencyInputProps {
   allowNegative?: boolean;
-  currencyCode?: keyof typeof SupportedCurrency;
   fractionalDelimiter?: string;
   fillByZeros?: string;
   name: string;
   readOnly?: boolean;
   thousandsSeparator?: string;
+  currencyProps: ICurrencyProps;
 }
 
 export const CurrencyInput: FC<ICurrencyInputProps> = props => {
   const {
     allowNegative = false,
-    currencyCode = "USD",
+    currencyProps = {precision: 2, symbol: "$"},
     fractionalDelimiter = ".",
     fillByZeros = false,
     name,
@@ -27,9 +31,7 @@ export const CurrencyInput: FC<ICurrencyInputProps> = props => {
     ...rest
   } = props;
 
-  // const [masked, setMasked] = useState<any>(null);
-  const {symbol, precision} = getCurrencyProps(currencyCode);
-  const maskedRef = useRef<any>(null);
+  const {precision, symbol} = currencyProps;
 
   const formik = useFormikContext<any>();
   const value = getIn(formik.values, name);
@@ -63,7 +65,7 @@ export const CurrencyInput: FC<ICurrencyInputProps> = props => {
     },
   ];
 
-  const updateAmount = (): void => {
+  const updateValue = (maskedRef: any): void => {
     if (maskedRef && maskedRef.current) {
       const currencyAmount = getFormattedCurrency(maskedRef.current.unmaskedValue);
       formik.setFieldValue(name, currencyAmount);
@@ -72,17 +74,11 @@ export const CurrencyInput: FC<ICurrencyInputProps> = props => {
 
   return (
     <MaskedInput
-      name={name}
       mask={mask}
+      name={name}
+      updateValue={updateValue}
+      useMaskedValue={false}
       value={formattedValue}
-      onBlur={() => {}}
-      onFocus={() => {}}
-      onChange={() => {}}
-      inputProps={{
-        onAccept: () => {},
-        onBlur: updateAmount,
-        maskedRef,
-      }}
       {...rest}
     />
   );
