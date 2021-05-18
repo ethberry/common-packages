@@ -7,10 +7,10 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15",
-    "@nestjs/core": "7.6.15",
+    "@nestjs/common": "7.6.17",
+    "@nestjs/core": "7.6.17",
     "@nestjs/passport": "7.1.5",
-    "@nestjs/websockets": "7.6.15"
+    "@nestjs/websockets": "7.6.17"
   },
   "engines": {
     "node": ">=10"

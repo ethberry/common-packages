@@ -10,7 +10,7 @@
     "node-mailjet": "3.3.1"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15",
+    "@nestjs/common": "7.6.17",
     "@types/node-mailjet": "3.3.4"
   },
   "peerDependenciesMeta": {

@@ -13,7 +13,7 @@
     "winston-transport": "4.4.0"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15",
+    "@nestjs/common": "7.6.17",
     "@nestjs/config": "0.6.3",
     "@types/chalk": "2.2.0",
     "nest-winston": "1.5.0"

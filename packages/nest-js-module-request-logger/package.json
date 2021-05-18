@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15",
+    "@nestjs/common": "7.6.17",
     "express": "4.17.1"
   },
   "engines": {

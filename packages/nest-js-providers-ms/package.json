@@ -7,9 +7,9 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.15",
-    "@nestjs/core": "7.6.15",
-    "@nestjs/microservices": "7.6.15",
+    "@nestjs/common": "7.6.17",
+    "@nestjs/core": "7.6.17",
+    "@nestjs/microservices": "7.6.17",
     "rxjs": "6.6.7"
   },
   "engines": {
