@@ -20,7 +20,9 @@
     "node": ">=10"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "!**/*.stories.tsx",
+    "!**/*.test.tsx"
   ],
   "keywords": [],
   "license": "UNLICENSED",

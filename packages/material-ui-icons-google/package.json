@@ -12,7 +12,9 @@
     "react": "17.0.2"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+    "!**/*.stories.tsx",
+    "!**/*.test.tsx"
   ],
   "keywords": [
     "react",
