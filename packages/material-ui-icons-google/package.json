@@ -12,9 +12,7 @@
     "react": "17.0.2"
   },
   "files": [
-    "dist/*",
-    "!**/*.stories.js",
-    "!**/*.test.js"
+    "dist/*"
   ],
   "keywords": [
     "react",

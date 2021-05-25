@@ -20,9 +20,7 @@
     "node": ">=10"
   },
   "files": [
-    "dist/*",
-    "!**/*.stories.js",
-    "!**/*.test.js"
+    "dist/*"
   ],
   "keywords": [],
   "license": "UNLICENSED",

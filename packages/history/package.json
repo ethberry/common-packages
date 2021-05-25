@@ -17,9 +17,7 @@
     "node": ">=8.9.0"
   },
   "files": [
-    "dist/*",
-    "!**/*.stories.js",
-    "!**/*.test.js"
+    "dist/*"
   ],
   "keywords": [],
   "license": "UNLICENSED",
