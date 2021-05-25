@@ -41,8 +41,8 @@
   },
   "files": [
     "dist/*",
-    "!**/*.stories.tsx",
-    "!**/*.test.tsx"
+    "!**/*.stories.js",
+    "!**/*.test.js"
   ],
   "keywords": [],
   "license": "UNLICENSED",
