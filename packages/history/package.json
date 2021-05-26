@@ -16,9 +16,6 @@
   "engines": {
     "node": ">=8.9.0"
   },
-  "files": [
-    "dist/*"
-  ],
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",

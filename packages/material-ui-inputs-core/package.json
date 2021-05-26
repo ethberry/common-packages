@@ -25,9 +25,6 @@
   "engines": {
     "node": ">=10"
   },
-  "files": [
-    "dist/*"
-  ],
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
