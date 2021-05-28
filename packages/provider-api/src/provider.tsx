@@ -1,5 +1,7 @@
 import React, {PropsWithChildren, ReactElement} from "react";
 
+import {history} from "@trejgun/history";
+
 import {ApiContext, IAuth, IFetchProps} from "./context";
 import {fetchRaw, fetchFile, fetchJson} from "./fetch";
 
@@ -32,8 +34,13 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
     let jwt = getToken();
 
     if (jwt) {
-      // TODO handle case when jwt.refreshTokenExpiresAt < new Date().getTime()
       if (jwt.accessTokenExpiresAt < new Date().getTime()) {
+        if (jwt.refreshTokenExpiresAt! < new Date().getTime()) {
+          setToken(null);
+          history.push("/login");
+          throw Object.assign(new Error("Unauthorized. Refresh token has been expired"), {status: 401});
+        }
+
         jwt = await fetchJson(`${process.env.BE_URL}/auth/refresh`, {
           headers: new Headers({
             Accept: "application/json",
