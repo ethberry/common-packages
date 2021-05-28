@@ -36,9 +36,9 @@ export const ApiProvider = <T extends IAuth>(props: PropsWithChildren<IApiProvid
     if (jwt) {
       if (jwt.accessTokenExpiresAt < new Date().getTime()) {
         if (jwt.refreshTokenExpiresAt! < new Date().getTime()) {
-          setToken(null);
           history.push("/login");
-          throw Object.assign(new Error("Unauthorized. Refresh token has been expired"), {status: 401});
+          setToken(null);
+          throw Object.assign(new Error("unauthorized"), {status: 401});
         }
 
         jwt = await fetchJson(`${process.env.BE_URL}/auth/refresh`, {
