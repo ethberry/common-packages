@@ -9,12 +9,12 @@
   "dependencies": {
     "@trejgun/nest-js-create-middleware-module": "0.0.34",
     "connect-redis": "5.2.0",
-    "express-session": "1.17.1"
+    "express-session": "1.17.2"
   },
   "devDependencies": {
     "@types/connect-redis": "0.0.16",
     "@types/express-session": "1.17.3",
-    "ioredis": "4.27.2"
+    "ioredis": "4.27.3"
   },
   "engines": {
     "node": ">=10"

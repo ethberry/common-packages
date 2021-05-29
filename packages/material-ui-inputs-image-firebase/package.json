@@ -13,7 +13,7 @@
     "@trejgun/material-ui-inputs-file-firebase": "0.0.182",
     "@trejgun/material-ui-progress": "0.0.158",
     "@trejgun/provider-api": "0.0.69",
-    "notistack": "1.0.8",
+    "notistack": "1.0.9",
     "react-beautiful-dnd": "13.1.0"
   },
   "description": "react widget",
@@ -23,11 +23,11 @@
     "@testing-library/jest-dom": "5.12.0",
     "@testing-library/react": "11.2.7",
     "@types/jest": "26.0.23",
-    "@types/react": "17.0.6",
+    "@types/react": "17.0.8",
     "@types/react-beautiful-dnd": "13.0.0",
-    "formik": "2.2.6",
+    "formik": "2.2.8",
     "react": "17.0.2",
-    "react-intl": "5.17.7",
+    "react-intl": "5.18.1",
     "ts-jest": "26.5.6"
   },
   "engines": {
