@@ -14,7 +14,7 @@
   },
   "description": "Collection",
   "devDependencies": {
-    "@nestjs/swagger": "4.8.0"
+    "@nestjs/swagger": "4.8.1"
   },
   "engines": {
     "node": ">=10"
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

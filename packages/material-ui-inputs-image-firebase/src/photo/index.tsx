@@ -1,7 +1,7 @@
 import React, {FC, Fragment, useState} from "react";
-import {Button, Card, CardActions, CardContent, CardMedia, Grid, Typography} from "@material-ui/core";
-import {useFormikContext} from "formik";
-import {FormattedMessage} from "react-intl";
+import {Button, Card, CardActions, CardContent, CardMedia, FormHelperText, Grid, Typography} from "@material-ui/core";
+import {useFormikContext, getIn} from "formik";
+import {FormattedMessage, useIntl} from "react-intl";
 import path from "path";
 import {DragDropContext, Draggable, Droppable} from "react-beautiful-dnd";
 
@@ -12,21 +12,32 @@ import {FirebaseFileInput} from "@trejgun/material-ui-inputs-file-firebase";
 
 import {popup} from "../popup";
 import {useStyles} from "./styles";
-import {deleteUrl} from "../utils";
+import {useDeleteUrl} from "../utils";
 
 interface IPhotoInputProps {
   name: string;
+  label?: string;
   accept?: string | string[];
 }
 
 export const PhotoInput: FC<IPhotoInputProps> = props => {
-  const {name, accept} = props;
+  const {name, label, accept} = props;
+
+  const formik = useFormikContext<any>();
+  const error = getIn(formik.errors, name);
+  const value = getIn(formik.values, name);
+  const touched = getIn(formik.touched, name);
 
   const classes = useStyles();
-  const formik = useFormikContext<any>();
+  const {formatMessage} = useIntl();
+  const deleteUrl = useDeleteUrl();
   const [isLoading, setIsLoading] = useState(false);
   const [isDeleteImageDialogOpen, setIsDeleteImageDialogOpen] = useState(false);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  const suffix = name.split(".").pop() as string;
+  const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
+  const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
 
   const handleOptionDelete = (index: number): (() => void) => {
     return (): void => {
@@ -36,7 +47,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
   };
 
   const handleDeleteConfirm = async (): Promise<void> => {
-    const newValue = formik.values[name];
+    const newValue = getIn(formik.values, name);
     const [deleted] = newValue.splice(selectedImageIndex, 1);
     const fileName = path.basename(new URL(deleted.imageUrl).pathname);
 
@@ -52,7 +63,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
 
   const handleFileChange = (urls: Array<string>): void => {
     setIsLoading(true);
-    const newValue = formik.values[name];
+    const newValue = getIn(formik.values, name);
     urls.forEach(imageUrl => {
       newValue.push({
         imageUrl,
@@ -70,7 +81,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
     }
     setIsLoading(true);
 
-    const newValue = formik.values[name];
+    const newValue = getIn(formik.values, name);
     const [removed] = newValue.splice(result.source.index, 1);
     newValue.splice(result.destination.index, 0, removed);
 
@@ -102,7 +113,7 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
                   <FirebaseFileInput onChange={handleFileChange} classes={{root: classes.media}} accept={accept} />
                 </ProgressOverlay>
               </Grid>
-              {formik.values[name].map((option: {imageUrl: string; title: string}, i: number) => (
+              {value.map((option: {imageUrl: string; title: string}, i: number) => (
                 <Draggable key={i} draggableId={i.toString()} index={i}>
                   {provided => (
                     <Grid item ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
@@ -127,8 +138,14 @@ export const PhotoInput: FC<IPhotoInputProps> = props => {
         </Droppable>
       </DragDropContext>
 
+      {touched && error && (
+        <FormHelperText id={`${name}-helper-text`} error>
+          {localizedHelperText}
+        </FormHelperText>
+      )}
+
       <ConfirmationDialog open={isDeleteImageDialogOpen} onCancel={handleDeleteCancel} onConfirm={handleDeleteConfirm}>
-        <FormattedMessage id="dialogs.delete" values={formik.values[name][selectedImageIndex]} />
+        <FormattedMessage id="dialogs.delete" values={value[selectedImageIndex]} />
       </ConfirmationDialog>
     </Fragment>
   );

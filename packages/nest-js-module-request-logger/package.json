@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.17",
+    "@nestjs/common": "7.6.18",
     "express": "4.17.1"
   },
   "engines": {
@@ -38,5 +38,5 @@
   },
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

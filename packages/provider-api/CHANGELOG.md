@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.4...@trejgun/provider-api@0.2.0) (2021-06-19)
+
+
+### Features
+
+* rename interfaces ([9d44e32](https://github.com/trejgun/common-packages/commit/9d44e32175d76c9e5c8cab3fd58a44f8a6aaf1d5))
+
+
+
+
+
 ## [0.1.4](https://github.com/trejgun/common-packages/compare/@trejgun/provider-api@0.1.3...@trejgun/provider-api@0.1.4) (2021-06-16)
 
 **Note:** Version bump only for package @trejgun/provider-api

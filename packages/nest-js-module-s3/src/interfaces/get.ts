@@ -1,4 +1,4 @@
-export interface IS3GetFields {
+export interface IS3GetDto {
   objectName: string;
   bucket?: string;
 }

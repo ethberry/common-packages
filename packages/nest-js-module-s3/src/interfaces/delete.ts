@@ -1,4 +1,4 @@
-export interface IS3DeleteFields {
+export interface IS3DeleteDto {
   objectName: string;
   bucket?: string;
 }

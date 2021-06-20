@@ -7,7 +7,7 @@ import {FormattedMessage, useIntl} from "react-intl";
 import {FirebaseFileInput} from "@trejgun/material-ui-inputs-file-firebase";
 
 import useStyles from "./styles";
-import {deleteUrl} from "../utils";
+import {useDeleteUrl} from "../utils";
 
 export interface IAvatarInputProps {
   name: string;
@@ -19,24 +19,26 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
 
   const formik = useFormikContext<any>();
   const error = getIn(formik.errors, name);
-  const {formatMessage} = useIntl();
-  const classes = useStyles();
+  const value = getIn(formik.values, name);
+  const touched = getIn(formik.touched, name);
 
+  const classes = useStyles();
+  const {formatMessage} = useIntl();
+  const deleteUrl = useDeleteUrl();
   const suffix = name.split(".").pop() as string;
   const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
   const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
-  const imageUrl = getIn(formik.values, name);
 
   const onChange = (urls: Array<string>) => {
     formik.setFieldValue(name, urls[0]);
   };
 
   const onDelete = async () => {
-    await deleteUrl(imageUrl);
+    await deleteUrl(value);
     formik.setFieldValue(name, "");
   };
 
-  if (imageUrl) {
+  if (value) {
     return (
       <FormControl fullWidth className={classes.root}>
         <InputLabel id={`${name}-select-label`} shrink className={classes.label}>
@@ -47,7 +49,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
             <Delete fontSize="inherit" />
           </IconButton>
         </Tooltip>
-        <img src={imageUrl} className={classes.image} alt={formatMessage({id: `form.labels.${name}`})} />
+        <img src={value} className={classes.image} alt={formatMessage({id: `form.labels.${name}`})} />
         {localizedHelperText && (
           <FormHelperText id={`${name}-helper-text`} error>
             {localizedHelperText}
@@ -63,7 +65,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
         <FormattedMessage id={`form.labels.${name}`} />
       </InputLabel>
       <FirebaseFileInput onChange={onChange} classes={{root: classes.input}} />
-      {localizedHelperText && (
+      {touched && error && (
         <FormHelperText id={`${name}-helper-text`} error>
           {localizedHelperText}
         </FormHelperText>

@@ -7,10 +7,10 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.17",
-    "@nestjs/core": "7.6.17",
+    "@nestjs/common": "7.6.18",
+    "@nestjs/core": "7.6.18",
     "@nestjs/passport": "7.1.5",
-    "@nestjs/websockets": "7.6.17"
+    "@nestjs/websockets": "7.6.18"
   },
   "engines": {
     "node": ">=10"
@@ -42,5 +42,5 @@
   },
   "title": "nest js guards ws",
   "types": "./dist/index.d.ts",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

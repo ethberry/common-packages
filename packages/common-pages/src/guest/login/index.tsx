@@ -13,7 +13,7 @@ import {validationSchema} from "./validation";
 import useStyles from "./styles";
 import {LoginButtons} from "./buttons";
 
-interface ILoginFields {
+interface ILoginDto {
   email: string;
   password: string;
 }
@@ -26,7 +26,7 @@ export const Login: FC = () => {
   const user = useContext(UserContext);
   const api = useContext(ApiContext);
 
-  const handleSubmit = (values: ILoginFields): Promise<void> => {
+  const handleSubmit = (values: ILoginDto): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/login",

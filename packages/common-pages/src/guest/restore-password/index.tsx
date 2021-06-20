@@ -12,7 +12,7 @@ import {ApiContext, localizeErrors} from "@trejgun/provider-api";
 import {validationSchema} from "./validation";
 import useStyles from "./styles";
 
-interface IRestorePasswordFields {
+interface IRestorePasswordDto {
   password: string;
   confirm: string;
   token: string;
@@ -27,7 +27,7 @@ export const RestorePassword: FC = () => {
 
   const api = useContext(ApiContext);
 
-  const handleSubmit = (values: IRestorePasswordFields, formikBag: any): Promise<void> => {
+  const handleSubmit = (values: IRestorePasswordDto, formikBag: any): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/restore-password",

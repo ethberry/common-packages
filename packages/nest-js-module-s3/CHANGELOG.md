@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-s3@0.2.0...@trejgun/nest-js-module-s3@0.3.0) (2021-06-19)
+
+
+### Features
+
+* rename interfaces ([9d44e32](https://github.com/trejgun/common-packages/commit/9d44e32175d76c9e5c8cab3fd58a44f8a6aaf1d5))
+
+
+
+
+
 # [0.2.0](https://github.com/trejgun/common-packages/compare/@trejgun/nest-js-module-s3@0.1.2...@trejgun/nest-js-module-s3@0.2.0) (2021-06-16)
 
 

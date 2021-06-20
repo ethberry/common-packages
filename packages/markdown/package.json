@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "dompurify": "2.2.9",
-    "marked": "2.0.7"
+    "marked": "2.1.1"
   },
   "description": "react widget",
   "devDependencies": {
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.4"
+  "version": "0.1.5"
 }

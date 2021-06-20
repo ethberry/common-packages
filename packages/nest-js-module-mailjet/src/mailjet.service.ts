@@ -2,7 +2,7 @@ import {Inject, Injectable, Logger, LoggerService} from "@nestjs/common";
 import {Email} from "node-mailjet";
 
 import {ProviderType} from "./mailjet.constants";
-import {IMailjetOptions, IMailjetSendFields} from "./interfaces";
+import {IMailjetOptions, IMailjetSendDto} from "./interfaces";
 
 @Injectable()
 export class MailjetService {
@@ -15,7 +15,7 @@ export class MailjetService {
     private readonly options: IMailjetOptions,
   ) {}
 
-  public sendEmail(mail: IMailjetSendFields): Promise<{status: boolean}> {
+  public sendEmail(mail: IMailjetSendDto): Promise<{status: boolean}> {
     return this.mailjet
       .post("send", {version: "v3.1"})
       .request({
@@ -43,7 +43,7 @@ export class MailjetService {
   }
 
   public addToContactList(
-    listId: string,
+    listId: number,
     data: {email: string; name: string},
     props: Record<string, any>,
   ): Promise<Email.Response> {
@@ -66,7 +66,7 @@ export class MailjetService {
       });
   }
 
-  public async deleteFromContactList(listID: string, data: {email: string}): Promise<void> {
+  public async deleteFromContactList(listID: number, data: {email: string}): Promise<void> {
     await this.mailjet
       .post("contactslist", {version: "v3"})
       .id(listID)

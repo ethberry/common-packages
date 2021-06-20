@@ -13,7 +13,7 @@ import {ApiContext, localizeErrors} from "@trejgun/provider-api";
 import useStyles from "./styles";
 import {validationSchema} from "./validation";
 
-interface IResendVerificationEmailFields {
+interface IResendVerificationEmailDto {
   email: string;
   captcha: string;
 }
@@ -26,7 +26,7 @@ export const ResendVerificationEmail: FC = () => {
 
   const api = useContext(ApiContext);
 
-  const handleSubmit = (values: IResendVerificationEmailFields, formikBag: any): Promise<void> => {
+  const handleSubmit = (values: IResendVerificationEmailDto, formikBag: any): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/resend-email-verification",

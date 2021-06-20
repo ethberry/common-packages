@@ -2,9 +2,9 @@ import {ApiProperty} from "@nestjs/swagger";
 
 import {IsString} from "@trejgun/nest-js-validators";
 
-import {IS3DeleteFields} from "../interfaces";
+import {IS3GetDto} from "../interfaces";
 
-export class S3DeleteSchema implements IS3DeleteFields {
+export class S3GetDto implements IS3GetDto {
   @ApiProperty()
   @IsString({
     required: true,

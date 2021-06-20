@@ -14,7 +14,7 @@ import {ApiContext, localizeErrors} from "@trejgun/provider-api";
 import {validationSchema} from "./validation";
 import useStyles from "./styles";
 
-interface IForgotPasswordFields {
+interface IForgotPasswordDto {
   email: string;
   captcha: string;
 }
@@ -28,7 +28,7 @@ export const ForgotPassword: FC = () => {
   const user = useContext(UserContext);
   const api = useContext(ApiContext);
 
-  const handleSubmit = (values: IForgotPasswordFields, formikBag: any): Promise<void> => {
+  const handleSubmit = (values: IForgotPasswordDto, formikBag: any): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/forgot-password",

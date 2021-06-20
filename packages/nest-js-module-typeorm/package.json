@@ -7,7 +7,7 @@
     "url": "https://github.com/trejgun/common-packages/issues"
   },
   "devDependencies": {
-    "@nestjs/common": "7.6.17",
+    "@nestjs/common": "7.6.18",
     "@nestjs/config": "0.6.3",
     "@nestjs/typeorm": "7.1.5",
     "typeorm": "0.2.34"
@@ -42,5 +42,5 @@
   },
   "title": "nestjs typeorm module",
   "types": "./dist/index.d.ts",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

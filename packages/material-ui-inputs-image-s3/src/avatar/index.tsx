@@ -18,26 +18,27 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
   const {name, label} = props;
 
   const formik = useFormikContext<any>();
-  const {formatMessage} = useIntl();
-  const classes = useStyles();
   const error = getIn(formik.errors, name);
-  const deleteUrl = useDeleteUrl();
+  const value = getIn(formik.values, name);
+  const touched = getIn(formik.touched, name);
 
+  const classes = useStyles();
+  const {formatMessage} = useIntl();
+  const deleteUrl = useDeleteUrl();
   const suffix = name.split(".").pop() as string;
   const localizedLabel = label === void 0 ? formatMessage({id: `form.labels.${suffix}`}) : label;
   const localizedHelperText = error ? formatMessage({id: error}, {label: localizedLabel}) : "";
-  const imageUrl = getIn(formik.values, name);
 
   const onChange = (url: string) => {
     formik.setFieldValue(name, url);
   };
 
   const onDelete = async () => {
-    await deleteUrl(imageUrl);
+    await deleteUrl(value);
     formik.setFieldValue(name, "");
   };
 
-  if (imageUrl) {
+  if (value) {
     return (
       <FormControl fullWidth className={classes.root}>
         <InputLabel id={`${name}-select-label`} shrink className={classes.label}>
@@ -48,7 +49,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
             <Delete fontSize="inherit" />
           </IconButton>
         </Tooltip>
-        <img src={imageUrl} className={classes.image} alt={formatMessage({id: `form.labels.${name}`})} />
+        <img src={value} className={classes.image} alt={formatMessage({id: `form.labels.${name}`})} />
         {localizedHelperText && (
           <FormHelperText id={`${name}-helper-text`} error>
             {localizedHelperText}
@@ -64,7 +65,7 @@ export const AvatarInput: FC<IAvatarInputProps> = props => {
         <FormattedMessage id={`form.labels.${name}`} />
       </InputLabel>
       <S3FileInput onProgress={() => {}} onChange={onChange} classes={{root: classes.input}} />
-      {localizedHelperText && (
+      {touched && error && (
         <FormHelperText id={`${name}-helper-text`} error>
           {localizedHelperText}
         </FormHelperText>

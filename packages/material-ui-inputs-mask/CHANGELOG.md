@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-mask@0.1.5...@trejgun/material-ui-inputs-mask@0.1.6) (2021-06-19)
+
+
+### Bug Fixes
+
+* currency input ([834d69d](https://github.com/trejgun/common-packages/commit/834d69d27c8a7639c7bc67d4727ead3409f43639))
+
+
+
+
+
+## [0.1.5](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-mask@0.1.4...@trejgun/material-ui-inputs-mask@0.1.5) (2021-06-16)
+
+
+### Bug Fixes
+
+* fix currency input functions if there is a default value as 0 ([faa624a](https://github.com/trejgun/common-packages/commit/faa624aec6926e2c7ca2798ab29699318b167585))
+* fix currency input if there is a default value as 0 ([9eb900c](https://github.com/trejgun/common-packages/commit/9eb900c5c834cac868d7fcbc7a930c517c5dd7df))
+
+
+
+
+
 ## [0.1.4](https://github.com/trejgun/common-packages/compare/@trejgun/material-ui-inputs-mask@0.1.3...@trejgun/material-ui-inputs-mask@0.1.4) (2021-06-16)
 
 **Note:** Version bump only for package @trejgun/material-ui-inputs-mask

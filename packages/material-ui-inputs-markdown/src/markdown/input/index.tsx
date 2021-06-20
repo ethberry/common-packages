@@ -1,7 +1,7 @@
 import React, {FC, Ref, useCallback, useEffect, useImperativeHandle, useRef} from "react";
 import {InputBaseComponentProps} from "@material-ui/core";
 import {EditorState} from "draft-js";
-import {RichTextEditor, IRichTextEditorRef} from "@paktolus/mui-rte";
+import {RichTextEditor, IRichTextEditorRef} from "@trejgun/mui-rte";
 
 export interface IRichTextInputProps extends Omit<InputBaseComponentProps, "value"> {
   inputRef?: Ref<unknown>;

@@ -1,4 +1,4 @@
-export interface IS3PutFields {
+export interface IS3PutDto {
   objectName: string;
   contentType: string;
   bucket?: string;
