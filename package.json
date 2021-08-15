@@ -8,7 +8,6 @@
     "lerna": "4.0.0"
   },
   "devDependencies": {
-    "@emotion/react": "11.0.0",
     "@gemunion/eslint-config": "0.1.9",
     "@typescript-eslint/eslint-plugin": "4.29.1",
     "@typescript-eslint/parser": "4.29.1",
