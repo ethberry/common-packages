@@ -1,1 +1,0 @@
-# nestjs-mailchimp-module

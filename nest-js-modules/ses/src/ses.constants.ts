@@ -1,1 +1,0 @@
-export const SES_OPTIONS_PROVIDER = Symbol("SES_OPTIONS_PROVIDER");
