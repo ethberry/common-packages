@@ -1,1 +1,0 @@
-# nestjs-secret-manager-module
