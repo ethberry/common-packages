@@ -47,9 +47,9 @@
   "main": "./dist/index.js",
   "name": "@gemunion/common-pages",
   "peerDependencies": {
-    "@material-ui/core": "^5",
-    "@material-ui/lab": "^5",
-    "@material-ui/styles": "^5",
+    "@material-ui/core": "^5.0.0-beta",
+    "@material-ui/lab": "^5.0.0-alpha",
+    "@material-ui/styles": "^5.0.0-beta",
     "formik": "^2",
     "notistack": "^2",
     "react": "^17",
