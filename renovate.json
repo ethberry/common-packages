@@ -6,5 +6,15 @@
       "matchPackageNames": ["*"],
       "automerge": false
     }
-  ]
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "dbthiepqMr/T7nnKG3tTUXZyxfhbhziHc1xfxZGLftiEI1Thfui2fKRO9OIZ3yI69URgk5Xs6xKXIgvE1ibFk1cB9t8e7i1aDL5PKLqPDm59R3PDaJoBHbaMNQ+zxKQuwQe1nSPQInX546ZbPzFhcKzoQAO6BHygC6Tp8p8Ltq+9/dXVJMM3Q8aZK+wg+f+l2D7hV9GxWWlcejtjJC8dloyoadIDd1VkBi7B2Wp6ggHAQ4HllIrM5jnPNE2hCsi0TnjpEK09g01HguIQfu3ySg63lGXhzZW6qG/CbmIZygyeDYA4SNV7ZJKTeORg5288At1WngMdbDOrBlpZTS4dBg=="
+      }
+    }
+  ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/"
 }
