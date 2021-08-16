@@ -2,12 +2,6 @@
 name: Manual release Publish
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: Bump Version
-        default: patch
-        required: true
-
 
 jobs:
   user-publish:
@@ -68,8 +62,8 @@ jobs:
       - name: Check Git Diff
         run: git diff --exit-code
 
-      - name: Version by lerna -- ${{github.event.inputs.version}}
-        run: npm run release:version -- ${{github.event.inputs.version}}
+      - name: Version by lerna
+        run: npm run release:version
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 

@@ -2,11 +2,7 @@ name: CD Renovate
 
 on:
   workflow_dispatch:
-    inputs:
-      version:
-        description: Bump Version
-        default: patch
-        required: true
+
 #on:
 #  pull_request:
 #    branches:
