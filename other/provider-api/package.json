@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/history": "0.1.11",
-    "@gemunion/types-jwt": "0.2.1",
+    "@gemunion/types-jwt": "0.2.3",
     "content-disposition": "0.5.3"
   },
   "description": "react context provider",
