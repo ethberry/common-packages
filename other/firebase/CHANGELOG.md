@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@0.1.14...@gemunion/firebase@0.1.15) (2021-08-22)
+
+
+### Bug Fixes
+
+* make firebase work in storybook ([aa4d65a](https://github.com/gemunion/common-packages/commit/aa4d65a7f41db4d2b89fecff59d92cb5a5099959))
+
+
+
+
+
 ## 0.1.14 (2021-08-16)
 
 **Note:** Version bump only for package @gemunion/firebase

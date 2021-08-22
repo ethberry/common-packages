@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=TrejGun=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.2"
+  "version": "4.0.3"
 }
