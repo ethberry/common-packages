@@ -1,4 +1,4 @@
 {
-  "packages": ["other/*"],
+  "packages": ["other/*", "react/*"],
   "version": "independent"
 }

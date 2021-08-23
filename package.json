@@ -5,12 +5,20 @@
     "url": "https://trejgun.github.io/"
   },
   "dependencies": {
-    "lerna": "4.0.0"
+    "lerna": "4.0.0",
+    "react-scripts": "4.0.3"
   },
   "devDependencies": {
     "@gemunion/eslint-config": "0.1.9",
+    "@storybook/addon-actions": "6.3.7",
+    "@storybook/addon-essentials": "6.3.7",
+    "@storybook/addon-links": "6.3.7",
+    "@storybook/node-logger": "6.3.7",
+    "@storybook/preset-create-react-app": "3.2.0",
+    "@storybook/react": "6.3.7",
     "@typescript-eslint/eslint-plugin": "4.29.2",
     "@typescript-eslint/parser": "4.29.2",
+    "babel-plugin-inline-import": "3.0.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "16.0.3",
@@ -26,6 +34,7 @@
     "husky": "4.3.8",
     "lint-staged": "11.1.2",
     "prettier": "2.3.2",
+    "react-dom": "17.0.2",
     "rimraf": "3.0.2",
     "typescript": "4.3.5"
   },
@@ -45,10 +54,10 @@
     "kill": "sudo pkill -9 node",
     "lint": "lerna run lint --stream --parallel",
     "precommit": "lint-staged",
-    "prettier": "prettier \"other/**/*.{ts,tsx}\" \"nest-js/**/*.{ts,tsx}\" \"nest-js-modules/**/*.{ts,tsx}\" \"material-ui/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\" --write",
+    "prettier": "prettier \"other/**/*.{ts,tsx}\" \"react/**/*.{ts,tsx}\" --write",
     "registry": "lerna publish",
     "release": "npm run release:version && npm run release:publish",
-    "release:publish": "lerna publish from-package --yes --exact --ignore-scripts --registry=https://npm.pkg.github.com/",
+    "release:publish": "lerna publish from-package --yes --exact --ignore-scripts",
     "release:version": "lerna version --yes --exact --conventional-commits",
     "storybook": "start-storybook -p 6006",
     "test": "lerna run test --stream"
