@@ -1,7 +1,0 @@
-**/src
-**/@types
-**/tsconfig.json
-**/*.config.*
-**/*.test.*
-**/node_modules
-.*
