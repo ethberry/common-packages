@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Markdown /> should render comment 1`] = `
+<DocumentFragment>
+  <div />
+</DocumentFragment>
+`;
+
+exports[`<Markdown /> should render text 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      Lorem ipsum sit amet...
+    </p>
+    
+
+  </div>
+</DocumentFragment>
+`;
