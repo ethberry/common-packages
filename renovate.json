@@ -3,8 +3,11 @@
   "baseBranches": ["master"],
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "automerge": false
+      "updateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
     }
   ],
   "hostRules": [
