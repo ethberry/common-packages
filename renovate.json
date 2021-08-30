@@ -14,5 +14,15 @@
       ],
       "automerge": true
     }
-  ]
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "qSwzmVq40DswRKpkykTL4ZucMT6otohQc2hqTL/39HLrN2SvyPH7G/vsSRXGt3ZQVZojL5/FStCbpC+kcnUqRIo/sBaiZof9T4+C3b0ndcjsda+O/Q4vRMfzNrJ9LVnW1mEExRfdvexQq3cd9Eq3+0sTXULiZ1OiqsHQUuiIskVJkSlbZWPBgPqmobEp0GhDzsYPqj21wBbRoB9eUURajmWDUyCILKz1IjnwPnWof+94LjPUq+HB/xheomSR4VG3CVXJjc0YdV9VJy4oQ/bxiGWeXXA+jI+By1kPvoO+BhzifQP/2jHuOyuMqNkhUUfIorlhv1+majNbNTd7bBDSPg=="
+      }
+    }
+  ],
+  "npmrc": "@gemunion:registry=https://npm.pkg.github.com/"
 }
