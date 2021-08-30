@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.5](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.0.4...@gemunion/provider-api@4.0.5) (2021-08-30)
+
+
+### Bug Fixes
+
+* manual update types jwt ([cfada07](https://github.com/gemunion/common-packages/commit/cfada07a9b1e5171a9ece204d51f325431cb4aab))
+
+
+
+
+
 ## [4.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.0.3...@gemunion/provider-api@4.0.4) (2021-08-30)
 
 **Note:** Version bump only for package @gemunion/provider-api
