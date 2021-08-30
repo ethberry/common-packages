@@ -1,6 +1,5 @@
 declare global {
   namespace NodeJS {
-    // eslint-disable-next-line @typescript-eslint/naming-convention
     interface ProcessEnv {
       FIREBASE_API_KEY: string;
       FIREBASE_AUTH_DOMAIN: string;
