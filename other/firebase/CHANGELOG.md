@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@0.1.15...@gemunion/firebase@0.2.0) (2021-08-30)
+
+
+* feat!: update firebase ([30c7306](https://github.com/gemunion/common-packages/commit/30c730628490af5fa37d8fcc3d63b4a16b1e9b11))
+
+
+### BREAKING CHANGES
+
+* firebase 8 -> 9
+
+
+
+
+
 ## [0.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@0.1.14...@gemunion/firebase@0.1.15) (2021-08-22)
 
 

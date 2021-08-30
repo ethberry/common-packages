@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/history@0.1.12...@gemunion/history@0.1.13) (2021-08-30)
+
+**Note:** Version bump only for package @gemunion/history
+
+
+
+
+
 ## 0.1.12 (2021-08-16)
 
 **Note:** Version bump only for package @gemunion/history
