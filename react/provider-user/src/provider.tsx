@@ -49,7 +49,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .then((json: T) => {
         logIn(json);
-        if (isAuthenticated()) {
+        if (json) {
           if (url) {
             history.push(url);
           } else {
