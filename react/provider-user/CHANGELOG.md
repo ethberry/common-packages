@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.25](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.1.24...@gemunion/provider-user@0.1.25) (2021-09-05)
+
+
+### Bug Fixes
+
+* profile could be not updated ([a4ee7dd](https://github.com/gemunion/common-packages/commit/a4ee7dd2b0973ae6be610114a4fd7ee335bd0229))
+
+
+
+
+
 ## [0.1.24](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.1.23...@gemunion/provider-user@0.1.24) (2021-08-30)
 
 **Note:** Version bump only for package @gemunion/provider-user

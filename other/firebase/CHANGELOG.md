@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.0.1...@gemunion/firebase@1.0.2) (2021-09-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency firebase to v9.0.1 ([865db2e](https://github.com/gemunion/common-packages/commit/865db2e2ec67e5927e216ec2d3979a297f3a89be))
+
+
+
+
+
 ## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@0.2.0...@gemunion/firebase@1.0.1) (2021-08-30)
 
 **Note:** Version bump only for package @gemunion/firebase
