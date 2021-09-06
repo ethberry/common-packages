@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactElement } from "react";
+import { PropsWithChildren, ReactElement } from "react";
 
 import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";

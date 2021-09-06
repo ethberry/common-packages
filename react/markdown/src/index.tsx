@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import marked from "marked";
 import { sanitize } from "dompurify";
 

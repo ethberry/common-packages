@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
+import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
 import { useHistory } from "react-router";
 
 import { ApiContext, IApiContext } from "@gemunion/provider-api";

@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
+import { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
 
 import { UserContext, IUserContext } from "@gemunion/provider-user";
 

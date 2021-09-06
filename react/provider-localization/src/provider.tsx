@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactElement, useContext } from "react";
+import { PropsWithChildren, ReactElement, useContext } from "react";
 import { IntlProvider } from "react-intl";
 
 import { ISettingsContext, SettingsContext } from "@gemunion/provider-settings";

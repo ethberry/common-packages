@@ -1,4 +1,4 @@
-import React, { FC, useContext, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { FC, useContext, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useFormikContext, getIn } from "formik";
 
 import { ApiContext } from "@gemunion/provider-api";
