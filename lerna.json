@@ -1,4 +1,12 @@
 {
   "packages": ["other/*", "react/*"],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "version": {
+      "yes": true,
+      "conventionalCommits": true,
+      "message": "%s\n\n[skip ci]",
+      "exact": true
+    }
+  }
 }
