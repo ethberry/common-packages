@@ -5,7 +5,6 @@
     "version": {
       "yes": true,
       "conventionalCommits": true,
-      "message": "%s\n\n[skip ci]",
       "exact": true
     }
   }

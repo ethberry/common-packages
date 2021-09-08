@@ -51,7 +51,7 @@ jobs:
         continue-on-error: true
 
       - name: Version & Publish by lerna
-        run: npm run release
+        run: lerna version --ignore-scripts && npm run release:publish
         if: steps.lerna_changed.outcome == 'success'
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
