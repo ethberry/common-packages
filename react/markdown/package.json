@@ -51,7 +51,8 @@
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
-    "test": "jest --config jest.config.json --no-watch --verbose"
+    "storybook": "start-storybook -p 6006",
+    "test": "jest"
   },
   "sideEffects": false,
   "title": "-=TrejGun=-",
