@@ -12,6 +12,7 @@
   },
   "description": "react widget",
   "devDependencies": {
+    "@storybook/react": "6.3.8",
     "@types/react": "17.0.20",
     "formik": "2.2.9",
     "react": "17.0.2"
@@ -40,6 +41,7 @@
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
+    "storybook": "start-storybook -p 6006",
     "test": "exit 0"
   },
   "sideEffects": false,

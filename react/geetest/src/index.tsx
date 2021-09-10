@@ -66,7 +66,8 @@ export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
             setCaptchaObj(instance);
           },
         );
-      });
+      })
+      .catch(console.error);
   }, []);
 
   return <div ref={ref} className={className} />;
