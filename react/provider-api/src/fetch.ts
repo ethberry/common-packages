@@ -7,7 +7,7 @@ import { ApiError } from "./error";
 export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> => {
   return window.fetch(input, init).then(response => {
     if (response.status === 204) {
-      return;
+      return null;
     }
     if (response.status === 401) {
       history.push("/login");
