@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.0.2...@gemunion/firebase@1.0.3) (2021-09-17)
+
+
+### Bug Fixes
+
+* change title ([ac380fb](https://github.com/gemunion/common-packages/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
+* **deps:** update all non-major dependencies ([a6906ce](https://github.com/gemunion/common-packages/commit/a6906ce95b786c8f2d941927dcd496be3566e2dc))
+* remove jsx option ([b50cc0c](https://github.com/gemunion/common-packages/commit/b50cc0cee5ce264be4931b677e71aa4deb6957e5))
+
+
+
+
+
 ## [1.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.0.1...@gemunion/firebase@1.0.2) (2021-09-05)
 
 

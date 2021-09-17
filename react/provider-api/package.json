@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/history": "0.1.13",
+    "@gemunion/history": "0.1.14",
     "@gemunion/types-jwt": "0.2.4",
     "content-disposition": "0.5.3"
   },
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.5"
+  "version": "4.0.6"
 }

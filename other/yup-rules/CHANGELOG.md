@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.25](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.24...@gemunion/yup-rules@0.1.25) (2021-09-17)
+
+
+### Bug Fixes
+
+* change title ([ac380fb](https://github.com/gemunion/common-packages/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
+* remove jsx option ([b50cc0c](https://github.com/gemunion/common-packages/commit/b50cc0cee5ce264be4931b677e71aa4deb6957e5))
+
+
+
+
+
 ## [0.1.24](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.23...@gemunion/yup-rules@0.1.24) (2021-08-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
