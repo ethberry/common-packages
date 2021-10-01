@@ -15,7 +15,7 @@
   "description": "react context provider",
   "devDependencies": {
     "@types/content-disposition": "0.5.4",
-    "@types/react": "17.0.24",
+    "@types/react": "17.0.26",
     "react": "17.0.2"
   },
   "engines": {
