@@ -10,6 +10,10 @@
   },
   "devDependencies": {
     "@gemunion/eslint-config": "0.1.10",
+    "@nrwl/cli": "latest",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/tao": "latest",
+    "@nrwl/workspace": "latest",
     "@storybook/addon-actions": "6.3.8",
     "@storybook/addon-essentials": "6.3.8",
     "@storybook/addon-links": "6.3.8",
@@ -36,11 +40,7 @@
     "prettier": "2.4.1",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
-    "typescript": "4.4.3",
-    "@nrwl/workspace": "latest",
-    "@nrwl/cli": "latest",
-    "@nrwl/tao": "latest",
-    "@nrwl/nx-cloud": "latest"
+    "typescript": "4.4.3"
   },
   "engines": {
     "node": ">=12.13"
