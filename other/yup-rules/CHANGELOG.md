@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.27...@gemunion/yup-rules@0.2.0) (2021-10-02)
+
+
+### Features
+
+* implement json input validation ([#161](https://github.com/gemunion/common-packages/issues/161)) ([747afcf](https://github.com/gemunion/common-packages/commit/747afcf644f7fae23e08ecf4a0119b2931ae211b))
+
+
+
+
+
 ## [0.1.27](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.26...@gemunion/yup-rules@0.1.27) (2021-09-26)
 
 **Note:** Version bump only for package @gemunion/yup-rules
