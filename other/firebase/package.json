@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "firebase": "9.1.0"
+    "firebase": "9.1.1"
   },
   "description": "firebase config",
   "engines": {
