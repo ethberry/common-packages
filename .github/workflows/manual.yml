@@ -17,11 +17,25 @@ jobs:
       # pulls all tags (needed for lerna to correctly version)
       - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # see https://stackoverflow.com/a/60184319/9285308
 
-      - name: Authenticate Registry & Configure Git User
+      - name: add npmrc token
         run: |
           echo "@gemunion:registry=https://npm.pkg.github.com/" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=$GITHUBTOKEN" >> .npmrc
           git update-index --assume-unchanged .npmrc
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
+
+      - name: Authenticate check via npm
+        run: npm whoami --registry=https://npm.pkg.github.com/
+
+      - name: Install Packages npm i
+        run: npm i
+
+      - name: Bootstrap Packages
+        run: npm run bootstrap
+
+      - name: Authenticate Registry & Configure Git User
+        run: |
           npx npm-cli-login -u $GITHUBUSER -p $GITHUBTOKEN -e $GITHUBEMAIL -r https://npm.pkg.github.com -s @gemunion --config-path="./"
           git config --global user.name '@gemunion'
           git config --global user.email $GITHUBEMAIL
@@ -32,12 +46,6 @@ jobs:
 
       - name: Authenticate check via npm
         run: npm whoami --registry=https://npm.pkg.github.com/
-
-      - name: Install Packages npm i
-        run: npm i
-
-      - name: Bootstrap Packages
-        run: npm run bootstrap
 
       - name: What changed
         run: lerna changed
