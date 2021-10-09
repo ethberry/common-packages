@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.12](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.0.11...@gemunion/provider-api@4.0.12) (2021-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#164](https://github.com/gemunion/common-packages/issues/164)) ([3c45f60](https://github.com/gemunion/common-packages/commit/3c45f60e7f521d897de079697766f15e393b6248))
+
+
+
+
+
 ## [4.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.0.10...@gemunion/provider-api@4.0.11) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/provider-api

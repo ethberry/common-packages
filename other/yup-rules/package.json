@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/constants-regexp": "0.1.11",
     "@gemunion/constants-validation": "0.1.11",
-    "@gemunion/provider-api": "4.0.11",
+    "@gemunion/provider-api": "4.0.12",
     "yup": "0.32.9"
   },
   "description": "yup rules",
@@ -39,5 +39,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.4"
+  "version": "0.2.5"
 }
