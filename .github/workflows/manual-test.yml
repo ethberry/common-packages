@@ -1,10 +1,6 @@
-name: CI Test on Push
-
+name: Manual CI Test
 on:
-  pull_request:
-    branches:
-      - master
-    types: [opened]
+  workflow_dispatch:
 
 jobs:
   test:
