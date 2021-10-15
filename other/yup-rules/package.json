@@ -11,7 +11,7 @@
     "@gemunion/constants-regexp": "0.1.11",
     "@gemunion/constants-validation": "0.1.11",
     "@gemunion/provider-api": "4.0.13",
-    "yup": "0.32.9"
+    "yup": "0.32.11"
   },
   "description": "yup rules",
   "engines": {
