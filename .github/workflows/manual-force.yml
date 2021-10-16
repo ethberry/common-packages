@@ -25,17 +25,17 @@ jobs:
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
-      - name: Authenticate check via npm npmjs.org
-        run: npm whoami
+#      - name: Authenticate check via npm npmjs.org
+#        run: npm whoami
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com/
 
-#      - name: Install Packages npm i
-#        run: npm i
-#
-#      - name: Bootstrap Packages
-#        run: npm run bootstrap
-#
+      - name: Install Packages npm i
+        run: npm i
+
+      - name: Bootstrap Packages
+        run: npm run bootstrap
+
       - name: Authenticate Registry & Configure Git User
         run: |
           npx npm-cli-login -u $GITHUBUSER -p $GITHUBTOKEN -e $GITHUBEMAIL -r https://npm.pkg.github.com -s @gemunion --config-path="./"
@@ -46,12 +46,12 @@ jobs:
           GITHUBUSER: ${{ secrets.GITHUBUSER }}
           GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
 #
-      - name: Authenticate check via npm npmjs.org
-        run: npm whoami
+#      - name: Authenticate check via npm npmjs.org
+#        run: npm whoami
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com/
 #
-#      - name: Version & Publish by lerna
-#        run: lerna version --ignore-scripts && npm run release:publish -- --force-publish
-#        env:
-#          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
+      - name: Version & Publish by lerna
+        run: lerna version --ignore-scripts && npm run release:publish -- --force-publish
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
