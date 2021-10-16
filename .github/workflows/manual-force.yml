@@ -47,13 +47,7 @@ jobs:
       - name: Authenticate check via npm
         run: npm whoami --registry=https://npm.pkg.github.com/
 
-      - name: What changed
-        run: lerna changed
-        id: lerna_changed
-        continue-on-error: true
-
       - name: Version & Publish by lerna
         run: lerna version --ignore-scripts && npm run release:publish -- --force-publish
-        if: steps.lerna_changed.outcome == 'success'
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
