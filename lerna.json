@@ -6,6 +6,9 @@
       "yes": true,
       "conventionalCommits": true,
       "exact": true
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }
