@@ -52,8 +52,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         if (json) {
           if (url) {
             history.push(url);
-          } else {
-            history.go(0);
           }
         } else {
           history.push("/login");
