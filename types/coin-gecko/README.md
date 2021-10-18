@@ -1,1 +1,1 @@
-# Email types
+# CoinGecko types
