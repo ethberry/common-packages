@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-10-22)
+
+
+### Features
+
+* uuid regexp ([b356d4d](https://github.com/gemunion/common-packages/commit/b356d4d438f89091c2823bcc366ab166f88b24da))
+
+
+
+
+
 ## [0.1.1](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.1.0...@gemunion/constants@0.1.1) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/constants

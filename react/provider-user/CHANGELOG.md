@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.1.34...@gemunion/provider-user@0.2.0) (2021-10-22)
+
+
+### Features
+
+* no need to refresh the page ([9250536](https://github.com/gemunion/common-packages/commit/9250536629a92f22135b34c2011801aab2dca77a))
+
+
+
+
+
 ## [0.1.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.1.33...@gemunion/provider-user@0.1.34) (2021-10-15)
 
 **Note:** Version bump only for package @gemunion/provider-user

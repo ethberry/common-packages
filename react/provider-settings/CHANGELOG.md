@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.35](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.34...@gemunion/provider-settings@0.1.35) (2021-10-22)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
 ## [0.1.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.33...@gemunion/provider-settings@0.1.34) (2021-10-15)
 
 **Note:** Version bump only for package @gemunion/provider-settings
