@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dompurify": "2.3.3",
-    "marked": "3.0.7"
+    "marked": "3.0.8"
   },
   "description": "react component to display markdown",
   "devDependencies": {
@@ -19,7 +19,7 @@
     "@types/dompurify": "2.3.1",
     "@types/jest": "27.0.2",
     "@types/marked": "3.0.2",
-    "@types/react": "17.0.31",
+    "@types/react": "17.0.33",
     "jest": "27.3.1",
     "jest-environment-jsdom": "27.3.1",
     "react": "17.0.2",
