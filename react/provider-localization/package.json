@@ -12,9 +12,9 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.34",
+    "@types/react": "17.0.35",
     "react": "17.0.2",
-    "react-intl": "5.21.1"
+    "react-intl": "5.21.2"
   },
   "engines": {
     "node": ">=12.13"
