@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.0.11...@gemunion/firebase@1.1.0) (2021-11-19)
+
+
+### Features
+
+* add next.js support to firebase ([d9af031](https://github.com/gemunion/common-packages/commit/d9af031641388d0024263aa7688b1adeff3a5833))
+
+
+
+
+
 ## [1.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.0.10...@gemunion/firebase@1.0.11) (2021-11-12)
 
 **Note:** Version bump only for package @gemunion/firebase
