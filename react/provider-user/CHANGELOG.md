@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@0.2.3...@gemunion/provider-user@1.1.0) (2021-11-30)
+
+
+### Features
+
+* support rect router 6 ([3845256](https://github.com/gemunion/common-packages/commit/384525665f75e0e83dd8ce4ae7cced5d0ffd1876))
+
+
+
+
+
 ## 0.2.3 (2021-11-19)
 
 **Note:** Version bump only for package @gemunion/provider-user
