@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router";
 
 import { ApiContext, IApiContext } from "@gemunion/provider-api";
 
@@ -14,7 +14,7 @@ interface IUserProviderProps<T> {
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
   const { profile: defaultProfile = null, children } = props;
   const [profile, setProfile] = useState<T | null>(defaultProfile);
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const api = useContext<IApiContext<any>>(ApiContext);
 
@@ -51,10 +51,10 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         logIn(json);
         if (json) {
           if (url) {
-            history.push(url);
+            navigate(url);
           }
         } else {
-          history.push("/login");
+          navigate("/login");
         }
       })
       .catch(e => {
