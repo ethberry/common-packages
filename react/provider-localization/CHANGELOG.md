@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-localization@0.1.41...@gemunion/provider-localization@0.1.42) (2021-12-03)
+
+**Note:** Version bump only for package @gemunion/provider-localization
+
+
+
+
+
 ## [0.1.41](https://github.com/gemunion/common-packages/compare/@gemunion/provider-localization@0.1.40...@gemunion/provider-localization@0.1.41) (2021-11-30)
 
 **Note:** Version bump only for package @gemunion/provider-localization
