@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.20 (2021-12-11)
+
+**Note:** Version bump only for package @gemunion/provider-api
+
+
+
+
+
 ## [4.0.19](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.0.18...@gemunion/provider-api@4.0.19) (2021-11-30)
 
 **Note:** Version bump only for package @gemunion/provider-api
