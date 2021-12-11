@@ -14,12 +14,12 @@
     "@nrwl/nx-cloud": "latest",
     "@nrwl/tao": "latest",
     "@nrwl/workspace": "latest",
-    "@storybook/addon-actions": "6.4.7",
-    "@storybook/addon-essentials": "6.4.7",
-    "@storybook/addon-links": "6.4.7",
-    "@storybook/node-logger": "6.4.7",
+    "@storybook/addon-actions": "6.4.9",
+    "@storybook/addon-essentials": "6.4.9",
+    "@storybook/addon-links": "6.4.9",
+    "@storybook/node-logger": "6.4.9",
     "@storybook/preset-create-react-app": "3.2.0",
-    "@storybook/react": "6.4.7",
+    "@storybook/react": "6.4.9",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "babel-plugin-inline-import": "3.0.0",
@@ -37,10 +37,10 @@
     "eslint-plugin-standard": "4.1.0",
     "husky": "4.3.8",
     "lint-staged": "11.2.6",
-    "prettier": "2.5.0",
+    "prettier": "2.5.1",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
-    "typescript": "4.5.2"
+    "typescript": "4.5.3"
   },
   "engines": {
     "node": ">=12.13"
