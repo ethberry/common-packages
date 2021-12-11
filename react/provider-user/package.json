@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/provider-api": "5.2.2"
+    "@gemunion/provider-api": "5.3.0"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.2.2"
+  "version": "2.3.0"
 }

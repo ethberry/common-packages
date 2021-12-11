@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.2.0...@gemunion/history@1.2.3) (2021-12-11)
+
+
+### Bug Fixes
+
+* history 5 ([0fdf3d4](https://github.com/gemunion/common-packages/commit/0fdf3d43cc6d0712c620a9e344ea2c778e35c0f0))
+
+
+
+
+
 # [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.1.0...@gemunion/history@1.2.0) (2021-12-11)
 
 
