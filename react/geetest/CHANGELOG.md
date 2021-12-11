@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/geetest@0.3.22...@gemunion/geetest@1.1.0) (2021-12-11)
+
+
+### Features
+
+* history 5 ([1e45a9e](https://github.com/gemunion/common-packages/commit/1e45a9e74d82ab39aec851e4ab81f4b73268f9d7))
+* history 5 ([376a60c](https://github.com/gemunion/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
+
+
+
+
+
 ## [0.3.22](https://github.com/gemunion/common-packages/compare/@gemunion/geetest@0.3.21...@gemunion/geetest@0.3.22) (2021-12-11)
 
 **Note:** Version bump only for package @gemunion/geetest
