@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/history": "0.1.15",
+    "@gemunion/history": "1.0.0",
     "@gemunion/types-jwt": "0.2.7",
     "content-disposition": "0.5.4"
   },
