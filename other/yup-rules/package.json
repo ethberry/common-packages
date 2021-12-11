@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/constants-regexp": "0.1.11",
     "@gemunion/constants-validation": "0.1.11",
-    "@gemunion/provider-api": "4.1.0",
+    "@gemunion/provider-api": "5.0.0",
     "yup": "0.32.11"
   },
   "description": "yup rules",
