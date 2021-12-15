@@ -10,3 +10,9 @@ const ISO8601 = `${year}-${month}-${day}T${hour}:${minute}:${second}.${milli}Z`;
 
 export const reISO8601 = new RegExp(`^${ISO8601}$`);
 export const reDateRange = new RegExp(`^${ISO8601}\\/${ISO8601}$`);
+
+export const sqlDateFormat = "yyyy-MM-dd";
+
+export const humanReadableDateFormat = "yyyy MMM dd";
+export const humanReadableTimeFormat = "HH:mm";
+export const humanReadableDateTimeFormat = `${humanReadableDateFormat} ${humanReadableTimeFormat}`;
