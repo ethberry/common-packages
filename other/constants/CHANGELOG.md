@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.2.0...@gemunion/constants@0.3.0) (2021-12-16)
+
+
+### Features
+
+* new constants ([1ed99dd](https://github.com/gemunion/common-packages/commit/1ed99dd3798db90d9950bde046d1d304ac208d2a))
+
+
+
+
+
 # 0.2.0 (2021-10-22)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@0.1.17...@gemunion/types-collection@0.2.0) (2021-12-16)
+
+
+### Features
+
+* base entity ([2306f22](https://github.com/gemunion/common-packages/commit/2306f22253eaa97e1b492fd4104be8d698d62e0f))
+
+
+
+
+
 ## 0.1.17 (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/types-collection
