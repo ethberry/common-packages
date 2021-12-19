@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.3.1 (2021-12-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([84f24d9](https://github.com/gemunion/common-packages/commit/84f24d917ba8d6f6ee036ba0cfd870019aeaaa64))
+
+
+
+
+
 # [2.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@1.1.2...@gemunion/provider-user@2.3.0) (2021-12-11)
 
 

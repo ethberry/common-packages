@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.4 (2021-12-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([84f24d9](https://github.com/gemunion/common-packages/commit/84f24d917ba8d6f6ee036ba0cfd870019aeaaa64))
+
+
+
+
+
 ## [1.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.2.0...@gemunion/history@1.2.3) (2021-12-11)
 
 

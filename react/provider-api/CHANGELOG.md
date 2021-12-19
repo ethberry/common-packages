@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.3.1 (2021-12-19)
+
+**Note:** Version bump only for package @gemunion/provider-api
+
+
+
+
+
 # [5.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@4.1.0...@gemunion/provider-api@5.3.0) (2021-12-11)
 
 
