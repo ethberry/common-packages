@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.3.0...@gemunion/constants@0.4.0) (2021-12-25)
+
+
+### Features
+
+* display name ([f71da94](https://github.com/gemunion/common-packages/commit/f71da9444a38c219dc538e7e6ac9e9c3a48f7fed))
+
+
+
+
+
 # [0.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.2.0...@gemunion/constants@0.3.0) (2021-12-16)
 
 
