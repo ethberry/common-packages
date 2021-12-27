@@ -1,5 +1,5 @@
 {
-  "packages": ["other/*", "react/*", "types/*"],
+  "packages": ["other/*", "react/*", "types/*", "provider/*"],
   "version": "independent",
   "command": {
     "version": {
