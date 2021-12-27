@@ -8,9 +8,11 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "description": "react context provider",
+  "dependencies": {
+    "@web3-react/core": "6.1.9"
+  },
   "devDependencies": {
     "@types/react": "17.0.38",
-    "@web3-react/core": "6.1.9",
     "ethers": "5.5.2",
     "react": "17.0.2"
   },
@@ -22,7 +24,6 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-network",
   "peerDependencies": {
-    "@web3-react/core": "^6",
     "ethers": "^5",
     "react": "^17",
     "react-intl": "^5"
