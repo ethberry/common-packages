@@ -1,0 +1,48 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://trejgun.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/common-packages/issues"
+  },
+  "dependencies": {
+    "draft-js": "0.11.7",
+    "markdown-draft-js": "2.4.0"
+  },
+  "description": "react widget",
+  "devDependencies": {
+    "@types/draft-js": "0.11.8",
+    "@types/jest": "27.0.3",
+    "@types/markdown-draft-js": "2.2.4",
+    "jest": "27.4.5",
+    "ts-jest": "27.1.2"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/draft-js-utils",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "test": "jest --config jest.config.json --no-watch --verbose"
+  },
+  "sideEffects": false,
+  "title": "-=Gemun Ion Studio=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}

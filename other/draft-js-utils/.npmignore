@@ -1,0 +1,7 @@
+/src
+/node_modules
+/tsconfig.json
+/tsconfig.test.json
+/jest.config.json
+**/*.stories.tsx
+**/*.test.tsx
