@@ -1,6 +1,8 @@
 export const reMongoId = /^[0-9a-f]{24}$/;
 export const reHEXColor = /^#[0-9A-F]{6}$/i;
+
 export const reEthAddress = /^0x[a-f0-9]{40}$/i;
+export const reEthTransaction = /^0x[a-f0-9]{64}$/i;
 
 export const reUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
