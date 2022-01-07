@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.1 (2022-01-07)
+
+
+### Bug Fixes
+
+* export ([7667019](https://github.com/gemunion/common-packages/commit/7667019b984a5f21bb8eef4aadd1d99deac18e0b))
+
+
+
+
+
 # [0.4.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.3.0...@gemunion/constants@0.4.0) (2021-12-25)
 
 
