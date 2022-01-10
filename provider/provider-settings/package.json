@@ -8,6 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
+    "@gemunion/constants": "0.4.1",
     "@gemunion/provider-user": "2.3.3"
   },
   "description": "react context provider",

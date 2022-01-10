@@ -3,17 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.3.3](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@1.3.2...@gemunion/impulse-provider-settings@1.3.3) (2021-12-27)
+## [1.3.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@1.3.2...@gemunion/provider-settings@1.3.3) (2021-12-27)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [1.3.2](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@1.3.1...@gemunion/impulse-provider-settings@1.3.2) (2021-12-25)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+
+## [1.3.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@1.3.1...@gemunion/provider-settings@1.3.2) (2021-12-25)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -21,42 +21,42 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.3.1 (2021-12-19)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-# [1.3.0](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.41...@gemunion/impulse-provider-settings@1.3.0) (2021-12-11)
+# [1.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.41...@gemunion/provider-settings@1.3.0) (2021-12-11)
 
 
 ### Bug Fixes
 
-* history 5 ([0fdf3d4](https://github.com/gemunion/impulse/commit/0fdf3d43cc6d0712c620a9e344ea2c778e35c0f0))
+* history 5 ([0fdf3d4](https://github.com/gemunion/common-packages/commit/0fdf3d43cc6d0712c620a9e344ea2c778e35c0f0))
 
 
 ### Features
 
-* history 5 ([376a60c](https://github.com/gemunion/impulse/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
+* history 5 ([376a60c](https://github.com/gemunion/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
 
 
 
 
 
-# [1.1.0](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.41...@gemunion/impulse-provider-settings@1.1.0) (2021-12-11)
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.41...@gemunion/provider-settings@1.1.0) (2021-12-11)
 
 
 ### Features
 
-* history 5 ([376a60c](https://github.com/gemunion/impulse/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
+* history 5 ([376a60c](https://github.com/gemunion/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
 
 
 
 
 
-## [0.1.41](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.40...@gemunion/impulse-provider-settings@0.1.41) (2021-12-11)
+## [0.1.41](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.40...@gemunion/provider-settings@0.1.41) (2021-12-11)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -64,15 +64,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.40 (2021-12-11)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.39](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.38...@gemunion/impulse-provider-settings@0.1.39) (2021-11-30)
+## [0.1.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.38...@gemunion/provider-settings@0.1.39) (2021-11-30)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -80,63 +80,63 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.38 (2021-11-19)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.37](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.36...@gemunion/impulse-provider-settings@0.1.37) (2021-11-05)
+## [0.1.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.36...@gemunion/provider-settings@0.1.37) (2021-11-05)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.36](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.35...@gemunion/impulse-provider-settings@0.1.36) (2021-10-29)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.35](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.34...@gemunion/impulse-provider-settings@0.1.35) (2021-10-22)
+## [0.1.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.35...@gemunion/provider-settings@0.1.36) (2021-10-29)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.34](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.33...@gemunion/impulse-provider-settings@0.1.34) (2021-10-15)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.33](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.32...@gemunion/impulse-provider-settings@0.1.33) (2021-10-09)
+## [0.1.35](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.34...@gemunion/provider-settings@0.1.35) (2021-10-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.32](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.31...@gemunion/impulse-provider-settings@0.1.32) (2021-10-09)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.31](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.30...@gemunion/impulse-provider-settings@0.1.31) (2021-10-09)
+## [0.1.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.33...@gemunion/provider-settings@0.1.34) (2021-10-15)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.33](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.32...@gemunion/provider-settings@0.1.33) (2021-10-09)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.32](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.31...@gemunion/provider-settings@0.1.32) (2021-10-09)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.31](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.30...@gemunion/provider-settings@0.1.31) (2021-10-09)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -144,77 +144,77 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.30 (2021-10-09)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.29](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.28...@gemunion/impulse-provider-settings@0.1.29) (2021-10-02)
+## [0.1.29](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.28...@gemunion/provider-settings@0.1.29) (2021-10-02)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.28](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.27...@gemunion/impulse-provider-settings@0.1.28) (2021-09-26)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.27](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.26...@gemunion/impulse-provider-settings@0.1.27) (2021-09-21)
+## [0.1.28](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.27...@gemunion/provider-settings@0.1.28) (2021-09-26)
 
-
-### Bug Fixes
-
-* **deps:** update all non-major dependencies ([#159](https://github.com/gemunion/impulse/issues/159)) ([aace6f7](https://github.com/gemunion/impulse/commit/aace6f7161ed414a4eb26e8e45bf61743cd5db16))
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.26](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.25...@gemunion/impulse-provider-settings@0.1.26) (2021-09-17)
+## [0.1.27](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.26...@gemunion/provider-settings@0.1.27) (2021-09-21)
 
 
 ### Bug Fixes
 
-* change title ([ac380fb](https://github.com/gemunion/impulse/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
+* **deps:** update all non-major dependencies ([#159](https://github.com/gemunion/common-packages/issues/159)) ([aace6f7](https://github.com/gemunion/common-packages/commit/aace6f7161ed414a4eb26e8e45bf61743cd5db16))
 
 
 
 
 
-## [0.1.25](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.24...@gemunion/impulse-provider-settings@0.1.25) (2021-09-05)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+## [0.1.26](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.25...@gemunion/provider-settings@0.1.26) (2021-09-17)
 
 
+### Bug Fixes
 
-
-
-## [0.1.24](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.23...@gemunion/impulse-provider-settings@0.1.24) (2021-08-30)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+* change title ([ac380fb](https://github.com/gemunion/common-packages/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
 
 
 
 
 
-## [0.1.23](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.22...@gemunion/impulse-provider-settings@0.1.23) (2021-08-30)
+## [0.1.25](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.24...@gemunion/provider-settings@0.1.25) (2021-09-05)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [0.1.22](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.21...@gemunion/impulse-provider-settings@0.1.22) (2021-08-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+
+## [0.1.24](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.23...@gemunion/provider-settings@0.1.24) (2021-08-30)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.23](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.22...@gemunion/provider-settings@0.1.23) (2021-08-30)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.22](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.21...@gemunion/provider-settings@0.1.22) (2021-08-22)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -222,7 +222,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.21 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -230,7 +230,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.20 (2021-08-16)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -241,15 +241,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunion/impulse/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
 
 
-## [0.1.18](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.17...@gemunion/impulse-provider-settings@0.1.18) (2021-08-07)
+## [0.1.18](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.17...@gemunion/provider-settings@0.1.18) (2021-08-07)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -260,47 +260,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* move repo to org ([ac9a7e5](https://github.com/gemunion/impulse/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+* move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 
 
 
 
-## [0.1.16](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.15...@gemunion/impulse-provider-settings@0.1.16) (2021-08-06)
+## [0.1.16](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.15...@gemunion/provider-settings@0.1.16) (2021-08-06)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.15](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.14...@gemunion/impulse-provider-settings@0.1.15) (2021-07-22)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.14](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.13...@gemunion/impulse-provider-settings@0.1.14) (2021-07-22)
+## [0.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.14...@gemunion/provider-settings@0.1.15) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.13](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.12...@gemunion/impulse-provider-settings@0.1.13) (2021-07-22)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.12](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.11...@gemunion/impulse-provider-settings@0.1.12) (2021-07-15)
+## [0.1.14](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.13...@gemunion/provider-settings@0.1.14) (2021-07-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.12...@gemunion/provider-settings@0.1.13) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.11...@gemunion/provider-settings@0.1.12) (2021-07-15)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -308,23 +308,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.11 (2021-07-13)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.10](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.9...@gemunion/impulse-provider-settings@0.1.10) (2021-07-10)
+## [0.1.10](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.9...@gemunion/provider-settings@0.1.10) (2021-07-10)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [0.1.9](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.8...@gemunion/impulse-provider-settings@0.1.9) (2021-07-08)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+
+## [0.1.9](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.8...@gemunion/provider-settings@0.1.9) (2021-07-08)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -332,7 +332,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.8 (2021-07-02)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -340,39 +340,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.7 (2021-06-24)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.6](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.5...@gemunion/impulse-provider-settings@0.1.6) (2021-06-21)
+## [0.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.5...@gemunion/provider-settings@0.1.6) (2021-06-21)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.1.5](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.4...@gemunion/impulse-provider-settings@0.1.5) (2021-06-19)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.1.4](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.3...@gemunion/impulse-provider-settings@0.1.4) (2021-06-16)
+## [0.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.4...@gemunion/provider-settings@0.1.5) (2021-06-19)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [0.1.3](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.1.2...@gemunion/impulse-provider-settings@0.1.3) (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+
+## [0.1.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.3...@gemunion/provider-settings@0.1.4) (2021-06-16)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.1.2...@gemunion/provider-settings@0.1.3) (2021-06-09)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -380,7 +380,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.2 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -388,18 +388,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.1.1 (2021-06-09)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-# [0.1.0](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.115...@gemunion/impulse-provider-settings@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.115...@gemunion/provider-settings@0.1.0) (2021-06-09)
 
 
 ### Features
 
-* use fetchJson ([fc3d86e](https://github.com/gemunion/impulse/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+* use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 
 
@@ -410,7 +410,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* send app name to logDna ([df3476a](https://github.com/gemunion/impulse/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+* send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 
 
@@ -418,7 +418,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.114 (2021-05-31)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -429,7 +429,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* typeOrm config logging ([7734340](https://github.com/gemunion/impulse/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+* typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 
 
@@ -437,7 +437,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.112 (2021-05-14)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -448,7 +448,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/impulse/issues/48)) ([1854092](https://github.com/gemunion/impulse/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+* **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 
 
@@ -459,7 +459,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/impulse/issues/47)) ([06b9b84](https://github.com/gemunion/impulse/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+* **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 
 
@@ -467,7 +467,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.109 (2021-05-06)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -475,7 +475,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.108 (2021-04-30)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -483,7 +483,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.107 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -491,7 +491,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.106 (2021-04-27)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -499,7 +499,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.105 (2021-04-19)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -507,7 +507,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.104 (2021-04-18)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -515,7 +515,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.103 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -523,7 +523,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.102 (2021-04-15)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -531,47 +531,47 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.101 (2021-04-14)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.100](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.99...@gemunion/impulse-provider-settings@0.0.100) (2021-04-08)
+## [0.0.100](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.99...@gemunion/provider-settings@0.0.100) (2021-04-08)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.99](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.98...@gemunion/impulse-provider-settings@0.0.99) (2021-04-05)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.98](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.97...@gemunion/impulse-provider-settings@0.0.98) (2021-04-03)
+## [0.0.99](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.98...@gemunion/provider-settings@0.0.99) (2021-04-05)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.97](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.96...@gemunion/impulse-provider-settings@0.0.97) (2021-04-03)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.96](https://github.com/gemunion/impulse/compare/@gemunion/impulse-provider-settings@0.0.95...@gemunion/impulse-provider-settings@0.0.96) (2021-03-29)
+## [0.0.98](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.97...@gemunion/provider-settings@0.0.98) (2021-04-03)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.97](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.96...@gemunion/provider-settings@0.0.97) (2021-04-03)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.96](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@0.0.95...@gemunion/provider-settings@0.0.96) (2021-03-29)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -579,7 +579,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.95 (2021-03-29)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -587,7 +587,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.94 (2021-03-25)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -606,7 +606,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.92 (2021-03-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -647,7 +647,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.88 (2021-03-16)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -655,7 +655,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.87 (2021-03-12)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -674,7 +674,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.85 (2021-03-08)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -682,7 +682,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.84 (2021-03-07)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -701,7 +701,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.82 (2021-03-02)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -709,7 +709,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.81 (2021-03-01)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -748,9 +748,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.77](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.76...@gemunion/impulse-provider-settings@0.0.77) (2021-02-24)
+## [0.0.77](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.76...@gemunion/provider-settings@0.0.77) (2021-02-24)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -758,7 +758,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.76 (2021-02-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -786,9 +786,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.73](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.72...@gemunion/impulse-provider-settings@0.0.73) (2021-02-21)
+## [0.0.73](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.72...@gemunion/provider-settings@0.0.73) (2021-02-21)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -796,7 +796,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.72 (2021-02-20)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -804,7 +804,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.71 (2021-02-19)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -812,15 +812,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.70 (2021-02-17)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.69](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.68...@gemunion/impulse-provider-settings@0.0.69) (2021-02-17)
+## [0.0.69](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.68...@gemunion/provider-settings@0.0.69) (2021-02-17)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -828,7 +828,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.68 (2021-02-15)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -858,7 +858,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.65 (2021-02-09)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -877,7 +877,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.63 (2021-02-04)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -907,7 +907,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.60 (2021-01-31)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1045,17 +1045,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.47](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.46...@gemunion/impulse-provider-settings@0.0.47) (2021-01-07)
+## [0.0.47](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.46...@gemunion/provider-settings@0.0.47) (2021-01-07)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [0.0.46](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.45...@gemunion/impulse-provider-settings@0.0.46) (2021-01-06)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+
+## [0.0.46](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.45...@gemunion/provider-settings@0.0.46) (2021-01-06)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1085,7 +1085,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.43 (2021-01-03)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1223,9 +1223,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.30](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.29...@gemunion/impulse-provider-settings@0.0.30) (2020-12-08)
+## [0.0.30](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.29...@gemunion/provider-settings@0.0.30) (2020-12-08)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1310,7 +1310,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.22 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1318,7 +1318,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.21 (2020-11-23)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1326,29 +1326,29 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.20 (2020-11-21)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.19](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.18...@gemunion/impulse-provider-settings@0.0.19) (2020-11-16)
+## [0.0.19](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.18...@gemunion/provider-settings@0.0.19) (2020-11-16)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.18](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.17...@gemunion/impulse-provider-settings@0.0.18) (2020-11-10)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.17](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.16...@gemunion/impulse-provider-settings@0.0.17) (2020-11-09)
+## [0.0.18](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.17...@gemunion/provider-settings@0.0.18) (2020-11-10)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.17](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.16...@gemunion/provider-settings@0.0.17) (2020-11-09)
 
 
 ### Bug Fixes
@@ -1359,39 +1359,39 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.16](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.15...@gemunion/impulse-provider-settings@0.0.16) (2020-11-07)
+## [0.0.16](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.15...@gemunion/provider-settings@0.0.16) (2020-11-07)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.15](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.14...@gemunion/impulse-provider-settings@0.0.15) (2020-11-06)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.14](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.13...@gemunion/impulse-provider-settings@0.0.14) (2020-11-02)
+## [0.0.15](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.14...@gemunion/provider-settings@0.0.15) (2020-11-06)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.13](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.12...@gemunion/impulse-provider-settings@0.0.13) (2020-10-29)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.12](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.11...@gemunion/impulse-provider-settings@0.0.12) (2020-10-28)
+## [0.0.14](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.13...@gemunion/provider-settings@0.0.14) (2020-11-02)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.13](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.12...@gemunion/provider-settings@0.0.13) (2020-10-29)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.12](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.11...@gemunion/provider-settings@0.0.12) (2020-10-28)
 
 
 ### Bug Fixes
@@ -1402,15 +1402,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.11](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.10...@gemunion/impulse-provider-settings@0.0.11) (2020-10-28)
+## [0.0.11](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.10...@gemunion/provider-settings@0.0.11) (2020-10-28)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
-## [0.0.10](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.9...@gemunion/impulse-provider-settings@0.0.10) (2020-10-27)
+
+
+## [0.0.10](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.9...@gemunion/provider-settings@0.0.10) (2020-10-27)
 
 
 ### Bug Fixes
@@ -1421,57 +1421,57 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.0.9](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.8...@gemunion/impulse-provider-settings@0.0.9) (2020-10-26)
+## [0.0.9](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.8...@gemunion/provider-settings@0.0.9) (2020-10-26)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.8](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.7...@gemunion/impulse-provider-settings@0.0.8) (2020-10-26)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.7](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.6...@gemunion/impulse-provider-settings@0.0.7) (2020-10-22)
+## [0.0.8](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.7...@gemunion/provider-settings@0.0.8) (2020-10-26)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.6](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.5...@gemunion/impulse-provider-settings@0.0.6) (2020-10-21)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.5](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.4...@gemunion/impulse-provider-settings@0.0.5) (2020-10-21)
+## [0.0.7](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.6...@gemunion/provider-settings@0.0.7) (2020-10-22)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
-
-
-
-
-
-## [0.0.4](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.3...@gemunion/impulse-provider-settings@0.0.4) (2020-10-15)
-
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
 
 
-## [0.0.3](https://github.com/memoryos/misc/compare/@gemunion/impulse-provider-settings@0.0.2...@gemunion/impulse-provider-settings@0.0.3) (2020-10-15)
+## [0.0.6](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.5...@gemunion/provider-settings@0.0.6) (2020-10-21)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.5](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.4...@gemunion/provider-settings@0.0.5) (2020-10-21)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.4](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.3...@gemunion/provider-settings@0.0.4) (2020-10-15)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
+## [0.0.3](https://github.com/memoryos/misc/compare/@gemunion/provider-settings@0.0.2...@gemunion/provider-settings@0.0.3) (2020-10-15)
+
+**Note:** Version bump only for package @gemunion/provider-settings
 
 
 
@@ -1479,4 +1479,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.2 (2020-10-15)
 
-**Note:** Version bump only for package @gemunion/impulse-provider-settings
+**Note:** Version bump only for package @gemunion/provider-settings

@@ -1,15 +1,18 @@
 import { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
 
 import { UserContext, IUserContext } from "@gemunion/provider-user";
+import { EnabledLanguages, ThemeType } from "@gemunion/constants";
 
 import { SettingsContext } from "./context";
 
 interface ISettings<T extends string> {
   language?: T;
+  themeType?: ThemeType;
 }
 
 interface ISettingsProviderProps<T extends string> {
-  defaultLanguage: T;
+  defaultLanguage?: T;
+  defaultThemeType?: ThemeType;
 }
 
 const STORAGE_NAME = "settings";
@@ -17,7 +20,7 @@ const STORAGE_NAME = "settings";
 export const SettingsProvider = <T extends string, U extends any>(
   props: PropsWithChildren<ISettingsProviderProps<T>>,
 ): ReactElement | null => {
-  const { children, defaultLanguage } = props;
+  const { children, defaultLanguage = EnabledLanguages.EN, defaultThemeType = ThemeType.light } = props;
   const [settings, setSettings] = useState<ISettings<T>>({});
 
   const user = useContext<IUserContext<U>>(UserContext);
@@ -44,11 +47,23 @@ export const SettingsProvider = <T extends string, U extends any>(
     save(STORAGE_NAME, newSettings);
   };
 
+  const getTheme = (): ThemeType => {
+    return settings.themeType || defaultThemeType;
+  };
+
+  const setTheme = (themeType: ThemeType): void => {
+    const newSettings = { ...settings, themeType };
+    setSettings(newSettings);
+    save(STORAGE_NAME, newSettings);
+  };
+
   return (
     <SettingsContext.Provider
       value={{
         getLanguage,
         setLanguage,
+        getTheme,
+        setTheme,
       }}
     >
       {children}
