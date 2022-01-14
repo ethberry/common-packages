@@ -13,10 +13,10 @@
   },
   "description": "react component to display markdown",
   "devDependencies": {
-    "@storybook/react": "6.4.10",
+    "@storybook/react": "6.4.12",
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
-    "@types/dompurify": "2.3.2",
+    "@types/dompurify": "2.3.3",
     "@types/jest": "27.4.0",
     "@types/marked": "3.0.3",
     "@types/react": "17.0.38",
