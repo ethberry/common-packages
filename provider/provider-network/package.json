@@ -9,7 +9,8 @@
   },
   "description": "react context provider",
   "dependencies": {
-    "@web3-react/core": "6.1.9"
+    "@web3-react/core": "6.1.9",
+    "@ethersproject/providers": "5.5.2"
   },
   "devDependencies": {
     "@types/react": "17.0.38",

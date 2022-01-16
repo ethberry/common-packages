@@ -14,7 +14,7 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
       return;
     }
     if (![200, 201].includes(response.status)) {
-      return response.json().then(json => {
+      return response.json().then((json: Error) => {
         throw new ApiError(json.message, response.status);
       });
     }
@@ -44,12 +44,12 @@ export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void>
       return;
     }
     if (![200, 201].includes(response.status)) {
-      return response.json().then(json => {
+      return response.json().then((json: Error) => {
         throw new ApiError(json.message, response.status);
       });
     }
     const contentDisposition = response.headers.get("Content-Disposition");
-    const { filename } = contentDisposition ? parse(contentDisposition).parameters : { filename: "" };
+    const { filename = "" }: { filename: string } = contentDisposition ? parse(contentDisposition).parameters : {};
     // it is fine to keep filename empty, then real name would be something like uuid
     return response.blob().then(blob => {
       saveData(blob, filename);

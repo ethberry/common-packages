@@ -7,7 +7,7 @@ export interface IUser {
   language: string;
 }
 
-export interface IUserContext<T extends any> {
+export interface IUserContext<T> {
   profile: T;
   logIn: (profile: T) => void;
   logOut: () => void;

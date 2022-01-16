@@ -90,7 +90,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
             if (Array.isArray(data[key])) {
               data[key].map((value: string) => newUrl.searchParams.append(`${key}[]`, value));
             } else {
-              newUrl.searchParams.append(key, data[key]);
+              newUrl.searchParams.append(key, data[key] as string);
             }
           });
         }

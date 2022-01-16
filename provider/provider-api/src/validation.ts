@@ -4,7 +4,7 @@ export interface IValidationError {
   target: any;
   value: string;
   property: string;
-  children: Array<any>;
+  children: Array<IValidationError>;
   // constraint could be empty when error is in nested schema
   constraints?: Record<string, string>;
 }

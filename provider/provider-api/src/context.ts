@@ -12,7 +12,7 @@ export interface IFetchProps {
   data?: IPayload | FormData;
 }
 
-export interface IApiContext<T extends any> {
+export interface IApiContext<T> {
   fetchJson: (data: IFetchProps) => Promise<any>;
   fetchFile: (data: IFetchProps) => Promise<void>;
   setToken: (jwt: T | null) => void;

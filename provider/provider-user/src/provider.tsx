@@ -20,7 +20,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
 
   useEffect(() => {
     const auth = localStorage.getItem(STORAGE_NAME);
-    setProfile(auth ? JSON.parse(auth) : null);
+    setProfile(auth ? (JSON.parse(auth) as T) : null);
   }, []);
 
   const save = (key: string, profile: T | null): void => {
