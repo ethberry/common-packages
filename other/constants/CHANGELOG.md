@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.6.0 (2022-01-21)
+
+
+### Features
+
+* update eslint ([b0641c5](https://github.com/gemunion/common-packages/commit/b0641c56905cea9c017b32b1d0ddc3672822b268))
+
+
+
+
+
 # [0.5.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.4.1...@gemunion/constants@0.5.0) (2022-01-10)
 
 

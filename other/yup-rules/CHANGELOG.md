@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.5 (2022-01-21)
+
+
+### Bug Fixes
+
+* yup rules ([5d877aa](https://github.com/gemunion/common-packages/commit/5d877aa6ab0b0d17ceb4502f5b42bde0ca2275e9))
+
+
+
+
+
 ## 1.3.4 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/yup-rules

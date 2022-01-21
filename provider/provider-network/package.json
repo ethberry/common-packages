@@ -9,8 +9,8 @@
   },
   "description": "react context provider",
   "dependencies": {
-    "@web3-react/core": "6.1.9",
-    "@ethersproject/providers": "5.5.2"
+    "@ethersproject/providers": "5.5.2",
+    "@web3-react/core": "6.1.9"
   },
   "devDependencies": {
     "@types/react": "17.0.38",
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.5"
+  "version": "0.1.0"
 }
