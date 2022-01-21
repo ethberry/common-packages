@@ -8,8 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants-regexp": "0.1.11",
-    "@gemunion/constants-validation": "0.1.11",
+    "@gemunion/constants": "0.5.0",
     "@gemunion/provider-api": "5.3.4",
     "yup": "0.32.11"
   },
