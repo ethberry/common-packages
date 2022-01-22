@@ -1,5 +1,5 @@
 import { FC } from "react";
-import marked from "marked";
+import { marked } from "marked";
 import { sanitize } from "dompurify";
 
 export const COMMENT = "[//]:#";
