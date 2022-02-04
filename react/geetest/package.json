@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/provider-api": "5.4.0"
+    "@gemunion/provider-api": "5.4.1"
   },
   "description": "react widget",
   "devDependencies": {
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Encoder=-",
   "types": "./dist/index.d.ts",
-  "version": "1.3.8"
+  "version": "1.3.9"
 }
