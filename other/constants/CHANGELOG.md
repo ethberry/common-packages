@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.7.0 (2022-02-11)
+
+
+### Bug Fixes
+
+* wallet to lower case ([bddf00c](https://github.com/gemunion/common-packages/commit/bddf00cd6a247f1f85385e9ea5b4c7d50ea1df30))
+
+
+### Features
+
+* phrase ([8238970](https://github.com/gemunion/common-packages/commit/8238970b884f644ccb1e533fb097ccb90b600a6e))
+
+
+
+
+
 # 0.6.0 (2022-01-21)
 
 

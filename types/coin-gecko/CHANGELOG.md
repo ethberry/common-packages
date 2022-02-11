@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-02-11)
+
+
+### Bug Fixes
+
+* export ticker ([4c9aeee](https://github.com/gemunion/common-packages/commit/4c9aeeea046c81a3c0a842e87fb99e9a3ee61188))
+
+
+### Features
+
+* split ticker from coin in coin-gecko ([bce3a70](https://github.com/gemunion/common-packages/commit/bce3a70ff0d0174bc8963d16f286aad698cd47c9))
+
+
+
+
+
 ## 0.2.8 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/types-coin-gecko
