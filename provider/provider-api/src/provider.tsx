@@ -33,12 +33,24 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
     return read(STORAGE_NAME);
   };
 
+  const isAccessTokenExpired = (): boolean => {
+    const jwt = getToken();
+
+    return !!jwt && jwt.accessTokenExpiresAt < Date.now();
+  };
+
+  const isRefreshTokenExpired = (): boolean => {
+    const jwt = getToken();
+
+    return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
+  };
+
   const getAuthToken = async () => {
     let jwt = getToken();
 
     if (jwt) {
-      if (jwt.accessTokenExpiresAt < Date.now()) {
-        if (jwt.refreshTokenExpiresAt < Date.now()) {
+      if (isAccessTokenExpired()) {
+        if (isRefreshTokenExpired()) {
           history.push("/login");
           setToken(null);
           throw Object.assign(new Error("unauthorized"), { status: 401 });
@@ -112,6 +124,8 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
         fetchFile: prepare(fetchFile),
         setToken,
         getToken,
+        isAccessTokenExpired,
+        isRefreshTokenExpired,
       }}
     >
       {children}

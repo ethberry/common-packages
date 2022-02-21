@@ -17,6 +17,8 @@ export interface IApiContext<T> {
   fetchFile: (data: IFetchProps) => Promise<void>;
   setToken: (jwt: T | null) => void;
   getToken: () => T | null;
+  isAccessTokenExpired: () => boolean;
+  isRefreshTokenExpired: () => boolean;
 }
 
 export const ApiContext = createContext<IApiContext<any>>(undefined!);
