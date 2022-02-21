@@ -19,6 +19,7 @@ export interface IApiContext<T> {
   getToken: () => T | null;
   isAccessTokenExpired: () => boolean;
   isRefreshTokenExpired: () => boolean;
+  refreshToken: () => Promise<any> | void;
 }
 
 export const ApiContext = createContext<IApiContext<any>>(undefined!);

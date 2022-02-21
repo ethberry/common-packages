@@ -45,6 +45,34 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
     return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
   };
 
+  const refreshToken = (): Promise<any> | void => {
+    const jwt = getToken();
+
+    if (jwt) {
+      return fetchJson(`${baseUrl}/auth/refresh`, {
+        headers: new Headers({
+          Accept: "application/json",
+          "Content-Type": "application/json; charset=utf-8",
+        }),
+        credentials: "include",
+        mode: "cors",
+        method: "POST",
+        body: JSON.stringify({
+          refreshToken: jwt.refreshToken,
+        }),
+      })
+        .then((json: T) => {
+          setToken(json);
+          return json;
+        })
+        .catch(e => {
+          console.error(e);
+          setToken(null);
+          return null;
+        });
+    }
+  };
+
   const getAuthToken = async () => {
     let jwt = getToken();
 
@@ -56,27 +84,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
           throw Object.assign(new Error("unauthorized"), { status: 401 });
         }
 
-        jwt = await fetchJson(`${baseUrl}/auth/refresh`, {
-          headers: new Headers({
-            Accept: "application/json",
-            "Content-Type": "application/json; charset=utf-8",
-          }),
-          credentials: "include",
-          mode: "cors",
-          method: "POST",
-          body: JSON.stringify({
-            refreshToken: jwt.refreshToken,
-          }),
-        })
-          .then((json: T) => {
-            setToken(json);
-            return json;
-          })
-          .catch(e => {
-            console.error(e);
-            setToken(null);
-            return null;
-          });
+        jwt = await refreshToken();
       }
     }
 
@@ -126,6 +134,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
         getToken,
         isAccessTokenExpired,
         isRefreshTokenExpired,
+        refreshToken,
       }}
     >
       {children}
