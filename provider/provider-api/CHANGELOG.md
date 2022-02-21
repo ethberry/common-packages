@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.5.0 (2022-02-21)
+
+
+### Features
+
+* isExpired methods ([1883726](https://github.com/gemunion/common-packages/commit/188372648b79f28bec8bbc1ace6cf17eb08f74e7))
+* separated refresh method ([da2891d](https://github.com/gemunion/common-packages/commit/da2891ddc244fd52ff96b1edd6a63d94851379a3))
+
+
+
+
+
 ## 5.4.1 (2022-02-04)
 
 
