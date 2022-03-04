@@ -20,7 +20,7 @@
     "sourceMap": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
-    "strictNullChecOks": true,
+    "strictNullChecks": true,
     "strictPropertyInitialization": false,
     "target": "es2017"
   },
