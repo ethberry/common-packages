@@ -15,7 +15,7 @@
     "@types/react": "17.0.39",
     "@types/react-router": "5.1.18",
     "react": "17.0.2",
-    "react-router": "6.2.1"
+    "react-router": "6.2.2"
   },
   "engines": {
     "node": ">=12.13"
