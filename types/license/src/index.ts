@@ -10,5 +10,5 @@ export interface ILicense extends IUuidBase {
   title: string;
   status: LicenseStatus;
   expiresAt: string;
-  crafterAt: string;
+  refreshAt: string;
 }
