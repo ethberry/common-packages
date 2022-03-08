@@ -1,14 +1,14 @@
 {
-  "packages": ["other/*", "react/*", "types/*", "provider/*"],
-  "version": "independent",
   "command": {
-    "version": {
-      "yes": true,
-      "conventionalCommits": true,
-      "exact": true
-    },
     "publish": {
       "registry": "https://npm.pkg.github.com"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "exact": true,
+      "yes": true
     }
-  }
+  },
+  "packages": ["other/*", "react/*", "types/*", "provider/*", "security/*"],
+  "version": "independent"
 }

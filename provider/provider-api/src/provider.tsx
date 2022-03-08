@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactElement } from "react";
+import { FC } from "react";
 
 import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";
@@ -12,24 +12,24 @@ interface IApiProviderProps {
   baseUrl: string;
 }
 
-export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProviderProps>): ReactElement | null => {
+export const ApiProvider: FC<IApiProviderProps> = props => {
   const { children, baseUrl } = props;
 
-  const read = (key: string): T | null => {
-    const auth = localStorage.getItem(key);
-    return auth ? (JSON.parse(auth) as T) : null;
+  const read = (key: string): IJwt | null => {
+    const jwt = localStorage.getItem(key);
+    return jwt ? (JSON.parse(jwt) as IJwt) : null;
   };
 
-  const save = (key: string, jwt: T | null): void => {
+  const save = (key: string, jwt: IJwt | null): void => {
     const json = JSON.stringify(jwt);
     localStorage.setItem(key, json);
   };
 
-  const setToken = (jwt: T | null): void => {
+  const setToken = (jwt: IJwt | null): void => {
     return save(STORAGE_NAME, jwt);
   };
 
-  const getToken = (): T | null => {
+  const getToken = (): IJwt | null => {
     return read(STORAGE_NAME);
   };
 
@@ -61,7 +61,7 @@ export const ApiProvider = <T extends IJwt>(props: PropsWithChildren<IApiProvide
           refreshToken: jwt.refreshToken,
         }),
       })
-        .then((json: T) => {
+        .then((json: IJwt) => {
           setToken(json);
           return json;
         })
