@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.5.2...@gemunion/provider-api@5.5.3) (2022-03-08)
+
+
+### Bug Fixes
+
+* no need to use generic ([cb79971](https://github.com/gemunion/common-packages/commit/cb799712f85f88ad8a11f77a90f155a4f5d4fc77))
+
+
+
+
+
 ## [5.5.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.5.1...@gemunion/provider-api@5.5.2) (2022-03-05)
 
 **Note:** Version bump only for package @gemunion/provider-api
