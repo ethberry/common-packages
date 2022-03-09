@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.2 (2022-03-09)
+
+
+### Bug Fixes
+
+* path ([d9fb2a8](https://github.com/gemunion/mui-packages/commit/d9fb2a8d0b381edca7dc27cb7cb03fa23a93cf8d))
+
+
+
+
+
 ## 0.1.1 (2022-03-09)
 
 **Note:** Version bump only for package @gemunion/provider-license
