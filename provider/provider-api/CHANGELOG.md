@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.6.0 (2022-03-09)
+
+
+### Features
+
+* license provider ([1d4228f](https://github.com/gemunion/common-packages/commit/1d4228f816414c9e09ea9f96d40aac931ada2d42))
+
+
+
+
+
 ## [5.5.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.5.2...@gemunion/provider-api@5.5.3) (2022-03-08)
 
 

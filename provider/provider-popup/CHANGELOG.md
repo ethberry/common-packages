@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-03-09)
+
+
+### Features
+
+* license provider ([1d4228f](https://github.com/gemunion/common-packages/commit/1d4228f816414c9e09ea9f96d40aac931ada2d42))
+
+
+
+
+
 ## 0.1.2 (2022-03-05)
 
 **Note:** Version bump only for package @gemunion/provider-popup
