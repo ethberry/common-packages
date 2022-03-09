@@ -1,4 +1,5 @@
 import { createContext } from "react";
+import { IJwt } from "@gemunion/types-jwt";
 
 type TMethods = "POST" | "GET" | "PUT" | "DELETE" | "PATCH";
 
@@ -12,14 +13,14 @@ export interface IFetchProps {
   data?: IPayload | FormData;
 }
 
-export interface IApiContext<T> {
+export interface IApiContext {
   fetchJson: (data: IFetchProps) => Promise<any>;
   fetchFile: (data: IFetchProps) => Promise<void>;
-  setToken: (jwt: T | null) => void;
-  getToken: () => T | null;
+  setToken: (jwt: IJwt | null) => void;
+  getToken: () => IJwt | null;
   isAccessTokenExpired: () => boolean;
   isRefreshTokenExpired: () => boolean;
   refreshToken: () => Promise<any> | void;
 }
 
-export const ApiContext = createContext<IApiContext<any>>(undefined!);
+export const ApiContext = createContext<IApiContext>(undefined!);

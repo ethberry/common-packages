@@ -1,48 +1,49 @@
 import { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
 
-import { UserContext, IUserContext } from "@gemunion/provider-user";
+import { useUser, IUser } from "@gemunion/provider-user";
 import { EnabledLanguages, ThemeType } from "@gemunion/constants";
 
 import { SettingsContext } from "./context";
 
-interface ISettings<T extends string> {
-  language?: T;
+interface ISettings {
+  language?: string;
   themeType?: ThemeType;
 }
 
-interface ISettingsProviderProps<T extends string> {
-  defaultLanguage?: T;
+interface ISettingsProviderProps {
+  defaultLanguage?: string;
   defaultThemeType?: ThemeType;
 }
 
 const STORAGE_NAME = "settings";
 
-export const SettingsProvider = <T extends string, U>(
-  props: PropsWithChildren<ISettingsProviderProps<T>>,
+export const SettingsProvider = <T extends IUser>(
+  props: PropsWithChildren<ISettingsProviderProps>,
 ): ReactElement | null => {
   const { children, defaultLanguage = EnabledLanguages.EN, defaultThemeType = ThemeType.light } = props;
-  const [settings, setSettings] = useState<ISettings<T>>({});
+  const [settings, setSettings] = useState<ISettings>({});
 
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
-  const user = useContext<IUserContext<U>>(UserContext);
+  const user = useUser<T>();
 
-  useEffect(() => {
-    const data = localStorage.getItem(STORAGE_NAME);
-    setSettings(data ? (JSON.parse(data) as ISettings<T>) : {});
-  }, []);
+  const read = (key: string): ISettings => {
+    const data = localStorage.getItem(key);
+    return data ? (JSON.parse(data) as ISettings) : {};
+  };
 
-  const save = (key: string, data: any | null): void => {
+  const save = (key: string, data: ISettings | null): void => {
     const json = JSON.stringify(data);
     localStorage.setItem(key, json);
   };
 
-  const getLanguage = (): T => {
-    // @ts-ignore
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  useEffect(() => {
+    setSettings(read(STORAGE_NAME));
+  }, []);
+
+  const getLanguage = (): string => {
     return settings.language || (user.isAuthenticated() && user.profile.language) || defaultLanguage;
   };
 
-  const setLanguage = (language: T): void => {
+  const setLanguage = (language: string): void => {
     const newSettings = { ...settings, language };
     setSettings(newSettings);
     save(STORAGE_NAME, newSettings);
@@ -71,3 +72,7 @@ export const SettingsProvider = <T extends string, U>(
     </SettingsContext.Provider>
   );
 };
+
+export function useSettings() {
+  return useContext(SettingsContext);
+}

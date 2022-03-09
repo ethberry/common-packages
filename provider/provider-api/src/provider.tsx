@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useContext } from "react";
 
 import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";
@@ -141,3 +141,7 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
     </ApiContext.Provider>
   );
 };
+
+export function useApi() {
+  return useContext(ApiContext);
+}

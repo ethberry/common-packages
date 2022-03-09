@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
 import { useNavigate } from "react-router";
 
-import { ApiContext, IApiContext } from "@gemunion/provider-api";
+import { useApi } from "@gemunion/provider-api";
 
-import { UserContext, IUser } from "./context";
+import { UserContext, IUser, IUserContext } from "./context";
 
 const STORAGE_NAME = "auth";
 
@@ -16,7 +16,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
   const [profile, setProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
 
-  const api = useContext<IApiContext<any>>(ApiContext);
+  const api = useApi();
 
   useEffect(() => {
     const auth = localStorage.getItem(STORAGE_NAME);
@@ -77,3 +77,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     </UserContext.Provider>
   );
 };
+
+export function useUser<T>() {
+  return useContext<IUserContext<T>>(UserContext);
+}

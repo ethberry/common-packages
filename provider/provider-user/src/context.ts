@@ -1,9 +1,7 @@
 import { createContext } from "react";
+import { IIdBase } from "@gemunion/types-collection";
 
-export interface IUser {
-  id: number;
-  firstName: string;
-  lastName: string;
+export interface IUser extends IIdBase {
   language: string;
 }
 
