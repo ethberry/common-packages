@@ -75,6 +75,6 @@ export const SettingsProvider = <T extends string>(
   );
 };
 
-export function useSettings<T extends string>() {
+export function useSettings<T extends string = any>() {
   return useContext<ISettingsContext<T>>(SettingsContext);
 }
