@@ -2,7 +2,7 @@ import { Story } from "@storybook/react";
 
 import { IMarkdownProps, Markdown } from ".";
 
-import text from "./test.md";
+import { markdownString } from "@gemunion/draft-js-utils";
 
 export default {
   title: "Example/Markdown",
@@ -13,5 +13,5 @@ const Template: Story<IMarkdownProps> = args => <Markdown {...args} />;
 
 export const Simple = Template.bind({});
 Simple.args = {
-  text,
+  text: markdownString,
 };
