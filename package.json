@@ -9,7 +9,7 @@
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
-    "@gemunion/eslint-config": "1.0.1",
+    "@gemunion/eslint-config": "1.0.2",
     "@storybook/addon-actions": "6.4.19",
     "@storybook/addon-essentials": "6.4.19",
     "@storybook/addon-links": "6.4.19",
