@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-popup@0.2.0...@gemunion/provider-popup@0.2.1) (2022-03-09)
+
+
+### Bug Fixes
+
+* export ([129aaa5](https://github.com/gemunion/common-packages/commit/129aaa54ac01e0eac630d7a7675277ae4cc8ed19))
+
+
+
+
+
 # 0.2.0 (2022-03-09)
 
 

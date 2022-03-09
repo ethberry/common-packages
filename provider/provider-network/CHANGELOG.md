@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.3 (2022-03-09)
+
+
+### Bug Fixes
+
+* export ([129aaa5](https://github.com/gemunion/common-packages/commit/129aaa54ac01e0eac630d7a7675277ae4cc8ed19))
+
+
+
+
+
 ## 0.1.2 (2022-03-05)
 
 **Note:** Version bump only for package @gemunion/provider-network

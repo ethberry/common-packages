@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@1.6.0...@gemunion/provider-settings@1.6.1) (2022-03-09)
+
+
+### Bug Fixes
+
+* export hook ([6382042](https://github.com/gemunion/common-packages/commit/63820428395219cab8ed1845d8a4a201d4ee2426))
+
+
+
+
+
 # 1.6.0 (2022-03-09)
 
 
