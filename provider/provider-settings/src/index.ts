@@ -1,2 +1,2 @@
-export { SettingsContext, ISettingsContext } from "./context";
-export { SettingsProvider } from "./provider";
+export * from "./context";
+export * from "./provider";
