@@ -1,6 +1,6 @@
 import { FC, useContext, useEffect, useState } from "react";
 
-import { licenseNotFound, licenseExpired, licenseRevoked, downForMaintenance } from "@gemunion/license-messages";
+import { licenseNotFound, licenseExpired, licenseRevoked, downForMaintenance } from "../../../other/license-messages";
 import { ILicense, LicenseStatus } from "@gemunion/types-license";
 
 import { LicenseContext } from "./context";

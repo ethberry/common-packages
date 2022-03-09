@@ -9,6 +9,6 @@
       "yes": true
     }
   },
-  "packages": ["other/*", "react/*", "types/*", "provider/*", "security/*"],
+  "packages": ["other/*", "react/*", "types/*", "provider/*"],
   "version": "independent"
 }

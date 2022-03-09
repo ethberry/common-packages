@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "license": "UNLICENSED",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "name": "@gemunion/license-messages",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -24,8 +24,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix",
-    "prebuild": "rimraf dist/",
+    "lint": "eslint  --fix",
+    "prebuild": "rimraf dist",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "test": "exit 0"
