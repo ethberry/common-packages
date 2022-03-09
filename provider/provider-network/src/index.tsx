@@ -1,1 +1,1 @@
-export { NetworkProvider } from "./provider";
+export * from "./provider";
