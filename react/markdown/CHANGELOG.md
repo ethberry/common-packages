@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.2 (2022-03-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([c3a5460](https://github.com/gemunion/common-packages/commit/c3a54609fe7de1cc259bff17aea9639f8193f2d7))
+
+
+
+
+
 ## 1.2.1 (2022-03-09)
 
 **Note:** Version bump only for package @gemunion/markdown

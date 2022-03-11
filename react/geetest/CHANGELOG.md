@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.16 (2022-03-11)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([c3a5460](https://github.com/gemunion/common-packages/commit/c3a54609fe7de1cc259bff17aea9639f8193f2d7))
+
+
+
+
+
 ## 1.3.15 (2022-03-09)
 
 **Note:** Version bump only for package @gemunion/geetest
