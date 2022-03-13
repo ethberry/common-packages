@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.2.2...@gemunion/draft-js-utils@0.2.3) (2022-03-13)
+
+
+### Bug Fixes
+
+* add simple formatting ([8167811](https://github.com/gemunion/common-packages/commit/8167811eb49e2fda1f34dc61805d87243519a389))
+* export markdown as multiline text ([2827025](https://github.com/gemunion/common-packages/commit/282702575cde3bcccaa478fc7f84baa6360cb362))
+
+
+
+
+
 ## 0.2.2 (2022-03-11)
 
 
