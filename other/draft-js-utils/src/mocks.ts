@@ -84,6 +84,48 @@ export const rawStateString = JSON.stringify({
   entityMap: { "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/niuware" } } },
 });
 
+export const simpleFormatting = JSON.stringify({
+  blocks: [
+    {
+      key: "e9n5e",
+      text: "bold",
+      type: "unstyled",
+      depth: 0,
+      inlineStyleRanges: [{ offset: 0, length: 4, style: "BOLD" }],
+      entityRanges: [],
+      data: {},
+    },
+    {
+      key: "dfijs",
+      text: "italic",
+      type: "unstyled",
+      depth: 0,
+      inlineStyleRanges: [{ offset: 0, length: 6, style: "ITALIC" }],
+      entityRanges: [],
+      data: {},
+    },
+    {
+      key: "fdeqa",
+      text: "underscore",
+      type: "unstyled",
+      depth: 0,
+      inlineStyleRanges: [{ offset: 0, length: 10, style: "UNDERLINE" }],
+      entityRanges: [],
+      data: {},
+    },
+    {
+      key: "4uhh1",
+      text: "strikethrough",
+      type: "unstyled",
+      depth: 0,
+      inlineStyleRanges: [{ offset: 0, length: 13, style: "STRIKETHROUGH" }],
+      entityRanges: [],
+      data: {},
+    },
+  ],
+  entityMap: {},
+});
+
 export const markdownString = `
 # h1 Heading 8-)
 ## h2 Heading
