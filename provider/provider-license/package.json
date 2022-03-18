@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/mui-packages/issues"
   },
   "dependencies": {
-    "@gemunion/license-messages": "0.0.4",
+    "@gemunion/license-messages": "0.0.5",
     "@gemunion/types-license": "0.0.3"
   },
   "description": "Gemunion license provider",
@@ -43,5 +43,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
