@@ -1,4 +1,4 @@
-import { FC, useContext, useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 
 import { licenseNotFound, licenseExpired, licenseRevoked, downForMaintenance } from "@gemunion/license-messages";
 import { ILicense, LicenseStatus } from "@gemunion/types-license";
@@ -53,6 +53,10 @@ export const LicenseProvider: FC<ILicenseProviderProps> = props => {
   };
 
   const isValid = (): boolean => {
+    if (!isRetrieved) {
+      return true;
+    }
+
     if (!license) {
       console.error(licenseNotFound());
       return false;
@@ -82,11 +86,7 @@ export const LicenseProvider: FC<ILicenseProviderProps> = props => {
         refresh,
       }}
     >
-      {isRetrieved && !isValid() ? downForMaintenance() : children}
+      {isValid() ? children : downForMaintenance()}
     </LicenseContext.Provider>
   );
 };
-
-export function useLicense() {
-  return useContext(LicenseContext);
-}
