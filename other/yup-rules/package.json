@@ -12,7 +12,7 @@
     "@gemunion/provider-api": "5.6.1",
     "yup": "0.32.11"
   },
-  "description": "yup rules",
+  "description": "validation rules",
   "engines": {
     "node": ">=12.13"
   },

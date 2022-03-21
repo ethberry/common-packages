@@ -11,7 +11,7 @@
     "chalk": "4.1.2",
     "winston": "3.6.0"
   },
-  "description": "react history",
+  "description": "winston formatter",
   "engines": {
     "node": ">=12.13"
   },
