@@ -40,3 +40,9 @@ export interface IFirebase {
   };
   uid: string;
 }
+
+export interface IMetamaskDto {
+  nonce: string;
+  signature: string;
+  wallet: string;
+}
