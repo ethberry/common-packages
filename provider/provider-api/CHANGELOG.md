@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.6.2 (2022-03-25)
+
+
+### Bug Fixes
+
+* undefined jwt ([70c44a6](https://github.com/gemunion/common-packages/commit/70c44a612aa8c6b27c965cd6733a6501eb405c44))
+
+
+
+
+
 ## 5.6.1 (2022-03-11)
 
 
