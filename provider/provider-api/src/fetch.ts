@@ -11,7 +11,7 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
     }
     if (response.status === 401) {
       history.push("/login");
-      return;
+      return null;
     }
     if (![200, 201].includes(response.status)) {
       return response.json().then((json: Error) => {

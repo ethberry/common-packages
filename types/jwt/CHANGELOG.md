@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-03-25)
+
+
+### Features
+
+* add metamask type ([530433c](https://github.com/gemunion/common-packages/commit/530433ccb6a2b37f19549290662ba755f1cdde5b))
+
+
+
+
+
 ## 0.2.8 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/types-jwt

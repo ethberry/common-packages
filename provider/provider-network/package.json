@@ -13,7 +13,7 @@
     "@web3-react/core": "6.1.9"
   },
   "devDependencies": {
-    "@types/react": "17.0.40",
+    "@types/react": "17.0.43",
     "ethers": "5.6.1",
     "react": "17.0.2"
   },
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.1.5"
+  "version": "0.1.6"
 }
