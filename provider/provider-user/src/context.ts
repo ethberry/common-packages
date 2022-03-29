@@ -17,6 +17,7 @@ export interface IUserContext<T> {
   logIn: (data: ILoginDto, successLoginUrl: string) => Promise<ApiError | void>;
   logOut: () => Promise<ApiError | void>;
   updateProfile: (profile: Partial<T>) => Promise<ApiError | void>;
+  setProfile: (profile: T | null) => void;
   sync: (url?: string) => Promise<ApiError | void>;
   isAuthenticated: () => boolean;
 }

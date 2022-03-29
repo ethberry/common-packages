@@ -1,7 +1,5 @@
 import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
 import { useNavigate } from "react-router";
-import { useSnackbar } from "notistack";
-import { useIntl } from "react-intl";
 
 import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
 
@@ -18,8 +16,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
 
   const [profile, setProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
-  const { enqueueSnackbar } = useSnackbar();
-  const { formatMessage } = useIntl();
 
   const api = useApi();
 
@@ -33,12 +29,12 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     localStorage.setItem(key, json);
   };
 
-  const setProfileHandle = (profile: T) => {
+  const setProfileHandle = (profile: T | null) => {
     setProfile(profile);
     save(STORAGE_NAME, profile);
   };
 
-  const updateProfile = (values: Partial<T>): Promise<ApiError | void> => {
+  const updateProfile = async (values: Partial<T>): Promise<ApiError | void> => {
     return api
       .fetchJson({
         url: "/profile",
@@ -48,21 +44,16 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         },
       })
       .then((json: T): void => {
-        enqueueSnackbar(formatMessage({ id: "snackbar.updated" }), { variant: "success" });
         setProfileHandle(json);
       })
       .catch((e: ApiError) => {
-        if (e.status) {
-          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
-        } else {
-          console.error(e);
-          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
-        }
+        console.error(e);
+
         return e;
       });
   };
 
-  const logOut = (): Promise<ApiError | void> => {
+  const logOut = async (): Promise<ApiError | void> => {
     return api
       .fetchJson({
         url: "/auth/logout",
@@ -77,18 +68,13 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         api.setToken(null);
       })
       .catch((e: ApiError) => {
-        if (e.status) {
-          // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
-        } else {
-          console.error(e);
-        }
+        console.error(e);
 
         return e;
       });
   };
 
-  const sync = (url?: string): Promise<ApiError | void> => {
+  const sync = async (url?: string): Promise<ApiError | void> => {
     return api
       .fetchJson({
         url: "/profile",
@@ -103,13 +89,14 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
           navigate("/login");
         }
       })
-      .catch(e => {
+      .catch((e: ApiError) => {
         console.error(e);
-        return logOut();
+
+        return e;
       });
   };
 
-  const logIn = (data: ILoginDto, successLoginUrl = "/"): Promise<ApiError | void> => {
+  const logIn = async (data: ILoginDto, successLoginUrl = "/"): Promise<ApiError | void> => {
     return api
       .fetchJson({
         url: "/auth/login",
@@ -124,13 +111,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         return sync(successLoginUrl);
       })
       .catch((e: ApiError) => {
-        if (e.status) {
-          // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-          enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
-        } else {
-          console.error(e);
-          enqueueSnackbar(formatMessage({ id: "snackbar.error" }), { variant: "error" });
-        }
+        console.error(e);
 
         return e;
       });
@@ -149,6 +130,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         sync,
         updateProfile,
         isAuthenticated,
+        setProfile: setProfileHandle,
       }}
     >
       {children}
