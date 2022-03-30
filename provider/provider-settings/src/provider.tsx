@@ -46,7 +46,7 @@ export const SettingsProvider = <T extends string>(
   const getLanguage = (): T => {
     // @ts-ignore
     // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-    return settings.language || (user.isAuthenticated() && user.profile.language) || defaultLanguage;
+    return settings.language || (user?.isAuthenticated() && user?.profile.language) || defaultLanguage;
   };
 
   const setLanguage = (language: T): void => {
