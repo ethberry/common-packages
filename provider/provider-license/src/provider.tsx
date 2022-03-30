@@ -5,14 +5,13 @@ import { ILicense, LicenseStatus } from "@gemunion/types-license";
 
 import { LicenseContext } from "./context";
 
-const STORAGE_NAME = "license";
-
 interface ILicenseProviderProps {
   licenseKey: string;
+  storageName?: string;
 }
 
 export const LicenseProvider: FC<ILicenseProviderProps> = props => {
-  const { children, licenseKey } = props;
+  const { licenseKey, storageName = "license", children } = props;
 
   const [license, setLicense] = useState<ILicense | null>(null);
   const [isRetrieved, setIsRetrieved] = useState(false);
@@ -39,7 +38,7 @@ export const LicenseProvider: FC<ILicenseProviderProps> = props => {
       .catch(() => null);
 
     if (!license) {
-      const bkp = read(STORAGE_NAME);
+      const bkp = read(storageName);
       if (bkp && new Date(bkp.refreshAt).getTime() > Date.now()) {
         setLicense(bkp);
         setIsRetrieved(true);
@@ -49,7 +48,7 @@ export const LicenseProvider: FC<ILicenseProviderProps> = props => {
 
     setLicense(license);
     setIsRetrieved(true);
-    save(STORAGE_NAME, license);
+    save(storageName, license);
   };
 
   const isValid = (): boolean => {
