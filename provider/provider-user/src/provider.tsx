@@ -5,14 +5,13 @@ import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
 
 import { UserContext, IUser, IUserContext, ILoginDto } from "./context";
 
-const STORAGE_NAME = "auth";
-
 interface IUserProviderProps<T> {
   profile?: T | null;
+  storageName?: string;
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
-  const { profile: defaultProfile = null, children } = props;
+  const { profile: defaultProfile = null, storageName = "user", children } = props;
 
   const [profile, setProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
@@ -20,7 +19,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
   const api = useApi();
 
   useEffect(() => {
-    const auth = localStorage.getItem(STORAGE_NAME);
+    const auth = localStorage.getItem(storageName);
     setProfile(auth ? (JSON.parse(auth) as T) : null);
   }, []);
 
@@ -31,7 +30,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
 
   const setProfileHandle = (profile: T | null) => {
     setProfile(profile);
-    save(STORAGE_NAME, profile);
+    save(storageName, profile);
   };
 
   const updateProfile = async (values: Partial<T>): Promise<ApiError | void> => {
@@ -64,7 +63,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .then(() => {
         setProfile(null);
-        save(STORAGE_NAME, null);
+        save(storageName, null);
         api.setToken(null);
       })
       .catch((e: ApiError) => {

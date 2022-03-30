@@ -6,14 +6,13 @@ import { IJwt } from "@gemunion/types-jwt";
 import { ApiContext, IFetchProps } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
 
-const STORAGE_NAME = "jwt";
-
 interface IApiProviderProps {
   baseUrl: string;
+  storageName?: string;
 }
 
 export const ApiProvider: FC<IApiProviderProps> = props => {
-  const { children, baseUrl } = props;
+  const { baseUrl, storageName = "jwt", children } = props;
 
   const read = (key: string): IJwt | null => {
     const jwt = localStorage.getItem(key);
@@ -26,11 +25,11 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
   };
 
   const setToken = (jwt: IJwt | null): void => {
-    return save(STORAGE_NAME, jwt);
+    return save(storageName, jwt);
   };
 
   const getToken = (): IJwt | null => {
-    return read(STORAGE_NAME);
+    return read(storageName);
   };
 
   const isAccessTokenExpired = (): boolean => {
