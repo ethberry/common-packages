@@ -13,14 +13,18 @@ interface ISettings<T extends string> {
 interface ISettingsProviderProps<T extends string> {
   defaultLanguage?: T;
   defaultThemeType?: ThemeType;
+  storageName?: string;
 }
-
-const STORAGE_NAME = "settings";
 
 export const SettingsProvider = <T extends string>(
   props: PropsWithChildren<ISettingsProviderProps<T>>,
 ): ReactElement | null => {
-  const { children, defaultLanguage = EnabledLanguages.EN, defaultThemeType = ThemeType.light } = props;
+  const {
+    defaultLanguage = EnabledLanguages.EN,
+    defaultThemeType = ThemeType.light,
+    storageName = "settings",
+    children,
+  } = props;
   const [settings, setSettings] = useState<ISettings<T>>({});
 
   const user = useUser<IUser>();
@@ -36,7 +40,7 @@ export const SettingsProvider = <T extends string>(
   };
 
   useEffect(() => {
-    setSettings(read(STORAGE_NAME));
+    setSettings(read(storageName));
   }, []);
 
   const getLanguage = (): T => {
@@ -48,7 +52,7 @@ export const SettingsProvider = <T extends string>(
   const setLanguage = (language: T): void => {
     const newSettings = { ...settings, language };
     setSettings(newSettings);
-    save(STORAGE_NAME, newSettings);
+    save(storageName, newSettings);
   };
 
   const getTheme = (): ThemeType => {
@@ -58,7 +62,7 @@ export const SettingsProvider = <T extends string>(
   const setTheme = (themeType: ThemeType): void => {
     const newSettings = { ...settings, themeType };
     setSettings(newSettings);
-    save(STORAGE_NAME, newSettings);
+    save(storageName, newSettings);
   };
 
   return (

@@ -1,25 +1,25 @@
 import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
 import { useNavigate } from "react-router";
 
-import { useApi } from "@gemunion/provider-api";
+import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
 
-import { UserContext, IUser, IUserContext } from "./context";
-
-const STORAGE_NAME = "auth";
+import { UserContext, IUser, IUserContext, ILoginDto } from "./context";
 
 interface IUserProviderProps<T> {
   profile?: T | null;
+  storageName?: string;
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
-  const { profile: defaultProfile = null, children } = props;
+  const { profile: defaultProfile = null, storageName = "user", children } = props;
+
   const [profile, setProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
 
   const api = useApi();
 
   useEffect(() => {
-    const auth = localStorage.getItem(STORAGE_NAME);
+    const auth = localStorage.getItem(storageName);
     setProfile(auth ? (JSON.parse(auth) as T) : null);
   }, []);
 
@@ -28,27 +28,58 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     localStorage.setItem(key, json);
   };
 
-  const logIn = (profile: T): void => {
+  const setProfileHandle = (profile: T | null) => {
     setProfile(profile);
-    save(STORAGE_NAME, profile);
+    save(storageName, profile);
   };
 
-  const logOut = (): void => {
-    setProfile(null);
-    save(STORAGE_NAME, null);
+  const updateProfile = async (values: Partial<T>): Promise<ApiError | void> => {
+    return api
+      .fetchJson({
+        url: "/profile",
+        method: "PUT",
+        data: {
+          ...values,
+        },
+      })
+      .then((json: T): void => {
+        setProfileHandle(json);
+      })
+      .catch((e: ApiError) => {
+        console.error(e);
+
+        return e;
+      });
   };
 
-  const isAuthenticated = (): boolean => {
-    return profile !== null;
+  const logOut = async (): Promise<ApiError | void> => {
+    return api
+      .fetchJson({
+        url: "/auth/logout",
+        method: "POST",
+        data: {
+          refreshToken: api.getToken()?.refreshToken,
+        },
+      })
+      .then(() => {
+        setProfile(null);
+        save(storageName, null);
+        api.setToken(null);
+      })
+      .catch((e: ApiError) => {
+        console.error(e);
+
+        return e;
+      });
   };
 
-  const sync = (url?: string): Promise<void> => {
+  const sync = async (url?: string): Promise<ApiError | void> => {
     return api
       .fetchJson({
         url: "/profile",
       })
       .then((json: T) => {
-        logIn(json);
+        setProfileHandle(json);
         if (json) {
           if (url) {
             navigate(url);
@@ -57,10 +88,36 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
           navigate("/login");
         }
       })
-      .catch(e => {
+      .catch((e: ApiError) => {
         console.error(e);
-        logOut();
+
+        return e;
       });
+  };
+
+  const logIn = async (data: ILoginDto, successLoginUrl = "/"): Promise<ApiError | void> => {
+    return api
+      .fetchJson({
+        url: "/auth/login",
+        method: "POST",
+        data,
+      })
+      .then((json: IJwt) => {
+        if (json) {
+          api.setToken(json);
+        }
+
+        return sync(successLoginUrl);
+      })
+      .catch((e: ApiError) => {
+        console.error(e);
+
+        return e;
+      });
+  };
+
+  const isAuthenticated = (): boolean => {
+    return profile !== null;
   };
 
   return (
@@ -70,7 +127,9 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         logIn,
         logOut,
         sync,
+        updateProfile,
         isAuthenticated,
+        setProfile: setProfileHandle,
       }}
     >
       {children}
