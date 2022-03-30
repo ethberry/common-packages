@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@2.5.2...@gemunion/provider-user@3.1.0) (2022-03-30)
+
+
+### Features
+
+* configurable storageName ([fc3f9eb](https://github.com/gemunion/common-packages/commit/fc3f9ebdc659234147a295664d39828641af5ce3))
+* login, logout, update profile ([2875c0d](https://github.com/gemunion/common-packages/commit/2875c0d2fe62efb51a8255016d022923f966226c))
+* set profile locally ([76e1e38](https://github.com/gemunion/common-packages/commit/76e1e381b993102237514f1a7e910cc705621504))
+
+
+
+
+
 ## 2.5.2 (2022-03-25)
 
 **Note:** Version bump only for package @gemunion/provider-user

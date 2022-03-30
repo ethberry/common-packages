@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.7.3...@gemunion/constants@0.8.0) (2022-03-30)
+
+
+### Features
+
+* add lore ipsum ([b929934](https://github.com/gemunion/common-packages/commit/b92993447407b16533da277a523d51a7a06df0f5))
+
+
+
+
+
 ## 0.7.3 (2022-03-25)
 
 **Note:** Version bump only for package @gemunion/constants

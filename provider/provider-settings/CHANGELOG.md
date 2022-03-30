@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@1.6.5...@gemunion/provider-settings@1.7.0) (2022-03-30)
+
+
+### Features
+
+* configurable storageName ([fc3f9eb](https://github.com/gemunion/common-packages/commit/fc3f9ebdc659234147a295664d39828641af5ce3))
+
+
+
+
+
 ## 1.6.5 (2022-03-25)
 
 **Note:** Version bump only for package @gemunion/provider-settings
