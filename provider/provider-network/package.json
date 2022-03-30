@@ -9,12 +9,12 @@
   },
   "description": "react context provider",
   "dependencies": {
-    "@ethersproject/providers": "5.6.1",
+    "@ethersproject/providers": "5.6.2",
     "@web3-react/core": "6.1.9"
   },
   "devDependencies": {
     "@types/react": "17.0.43",
-    "ethers": "5.6.1",
+    "ethers": "5.6.2",
     "react": "17.0.2"
   },
   "engines": {
