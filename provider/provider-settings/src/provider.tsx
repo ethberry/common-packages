@@ -1,9 +1,9 @@
-import { PropsWithChildren, ReactElement, useContext, useEffect, useState } from "react";
+import { PropsWithChildren, ReactElement, useEffect, useState } from "react";
 
 import { IUser, useUser } from "@gemunion/provider-user";
 import { EnabledLanguages, ThemeType } from "@gemunion/constants";
 
-import { ISettingsContext, SettingsContext } from "./context";
+import { SettingsContext } from "./context";
 
 interface ISettings<T extends string> {
   language?: T;
@@ -78,7 +78,3 @@ export const SettingsProvider = <T extends string>(
     </SettingsContext.Provider>
   );
 };
-
-export function useSettings<T extends string = any>() {
-  return useContext<ISettingsContext<T>>(SettingsContext);
-}

@@ -1,9 +1,9 @@
-import { useContext, useEffect, useState, PropsWithChildren, ReactElement } from "react";
+import { PropsWithChildren, ReactElement, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
 import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
 
-import { UserContext, IUser, IUserContext, ILoginDto } from "./context";
+import { ILoginDto, IUser, UserContext } from "./context";
 
 interface IUserProviderProps<T> {
   profile?: T | null;
@@ -136,7 +136,3 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     </UserContext.Provider>
   );
 };
-
-export function useUser<T>() {
-  return useContext<IUserContext<T>>(UserContext);
-}
