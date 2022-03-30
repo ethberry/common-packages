@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2022-03-30)
+
+
+### Features
+
+* configurable storageName ([ee4d08b](https://github.com/gemunion/mui-packages/commit/ee4d08b1aea7cf8f390d07dd0a6b9e441a61cb16))
+
+
+
+
+
 ## [0.1.4](https://github.com/gemunion/mui-packages/compare/@gemunion/provider-license@0.1.3...@gemunion/provider-license@0.1.4) (2022-03-25)
 
 
