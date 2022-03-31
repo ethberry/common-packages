@@ -33,7 +33,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     save(storageName, profile);
   };
 
-  const updateProfile = async (values: Partial<T>): Promise<ApiError | void> => {
+  const updateProfile = async (values: Partial<T>): Promise<void> => {
     return api
       .fetchJson({
         url: "/profile",
@@ -47,12 +47,11 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         console.error(e);
-
-        return e;
+        throw e;
       });
   };
 
-  const logOut = async (): Promise<ApiError | void> => {
+  const logOut = async (): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/logout",
@@ -68,12 +67,11 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         console.error(e);
-
-        return e;
+        throw e;
       });
   };
 
-  const sync = async (url?: string): Promise<ApiError | void> => {
+  const sync = async (url?: string): Promise<void> => {
     return api
       .fetchJson({
         url: "/profile",
@@ -90,12 +88,11 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         console.error(e);
-
-        return e;
+        throw e;
       });
   };
 
-  const logIn = async (data: ILoginDto, successLoginUrl = "/"): Promise<ApiError | void> => {
+  const logIn = async (data: ILoginDto, successLoginUrl = "/"): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/login",
@@ -111,8 +108,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         console.error(e);
-
-        return e;
+        throw e;
       });
   };
 

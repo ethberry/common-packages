@@ -1,7 +1,6 @@
 import { createContext } from "react";
 
 import { IIdBase } from "@gemunion/types-collection";
-import { ApiError } from "@gemunion/provider-api";
 
 export interface IUser extends IIdBase {
   language: string;
@@ -14,11 +13,11 @@ export interface ILoginDto {
 
 export interface IUserContext<T> {
   profile: T;
-  logIn: (data: ILoginDto, successLoginUrl: string) => Promise<ApiError | void>;
-  logOut: () => Promise<ApiError | void>;
-  updateProfile: (profile: Partial<T>) => Promise<ApiError | void>;
+  logIn: (data: ILoginDto, successLoginUrl?: string) => Promise<void>;
+  logOut: () => Promise<void>;
+  updateProfile: (profile: Partial<T>) => Promise<void>;
   setProfile: (profile: T | null) => void;
-  sync: (url?: string) => Promise<ApiError | void>;
+  sync: (url?: string) => Promise<void>;
   isAuthenticated: () => boolean;
 }
 
