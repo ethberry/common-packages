@@ -33,44 +33,34 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     save(storageName, profile);
   };
 
-  const getProfile = async (url?: string): Promise<void> => {
+  const getProfile = async (url?: string): Promise<T> => {
     return api
       .fetchJson({
         url: "/profile",
       })
       .then((json: T) => {
         setProfileHandle(json);
-        if (json) {
-          if (url) {
-            navigate(url);
-          }
-        } else {
-          navigate("/login");
+        if (url) {
+          navigate(url);
         }
-      })
-      .catch((e: ApiError) => {
-        console.error(e);
-        throw e;
+        return json;
       });
   };
 
-  const setProfile = async (data: Partial<T>): Promise<void> => {
+  const setProfile = async (data: Partial<T>): Promise<T> => {
     return api
       .fetchJson({
         url: "/profile",
         method: "PUT",
         data,
       })
-      .then((json: T): void => {
+      .then((json: T): T => {
         setProfileHandle(json);
-      })
-      .catch((e: ApiError) => {
-        console.error(e);
-        throw e;
+        return json;
       });
   };
 
-  const logIn = async (data: ILoginDto, url = "/"): Promise<void> => {
+  const logIn = async (data: ILoginDto, url?: string): Promise<T> => {
     return api
       .fetchJson({
         url: "/auth/login",
@@ -83,7 +73,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         api.setToken(null);
-        console.error(e);
         throw e;
       });
   };
@@ -103,12 +92,11 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .catch((e: ApiError) => {
         api.setToken(null);
-        console.error(e);
         throw e;
       });
   };
 
-  const signUp = async (data: ISignUpDto, url = "/"): Promise<void> => {
+  const signUp = async (data: ISignUpDto, url = "/"): Promise<T> => {
     return api
       .fetchJson({
         url: "/auth/signup",
@@ -117,11 +105,10 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       })
       .then((json: IJwt) => {
         api.setToken(json);
-        navigate(url);
+        return getProfile(url);
       })
       .catch((e: ApiError) => {
         api.setToken(null);
-        console.error(e);
         throw e;
       });
   };
