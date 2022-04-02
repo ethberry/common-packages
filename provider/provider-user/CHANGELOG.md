@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.1.3...@gemunion/provider-user@3.2.0) (2022-04-02)
+
+
+### Bug Fixes
+
+* user provider ([ab160dd](https://github.com/gemunion/common-packages/commit/ab160ddb71d75e1db3737c61e891d3828d396f90))
+
+
+### Features
+
+* add signup ([e1b57f3](https://github.com/gemunion/common-packages/commit/e1b57f31fbff12ce7616a9db434549f3f116830e))
+
+
+
+
+
 ## 3.1.3 (2022-04-01)
 
 **Note:** Version bump only for package @gemunion/provider-user
