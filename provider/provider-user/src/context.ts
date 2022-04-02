@@ -11,13 +11,19 @@ export interface ILoginDto {
   password: string;
 }
 
+export interface ISignUpDto {
+  email: string;
+  password: string;
+  confirm: string;
+}
+
 export interface IUserContext<T> {
   profile: T;
-  logIn: (data: ILoginDto, successLoginUrl?: string) => Promise<void>;
+  getProfile: (url?: string) => Promise<void>;
+  setProfile: (data: Partial<T>) => Promise<void>;
+  logIn: (data: ILoginDto, url?: string) => Promise<void>;
   logOut: () => Promise<void>;
-  updateProfile: (profile: Partial<T>) => Promise<void>;
-  setProfile: (profile: T | null) => void;
-  sync: (url?: string) => Promise<void>;
+  signUp: (data: ISignUpDto, url?: string) => Promise<void>;
   isAuthenticated: () => boolean;
 }
 
