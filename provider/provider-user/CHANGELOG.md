@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.2.0...@gemunion/provider-user@3.2.1) (2022-04-02)
+
+
+### Bug Fixes
+
+* types in user provider ([305ef36](https://github.com/gemunion/common-packages/commit/305ef36bc94057477851dbce87eade0f07e49b14))
+
+
+
+
+
 # [3.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.1.3...@gemunion/provider-user@3.2.0) (2022-04-02)
 
 
