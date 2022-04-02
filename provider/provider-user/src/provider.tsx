@@ -38,9 +38,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       .fetchJson({
         url: "/profile",
         method: "PUT",
-        data: {
-          ...values,
-        },
+        data: values,
       })
       .then((json: T): void => {
         setProfileHandle(json);
@@ -61,8 +59,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         },
       })
       .then(() => {
-        setProfile(null);
-        save(storageName, null);
+        setProfileHandle(null);
         api.setToken(null);
       })
       .catch((e: ApiError) => {
@@ -92,7 +89,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       });
   };
 
-  const logIn = async (data: ILoginDto, successLoginUrl = "/"): Promise<void> => {
+  const logIn = async (data: ILoginDto, url = "/"): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/login",
@@ -100,11 +97,8 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         data,
       })
       .then((json: IJwt) => {
-        if (json) {
-          api.setToken(json);
-        }
-
-        return sync(successLoginUrl);
+        api.setToken(json);
+        return sync(url);
       })
       .catch((e: ApiError) => {
         console.error(e);
