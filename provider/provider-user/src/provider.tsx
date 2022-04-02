@@ -77,7 +77,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       });
   };
 
-  const logOut = async (): Promise<void> => {
+  const logOut = async (url?: string): Promise<void> => {
     return api
       .fetchJson({
         url: "/auth/logout",
@@ -89,6 +89,9 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       .then(() => {
         setProfileHandle(null);
         api.setToken(null);
+        if (url) {
+          navigate(url);
+        }
       })
       .catch((e: ApiError) => {
         api.setToken(null);
