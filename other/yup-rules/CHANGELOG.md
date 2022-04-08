@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2022-04-08)
+
+
+### Features
+
+* draft has text ([d7903cc](https://github.com/gemunion/common-packages/commit/d7903cc4ad1756e3ad6af67024390286bedb9b63))
+
+
+
+
+
 ## [1.3.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.14...@gemunion/yup-rules@1.3.15) (2022-03-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules

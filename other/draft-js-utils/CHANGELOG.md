@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-04-08)
+
+
+### Features
+
+* empty state ([827a8fb](https://github.com/gemunion/common-packages/commit/827a8fb7718be96b8294829f6dc9567bf5507b0d))
+
+
+
+
+
 ## [0.2.5](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.2.4...@gemunion/draft-js-utils@0.2.5) (2022-03-25)
 
 **Note:** Version bump only for package @gemunion/draft-js-utils

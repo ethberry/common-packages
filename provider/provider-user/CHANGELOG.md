@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.2.1...@gemunion/provider-user@3.3.0) (2022-04-08)
+
+
+### Features
+
+* add url to logout ([e7807ec](https://github.com/gemunion/common-packages/commit/e7807ecec1e016f371913dcbc50617cdeffb4127))
+
+
+
+
+
 ## [3.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.2.0...@gemunion/provider-user@3.2.1) (2022-04-02)
 
 
