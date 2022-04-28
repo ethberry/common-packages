@@ -9,7 +9,7 @@
   },
   "description": "Gemunion License types",
   "dependencies": {
-    "@gemunion/types-collection": "1.0.2"
+    "@gemunion/types-collection": "1.1.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -36,5 +36,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
