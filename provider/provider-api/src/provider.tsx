@@ -116,7 +116,7 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
       }
 
       return fetch(newUrl.toString(), {
-        headers: headers,
+        headers,
         credentials: "include",
         mode: "cors",
         method,
