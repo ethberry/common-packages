@@ -1,11 +1,7 @@
 import { BigNumber, utils } from "ethers";
+import { TypedDataField } from "@ethersproject/abstract-signer";
 
-export interface IEip712Types {
-  name: string;
-  type: string;
-}
-
-export type TEip712 =
+type TEIP712 =
   | Uint8Array
   | BigNumber
   | string
@@ -24,9 +20,12 @@ const dict = {
   String: "string",
 };
 
-export const prepareEip712 = function (data: Record<string, TEip712>): { EIP712: Array<IEip712Types> } {
+export const prepareEip712 = function (
+  data: Record<string, TEIP712>,
+  domain = "EIP712",
+): Record<string, Array<TypedDataField>> {
   return {
-    EIP712: Object.keys(data).reduce((memo, current) => {
+    [domain]: Object.keys(data).reduce((memo, current) => {
       const isArray = Array.isArray(data[current]);
       const element = isArray ? (data[current] as Array<any>)[0] : data[current];
       let type = dict[element.constructor.name as keyof typeof dict];
@@ -44,6 +43,6 @@ export const prepareEip712 = function (data: Record<string, TEip712>): { EIP712:
       });
 
       return memo;
-    }, [] as Array<IEip712Types>),
+    }, [] as Array<TypedDataField>),
   };
 };

@@ -9,7 +9,8 @@
   },
   "description": "blockchain utils",
   "devDependencies": {
-    "ethers": "5.6.4"
+    "ethers": "5.6.4",
+    "@ethersproject/abstract-signer": "5.6.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -19,6 +20,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/butils",
   "peerDependencies": {
+    "@ethersproject/abstract-signer": "5.6.0",
     "ethers": "^5.6.0"
   },
   "publishConfig": {
@@ -39,5 +41,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }

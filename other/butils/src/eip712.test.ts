@@ -104,4 +104,17 @@ describe("EIP 712", () => {
       ],
     });
   });
+
+  it("domain", () => {
+    expect(
+      prepareEip712(
+        {
+          a: true,
+        },
+        "NFT",
+      ),
+    ).toEqual({
+      NFT: [{ name: "a", type: "boolean" }],
+    });
+  });
 });
