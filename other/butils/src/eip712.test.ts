@@ -8,7 +8,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: new Uint8Array(),
       }),
-    ).toEqual([{ name: "a", type: "bytes32" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "bytes32" }] });
   });
 
   it("uint256", () => {
@@ -16,7 +16,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: 12345,
       }),
-    ).toEqual([{ name: "a", type: "uint256" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "uint256" }] });
   });
 
   it("uint256", () => {
@@ -24,7 +24,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: constants.WeiPerEther,
       }),
-    ).toEqual([{ name: "a", type: "uint256" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "uint256" }] });
   });
 
   it("string", () => {
@@ -32,7 +32,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: "qwerty",
       }),
-    ).toEqual([{ name: "a", type: "string" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "string" }] });
   });
 
   it("address", () => {
@@ -40,7 +40,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: constants.AddressZero,
       }),
-    ).toEqual([{ name: "a", type: "address" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "address" }] });
   });
 
   it("boolean", () => {
@@ -48,7 +48,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: true,
       }),
-    ).toEqual([{ name: "a", type: "boolean" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "boolean" }] });
   });
 
   it("uint256[]", () => {
@@ -56,7 +56,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: [12345],
       }),
-    ).toEqual([{ name: "a", type: "uint256[]" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "uint256[]" }] });
   });
 
   it("uint256[]", () => {
@@ -64,7 +64,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: [constants.WeiPerEther],
       }),
-    ).toEqual([{ name: "a", type: "uint256[]" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "uint256[]" }] });
   });
 
   it("string[]", () => {
@@ -72,7 +72,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: ["qwerty"],
       }),
-    ).toEqual([{ name: "a", type: "string[]" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "string[]" }] });
   });
 
   it("address[]", () => {
@@ -80,7 +80,7 @@ describe("EIP 712", () => {
       prepareEip712({
         a: [constants.AddressZero],
       }),
-    ).toEqual([{ name: "a", type: "address[]" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "address[]" }] });
   });
 
   it("boolean[]", () => {
@@ -88,6 +88,20 @@ describe("EIP 712", () => {
       prepareEip712({
         a: [true],
       }),
-    ).toEqual([{ name: "a", type: "boolean[]" }]);
+    ).toEqual({ EIP712: [{ name: "a", type: "boolean[]" }] });
+  });
+
+  it("mix", () => {
+    expect(
+      prepareEip712({
+        a: true,
+        b: [true],
+      }),
+    ).toEqual({
+      EIP712: [
+        { name: "a", type: "boolean" },
+        { name: "b", type: "boolean[]" },
+      ],
+    });
   });
 });
