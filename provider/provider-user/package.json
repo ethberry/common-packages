@@ -26,8 +26,8 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-user",
   "peerDependencies": {
-    "react": "^17",
-    "react-router": "^6"
+    "react": "^17.0.0",
+    "react-router": "^6.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
