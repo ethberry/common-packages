@@ -1,6 +1,4 @@
 /src
-/node_modules
 /tsconfig.json
 /jest.config.json
-**/*.stories.tsx
-**/*.test.tsx
+**/*.test.*
