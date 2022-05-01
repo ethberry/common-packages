@@ -5,7 +5,16 @@ export interface IEip712Types {
   type: string;
 }
 
-export type TEip712 = Uint8Array | BigNumber | string | number | boolean;
+export type TEip712 =
+  | Uint8Array
+  | BigNumber
+  | string
+  | number
+  | boolean
+  | Array<BigNumber>
+  | Array<string>
+  | Array<number>
+  | Array<boolean>;
 
 const dict = {
   Uint8Array: "bytes32",
@@ -17,18 +26,20 @@ const dict = {
 
 export const prepareEip712 = function (data: Record<string, TEip712>): Array<IEip712Types> {
   return Object.keys(data).reduce((memo, current) => {
-    let type = dict[data[current].constructor.name as keyof typeof dict];
+    const isArray = Array.isArray(data[current]);
+    const element = isArray ? (data[current] as Array<any>)[0] : data[current];
+    let type = dict[element.constructor.name as keyof typeof dict];
 
     if (type === "string") {
       try {
-        utils.getAddress(data[current] as string);
+        utils.getAddress(element as string);
         type = "address";
       } catch (_e) {}
     }
 
     memo.push({
       name: current,
-      type,
+      type: type + (isArray ? "[]" : ""),
     });
 
     return memo;
