@@ -7,9 +7,19 @@
   "bugs": {
     "url": "https://github.com/gemunion/mui-packages/issues"
   },
+  "dependencies": {
+    "qs": "6.10.3",
+    "use-deep-compare-effect": "1.8.1"
+  },
   "description": "react hooks",
   "devDependencies": {
-    "react": "17.0.2"
+    "@gemunion/constants": "0.8.0",
+    "@gemunion/provider-api": "5.7.1",
+    "@gemunion/types-collection": "1.1.0",
+    "notistack": "2.0.4",
+    "react": "17.0.2",
+    "react-intl": "5.25.1",
+    "react-router": "6.3.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -19,7 +29,13 @@
   "main": "./dist/index.js",
   "name": "@gemunion/react-hooks",
   "peerDependencies": {
-    "react": "^17.0.0"
+    "@gemunion/constants": "^0.0.0",
+    "@gemunion/provider-api": "^5.0.0",
+    "@gemunion/types-collection": "^1.0.0",
+    "notistack": "^2.0.0",
+    "react": "^17.0.0",
+    "react-intl": "^5.0.0",
+    "react-router": "^6.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
