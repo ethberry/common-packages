@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.2.8 (2022-05-02)
+
+**Note:** Version bump only for package @gemunion/types-iex-cloud
+
+
+
+
+
 ## 0.2.7 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/types-iex-cloud
