@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.7.2 (2022-05-02)
+
+
+### Bug Fixes
+
+* cleanup ([10fb5ae](https://github.com/gemunion/common-packages/commit/10fb5ae6d02c86e8964b83af53610a130ebe6fb8))
+
+
+
+
+
 ## 5.7.1 (2022-04-08)
 
 **Note:** Version bump only for package @gemunion/provider-api
