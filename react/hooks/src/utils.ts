@@ -1,7 +1,7 @@
 import { defaultDecoder } from "qs";
 
 // https://github.com/ljharb/qs/issues/91#issuecomment-522289267
-export const decoder = (str: string, decoder: defaultDecoder, charset: string): any => {
+export const decoder = (str: string, _decoder: defaultDecoder, charset: string): any => {
   const strWithoutPlus = str.replace(/\+/g, " ");
   if (charset === "iso-8859-1") {
     // unescape never throws, no try...catch needed:
