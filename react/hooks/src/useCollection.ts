@@ -47,10 +47,11 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
 
   const [isLoading, setIsLoading] = useState(false);
   const [isFiltersOpen, setIsFilterOpen] = useState(false);
+  const [isViewDialogOpen, setIsViewDialogOpen] = useState(false);
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
   const [isDeleteDialogOpen, setIsDeleteDialogOpen] = useState(false);
 
-  const [list, setList] = useState<Array<T>>([]);
+  const [rows, setRows] = useState<Array<T>>([]);
   const [count, setCount] = useState<number>(0);
   const [selected, setSelected] = useState<T>(empty as T);
 
@@ -69,35 +70,35 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
     navigate(redirect(baseUrl, rest, id));
   };
 
-  const fetchCollectionsByQuery = async (): Promise<void> => {
+  const fetchCollectionByQuery = async (): Promise<void> => {
     return api
       .fetchJson({
         url: baseUrl,
         data: search,
       })
       .then((json: IPaginationResult<T>) => {
-        setList(json.rows);
+        setRows(json.rows);
         setCount(json.count);
         updateQS();
       });
   };
 
-  const fetchCollectionsById = async (id: string): Promise<void> => {
+  const fetchCollectionById = async (id: string): Promise<void> => {
     return api
       .fetchJson({
         url: `${baseUrl}/${id}`,
       })
       .then((json: T) => {
-        setList([json]);
+        setRows([json]);
         setCount(1);
         // eslint-disable-next-line @typescript-eslint/no-use-before-define
         handleEdit(json)();
       });
   };
 
-  const fetchCollections = async (id?: string): Promise<void> => {
+  const fetchCollection = async (id?: string): Promise<void> => {
     setIsLoading(true);
-    return (id ? fetchCollectionsById(id) : fetchCollectionsByQuery())
+    return (id ? fetchCollectionById(id) : fetchCollectionByQuery())
       .catch((e: ApiError) => {
         if (e.status) {
           enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
@@ -116,11 +117,28 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
     setIsEditDialogOpen(true);
   };
 
-  const handleEdit = (collection: T): (() => void) => {
+  const handleView = (item: T): (() => void) => {
     return (): void => {
-      setSelected(collection);
+      setSelected(item);
+      setIsViewDialogOpen(true);
+      updateQS(item.id);
+    };
+  };
+
+  const handleViewConfirm = (): void => {
+    setIsViewDialogOpen(false);
+  };
+
+  const handleViewCancel = (): void => {
+    setIsViewDialogOpen(false);
+    updateQS();
+  };
+
+  const handleEdit = (item: T): (() => void) => {
+    return (): void => {
+      setSelected(item);
       setIsEditDialogOpen(true);
-      updateQS(collection.id);
+      updateQS(item.id);
     };
   };
 
@@ -140,7 +158,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       .then(() => {
         enqueueSnackbar(formatMessage({ id: id ? "snackbar.updated" : "snackbar.created" }), { variant: "success" });
         setIsEditDialogOpen(false);
-        return fetchCollections();
+        return fetchCollection();
       })
       .catch((e: ApiError) => {
         if (e.status === 400) {
@@ -154,9 +172,9 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       });
   };
 
-  const handleDelete = (collection: T): (() => void) => {
+  const handleDelete = (item: T): (() => void) => {
     return (): void => {
-      setSelected(collection);
+      setSelected(item);
       setIsDeleteDialogOpen(true);
     };
   };
@@ -165,15 +183,15 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
     setIsDeleteDialogOpen(false);
   };
 
-  const handleDeleteConfirm = (collection: T): Promise<void> => {
+  const handleDeleteConfirm = (item: T): Promise<void> => {
     return api
       .fetchJson({
-        url: `${baseUrl}/${collection.id}`,
+        url: `${baseUrl}/${item.id}`,
         method: "DELETE",
       })
       .then(() => {
         enqueueSnackbar(formatMessage({ id: "snackbar.deleted" }), { variant: "success" });
-        return fetchCollections();
+        return fetchCollection();
       })
       .catch((e: ApiError) => {
         if (e.status) {
@@ -208,21 +226,25 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
   };
 
   useDeepCompareEffect(() => {
-    void fetchCollections(id);
+    void fetchCollection(id);
   }, [search]);
 
   return {
-    list,
+    rows,
     count,
     search,
     selected,
 
     isLoading,
     isFiltersOpen,
+    isViewDialogOpen,
     isDeleteDialogOpen,
     isEditDialogOpen,
 
     handleAdd,
+    handleView,
+    handleViewCancel,
+    handleViewConfirm,
     handleEdit,
     handleEditCancel,
     handleEditConfirm,
