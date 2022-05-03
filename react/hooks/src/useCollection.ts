@@ -70,7 +70,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
     navigate(redirect(baseUrl, rest, id));
   };
 
-  const fetchCollectionByQuery = async (): Promise<void> => {
+  const fetchByQuery = async (): Promise<void> => {
     return api
       .fetchJson({
         url: baseUrl,
@@ -83,7 +83,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       });
   };
 
-  const fetchCollectionById = async (id: string): Promise<void> => {
+  const fetchById = async (id: string): Promise<void> => {
     return api
       .fetchJson({
         url: `${baseUrl}/${id}`,
@@ -96,9 +96,9 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       });
   };
 
-  const fetchCollection = async (id?: string): Promise<void> => {
+  const fetch = async (id?: string): Promise<void> => {
     setIsLoading(true);
-    return (id ? fetchCollectionById(id) : fetchCollectionByQuery())
+    return (id ? fetchById(id) : fetchByQuery())
       .catch((e: ApiError) => {
         if (e.status) {
           enqueueSnackbar(formatMessage({ id: `snackbar.${e.message}` }), { variant: "error" });
@@ -158,7 +158,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       .then(() => {
         enqueueSnackbar(formatMessage({ id: id ? "snackbar.updated" : "snackbar.created" }), { variant: "success" });
         setIsEditDialogOpen(false);
-        return fetchCollection();
+        return fetch();
       })
       .catch((e: ApiError) => {
         if (e.status === 400) {
@@ -191,7 +191,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
       })
       .then(() => {
         enqueueSnackbar(formatMessage({ id: "snackbar.deleted" }), { variant: "success" });
-        return fetchCollection();
+        return fetch();
       })
       .catch((e: ApiError) => {
         if (e.status) {
@@ -226,7 +226,7 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
   };
 
   useDeepCompareEffect(() => {
-    void fetchCollection(id);
+    void fetch(id);
   }, [search]);
 
   return {
@@ -240,6 +240,10 @@ export const useCollection = <T extends IIdBase = IIdBase, S extends IPagination
     isViewDialogOpen,
     isDeleteDialogOpen,
     isEditDialogOpen,
+
+    fetch,
+    fetchById,
+    fetchByQuery,
 
     handleAdd,
     handleView,
