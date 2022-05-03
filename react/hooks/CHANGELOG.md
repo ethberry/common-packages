@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.2.0...@gemunion/react-hooks@0.3.0) (2022-05-03)
+
+
+### Features
+
+* export fetch* from useCollection ([e6b4896](https://github.com/gemunion/mui-packages/commit/e6b489615d1e17e5bee31793720a5b50570f0931))
+
+
+
+
+
 # [0.2.0](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.1.0...@gemunion/react-hooks@0.2.0) (2022-05-03)
 
 
