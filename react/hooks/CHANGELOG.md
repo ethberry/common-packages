@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.1.0...@gemunion/react-hooks@0.2.0) (2022-05-03)
+
+
+### Features
+
+* add view to useCollection ([70db2a2](https://github.com/gemunion/mui-packages/commit/70db2a2d315c70de5ddfaabb75f988b6a28bd9cf))
+
+
+
+
+
 # 0.1.0 (2022-05-02)
 
 
