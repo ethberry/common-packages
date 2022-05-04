@@ -1,8 +1,9 @@
 import { createContext } from "react";
 
 export interface IPopupContext {
-  getPopupOpen: (type: symbol) => boolean;
-  setPopupOpen: (type: symbol, isOpen: boolean) => void;
+  isOpenPopup: (type: symbol) => boolean;
+  openPopup: (type: symbol) => void;
+  closePopup: () => void;
 }
 
 export const PopupContext = createContext<IPopupContext>(undefined!);
