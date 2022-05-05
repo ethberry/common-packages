@@ -2,22 +2,23 @@ import { useSnackbar } from "notistack";
 import { useIntl } from "react-intl";
 import { useWeb3React } from "@web3-react/core";
 
-export const useMetamask = (fn: (...args: Array<any>) => Promise<void>) => {
+export const useMetamask = (fn: (...args: Array<any>) => Promise<unknown>) => {
   const { account } = useWeb3React();
 
   const { enqueueSnackbar } = useSnackbar();
   const { formatMessage } = useIntl();
 
-  return async () => {
+  return async (...args: Array<any>) => {
     if (!account) {
       // TODO rework to use provider-popup and provider-wallet
       enqueueSnackbar(formatMessage({ id: "snackbar.walletIsNotConnected" }), { variant: "error" });
       return;
     }
 
-    return fn()
-      .then(() => {
-        enqueueSnackbar(formatMessage({ id: "snackbar.unpack" }), { variant: "success" });
+    return fn(...args)
+      .then((result: unknown) => {
+        enqueueSnackbar(formatMessage({ id: "snackbar.success" }), { variant: "success" });
+        return result;
       })
       .catch((error: any) => {
         if (error.code === 4001) {
