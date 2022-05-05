@@ -128,5 +128,16 @@ describe("BigSchema", () => {
         }),
       ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
     });
+
+    it("should be require", async () => {
+      const schemaValidatorObject = Yup.object().shape({
+        amount: schema.required(ERROR_MESSAGE),
+      });
+      await expect(
+        schemaValidatorObject.validate({
+          amount: void 0,
+        }),
+      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    });
   });
 });
