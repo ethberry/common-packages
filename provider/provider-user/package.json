@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/provider-api": "5.7.2",
-    "@gemunion/types-collection": "1.1.1"
+    "@gemunion/types-collection": "1.2.0"
   },
   "description": "react context provider",
   "devDependencies": {

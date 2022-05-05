@@ -1,18 +1,16 @@
 import * as Yup from "yup";
 import { BigNumber } from "ethers";
 
-import "./big-number";
-
-const ERROR_MESSAGE = "ERROR_MESSAGE";
+import { bigNumberValidationSchema } from "./big-number";
 
 const schemaValidatorObject = Yup.object().shape({
   // @ts-ignore
-  amount: Yup.mixed().isBigNumber(ERROR_MESSAGE),
+  amount: bigNumberValidationSchema,
 });
 
 describe("BigNumber", () => {
+  const value = BigNumber.from("100");
   it("should validate BigNumber", async () => {
-    const value = BigNumber.from("100");
     await expect(
       schemaValidatorObject.validate({
         amount: value,
@@ -23,10 +21,9 @@ describe("BigNumber", () => {
   });
 
   it("should validate Number", async () => {
-    const value = 100;
     await expect(
       schemaValidatorObject.validate({
-        amount: value,
+        amount: 100,
       }),
     ).resolves.toEqual({
       amount: value,
@@ -34,10 +31,9 @@ describe("BigNumber", () => {
   });
 
   it("should validate String", async () => {
-    const value = "100";
     await expect(
       schemaValidatorObject.validate({
-        amount: value,
+        amount: "100",
       }),
     ).resolves.toEqual({
       amount: value,
@@ -49,7 +45,7 @@ describe("BigNumber", () => {
       schemaValidatorObject.validate({
         amount: "qwerty",
       }),
-    ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    ).rejects.toEqual(new Yup.ValidationError("form.validations.badInput"));
   });
 
   it("should fail Object", async () => {
@@ -57,6 +53,18 @@ describe("BigNumber", () => {
       schemaValidatorObject.validate({
         amount: "qwerty",
       }),
-    ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    ).rejects.toEqual(new Yup.ValidationError("form.validations.badInput"));
+  });
+
+  it("should fail Object", async () => {
+    const schemaValidatorObject = Yup.object().shape({
+      // @ts-ignore
+      amount: bigNumberValidationSchema.min(BigNumber.from("1000")),
+    });
+    await expect(
+      schemaValidatorObject.validate({
+        amount: value,
+      }),
+    ).rejects.toEqual(new Yup.ValidationError("form.validations.rangeUnderflow"));
   });
 });
