@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.0...@gemunion/yup-rules@1.7.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* even better bigNumber ([3577cb5](https://github.com/gemunion/common-packages/commit/3577cb5f088a27667b6e61f92c5a60eb232cdbed))
+
+
+
+
+
 # [1.7.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.6.0...@gemunion/yup-rules@1.7.0) (2022-05-05)
 
 
