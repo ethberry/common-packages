@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.1.1...@gemunion/types-collection@1.2.0) (2022-05-05)
+
+
+### Features
+
+* add oz contract ([6905415](https://github.com/gemunion/common-packages/commit/69054154bdd61b075d83e820f27b33686122350f))
+* bump version ([8d040c4](https://github.com/gemunion/common-packages/commit/8d040c4b9d625a5e5e9a679b3dc738022da55fbf))
+
+
+
+
+
 ## 1.1.1 (2022-05-02)
 
 **Note:** Version bump only for package @gemunion/types-collection
