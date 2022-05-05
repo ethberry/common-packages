@@ -6,3 +6,4 @@ export * from "./first-name";
 export * from "./last-name";
 export * from "./display-name";
 export * from "./phone-number";
+export * from "./addrerss";

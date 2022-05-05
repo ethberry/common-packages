@@ -11,14 +11,16 @@
     "@gemunion/constants": "0.8.0",
     "@gemunion/draft-js-utils": "0.3.1",
     "@gemunion/provider-api": "5.7.2",
-    "draft-js": "0.11.7",
     "yup": "0.32.11"
   },
   "description": "validation rules",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
     "@types/jest": "27.4.1",
+    "draft-js": "0.11.7",
+    "ethers": "5.6.4",
     "jest": "27.5.1",
+    "jest-environment-node": "27.5.1",
     "ts-jest": "27.1.4"
   },
   "engines": {
@@ -28,6 +30,10 @@
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "name": "@gemunion/yup-rules",
+  "peerDependencies": {
+    "draft-js": "^0.0.0",
+    "ethers": "^5.6.0"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
