@@ -67,5 +67,5 @@
     "storybook": "start-storybook -p 6006",
     "test": "sh scripts/test.sh"
   },
-  "version": "0.0.2"
+  "version": "0.0.1"
 }
