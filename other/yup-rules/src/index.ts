@@ -7,3 +7,4 @@ export * from "./last-name";
 export * from "./display-name";
 export * from "./phone-number";
 export * from "./addrerss";
+export * from "./draft-has-test";
