@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.7.3 (2022-05-07)
+
+
+### Bug Fixes
+
+* typings ([89c2154](https://github.com/gemunion/common-packages/commit/89c2154d9ab08499c628e4028410b1eeaa8c77b2))
+
+
+
+
+
 ## 5.7.2 (2022-05-02)
 
 

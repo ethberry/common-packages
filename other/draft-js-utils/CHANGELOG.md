@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.3.3...@gemunion/draft-js-utils@0.3.4) (2022-05-07)
+
+
+### Bug Fixes
+
+* npmignore ([3b306ca](https://github.com/gemunion/common-packages/commit/3b306ca914172d9a6aca3907ede88eddd7a7527d))
+
+
+
+
+
 ## [0.3.3](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.3.2...@gemunion/draft-js-utils@0.3.3) (2022-05-05)
 
 **Note:** Version bump only for package @gemunion/draft-js-utils
