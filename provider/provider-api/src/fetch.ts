@@ -49,10 +49,10 @@ export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void>
       });
     }
     const contentDisposition = response.headers.get("Content-Disposition");
-    const { filename = "" }: { filename: string } = contentDisposition ? parse(contentDisposition).parameters : {};
+    const parameters = contentDisposition ? parse(contentDisposition).parameters : {};
     // it is fine to keep filename empty, then real name would be something like uuid
     return response.blob().then(blob => {
-      saveData(blob, filename);
+      saveData(blob, parameters.filename);
     });
   });
 };
