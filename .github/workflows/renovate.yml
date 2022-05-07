@@ -3,7 +3,8 @@ name: CD Renovate
 on:
   pull_request:
     branches:
-      - master
+#     disabled
+      - disabled
     types: [closed]
 
 jobs:
