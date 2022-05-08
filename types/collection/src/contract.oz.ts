@@ -1,4 +1,4 @@
-import { ISearchable } from "./search";
+import { IContract } from "./contract";
 
 export enum OzPermissionType {
   ACCESS_CONTROL = "ACCESS_CONTROL",
@@ -6,7 +6,6 @@ export enum OzPermissionType {
   UNKNOWN = "UNKNOWN",
 }
 
-export interface IOzContract extends ISearchable {
-  address: string;
+export interface IOzContract extends IContract {
   permissionType: OzPermissionType;
 }
