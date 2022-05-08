@@ -14,10 +14,10 @@
   "description": "utils for draft.js",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
-    "@types/jest": "27.4.1",
+    "@types/jest": "27.5.0",
     "@types/markdown-draft-js": "2.2.4",
-    "jest": "27.5.1",
-    "ts-jest": "27.1.4"
+    "jest": "28.1.0",
+    "ts-jest": "28.0.1"
   },
   "engines": {
     "node": ">=12.13"
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.3.1"
+  "version": "0.3.4"
 }

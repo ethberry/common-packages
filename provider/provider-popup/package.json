@@ -9,7 +9,7 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.44",
+    "@types/react": "17.0.45",
     "react": "17.0.2"
   },
   "engines": {
@@ -40,5 +40,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.2.5"
+  "version": "0.2.6"
 }

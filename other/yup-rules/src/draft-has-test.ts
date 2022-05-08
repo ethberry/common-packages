@@ -11,3 +11,8 @@ Yup.addMethod(Yup.string, "draftHasText", function (errorMessage) {
     return hasText || createError({ path, message: errorMessage });
   });
 });
+
+export const draftValidationSchema = Yup.string()
+  .required("form.validations.valueMissing")
+  // @ts-ignore
+  .draftHasText("form.validations.valueMissing");

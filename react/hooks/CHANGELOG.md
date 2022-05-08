@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.3](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.5.2...@gemunion/react-hooks@0.5.3) (2022-05-08)
+
+**Note:** Version bump only for package @gemunion/react-hooks
+
+
+
+
+
+## [0.5.2](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.5.1...@gemunion/react-hooks@0.5.2) (2022-05-07)
+
+**Note:** Version bump only for package @gemunion/react-hooks
+
+
+
+
+
+## [0.5.1](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.5.0...@gemunion/react-hooks@0.5.1) (2022-05-05)
+
+**Note:** Version bump only for package @gemunion/react-hooks
+
+
+
+
+
+# [0.5.0](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.3.0...@gemunion/react-hooks@0.5.0) (2022-05-05)
+
+
+### Bug Fixes
+
+* export ([3bcf8d0](https://github.com/gemunion/mui-packages/commit/3bcf8d00cebbc029100c0d72cf8eafd4c80a1578))
+* pass params inside hook ([052097a](https://github.com/gemunion/mui-packages/commit/052097a5d1d3f57905c658a40838ac67b1fc05e1))
+
+
+### Features
+
+* metamask hook ([71b4590](https://github.com/gemunion/mui-packages/commit/71b45905d40e092d42dfe3f9da8177ab0f77b4cc))
+
+
+
+
+
 # [0.3.0](https://github.com/gemunion/mui-packages/compare/@gemunion/react-hooks@0.2.0...@gemunion/react-hooks@0.3.0) (2022-05-03)
 
 

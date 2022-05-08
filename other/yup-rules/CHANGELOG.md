@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.7.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.1...@gemunion/yup-rules@1.7.2) (2022-05-07)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+
+
+
+
+## [1.7.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.0...@gemunion/yup-rules@1.7.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* even better bigNumber ([3577cb5](https://github.com/gemunion/common-packages/commit/3577cb5f088a27667b6e61f92c5a60eb232cdbed))
+
+
+
+
+
+# [1.7.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.6.0...@gemunion/yup-rules@1.7.0) (2022-05-05)
+
+
+### Bug Fixes
+
+* bump version ([be81acf](https://github.com/gemunion/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
+* **deps:** update all non-major dependencies ([fe894ba](https://github.com/gemunion/common-packages/commit/fe894ba67ef1ca2c9d4012b4f45b69691409f5fd))
+* export validator ([ad1639f](https://github.com/gemunion/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
+
+
+### Features
+
+* address validation ([9b4a212](https://github.com/gemunion/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
+* big number ([9a6686e](https://github.com/gemunion/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
+
+
+
+
+
+# [1.6.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.4.1...@gemunion/yup-rules@1.6.0) (2022-05-05)
+
+
+### Bug Fixes
+
+* bump version ([be81acf](https://github.com/gemunion/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
+* export validator ([ad1639f](https://github.com/gemunion/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
+
+
+### Features
+
+* address validation ([9b4a212](https://github.com/gemunion/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
+* big number ([9a6686e](https://github.com/gemunion/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
+
+
+
+
+
 ## 1.4.1 (2022-05-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules

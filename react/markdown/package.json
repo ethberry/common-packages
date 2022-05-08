@@ -9,22 +9,22 @@
   },
   "dependencies": {
     "dompurify": "2.3.6",
-    "marked": "4.0.14"
+    "marked": "4.0.15"
   },
   "description": "react component to display markdown",
   "devDependencies": {
-    "@gemunion/draft-js-utils": "0.3.1",
+    "@gemunion/draft-js-utils": "0.3.4",
     "@storybook/react": "6.4.22",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "12.1.5",
     "@types/dompurify": "2.3.3",
-    "@types/jest": "27.4.1",
+    "@types/jest": "27.5.0",
     "@types/marked": "4.0.3",
-    "@types/react": "17.0.44",
-    "jest": "27.5.1",
-    "jest-environment-jsdom": "27.5.1",
+    "@types/react": "17.0.45",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
     "react": "17.0.2",
-    "ts-jest": "27.1.4"
+    "ts-jest": "28.0.1"
   },
   "engines": {
     "node": ">=12.13"
@@ -58,5 +58,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.2.9"
+  "version": "1.2.12"
 }
