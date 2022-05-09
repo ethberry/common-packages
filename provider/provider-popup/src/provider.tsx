@@ -18,12 +18,22 @@ export const PopupProvider: FC = props => {
     setOpenPopups(openPopups.slice(0, -1));
   };
 
+  const closePopupsAll = () => {
+    setOpenPopups([]);
+  };
+
+  const closePopups = (amount: number) => {
+    setOpenPopups(openPopups.slice(0, -amount));
+  };
+
   return (
     <PopupContext.Provider
       value={{
         isOpenPopup,
         openPopup,
         closePopup,
+        closePopups,
+        closePopupsAll,
       }}
     >
       {children}
