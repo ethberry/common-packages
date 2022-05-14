@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.8.0 (2022-05-14)
+
+
+### Bug Fixes
+
+* make error message match BE validation ([96b57fa](https://github.com/gemunion/common-packages/commit/96b57fae9f230ea03a4bb45319198928bb0b8168))
+
+
+### Features
+
+* test password locally without request to be ([c0bfb0f](https://github.com/gemunion/common-packages/commit/c0bfb0f07b722c8df4fc69765ec0e956806e270b))
+
+
+
+
+
 ## [1.7.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.1...@gemunion/yup-rules@1.7.2) (2022-05-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
