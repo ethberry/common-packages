@@ -7,7 +7,7 @@ export const passwordValidationSchema = Yup.string()
   .min(passwordMinLength, "form.validations.tooShort")
   .required("form.validations.valueMissing")
   .test({
-    message: "form.validations.weak",
+    message: "form.validations.tooWeak",
     test: (password = "") => {
       // https://github.com/jquense/yup/issues/851
       if (password.length < passwordMinLength) {
