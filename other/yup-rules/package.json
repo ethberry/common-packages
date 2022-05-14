@@ -11,12 +11,14 @@
     "@gemunion/constants": "0.8.0",
     "@gemunion/draft-js-utils": "0.3.4",
     "@gemunion/provider-api": "5.7.3",
-    "yup": "0.32.11"
+    "yup": "0.32.11",
+    "zxcvbn": "4.4.2"
   },
   "description": "validation rules",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
     "@types/jest": "27.5.1",
+    "@types/zxcvbn": "4.4.1",
     "draft-js": "0.11.7",
     "ethers": "5.6.5",
     "jest": "28.1.0",
@@ -32,7 +34,8 @@
   "name": "@gemunion/yup-rules",
   "peerDependencies": {
     "draft-js": "^0.0.0 || ^0.11.0",
-    "ethers": "^5.6.0"
+    "ethers": "^5.6.0",
+    "zxcvbn": "^4.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
