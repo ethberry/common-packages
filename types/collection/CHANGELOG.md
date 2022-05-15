@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2022-05-15)
+
+
+### Features
+
+* chainId ([2c8742c](https://github.com/gemunion/common-packages/commit/2c8742c417941c5fe6d6869ee06abf90ba945c84))
+
+
+
+
+
 ## 1.2.1 (2022-05-08)
 
 
