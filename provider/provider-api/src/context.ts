@@ -11,7 +11,7 @@ export interface IFetchProps {
   url: string;
   method?: TMethods;
   data?: IPayload | FormData;
-  signal: AbortSignal | null;
+  signal?: AbortSignal | null;
 }
 
 export interface IApiContext {
