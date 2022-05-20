@@ -93,7 +93,7 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
   const prepare =
     (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
     async (props: IFetchProps): Promise<any> => {
-      const { url, method = "GET", data = {} } = props;
+      const { url, method = "GET", data = {}, signal } = props;
       const newUrl = new URL(`${baseUrl}${url}`);
       const hasData = method === "POST" || method === "PUT" || method === "PATCH";
 
@@ -116,6 +116,7 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
       }
 
       return fetch(newUrl.toString(), {
+        signal,
         headers,
         credentials: "include",
         mode: "cors",
