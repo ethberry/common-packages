@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0 (2022-05-20)
+
+
+### Bug Fixes
+
+* simplify api ([00b8ce5](https://github.com/gemunion/common-packages/commit/00b8ce581c915c9d5ae59f0b8db8c8d5f4de0261))
+
+
+### Features
+
+* addition manage methods ([719d000](https://github.com/gemunion/common-packages/commit/719d0002459b945c7b97dab230dcc417e7fdd9a2))
+* popups stores similar to stack ([3d18454](https://github.com/gemunion/common-packages/commit/3d184546734b0489b954bf8dce6229a898f65628))
+
+
+
+
+
 ## 0.2.6 (2022-05-07)
 
 **Note:** Version bump only for package @gemunion/provider-popup

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.2.1...@gemunion/types-collection@1.4.0) (2022-05-20)
+
+
+### Features
+
+* server signature ([c369321](https://github.com/gemunion/common-packages/commit/c3693219239e320e36668fa238dd913946d48c07))
+
+
+
+
+
 # 1.3.0 (2022-05-15)
 
 

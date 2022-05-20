@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.3.7](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@3.3.5...@gemunion/provider-user@3.3.7) (2022-05-20)
+
+**Note:** Version bump only for package @gemunion/provider-user
+
+
+
+
+
 ## 3.3.6 (2022-05-15)
 
 **Note:** Version bump only for package @gemunion/provider-user
