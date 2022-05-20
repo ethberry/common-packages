@@ -18,11 +18,7 @@ export const PopupProvider: FC = props => {
     setOpenPopups(openPopups.slice(0, -1));
   };
 
-  const closePopupsAll = () => {
-    setOpenPopups([]);
-  };
-
-  const closePopups = (amount: number) => {
+  const closePopups = (amount = openPopups.length) => {
     setOpenPopups(openPopups.slice(0, -amount));
   };
 
@@ -33,7 +29,6 @@ export const PopupProvider: FC = props => {
         openPopup,
         closePopup,
         closePopups,
-        closePopupsAll,
       }}
     >
       {children}
