@@ -4,24 +4,31 @@ import { PopupContext } from "./context";
 
 export const PopupProvider: FC = props => {
   const { children } = props;
-  const [openPopups, setOpenPopups] = useState<Record<symbol, boolean>>({});
+  const [openPopups, setOpenPopups] = useState<symbol[]>([]);
 
-  const getPopupOpen = (type: symbol): boolean => {
-    return !!openPopups[type];
+  const isOpenPopup = (type: symbol): boolean => {
+    return openPopups.at(-1) === type;
   };
 
-  const setPopupOpen = (type: symbol, isOpen: boolean) => {
-    setOpenPopups({
-      ...openPopups,
-      [type]: isOpen,
-    });
+  const openPopup = (type: symbol) => {
+    setOpenPopups(openPopups.concat(type));
+  };
+
+  const closePopup = () => {
+    setOpenPopups(openPopups.slice(0, -1));
+  };
+
+  const closePopups = (amount = openPopups.length) => {
+    setOpenPopups(openPopups.slice(0, -amount));
   };
 
   return (
     <PopupContext.Provider
       value={{
-        getPopupOpen,
-        setPopupOpen,
+        isOpenPopup,
+        openPopup,
+        closePopup,
+        closePopups,
       }}
     >
       {children}
