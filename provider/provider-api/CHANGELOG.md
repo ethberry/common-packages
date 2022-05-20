@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.8.0 (2022-05-20)
+
+
+### Bug Fixes
+
+* make abort signal optional ([5769b3a](https://github.com/gemunion/common-packages/commit/5769b3acf83ec02fb06be335f109371de8bb2f11))
+
+
+### Features
+
+* add abort signal support ([191b451](https://github.com/gemunion/common-packages/commit/191b451621624001e910f056f3636ccb4235299d))
+
+
+
+
+
 ## 5.7.3 (2022-05-07)
 
 
