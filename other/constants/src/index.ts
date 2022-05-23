@@ -1,4 +1,5 @@
 export * from "./collection";
+export * from "./company";
 export * from "./date";
 export * from "./eth";
 export * from "./language";
