@@ -1,7 +1,7 @@
 import * as Yup from "yup";
 import { constants } from "ethers";
 
-import "./addrerss";
+import "./address";
 
 const ERROR_MESSAGE = "ERROR_MESSAGE";
 

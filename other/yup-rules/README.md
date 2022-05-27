@@ -1,1 +1,1 @@
-# provider-localization
+# yup-rules
