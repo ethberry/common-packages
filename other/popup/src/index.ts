@@ -8,7 +8,7 @@ export function openUrl(url: string): void {
     const left = (window.innerWidth - width) / 2;
 
     const popup = window.open(url, "_blank", `height=${height},width=${width},top=${top},left=${left}`);
-    if (popup && window.focus) {
+    if (popup) {
       popup.focus();
     }
   }
