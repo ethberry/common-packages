@@ -13,10 +13,10 @@
   "description": "validation rules",
   "devDependencies": {
     "@types/jest": "27.5.1",
-    "ethers": "5.6.6",
+    "ethers": "5.6.8",
     "jest": "28.1.0",
     "jest-environment-node": "28.1.0",
-    "ts-jest": "28.0.2"
+    "ts-jest": "28.0.3"
   },
   "engines": {
     "node": ">=12.13"

@@ -20,7 +20,7 @@
     "draft-js": "0.11.7",
     "jest": "28.1.0",
     "jest-environment-node": "28.1.0",
-    "ts-jest": "28.0.2"
+    "ts-jest": "28.0.3"
   },
   "engines": {
     "node": ">=12.13"
