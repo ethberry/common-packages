@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.8.1 (2022-05-27)
+
+
+### Bug Fixes
+
+* companyName ([bce7aa7](https://github.com/gemunion/common-packages/commit/bce7aa733fccfcf0d6846e57d1d1bdb63f357f61))
+
+
+
+
+
 # [0.8.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.7.3...@gemunion/constants@0.8.0) (2022-03-30)
 
 
