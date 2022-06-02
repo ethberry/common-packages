@@ -13,7 +13,10 @@ export const passwordValidationSchema = Yup.string()
       if (password.length < passwordMinLength) {
         return false;
       }
-      return fetchJson(`${process.env.BE_URL}/auth/get-password-score`, {
+      /* javascript-obfuscator:disable */
+      const baseUrl = process.env.BE_URL;
+      /* javascript-obfuscator:enable */
+      return fetchJson(`${baseUrl}/auth/get-password-score`, {
         headers: new Headers({
           Accept: "application/json",
           "Content-Type": "application/json; charset=utf-8",

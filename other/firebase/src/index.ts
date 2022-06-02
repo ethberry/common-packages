@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 
+/* javascript-obfuscator:disable */
 export default initializeApp({
   apiKey:
     process.env.FIREBASE_API_KEY ||
@@ -42,3 +43,4 @@ export default initializeApp({
     process.env.REACT_APP_FIREBASE_MEASUREMENT_ID ||
     process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 });
+/* javascript-obfuscator:enable */
