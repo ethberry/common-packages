@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/history": "1.2.8",
-    "@gemunion/types-jwt": "0.3.1",
+    "@gemunion/history": "1.2.9",
+    "@gemunion/types-jwt": "0.3.2",
     "content-disposition": "0.5.4"
   },
   "description": "react context provider",
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.8.0"
+  "version": "5.8.1"
 }
