@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.3](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.8.2...@gemunion/constants@0.8.3) (2022-06-02)
+
+
+### Bug Fixes
+
+* add more wallets ([30d666a](https://github.com/gemunion/common-packages/commit/30d666ab7f4181de8b9295dce14ef1b4962eefd4))
+
+
+
+
+
 ## [0.8.2](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.8.1...@gemunion/constants@0.8.2) (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/constants

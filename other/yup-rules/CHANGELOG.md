@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.4...@gemunion/yup-rules@1.8.5) (2022-06-02)
+
+
+### Bug Fixes
+
+* work around webpack ([0a63f14](https://github.com/gemunion/common-packages/commit/0a63f1414a7928207d652b8321cd69cf0b29df34))
+
+
+
+
+
 ## [1.8.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.3...@gemunion/yup-rules@1.8.4) (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
