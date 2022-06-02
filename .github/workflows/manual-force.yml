@@ -25,8 +25,6 @@ jobs:
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
-#      - name: Authenticate check via npm npmjs.org
-#        run: npm whoami
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com/
 
@@ -35,6 +33,15 @@ jobs:
 
       - name: Bootstrap Packages
         run: npm run bootstrap
+
+      - name: Obfuscate
+        run: npm run obfuscate
+
+      - name: Rename1
+        run: find . -name '*obfuscated.js' -exec bash -c 'mv -v "$1" "${1/-obfuscated/}"' _ {} \;
+
+      - name: Rename2
+        run: find . -name '*obfuscated.*.js' -exec bash -c 'mv -v "$1" "${1/-obfuscated/}"' _ {} \;
 
       - name: Authenticate Registry & Configure Git User
         run: |
@@ -45,13 +52,11 @@ jobs:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
           GITHUBUSER: ${{ secrets.GITHUBUSER }}
           GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
-#
-#      - name: Authenticate check via npm npmjs.org
-#        run: npm whoami
+
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com/
-#
+
       - name: Version & Publish by lerna
-        run: lerna version --ignore-scripts && npm run release:publish -- --force-publish
+        run: lerna version patch --force-publish --ignore-scripts && npm run release:publish -- --force-publish
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
