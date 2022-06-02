@@ -14,11 +14,11 @@
   "description": "react component to display markdown",
   "devDependencies": {
     "@gemunion/draft-js-utils": "0.3.7",
-    "@storybook/react": "6.5.5",
+    "@storybook/react": "6.5.6",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "12.1.5",
     "@types/dompurify": "2.3.3",
-    "@types/jest": "27.5.1",
+    "@types/jest": "27.5.2",
     "@types/marked": "4.0.3",
     "@types/react": "17.0.45",
     "jest": "28.1.0",
