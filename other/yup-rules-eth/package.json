@@ -16,7 +16,7 @@
     "ethers": "5.6.8",
     "jest": "28.1.0",
     "jest-environment-node": "28.1.0",
-    "ts-jest": "28.0.3"
+    "ts-jest": "28.0.4"
   },
   "engines": {
     "node": ">=12.13"
