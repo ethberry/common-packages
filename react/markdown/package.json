@@ -18,7 +18,7 @@
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/react": "12.1.5",
     "@types/dompurify": "2.3.3",
-    "@types/jest": "27.5.2",
+    "@types/jest": "28.1.0",
     "@types/marked": "4.0.3",
     "@types/react": "17.0.45",
     "jest": "28.1.0",
