@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@gemunion/provider-api": "5.8.1",
-    "@gemunion/types-collection": "1.4.1"
+    "@gemunion/types-collection": "1.4.2"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.3.9"
+  "version": "3.3.10"
 }

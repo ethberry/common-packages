@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.2 (2022-06-05)
+
+
+### Bug Fixes
+
+* delete contract oz ([7d7c1ea](https://github.com/gemunion/common-packages/commit/7d7c1eafa8d6ed25c6c288ce56534f1763186dd1))
+* id base entity ([ca336b1](https://github.com/gemunion/common-packages/commit/ca336b142533246de324dd05b642fb77c3574879))
+
+
+
+
+
 ## 1.4.1 (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/types-collection
