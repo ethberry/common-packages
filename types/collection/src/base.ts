@@ -3,10 +3,14 @@ export interface IDateBase {
   updatedAt: string;
 }
 
-export interface IIdBase extends IDateBase {
+export interface IIdBase {
   id: number;
 }
 
-export interface IUuidBase extends IDateBase {
+export interface IIdDateBase extends IIdBase, IDateBase {}
+
+export interface IUuidBase {
   uuid: string;
 }
+
+export interface IUuidDateBase extends IUuidBase, IDateBase {}
