@@ -1,11 +1,11 @@
 import { IPaginationDto } from "./pagination";
-import { IIdBase } from "./base";
+import { IIdDateBase } from "./base";
 
 export interface ISearchDto extends IPaginationDto {
   query: string;
 }
 
-export interface ISearchable extends IIdBase {
+export interface ISearchable extends IIdDateBase {
   title: string;
   description: string;
 }
