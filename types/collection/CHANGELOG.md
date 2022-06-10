@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.4.2...@gemunion/types-collection@1.4.3) (2022-06-10)
+
+
+### Bug Fixes
+
+* types ([39f6957](https://github.com/gemunion/common-packages/commit/39f69577c68b9e92fee62b8e4eace2f5216ebe68))
+
+
+
+
+
 ## 1.4.2 (2022-06-05)
 
 
