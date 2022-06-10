@@ -14,9 +14,9 @@
   "description": "utils for draft.js",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
-    "@types/jest": "28.1.0",
+    "@types/jest": "28.1.1",
     "@types/markdown-draft-js": "2.2.4",
-    "jest": "28.1.0",
+    "jest": "28.1.1",
     "ts-jest": "28.0.4"
   },
   "engines": {

@@ -16,10 +16,10 @@
   "description": "validation rules",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
-    "@types/jest": "28.1.0",
+    "@types/jest": "28.1.1",
     "draft-js": "0.11.7",
-    "jest": "28.1.0",
-    "jest-environment-node": "28.1.0",
+    "jest": "28.1.1",
+    "jest-environment-node": "28.1.1",
     "ts-jest": "28.0.4"
   },
   "engines": {
