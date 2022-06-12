@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.8.2...@gemunion/provider-api@5.8.3) (2022-06-12)
+
+
+### Bug Fixes
+
+* provider-api to work with nested query strings ([e35a1dd](https://github.com/gemunion/common-packages/commit/e35a1dd7244cf1006ff661df2b3bd67e01659860))
+* provider-api to work with nested query strings ([4ad269d](https://github.com/gemunion/common-packages/commit/4ad269da5d1637f95f9003c367b7ac8a8321d21c))
+
+
+
+
+
 ## 5.8.2 (2022-06-10)
 
 
