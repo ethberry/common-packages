@@ -95,8 +95,9 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
     (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
     async (props: IFetchProps): Promise<any> => {
       const { url, method = "GET", data = {}, signal } = props;
-      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
       let queryString = "";
+
+      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
       const headers = new Headers();
       headers.append("Accept", "application/json");
       headers.append("Authorization", `Bearer ${await getAuthToken()}`);
