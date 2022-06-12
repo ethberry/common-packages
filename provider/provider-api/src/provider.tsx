@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { stringify } from "qs";
 
 import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";
@@ -94,9 +95,9 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
     (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
     async (props: IFetchProps): Promise<any> => {
       const { url, method = "GET", data = {}, signal } = props;
-      const newUrl = new URL(`${baseUrl}${url}`);
-      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
+      let queryString = "";
 
+      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
       const headers = new Headers();
       headers.append("Accept", "application/json");
       headers.append("Authorization", `Bearer ${await getAuthToken()}`);
@@ -105,15 +106,10 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
         if (hasData) {
           headers.append("Content-Type", "application/json; charset=utf-8");
         } else {
-          Object.keys(data).forEach(key => {
-            if (Array.isArray(data[key])) {
-              data[key].map((value: string) => newUrl.searchParams.append(`${key}[]`, value));
-            } else {
-              newUrl.searchParams.append(key, data[key] as string);
-            }
-          });
+          queryString = data ? `?${stringify(data)}` : "";
         }
       }
+      const newUrl = new URL(`${baseUrl}${url}${queryString}`);
 
       return fetch(newUrl.toString(), {
         signal,
