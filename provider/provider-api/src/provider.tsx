@@ -1,6 +1,8 @@
-import { FC } from "react";
+import { FC, useEffect, useRef } from "react";
 import { stringify } from "qs";
+import { getAuth } from "firebase/auth";
 
+import firebase from "@gemunion/firebase";
 import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";
 
@@ -14,6 +16,9 @@ interface IApiProviderProps {
 
 export const ApiProvider: FC<IApiProviderProps> = props => {
   const { baseUrl, storageName = "jwt", children } = props;
+
+  const authFb = getAuth(firebase);
+  const timerId = useRef<any>(null);
 
   const read = (key: string): IJwt | null => {
     const jwt = localStorage.getItem(key);
@@ -48,29 +53,33 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
   const refreshToken = (): Promise<any> | void => {
     const jwt = getToken();
 
-    if (jwt) {
-      return fetchJson(`${baseUrl}/auth/refresh`, {
-        headers: new Headers({
-          Accept: "application/json",
-          "Content-Type": "application/json; charset=utf-8",
-        }),
-        credentials: "include",
-        mode: "cors",
-        method: "POST",
-        body: JSON.stringify({
-          refreshToken: jwt.refreshToken,
-        }),
-      })
-        .then((json: IJwt) => {
-          setToken(json);
-          return json;
-        })
-        .catch(e => {
-          console.error(e);
-          setToken(null);
-          return null;
-        });
+    if (!jwt) {
+      history.push("/login");
+      setToken(null);
     }
+
+    timerId.current = null;
+
+    return authFb.currentUser
+      ?.getIdToken(true)
+      .then(accessToken => {
+        const now = Date.now();
+
+        timerId.current = window.setTimeout(() => {
+          void refreshToken();
+        }, 10000); // launch refreshToken in 4 minutes
+
+        setToken({
+          accessToken,
+          accessTokenExpiresAt: now + 1000 * 60 * 60,
+          refreshToken: "",
+          refreshTokenExpiresAt: now + 1000 * 60 * 60,
+        });
+      })
+      .catch((e: any) => {
+        setToken(null);
+        console.error(e);
+      });
   };
 
   const getAuthToken = async () => {
@@ -78,12 +87,6 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
 
     if (jwt) {
       if (isAccessTokenExpired()) {
-        if (isRefreshTokenExpired()) {
-          history.push("/login");
-          setToken(null);
-          throw Object.assign(new Error("unauthorized"), { status: 401 });
-        }
-
         jwt = await refreshToken();
       }
     }
@@ -120,6 +123,13 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
         body: hasData ? (data instanceof FormData ? data : JSON.stringify(data)) : void 0,
       });
     };
+
+  useEffect(() => {
+    if (!timerId.current) {
+      void refreshToken();
+    }
+    return () => window.clearTimeout(timerId.current);
+  }, [timerId.current]);
 
   return (
     <ApiContext.Provider

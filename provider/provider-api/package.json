@@ -8,9 +8,11 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
+    "@gemunion/firebase": "1.1.19",
     "@gemunion/history": "1.2.9",
     "@gemunion/types-jwt": "0.3.2",
     "content-disposition": "0.5.4",
+    "firebase/auth": "0.20.3",
     "qs": "6.10.5"
   },
   "description": "react context provider",
