@@ -1,97 +1,57 @@
-import { FC, useEffect, useRef } from "react";
+import { FC } from "react";
 import { stringify } from "qs";
-import { getAuth } from "firebase/auth";
 
-import firebase from "@gemunion/firebase";
-import { history } from "@gemunion/history";
 import { IJwt } from "@gemunion/types-jwt";
 
 import { ApiContext, IFetchProps } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
 
-interface IApiProviderProps {
+export interface IAuthStrategy {
+  refreshToken: () => Promise<IJwt | null>;
+  getAuthToken: () => Promise<string>;
+  setToken: (jwt: IJwt | null) => void;
+  getToken: () => IJwt | null;
+  isAccessTokenExpired: () => boolean;
+  isRefreshTokenExpired: () => boolean;
+}
+
+export interface IApiProviderProps {
   baseUrl: string;
   storageName?: string;
 }
 
-export const ApiProvider: FC<IApiProviderProps> = props => {
-  const { baseUrl, storageName = "jwt", children } = props;
+export const ApiProvider: FC<
+  IApiProviderProps & { getAuthStrategy: (props: IApiProviderProps) => IAuthStrategy }
+> = props => {
+  const { baseUrl, storageName = "jwt", getAuthStrategy, children } = props;
 
-  const authFb = getAuth(firebase);
-  const timerId = useRef<any>(null);
-
-  const read = (key: string): IJwt | null => {
-    const jwt = localStorage.getItem(key);
-    return jwt ? (JSON.parse(jwt) as IJwt) : null;
-  };
-
-  const save = (key: string, jwt: IJwt | null): void => {
-    const json = JSON.stringify(jwt);
-    localStorage.setItem(key, json);
-  };
+  const authStrategy = getAuthStrategy({
+    baseUrl,
+    storageName,
+  });
 
   const setToken = (jwt: IJwt | null): void => {
-    return save(storageName, jwt);
+    return authStrategy.setToken(jwt);
   };
 
   const getToken = (): IJwt | null => {
-    return read(storageName);
+    return authStrategy.getToken();
   };
 
   const isAccessTokenExpired = (): boolean => {
-    const jwt = getToken();
-
-    return !!jwt && jwt.accessTokenExpiresAt < Date.now();
+    return authStrategy.isAccessTokenExpired();
   };
 
   const isRefreshTokenExpired = (): boolean => {
-    const jwt = getToken();
-
-    return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
+    return authStrategy.isRefreshTokenExpired();
   };
 
   const refreshToken = (): Promise<any> | void => {
-    const jwt = getToken();
-
-    if (!jwt) {
-      history.push("/login");
-      setToken(null);
-    }
-
-    timerId.current = null;
-
-    return authFb.currentUser
-      ?.getIdToken(true)
-      .then(accessToken => {
-        const now = Date.now();
-
-        timerId.current = window.setTimeout(() => {
-          void refreshToken();
-        }, 10000); // launch refreshToken in 4 minutes
-
-        setToken({
-          accessToken,
-          accessTokenExpiresAt: now + 1000 * 60 * 60,
-          refreshToken: "",
-          refreshTokenExpiresAt: now + 1000 * 60 * 60,
-        });
-      })
-      .catch((e: any) => {
-        setToken(null);
-        console.error(e);
-      });
+    return authStrategy.refreshToken();
   };
 
-  const getAuthToken = async () => {
-    let jwt = getToken();
-
-    if (jwt) {
-      if (isAccessTokenExpired()) {
-        jwt = await refreshToken();
-      }
-    }
-
-    return jwt ? jwt.accessToken : "";
+  const getAuthToken = (): Promise<string> => {
+    return authStrategy.getAuthToken();
   };
 
   const prepare =
@@ -123,13 +83,6 @@ export const ApiProvider: FC<IApiProviderProps> = props => {
         body: hasData ? (data instanceof FormData ? data : JSON.stringify(data)) : void 0,
       });
     };
-
-  useEffect(() => {
-    if (!timerId.current) {
-      void refreshToken();
-    }
-    return () => window.clearTimeout(timerId.current);
-  }, [timerId.current]);
 
   return (
     <ApiContext.Provider
