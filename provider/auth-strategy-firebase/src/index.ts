@@ -30,7 +30,7 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
     }
 
     // refresh accessToken every 4 minutes
-    this.timerId = window.setTimeout(() => void this.refreshToken(), 240000);
+    this.timerId = window.setTimeout(() => void this.refreshToken(), 20000);
   }
 
   protected read(key: string): IJwt | null {
@@ -51,6 +51,18 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
     return this.read(this.storageName);
   }
 
+  async ensureUserExist() {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        if (this.authFb.currentUser) {
+          resolve(true);
+        } else {
+          resolve(this.ensureUserExist);
+        }
+      }, 1000);
+    });
+  }
+
   async refreshToken() {
     const jwt = this.getToken();
 
@@ -62,7 +74,7 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
     this.setTimeoutEffect();
 
     if (!this.authFb.currentUser) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await this.ensureUserExist();
     }
 
     return this.authFb.currentUser
