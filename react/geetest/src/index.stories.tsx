@@ -4,6 +4,7 @@ import { Formik } from "formik";
 import { Story } from "@storybook/react";
 
 import { ApiProvider } from "@gemunion/provider-api";
+import { getFirebaseAuthStrategy } from "@gemunion/auth-strategy-firebase";
 
 import { IGeeTestCaptchaProps, GeeTestCaptcha } from ".";
 
@@ -12,7 +13,7 @@ export default {
   component: GeeTestCaptcha,
   decorators: [
     (Story: Story): ReactElement => (
-      <ApiProvider baseUrl={"http://localhost/"}>
+      <ApiProvider baseUrl={"http://localhost/"} getAuthStrategy={getFirebaseAuthStrategy}>
         <Formik onSubmit={() => {}} initialValues={{ photo: [] }}>
           <Story />
         </Formik>

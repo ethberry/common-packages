@@ -8,6 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
+    "@gemunion/auth-strategy-firebase": "1.0.0",
     "@gemunion/provider-api": "5.8.3"
   },
   "description": "react widget",
