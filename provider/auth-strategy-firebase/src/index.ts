@@ -6,10 +6,6 @@ import { history } from "@gemunion/history";
 import { IApiProviderProps, IAuthStrategy } from "@gemunion/provider-api";
 import { IJwt } from "@gemunion/types-jwt";
 
-export const getFirebaseAuthStrategy = (props: IApiProviderProps): IAuthStrategy => {
-  return new FirebaseAuthStrategyClass(props);
-}
-
 export class FirebaseAuthStrategyClass implements IAuthStrategy {
   baseUrl: string;
   storageName: string;
@@ -22,6 +18,8 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
 
     this.authFb = getAuth(firebase);
     this.setTimeoutEffect();
+
+    this.ensureUserExist = this.ensureUserExist.bind(this);
   }
 
   protected setTimeoutEffect(): void {
@@ -30,7 +28,7 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
     }
 
     // refresh accessToken every 4 minutes
-    this.timerId = window.setTimeout(() => void this.refreshToken(), 20000);
+    this.timerId = window.setTimeout(() => void this.refreshToken(), 240000);
   }
 
   protected read(key: string): IJwt | null {
@@ -57,7 +55,7 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
         if (this.authFb.currentUser) {
           resolve(true);
         } else {
-          resolve(this.ensureUserExist);
+          void this.ensureUserExist();
         }
       }, 1000);
     });
@@ -79,29 +77,29 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
 
     return this.authFb.currentUser
       ? this.authFb.currentUser
-        .getIdToken(true)
-        .then((accessToken: string) => {
-          const now = Date.now();
+          .getIdToken(true)
+          .then((accessToken: string) => {
+            const now = Date.now();
 
-          const jwt: IJwt = {
-            accessToken,
-            accessTokenExpiresAt: now + 1000 * 60 * 60,
-            refreshToken: "",
-            refreshTokenExpiresAt: now + 1000 * 60 * 60,
-          };
+            const jwt: IJwt = {
+              accessToken,
+              accessTokenExpiresAt: now + 1000 * 60 * 60,
+              refreshToken: "",
+              refreshTokenExpiresAt: now + 1000 * 60 * 60,
+            };
 
-          this.setToken(jwt);
-          this.timerId = null;
+            this.setToken(jwt);
+            this.timerId = null;
 
-          return jwt;
-        })
-        .catch((e: any) => {
-          this.setToken(null);
-          this.timerId = null;
+            return jwt;
+          })
+          .catch((e: any) => {
+            this.setToken(null);
+            this.timerId = null;
 
-          console.error(e);
-          return null;
-        })
+            console.error(e);
+            return null;
+          })
       : Promise.resolve(null);
   }
 
@@ -127,3 +125,7 @@ export class FirebaseAuthStrategyClass implements IAuthStrategy {
     return false;
   }
 }
+
+export const getFirebaseAuthStrategy = (props: IApiProviderProps): IAuthStrategy => {
+  return new FirebaseAuthStrategyClass(props);
+};
