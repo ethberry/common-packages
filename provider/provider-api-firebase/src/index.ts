@@ -24,7 +24,7 @@ export class FirebaseApiProvider extends ApiProvider {
     }
 
     // refresh accessToken every 4 minutes
-    this.timerId = window.setTimeout(() => void this.refreshToken(), 20000);
+    this.timerId = window.setTimeout(() => void this.refreshToken(), 240000);
   }
 
   async ensureUserExist() {
