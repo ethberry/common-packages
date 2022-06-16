@@ -1,5 +1,5 @@
 import { FC, useContext, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { useFormikContext, getIn } from "formik";
+import { useFormContext, get } from "react-hook-form";
 
 import { ApiContext } from "@gemunion/provider-api";
 
@@ -23,9 +23,9 @@ export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
   const [captchaObj, setCaptchaObj] = useState<any | null>(null);
   const ref = useRef<HTMLDivElement | null>(null);
   const api = useContext(ApiContext);
-  const formik = useFormikContext<any>();
+  const form = useFormContext<any>();
 
-  const error = getIn(formik.errors, name);
+  const error = get(form.formState.errors, name);
 
   useEffect(() => {
     if (error) {
@@ -54,7 +54,7 @@ export const GeeTestCaptcha: FC<IGeeTestCaptchaProps> = props => {
             instance.appendTo(ref.current);
             instance.onSuccess(() => {
               const result = instance.getValidate();
-              formik.setFieldValue(name, {
+              form.setValue(name, {
                 challenge: result.geetest_challenge,
                 validate: result.geetest_validate,
                 seccode: result.geetest_seccode,

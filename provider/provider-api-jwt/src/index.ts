@@ -1,34 +1,10 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-
 import { history } from "@gemunion/history";
-import { IApiProviderProps, IAuthStrategy, fetchJson } from "@gemunion/provider-api";
+import { fetchJson, ApiProvider, IApiProviderProps } from "@gemunion/provider-api";
 import { IJwt } from "@gemunion/types-jwt";
 
-export class JwtAuthStrategyClass implements IAuthStrategy {
-  baseUrl: string;
-  storageName: string;
-
+export class JwtApiProvider extends ApiProvider {
   constructor(props: IApiProviderProps) {
-    this.baseUrl = props.baseUrl;
-    this.storageName = props.storageName || "jwt";
-  }
-
-  protected read(key: string): IJwt | null {
-    const jwt = localStorage.getItem(key);
-    return jwt ? (JSON.parse(jwt) as IJwt) : null;
-  }
-
-  protected save(key: string, jwt: IJwt | null): void {
-    const json = JSON.stringify(jwt);
-    localStorage.setItem(key, json);
-  }
-
-  setToken(jwt: IJwt | null): void {
-    return this.save(this.storageName, jwt);
-  }
-
-  getToken(): IJwt | null {
-    return this.read(this.storageName);
+    super(props);
   }
 
   async refreshToken() {
@@ -78,20 +54,4 @@ export class JwtAuthStrategyClass implements IAuthStrategy {
 
     return jwt ? jwt.accessToken : "";
   }
-
-  isAccessTokenExpired(): boolean {
-    const jwt = this.getToken();
-
-    return !!jwt && jwt.accessTokenExpiresAt < Date.now();
-  }
-
-  isRefreshTokenExpired(): boolean {
-    const jwt = this.getToken();
-
-    return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
-  }
 }
-
-export const getJwtAuthStrategy = (props: IApiProviderProps): IAuthStrategy => {
-  return new JwtAuthStrategyClass(props);
-};

@@ -8,14 +8,15 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/auth-strategy-firebase": "1.0.0",
-    "@gemunion/provider-api": "5.8.3"
+    "@gemunion/mui-form": "5.1.7",
+    "@gemunion/provider-api": "5.8.3",
+    "@gemunion/provider-api-firebase": "1.0.0",
+    "react-hook-form": "7.32.1"
   },
   "description": "react widget",
   "devDependencies": {
     "@storybook/react": "6.5.8",
     "@types/react": "17.0.45",
-    "formik": "2.2.9",
     "react": "17.0.2"
   },
   "engines": {
@@ -26,7 +27,6 @@
   "main": "./dist/index.js",
   "name": "@gemunion/geetest",
   "peerDependencies": {
-    "formik": "^2.0.0",
     "react": "^17.0.0"
   },
   "publishConfig": {
