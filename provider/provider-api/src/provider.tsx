@@ -9,6 +9,9 @@ export interface IApiProviderProps {
   children?: ReactNode;
   baseUrl: string;
   storageName?: string;
+}
+
+export interface IApiProviderBaseProps {
   refreshToken: () => Promise<any> | void;
   getAuthToken: () => Promise<any>;
   customIsAccessTokenExpired?: (key: string) => () => boolean;
@@ -17,7 +20,7 @@ export interface IApiProviderProps {
   customGetToken?: (key: string) => () => IJwt | null;
 }
 
-export const ApiProvider: FC<IApiProviderProps> = props => {
+export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props => {
   const {
     baseUrl,
     customIsAccessTokenExpired,
