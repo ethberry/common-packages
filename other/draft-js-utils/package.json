@@ -14,10 +14,10 @@
   "description": "utils for draft.js",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
-    "@types/jest": "28.1.1",
+    "@types/jest": "28.1.2",
     "@types/markdown-draft-js": "2.2.4",
     "jest": "28.1.1",
-    "ts-jest": "28.0.4"
+    "ts-jest": "28.0.5"
   },
   "engines": {
     "node": ">=12.13"
