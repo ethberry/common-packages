@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@gemunion/constants": "0.8.4",
-    "@gemunion/draft-js-utils": "0.3.10",
-    "@gemunion/provider-api": "5.8.3",
+    "@gemunion/draft-js-utils": "0.3.11",
+    "@gemunion/provider-api": "5.8.4",
     "yup": "0.32.11"
   },
   "description": "validation rules",
@@ -50,5 +50,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.8.8"
+  "version": "1.8.9"
 }

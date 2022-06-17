@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.3 (2022-06-17)
+
+
+### Bug Fixes
+
+* names ([96a39a9](https://github.com/gemunion/common-packages/commit/96a39a93adb192fa2820966fb64c8ec1c22c72fd))
+
+
+
+
+
 ## 0.3.2 (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/types-coin-gecko
