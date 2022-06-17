@@ -14,7 +14,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/types-coin-gecko",
+  "name": "@gemunion/types-coingecko",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
