@@ -4,5 +4,6 @@ export * from "./context";
 export * from "./provider";
 export * from "./validation";
 export * from "./hook";
+export * from "./utils";
 
 export * from "@gemunion/types-jwt";
