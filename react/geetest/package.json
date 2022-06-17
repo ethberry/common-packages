@@ -12,8 +12,8 @@
   },
   "description": "react widget",
   "devDependencies": {
-    "@storybook/react": "6.5.8",
-    "@types/react": "17.0.45",
+    "@storybook/react": "6.5.9",
+    "@types/react": "17.0.47",
     "formik": "2.2.9",
     "react": "17.0.2"
   },
