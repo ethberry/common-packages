@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { Formik } from "formik";
+import { FormWrapper } from "@gemunion/mui-form";
 
 import { Story } from "@storybook/react";
 
@@ -13,9 +13,9 @@ export default {
   decorators: [
     (Story: Story): ReactElement => (
       <ApiProvider baseUrl={"http://localhost/"}>
-        <Formik onSubmit={() => {}} initialValues={{ photo: [] }}>
+        <FormWrapper onSubmit={Promise.resolve} initialValues={{ photo: [] }}>
           <Story />
-        </Formik>
+        </FormWrapper>
       </ApiProvider>
     ),
   ],

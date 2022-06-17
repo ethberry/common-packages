@@ -8,13 +8,14 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/provider-api": "5.8.3"
+    "@gemunion/mui-form": "5.1.7",
+    "@gemunion/provider-api": "5.8.3",
+    "react-hook-form": "8.0.0-alpha.4"
   },
   "description": "react widget",
   "devDependencies": {
     "@storybook/react": "6.5.8",
     "@types/react": "17.0.45",
-    "formik": "2.2.9",
     "react": "17.0.2"
   },
   "engines": {
