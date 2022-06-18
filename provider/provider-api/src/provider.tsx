@@ -1,139 +1,59 @@
-import { FC } from "react";
-import { stringify } from "qs";
+import { FC, ReactNode } from "react";
 
-import { history } from "@gemunion/history";
-import { IJwt } from "@gemunion/types-jwt";
-
-import { ApiContext, IFetchProps } from "./context";
+import { ApiContext } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
+import {
+  getToken,
+  setToken,
+  isRefreshTokenExpired,
+  isAccessTokenExpired,
+  prepare,
+  setBaseUrl,
+  setStorageName,
+} from "./utils";
 
-interface IApiProviderProps {
+export interface IApiProviderProps {
+  children?: ReactNode;
   baseUrl: string;
   storageName?: string;
 }
 
-export const ApiProvider: FC<IApiProviderProps> = props => {
-  const { baseUrl, storageName = "jwt", children } = props;
+export interface IApiProviderBaseProps {
+  refreshToken: () => Promise<any> | void;
+  getAuthToken: () => Promise<any>;
+  customIsAccessTokenExpired?: () => boolean;
+  customIsRefreshTokenExpired?: () => boolean;
+}
 
-  const read = (key: string): IJwt | null => {
-    const jwt = localStorage.getItem(key);
-    return jwt ? (JSON.parse(jwt) as IJwt) : null;
+export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props => {
+  const {
+    baseUrl,
+    customIsAccessTokenExpired,
+    customIsRefreshTokenExpired,
+    getAuthToken,
+    refreshToken,
+    storageName = "jwt",
+  } = props;
+
+  const initializeProvider = (): void => {
+    setBaseUrl(baseUrl);
+    storageName && setStorageName(storageName);
   };
-
-  const save = (key: string, jwt: IJwt | null): void => {
-    const json = JSON.stringify(jwt);
-    localStorage.setItem(key, json);
-  };
-
-  const setToken = (jwt: IJwt | null): void => {
-    return save(storageName, jwt);
-  };
-
-  const getToken = (): IJwt | null => {
-    return read(storageName);
-  };
-
-  const isAccessTokenExpired = (): boolean => {
-    const jwt = getToken();
-
-    return !!jwt && jwt.accessTokenExpiresAt < Date.now();
-  };
-
-  const isRefreshTokenExpired = (): boolean => {
-    const jwt = getToken();
-
-    return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
-  };
-
-  const refreshToken = (): Promise<any> | void => {
-    const jwt = getToken();
-
-    if (jwt) {
-      return fetchJson(`${baseUrl}/auth/refresh`, {
-        headers: new Headers({
-          Accept: "application/json",
-          "Content-Type": "application/json; charset=utf-8",
-        }),
-        credentials: "include",
-        mode: "cors",
-        method: "POST",
-        body: JSON.stringify({
-          refreshToken: jwt.refreshToken,
-        }),
-      })
-        .then((json: IJwt) => {
-          setToken(json);
-          return json;
-        })
-        .catch(e => {
-          console.error(e);
-          setToken(null);
-          return null;
-        });
-    }
-  };
-
-  const getAuthToken = async () => {
-    let jwt = getToken();
-
-    if (jwt) {
-      if (isAccessTokenExpired()) {
-        if (isRefreshTokenExpired()) {
-          history.push("/login");
-          setToken(null);
-          throw Object.assign(new Error("unauthorized"), { status: 401 });
-        }
-
-        jwt = await refreshToken();
-      }
-    }
-
-    return jwt ? jwt.accessToken : "";
-  };
-
-  const prepare =
-    (fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>) =>
-    async (props: IFetchProps): Promise<any> => {
-      const { url, method = "GET", data = {}, signal } = props;
-      let queryString = "";
-
-      const hasData = method === "POST" || method === "PUT" || method === "PATCH";
-      const headers = new Headers();
-      headers.append("Accept", "application/json");
-      headers.append("Authorization", `Bearer ${await getAuthToken()}`);
-
-      if (!(data instanceof FormData)) {
-        if (hasData) {
-          headers.append("Content-Type", "application/json; charset=utf-8");
-        } else {
-          queryString = data ? `?${stringify(data)}` : "";
-        }
-      }
-      const newUrl = new URL(`${baseUrl}${url}${queryString}`);
-
-      return fetch(newUrl.toString(), {
-        signal,
-        headers,
-        credentials: "include",
-        mode: "cors",
-        method,
-        body: hasData ? (data instanceof FormData ? data : JSON.stringify(data)) : void 0,
-      });
-    };
+  initializeProvider();
 
   return (
     <ApiContext.Provider
       value={{
-        fetchJson: prepare(fetchJson),
-        fetchFile: prepare(fetchFile),
-        setToken,
+        fetchJson: prepare({ fetch: fetchJson, getAuthToken }),
+        fetchFile: prepare({ fetch: fetchFile, getAuthToken }),
         getToken,
-        isAccessTokenExpired,
-        isRefreshTokenExpired,
+        setToken,
+        isAccessTokenExpired: customIsAccessTokenExpired || isAccessTokenExpired,
+        isRefreshTokenExpired: customIsRefreshTokenExpired || isRefreshTokenExpired,
         refreshToken,
       }}
     >
-      {children}
+      {props.children}
     </ApiContext.Provider>
   );
 };

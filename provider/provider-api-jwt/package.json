@@ -8,15 +8,13 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/mui-form": "5.1.7",
-    "@gemunion/provider-api": "5.8.4",
-    "@gemunion/provider-api-firebase": "1.0.0",
-    "react-hook-form": "7.32.1"
+    "@gemunion/history": "1.2.9",
+    "@gemunion/provider-api": "5.8.3",
+    "@gemunion/types-jwt": "0.3.2"
   },
-  "description": "react widget",
+  "description": "react provider api auth strategy jwt",
   "devDependencies": {
-    "@storybook/react": "6.5.9",
-    "@types/react": "17.0.47",
+    "@types/react": "17.0.45",
     "react": "17.0.2"
   },
   "engines": {
@@ -25,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/geetest",
+  "name": "@gemunion/provider-api-jwt",
   "peerDependencies": {
     "react": "^17.0.0"
   },
@@ -42,11 +40,10 @@
     "prebuild": "rimraf dist/",
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
-    "storybook": "start-storybook -p 6006",
     "test": "exit 0"
   },
   "sideEffects": false,
-  "title": "-=Encoder=-",
+  "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.3.31"
+  "version": "1.0.0"
 }
