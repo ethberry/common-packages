@@ -4,35 +4,26 @@ import { getAuth } from "firebase/auth";
 
 import firebase from "@gemunion/firebase";
 import { history } from "@gemunion/history";
-import {
-  ApiProvider,
-  IApiProviderProps,
-  getToken as getTokenCallback,
-  setToken as setTokenCallback,
-  isAccessTokenExpired as isAccessTokenExpiredCallback,
-} from "@gemunion/provider-api";
+import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@gemunion/provider-api";
 import { IJwt } from "@gemunion/types-jwt";
+
+export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      if (getCondition()) {
+        resolve(true);
+      } else {
+        resolve(ensureAsyncConditionIsTrue(getCondition));
+      }
+    }, 1000);
+  });
+};
 
 export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
   const { baseUrl, storageName = "jwt" } = props;
   const authFb = getAuth(firebase);
 
   let timerId: any = null;
-  const getToken = getTokenCallback(storageName);
-  const setToken = setTokenCallback(storageName);
-  const isAccessTokenExpired = isAccessTokenExpiredCallback(storageName);
-
-  const ensureUserExist = async () => {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        if (authFb.currentUser) {
-          resolve(true);
-        } else {
-          void ensureUserExist();
-        }
-      }, 1000);
-    });
-  };
 
   const refreshToken = async () => {
     const jwt = getToken();
@@ -46,7 +37,7 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
     setTimeoutEffect();
 
     if (!authFb.currentUser) {
-      await ensureUserExist();
+      await ensureAsyncConditionIsTrue(() => !!authFb.currentUser);
     }
 
     return authFb.currentUser
@@ -86,10 +77,10 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
       }
     }
 
-    return jwt ? (jwt.accessToken as string) : "";
+    return jwt ? jwt.accessToken : "";
   };
 
-  const isRefreshTokenExpired = () => (): boolean => {
+  const isRefreshTokenExpired = (): boolean => {
     return false;
   };
 
@@ -107,6 +98,7 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
   return (
     <ApiProvider
       baseUrl={baseUrl}
+      storageName={storageName}
       refreshToken={refreshToken}
       getAuthToken={getAuthToken}
       customIsRefreshTokenExpired={isRefreshTokenExpired}

@@ -1,23 +1,19 @@
+import { FC } from "react";
+
 import { history } from "@gemunion/history";
+import { IJwt } from "@gemunion/types-jwt";
 import {
   ApiProvider,
   IApiProviderProps,
   fetchJson,
-  getToken as getTokenCallback,
-  setToken as setTokenCallback,
-  isAccessTokenExpired as isAccessTokenExpiredCallback,
-  isRefreshTokenExpired as isRefreshTokenExpiredCallback,
+  getToken,
+  setToken,
+  isAccessTokenExpired,
+  isRefreshTokenExpired,
 } from "@gemunion/provider-api";
-import { IJwt } from "@gemunion/types-jwt";
-import { FC } from "react";
 
 export const JwtApiProvider: FC<IApiProviderProps> = props => {
   const { baseUrl, storageName = "jwt" } = props;
-
-  const getToken = getTokenCallback(storageName);
-  const setToken = setTokenCallback(storageName);
-  const isAccessTokenExpired = isAccessTokenExpiredCallback(storageName);
-  const isRefreshTokenExpired = isRefreshTokenExpiredCallback(storageName);
 
   const refreshToken = async () => {
     const jwt = getToken();
@@ -68,7 +64,7 @@ export const JwtApiProvider: FC<IApiProviderProps> = props => {
   };
 
   return (
-    <ApiProvider baseUrl={baseUrl} refreshToken={refreshToken} getAuthToken={getAuthToken}>
+    <ApiProvider baseUrl={baseUrl} storageName={storageName} refreshToken={refreshToken} getAuthToken={getAuthToken}>
       {props.children}
     </ApiProvider>
   );

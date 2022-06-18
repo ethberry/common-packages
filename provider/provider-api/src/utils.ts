@@ -2,34 +2,35 @@ import { IJwt } from "@gemunion/types-jwt";
 import { IFetchProps } from "./context";
 import { stringify } from "qs";
 
-export const read = (key: string): IJwt | null => {
-  const jwt = localStorage.getItem(key);
+export let baseUrl = "";
+export let storageName = "jwt";
+
+export const setBaseUrl = (url: string): void => void (baseUrl = url);
+export const setStorageName = (key: string): void => void (storageName = key);
+export const getBaseUrl = (): string => baseUrl;
+export const getStorageName = (): string => storageName;
+
+export const read = (): IJwt | null => {
+  const jwt = localStorage.getItem(storageName);
   return jwt && jwt !== "null" && jwt !== "undefined" ? (JSON.parse(jwt) as IJwt) : null;
 };
 
-export const save = (key: string, jwt: IJwt | null): void => {
+export const save = (jwt: IJwt | null): void => {
   const json = JSON.stringify(jwt);
-  localStorage.setItem(key, json);
+  localStorage.setItem(getStorageName(), json);
 };
 
-export const setToken =
-  (key: string) =>
-  (jwt: IJwt | null): void => {
-    save(key, jwt);
-  };
+export const getToken = (): IJwt | null => read();
+export const setToken = (jwt: IJwt | null): void => save(jwt);
 
-export const getToken = (key: string) => (): IJwt | null => {
-  return read(key);
-};
-
-export const isAccessTokenExpired = (key: string) => (): boolean => {
-  const jwt = getToken(key)();
+export const isAccessTokenExpired = (): boolean => {
+  const jwt = getToken();
 
   return !!jwt && jwt.accessTokenExpiresAt < Date.now();
 };
 
-export const isRefreshTokenExpired = (key: string) => (): boolean => {
-  const jwt = getToken(key)();
+export const isRefreshTokenExpired = (): boolean => {
+  const jwt = getToken();
 
   return !!jwt && jwt.refreshTokenExpiresAt < Date.now();
 };
@@ -37,11 +38,11 @@ export const isRefreshTokenExpired = (key: string) => (): boolean => {
 interface IPrepareProps {
   fetch: (input: RequestInfo, init?: RequestInit) => Promise<any>;
   getAuthToken: () => Promise<string>;
-  baseUrl: string;
 }
 
 export const prepare = (props: IPrepareProps) => {
-  const { fetch, baseUrl, getAuthToken } = props;
+  const { fetch, getAuthToken } = props;
+
   return async (props: IFetchProps): Promise<any> => {
     const { url, method = "GET", data = {}, signal } = props;
     const token = await getAuthToken();
@@ -59,7 +60,7 @@ export const prepare = (props: IPrepareProps) => {
       }
     }
 
-    const newUrl = new URL(`${baseUrl}${url}${queryString}`);
+    const newUrl = new URL(`${getBaseUrl()}${url}${queryString}`);
 
     return fetch(newUrl.toString(), {
       signal,
