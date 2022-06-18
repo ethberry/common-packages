@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "@gemunion/history": "1.2.9",
-    "@gemunion/provider-api": "5.8.3",
+    "@gemunion/provider-api": "5.8.4",
     "@gemunion/types-jwt": "0.3.2"
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
-    "@types/react": "17.0.45",
+    "@types/react": "17.0.47",
     "react": "17.0.2"
   },
   "engines": {
