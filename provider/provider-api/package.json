@@ -16,7 +16,7 @@
   "description": "react context provider",
   "devDependencies": {
     "@types/content-disposition": "0.5.5",
-    "@types/react": "17.0.45",
+    "@types/react": "17.0.47",
     "react": "17.0.2"
   },
   "engines": {
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.8.3"
+  "version": "5.8.4"
 }
