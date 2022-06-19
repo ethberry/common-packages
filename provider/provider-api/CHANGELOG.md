@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 6.0.2 (2022-06-19)
+
+
+### Bug Fixes
+
+* refactor provider-api and provider-api-firebase ([b9fcd74](https://github.com/gemunion/common-packages/commit/b9fcd749967b7fc6a724521052c7494f835aaa17))
+
+
+
+
+
 ## [6.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.8.5...@gemunion/provider-api@6.0.1) (2022-06-19)
 
 **Note:** Version bump only for package @gemunion/provider-api

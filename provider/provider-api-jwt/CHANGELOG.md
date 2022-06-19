@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@0.0.3...@gemunion/provider-api-jwt@0.0.4) (2022-06-19)
+
+
+### Bug Fixes
+
+* refactor provider-api and provider-api-firebase ([b9fcd74](https://github.com/gemunion/common-packages/commit/b9fcd749967b7fc6a724521052c7494f835aaa17))
+
+
+
+
+
 ## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@0.0.2...@gemunion/provider-api-jwt@0.0.3) (2022-06-19)
 
 

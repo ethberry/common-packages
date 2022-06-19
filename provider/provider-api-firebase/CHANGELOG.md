@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@0.0.3...@gemunion/provider-api-firebase@0.0.4) (2022-06-19)
+
+
+### Bug Fixes
+
+* refactor provider-api and provider-api-firebase ([b9fcd74](https://github.com/gemunion/common-packages/commit/b9fcd749967b7fc6a724521052c7494f835aaa17))
+* reimplement useInterval for provider-api-firebase ([a6d33d8](https://github.com/gemunion/common-packages/commit/a6d33d8bbe31acef28b3e9fd2f72436709a593eb))
+
+
+
+
+
 ## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@0.0.2...@gemunion/provider-api-firebase@0.0.3) (2022-06-19)
 
 
