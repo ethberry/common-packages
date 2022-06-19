@@ -11,6 +11,7 @@
     "@gemunion/firebase": "1.1.19",
     "@gemunion/history": "1.2.9",
     "@gemunion/provider-api": "6.0.1",
+    "@gemunion/react-hooks": "1.0.1",
     "@gemunion/types-jwt": "0.3.2"
   },
   "description": "react provider api auth strategy firebase",
