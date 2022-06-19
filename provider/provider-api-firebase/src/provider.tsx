@@ -5,8 +5,9 @@ import { getAuth } from "firebase/auth";
 import firebase from "@gemunion/firebase";
 import { history } from "@gemunion/history";
 import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@gemunion/provider-api";
-import { useInterval } from "@gemunion/react-hooks";
 import { IJwt } from "@gemunion/types-jwt";
+
+import { useInterval } from "./hook";
 
 export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) => {
   return new Promise(resolve => {
