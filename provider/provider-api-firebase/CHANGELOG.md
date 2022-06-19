@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@0.0.2...@gemunion/provider-api-firebase@0.0.3) (2022-06-19)
+
+
+### Bug Fixes
+
+* reexport hooks from base providers ([adcefc8](https://github.com/gemunion/common-packages/commit/adcefc8b3e189b5478d57f905c665e17102d6fbd))
+
+
+
+
+
 ## [0.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@1.0.1...@gemunion/provider-api-firebase@0.0.2) (2022-06-19)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
