@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.8.5](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.8.4...@gemunion/provider-api@5.8.5) (2022-06-19)
+
+
+### Bug Fixes
+
+* geetest, rewrite provider-api-firebase and provider-api-jwt and provider-api to abstract class ([56f7633](https://github.com/gemunion/common-packages/commit/56f76336586c7391c5f87a5bd81b7d6e41e0654d))
+* provider api and firebase auth strategy to make it FC instead of classes ([340bf69](https://github.com/gemunion/common-packages/commit/340bf69157ce043726b60fd6df9ebb741d49a0b1))
+* provider-api to automatically refresh token and keep user logged in until user do log out ([b0e0a19](https://github.com/gemunion/common-packages/commit/b0e0a19b996af28c03cf97d103592abc0ee5934f))
+* provider-api to automatically refresh token and keep user logged in until user do log out and implement auth-strategy-firebase ([88aae19](https://github.com/gemunion/common-packages/commit/88aae19082b618fea800cd4ce6f252a69a643f44))
+* provider-api types ([8a97968](https://github.com/gemunion/common-packages/commit/8a979684da5f3baccd48ca2e8fb7fb6e589fdd1a))
+* refactor provider-api, firebase and jwt providers ([36979dc](https://github.com/gemunion/common-packages/commit/36979dc91947535576a3a98dc94ca4e75e3a5a5a))
+
+
+
+
+
 ## [5.8.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@5.8.3...@gemunion/provider-api@5.8.4) (2022-06-17)
 
 **Note:** Version bump only for package @gemunion/provider-api

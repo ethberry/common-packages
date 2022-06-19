@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.21](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@2.0.20...@gemunion/provider-settings@2.0.21) (2022-06-19)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
+
+
+
+
 ## [2.0.20](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@2.0.19...@gemunion/provider-settings@2.0.20) (2022-06-17)
 
 **Note:** Version bump only for package @gemunion/provider-settings
