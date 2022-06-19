@@ -1,5 +1,7 @@
 import { FC, ReactNode } from "react";
 
+import { ns } from "@gemunion/constants";
+
 import { ApiContext } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
 import {
@@ -19,8 +21,8 @@ export interface IApiProviderProps {
 }
 
 export interface IApiProviderBaseProps {
-  refreshToken: () => Promise<any> | void;
-  getAuthToken: () => Promise<any>;
+  refreshToken?: () => Promise<any> | void;
+  getAuthToken?: () => Promise<string>;
   customIsAccessTokenExpired?: () => boolean;
   customIsRefreshTokenExpired?: () => boolean;
 }
@@ -30,14 +32,14 @@ export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props 
     baseUrl,
     customIsAccessTokenExpired,
     customIsRefreshTokenExpired,
-    getAuthToken,
-    refreshToken,
-    storageName = "jwt",
+    getAuthToken = () => Promise.resolve(""),
+    refreshToken = () => Promise.resolve(),
+    storageName = ns,
   } = props;
 
   const initializeProvider = (): void => {
     setBaseUrl(baseUrl);
-    storageName && setStorageName(storageName);
+    storageName && setStorageName(`jwt_${storageName}`);
   };
   initializeProvider();
 

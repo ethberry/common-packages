@@ -7,6 +7,8 @@ import { history } from "@gemunion/history";
 import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@gemunion/provider-api";
 import { IJwt } from "@gemunion/types-jwt";
 
+import { useInterval } from "./hook";
+
 export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) => {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -20,10 +22,8 @@ export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) =>
 };
 
 export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
-  const { baseUrl, storageName = "jwt" } = props;
+  const { baseUrl, storageName } = props;
   const authFb = getAuth(firebase);
-
-  let timerId: any = null;
 
   const refreshToken = async () => {
     const jwt = getToken();
@@ -32,9 +32,6 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
       history.push("/login");
       setToken(null);
     }
-
-    // eslint-disable-next-line @typescript-eslint/no-use-before-define
-    setTimeoutEffect();
 
     if (!authFb.currentUser) {
       await ensureAsyncConditionIsTrue(() => !!authFb.currentUser);
@@ -54,14 +51,10 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
             };
 
             setToken(jwt);
-            timerId = null;
-
             return jwt;
           })
           .catch((e: any) => {
             setToken(null);
-            timerId = null;
-
             console.error(e);
             return null;
           })
@@ -84,16 +77,8 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
     return false;
   };
 
-  function setTimeoutEffect(): void {
-    if (timerId) {
-      window.clearTimeout(timerId);
-    }
-
-    // refresh accessToken every 4 minutes
-    timerId = window.setTimeout(() => void refreshToken(), 240000);
-  }
-
-  setTimeoutEffect();
+  // refreshToken every 4 minutes
+  useInterval(() => void refreshToken(), 240000);
 
   return (
     <ApiProvider

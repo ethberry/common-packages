@@ -13,7 +13,7 @@ import {
 } from "@gemunion/provider-api";
 
 export const JwtApiProvider: FC<IApiProviderProps> = props => {
-  const { baseUrl, storageName = "jwt" } = props;
+  const { baseUrl, storageName } = props;
 
   const refreshToken = async () => {
     const jwt = getToken();
