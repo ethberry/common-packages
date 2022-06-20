@@ -46,12 +46,12 @@ export const prepare = (props: IPrepareProps) => {
   return async (props: IFetchProps): Promise<any> => {
     const { url, method = "GET", data = {}, signal } = props;
     const token = await getAuthToken();
-    let queryString = "";
     const hasData = method === "POST" || method === "PUT" || method === "PATCH";
     const headers = new Headers();
     headers.append("Accept", "application/json");
     headers.append("Authorization", `Bearer ${token}`);
 
+    let queryString = "";
     if (!(data instanceof FormData)) {
       if (hasData) {
         headers.append("Content-Type", "application/json; charset=utf-8");

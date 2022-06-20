@@ -21,7 +21,7 @@ export interface IApiProviderProps {
 }
 
 export interface IApiProviderBaseProps {
-  refreshToken?: () => Promise<any> | void;
+  refreshToken?: () => Promise<any>;
   getAuthToken?: () => Promise<string>;
   customIsAccessTokenExpired?: () => boolean;
   customIsRefreshTokenExpired?: () => boolean;
