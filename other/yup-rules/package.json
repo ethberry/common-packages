@@ -16,7 +16,7 @@
   "description": "validation rules",
   "devDependencies": {
     "@types/draft-js": "0.11.9",
-    "@types/jest": "28.1.2",
+    "@types/jest": "28.1.3",
     "draft-js": "0.11.7",
     "jest": "28.1.1",
     "jest-environment-node": "28.1.1",
