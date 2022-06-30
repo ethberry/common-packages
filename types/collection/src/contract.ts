@@ -1,6 +1,6 @@
 import { IIdDateBase } from "./base";
 
-export interface IContract extends IIdDateBase {
+export interface IDeployable extends IIdDateBase {
   address: string;
   chainId: number;
 }
