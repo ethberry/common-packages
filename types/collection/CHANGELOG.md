@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.4 (2022-07-02)
+
+
+### Bug Fixes
+
+* IContract -> IDeployable ([7d67f74](https://github.com/gemunion/common-packages/commit/7d67f740f7e495822c1bf0843a30489e78d3b0fa))
+
+
+
+
+
 ## [1.4.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.4.2...@gemunion/types-collection@1.4.3) (2022-06-10)
 
 
