@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/firebase": "1.1.20",
+    "@gemunion/firebase": "1.1.21",
     "@gemunion/history": "1.2.9",
     "@gemunion/provider-api": "6.0.4",
     "@gemunion/types-jwt": "0.3.2"
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
