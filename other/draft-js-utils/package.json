@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.3.13"
+  "version": "0.3.14"
 }

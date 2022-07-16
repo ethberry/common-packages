@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.26 (2022-07-16)
+
+
+### Bug Fixes
+
+* drop chalk ([667e11d](https://github.com/gemunion/nestjs-packages/commit/667e11d31afccdea0a47a672eeaa6cf580d50d16))
+
+
+
+
+
 ## [0.0.25](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.24...@gemunion/winston-formatter@0.0.25) (2022-07-02)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
