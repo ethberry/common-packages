@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.4.5 (2022-07-23)
+
+
+### Bug Fixes
+
+* add expiresAt ([70d9e63](https://github.com/gemunion/common-packages/commit/70d9e634dd2ce2a190ac1aeb25635b8687ecf2c5))
+
+
+
+
+
 ## 1.4.4 (2022-07-02)
 
 
