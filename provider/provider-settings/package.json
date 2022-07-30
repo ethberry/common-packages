@@ -13,7 +13,7 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.47",
+    "@types/react": "17.0.48",
     "react": "17.0.2"
   },
   "engines": {
