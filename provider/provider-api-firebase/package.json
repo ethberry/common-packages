@@ -16,6 +16,7 @@
   "description": "react provider api auth strategy firebase",
   "devDependencies": {
     "@types/react": "17.0.48",
+    "firebase": "9.9.2",
     "react": "17.0.2"
   },
   "engines": {
@@ -26,7 +27,8 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-api-firebase",
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "^17.0.0",
+    "firebase": "^9.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

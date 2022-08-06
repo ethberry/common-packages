@@ -7,10 +7,10 @@
   "bugs": {
     "url": "https://github.com/gemunion/common-packages/issues"
   },
-  "dependencies": {
+  "description": "firebase config",
+  "devDependencies": {
     "firebase": "9.9.2"
   },
-  "description": "firebase config",
   "engines": {
     "node": ">=12.13"
   },
@@ -18,6 +18,9 @@
   "license": "UNLICENSED",
   "main": "./dist/index.js",
   "name": "@gemunion/firebase",
+  "peerDependencies": {
+    "firebase": "^9.0.0"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
