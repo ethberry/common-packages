@@ -2,17 +2,20 @@ import { PropsWithChildren, ReactElement, useEffect, useState } from "react";
 
 import { IUser, useUser } from "@gemunion/provider-user";
 import { EnabledLanguages, ThemeType } from "@gemunion/constants";
+import { useSearchParams } from "react-router-dom";
 
 import { SettingsContext } from "./context";
 
 interface ISettings<T extends string> {
   language?: T;
   themeType?: ThemeType;
+  referrer?: string;
 }
 
 interface ISettingsProviderProps<T extends string> {
   defaultLanguage?: T;
   defaultThemeType?: ThemeType;
+  defaultReferrer?: string;
   storageName?: string;
 }
 
@@ -22,12 +25,14 @@ export const SettingsProvider = <T extends string>(
   const {
     defaultLanguage = EnabledLanguages.EN,
     defaultThemeType = ThemeType.light,
+    defaultReferrer = "0x0000000000000000000000000000000000000000", // do not import ethers!
     storageName = "settings",
     children,
   } = props;
   const [settings, setSettings] = useState<ISettings<T>>({});
 
   const user = useUser<IUser>();
+  const [searchParams] = useSearchParams();
 
   const read = (key: string): ISettings<T> => {
     const data = localStorage.getItem(key);
@@ -65,6 +70,23 @@ export const SettingsProvider = <T extends string>(
     save(storageName, newSettings);
   };
 
+  const getReferrer = (): string => {
+    return settings.referrer || defaultReferrer;
+  };
+
+  const setReferrer = (referrer: string): void => {
+    const newSettings = { ...settings, referrer };
+    setSettings(newSettings);
+    save(storageName, newSettings);
+  };
+
+  useEffect(() => {
+    const referrer = searchParams.get("referrer");
+    if (referrer) {
+      setReferrer(referrer);
+    }
+  }, [searchParams]);
+
   return (
     <SettingsContext.Provider
       value={{
@@ -72,6 +94,8 @@ export const SettingsProvider = <T extends string>(
         setLanguage,
         getTheme,
         setTheme,
+        getReferrer,
+        setReferrer,
       }}
     >
       {children}

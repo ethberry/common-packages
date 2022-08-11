@@ -7,6 +7,8 @@ export interface ISettingsContext<T extends string> {
   getLanguage: () => T;
   setTheme: (theme: ThemeType) => void;
   getTheme: () => ThemeType;
+  setReferrer: (theme: string) => void;
+  getReferrer: () => string;
 }
 
 export const SettingsContext = createContext<ISettingsContext<any>>(undefined!);
