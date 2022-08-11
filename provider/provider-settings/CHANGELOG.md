@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.1.0 (2022-08-11)
+
+
+### Features
+
+* add referrer to settings ([1a80614](https://github.com/gemunion/common-packages/commit/1a80614b2b3902d7b49994a564ba03545e6a85d4))
+
+
+
+
+
 ## [3.0.6](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@3.0.5...@gemunion/provider-settings@3.0.6) (2022-07-31)
 
 **Note:** Version bump only for package @gemunion/provider-settings
