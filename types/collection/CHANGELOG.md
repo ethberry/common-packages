@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2022-08-12)
+
+
+### Features
+
+* add bytecode to server signature ([4dbd72f](https://github.com/gemunion/common-packages/commit/4dbd72f3644bf787124122a380f843837176b575))
+
+
+
+
+
 ## 1.4.5 (2022-07-23)
 
 
