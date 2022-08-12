@@ -74,7 +74,7 @@ export const SettingsProvider = <T extends string>(
     return settings.referrer || defaultReferrer;
   };
 
-  const setReferrer = (referrer: string): void => {
+  const setReferrer = (referrer: string | undefined): void => {
     const newSettings = { ...settings, referrer };
     setSettings(newSettings);
     save(storageName, newSettings);
