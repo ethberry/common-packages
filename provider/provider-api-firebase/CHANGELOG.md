@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.12 (2022-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17ab489](https://github.com/gemunion/common-packages/commit/17ab4898f95628fa11aad359f272510afe5a784e))
+
+
+
+
+
 ## [0.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@0.0.10...@gemunion/provider-api-firebase@0.0.11) (2022-08-11)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase

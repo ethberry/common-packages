@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@3.1.1...@gemunion/provider-settings@3.1.2) (2022-08-20)
+
+
+### Bug Fixes
+
+* allow to set undefined as referrer ([d81a506](https://github.com/gemunion/common-packages/commit/d81a506bd0e32ee41b236f1078bf6e4228c650b4))
+
+
+
+
+
 ## [3.1.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@3.1.0...@gemunion/provider-settings@3.1.1) (2022-08-12)
 
 **Note:** Version bump only for package @gemunion/provider-settings

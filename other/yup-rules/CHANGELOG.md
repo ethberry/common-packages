@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.8 (2022-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([17ab489](https://github.com/gemunion/common-packages/commit/17ab4898f95628fa11aad359f272510afe5a784e))
+
+
+
+
+
 ## [2.0.7](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.6...@gemunion/yup-rules@2.0.7) (2022-07-31)
 
 **Note:** Version bump only for package @gemunion/yup-rules
