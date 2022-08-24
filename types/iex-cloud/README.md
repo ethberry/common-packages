@@ -1,1 +1,1 @@
-# Email types
+# IEX Cloud types
