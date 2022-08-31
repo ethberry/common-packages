@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "lerna": "5.4.3",
+    "nx": "14.5.10",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
@@ -13,11 +14,11 @@
     "@storybook/addon-actions": "6.5.10",
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/addon-links": "6.5.10",
+    "@storybook/builder-webpack5": "6.5.10",
+    "@storybook/manager-webpack5": "6.5.10",
     "@storybook/node-logger": "6.5.10",
     "@storybook/preset-create-react-app": "4.1.2",
     "@storybook/react": "6.5.10",
-    "@storybook/manager-webpack5": "6.5.10",
-    "@storybook/builder-webpack5": "6.5.10",
     "@typescript-eslint/eslint-plugin": "5.35.1",
     "@typescript-eslint/parser": "5.35.1",
     "babel-plugin-inline-import": "3.0.0",
@@ -32,10 +33,9 @@
     "eslint-plugin-promise": "6.0.1",
     "eslint-plugin-react": "7.31.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "javascript-obfuscator": "4.0.0",
     "husky": "4.3.8",
+    "javascript-obfuscator": "4.0.0",
     "lint-staged": "13.0.3",
-    "nx": "14.5.10",
     "prettier": "2.7.1",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
@@ -55,8 +55,7 @@
     "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
-    "bootstrap": "npm run bootstrap:ignore && npm run build",
-    "bootstrap:ignore": "lerna bootstrap --hoist --ignore-scripts",
+    "bootstrap": "lerna bootstrap --concurrency 1 --hoist --ignore-scripts",
     "build": "lerna run build --stream",
     "clean": "sh scripts/clean.sh",
     "kill": "sudo pkill -9 node",
