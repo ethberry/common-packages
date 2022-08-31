@@ -10,5 +10,6 @@
     }
   },
   "packages": ["other/*", "react/*", "types/*", "provider/*"],
+  "useNx": true,
   "version": "independent"
 }

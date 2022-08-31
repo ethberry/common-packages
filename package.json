@@ -35,6 +35,7 @@
     "javascript-obfuscator": "4.0.0",
     "husky": "4.3.8",
     "lint-staged": "13.0.3",
+    "nx": "14.5.10",
     "prettier": "2.7.1",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
@@ -54,7 +55,8 @@
     "url": "https://github.com/gemunion/common-packages"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "npm run bootstrap:ignore && npm run build",
+    "bootstrap:ignore": "lerna bootstrap --hoist --ignore-scripts",
     "build": "lerna run build --stream",
     "clean": "sh scripts/clean.sh",
     "kill": "sudo pkill -9 node",
