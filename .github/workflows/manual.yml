@@ -32,7 +32,7 @@ jobs:
         run: npm i
 
       - name: Bootstrap Packages
-        run: npm run bootstrap
+        run: npm run bootstrap && npm run build
 
       - name: Obfuscate
         run: npm run obfuscate
