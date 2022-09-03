@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.8.5 (2022-09-03)
+
+**Note:** Version bump only for package @gemunion/constants
+
+
+
+
+
 ## 0.8.4 (2022-06-10)
 
 **Note:** Version bump only for package @gemunion/constants
