@@ -4,6 +4,7 @@ module.exports = {
   },
   framework: "@storybook/react",
   stories: [
+    "../chart/**/*.stories.@(ts|tsx)",
     "../react/**/*.stories.@(ts|tsx)",
   ],
   addons: [
@@ -25,7 +26,8 @@ module.exports = {
       },
     } = config;
     const babelLoader = oneOf.find(({ test }) => new RegExp(test).test(".ts"));
-    babelLoader.include = [/react\/(.*)\/src/];
+    babelLoader.include = [/react\/(.*)\/src/, /chart\/(.*)\/src/, /.storybook/];
+    babelLoader.options.sourceType = "unambiguous";
     return config;
   }
 };

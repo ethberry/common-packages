@@ -1,0 +1,65 @@
+{
+  "author": {
+    "email": "TrejGun@gmail.com",
+    "name": "TrejGun",
+    "url": "https://gemunion.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/gemunion/common-packages/issues"
+  },
+  "dependencies": {
+    "d3-array": "3.2.0",
+    "d3-format": "3.1.0",
+    "d3-path": "3.0.1",
+    "d3-scale": "4.0.2",
+    "d3-selection": "3.0.0",
+    "d3-shape": "3.1.0",
+    "d3-transition": "3.0.1",
+    "react": "17.0.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "6.5.10",
+    "@types/d3-array": "3.0.3",
+    "@types/d3-format": "3.0.1",
+    "@types/d3-path": "3.0.0",
+    "@types/d3-scale": "4.0.2",
+    "@types/d3-selection": "3.0.3",
+    "@types/d3-shape": "3.1.0",
+    "@types/d3-transition": "3.0.2",
+    "@types/react": "17.0.49"
+  },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [
+    "chart",
+    "radar",
+    "d3"
+  ],
+  "license": "UNLICENSED",
+  "main": "./dist/index.js",
+  "name": "@gemunion/radar-chart",
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gemunion/common-packages"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --fix",
+    "prebuild": "rimraf dist/",
+    "prepare": "npm run build",
+    "preversion": "npm run build && npm run test",
+    "storybook": "start-storybook -p 6006",
+    "test": "exit 0"
+  },
+  "sideEffects": false,
+  "title": "-=Gemun Ion Studio=-",
+  "types": "./dist/index.d.ts",
+  "version": "0.0.1"
+}
