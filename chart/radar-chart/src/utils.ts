@@ -10,23 +10,23 @@ import { IData, IRadarChart } from "./interface";
 
 export const drawRadar = (props: IRadarChart) => {
   const {
-    areaColors = ["#EDC951", "#CC333F", "#00A0B0"],
+    areaColors = ["rgb(105, 173, 87)", "rgb(209, 53, 43)"],
     data,
     dotBg = "#737373",
     dotRadius = 3, // The size of the colored circles of each blob
-    gridBg = "#EEEEEE",
+    gridBg = "#fff",
     height = 600,
     labelFactor = 1.1, // How much farther than the radius of the outer circle should the labels be placed
-    levels = 5, // How many levels or inner circles should there be drawn
-    linesColor = "#FFFFFF",
+    levels = 10, // How many levels or inner circles should there be drawn
+    linesColor = "#DDD",
     margin = { top: 50, bottom: 50, left: 50, right: 50 },
-    maxValue = 1, // What is the value that the biggest circle will represent
-    opacityArea = 0.1, // The opacity of the area of the blob
+    maxValue = 10, // What is the value that the biggest circle will represent
+    opacityArea = 0.3, // The opacity of the area of the blob
     opacityCircles = 0.2, // The opacity of the circles of each blob
-    renderIndicatorValue = d3Format("~%"),
-    renderTooltipValue = d3Format("~%"),
+    renderIndicatorValue = d3Format("~"),
+    renderTooltipValue = d3Format("~"),
     roundStrokes = false, // If true the area and stroke will follow a round path (cardinal-closed
-    showIndicator = false,
+    showIndicator = true,
     strokeWidth = 4, // The width of the stroke around each blob
     type = "polygon",
     width = 600,
