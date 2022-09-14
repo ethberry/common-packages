@@ -5,7 +5,9 @@ export interface ISearchDto extends IPaginationDto {
   query: string;
 }
 
-export interface ISearchable extends IIdDateBase {
+export interface ISearchableDto {
   title: string;
   description: string;
 }
+
+export interface ISearchable extends ISearchableDto, IIdDateBase {}
