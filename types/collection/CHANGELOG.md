@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.2 (2022-09-14)
+
+
+### Bug Fixes
+
+* searchable dto ([6815d38](https://github.com/gemunion/common-packages/commit/6815d3884067081d9f2ae893a9ed053699576c21))
+
+
+
+
+
 ## 1.5.1 (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/types-collection
