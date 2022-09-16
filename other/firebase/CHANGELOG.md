@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.28 (2022-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([47a4ea3](https://github.com/gemunion/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
+
+
+
+
+
 ## [1.1.27](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.1.26...@gemunion/firebase@1.1.27) (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/firebase

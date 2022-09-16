@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.6 (2022-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([47a4ea3](https://github.com/gemunion/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
+
+
+
+
+
 ## [1.0.5](https://github.com/gemunion/common-packages/compare/@gemunion/provider-network@1.0.4...@gemunion/provider-network@1.0.5) (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/provider-network

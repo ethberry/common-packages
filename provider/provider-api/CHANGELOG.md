@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 6.0.8 (2022-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([47a4ea3](https://github.com/gemunion/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
+
+
+
+
+
 ## [6.0.7](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@6.0.6...@gemunion/provider-api@6.0.7) (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/provider-api

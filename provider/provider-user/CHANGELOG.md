@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@4.0.10...@gemunion/provider-user@4.0.11) (2022-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([47a4ea3](https://github.com/gemunion/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
+
+
+
+
+
 ## 4.0.10 (2022-09-14)
 
 **Note:** Version bump only for package @gemunion/provider-user
