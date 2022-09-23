@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/react": "17.0.50",
     "react": "17.0.2",
-    "react-router-dom": "6.3.0"
+    "react-router-dom": "6.4.0"
   },
   "engines": {
     "node": ">=12.13"
