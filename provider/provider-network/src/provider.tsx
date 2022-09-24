@@ -1,13 +1,9 @@
-import { FC, ReactNode } from "react";
+import { FC, PropsWithChildren } from "react";
 import { Web3ReactProvider } from "@web3-react/core";
 import { ethers } from "ethers";
 import { ExternalProvider, JsonRpcFetchFunc } from "@ethersproject/providers";
 
-export interface INetworkProviderProps {
-  children: ReactNode;
-}
-
-export const NetworkProvider: FC<INetworkProviderProps> = props => {
+export const NetworkProvider: FC<PropsWithChildren> = props => {
   const { children } = props;
 
   const getLibrary = (provider: ExternalProvider | JsonRpcFetchFunc) => {
