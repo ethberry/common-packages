@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@0.0.10...@gemunion/provider-api-jwt@0.1.0) (2022-09-24)
+
+
+* chore!: add support of react 18 ([a292dd1](https://github.com/gemunion/common-packages/commit/a292dd1097084f8833b3e445dcf245789c9bd4ed))
+
+
+### BREAKING CHANGES
+
+* react 18
+
+
+
+
+
 ## 0.0.10 (2022-09-16)
 
 
