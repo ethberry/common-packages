@@ -13,9 +13,9 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.50",
+    "@types/react": "18.0.21",
     "@types/react-router": "5.1.19",
-    "react": "17.0.2",
+    "react": "18.2.0",
     "react-router": "6.4.0"
   },
   "engines": {
@@ -26,7 +26,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-user",
   "peerDependencies": {
-    "react": "^17.0.0",
+    "react": "^18.0.0",
     "react-router": "^6.0.0"
   },
   "publishConfig": {
