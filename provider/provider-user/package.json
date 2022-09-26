@@ -8,14 +8,14 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/provider-api": "6.0.8",
-    "@gemunion/types-collection": "1.5.2"
+    "@gemunion/provider-api": "7.0.2",
+    "@gemunion/types-collection": "1.5.3"
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "17.0.50",
+    "@types/react": "18.0.21",
     "@types/react-router": "5.1.19",
-    "react": "17.0.2",
+    "react": "18.2.0",
     "react-router": "6.4.1"
   },
   "engines": {
@@ -26,7 +26,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-user",
   "peerDependencies": {
-    "react": "^17.0.0",
+    "react": "^18.0.0",
     "react-router": "^6.0.0"
   },
   "publishConfig": {
@@ -47,5 +47,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.12"
+  "version": "5.0.2"
 }

@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { FC, PropsWithChildren } from "react";
 
 import { ns } from "@gemunion/constants";
 
@@ -6,28 +6,27 @@ import { ApiContext } from "./context";
 import { fetchFile, fetchJson } from "./fetch";
 import {
   getToken,
-  setToken,
-  isRefreshTokenExpired,
   isAccessTokenExpired,
+  isRefreshTokenExpired,
   prepare,
   setBaseUrl,
   setStorageName,
+  setToken,
 } from "./utils";
 
 export interface IApiProviderProps {
-  children?: ReactNode;
   baseUrl: string;
   storageName?: string;
 }
 
-export interface IApiProviderBaseProps {
+export interface IApiProviderBaseProps extends IApiProviderProps {
   refreshToken?: () => Promise<any>;
   getAuthToken?: () => Promise<string>;
   customIsAccessTokenExpired?: () => boolean;
   customIsRefreshTokenExpired?: () => boolean;
 }
 
-export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props => {
+export const ApiProvider: FC<PropsWithChildren<IApiProviderBaseProps>> = props => {
   const {
     baseUrl,
     customIsAccessTokenExpired,
@@ -35,6 +34,7 @@ export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props 
     getAuthToken = () => Promise.resolve(""),
     refreshToken = () => Promise.resolve(),
     storageName = ns,
+    children,
   } = props;
 
   const initializeProvider = (): void => {
@@ -55,7 +55,7 @@ export const ApiProvider: FC<IApiProviderBaseProps & IApiProviderProps> = props 
         refreshToken,
       }}
     >
-      {props.children}
+      {children}
     </ApiContext.Provider>
   );
 };

@@ -3,6 +3,36 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@5.0.1...@gemunion/provider-user@5.0.2) (2022-09-24)
+
+**Note:** Version bump only for package @gemunion/provider-user
+
+
+
+
+
+## [5.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@5.0.0...@gemunion/provider-user@5.0.1) (2022-09-24)
+
+**Note:** Version bump only for package @gemunion/provider-user
+
+
+
+
+
+# [5.0.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@4.0.11...@gemunion/provider-user@5.0.0) (2022-09-24)
+
+
+* chore!: add support of react 18 ([a292dd1](https://github.com/gemunion/common-packages/commit/a292dd1097084f8833b3e445dcf245789c9bd4ed))
+
+
+### BREAKING CHANGES
+
+* react 18
+
+
+
+
+
 ## [4.0.12](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@4.0.11...@gemunion/provider-user@4.0.12) (2022-09-24)
 
 **Note:** Version bump only for package @gemunion/provider-user

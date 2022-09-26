@@ -8,14 +8,14 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/history": "1.2.10",
-    "@gemunion/provider-api": "6.0.8",
-    "@gemunion/types-jwt": "0.3.3"
+    "@gemunion/history": "1.2.11",
+    "@gemunion/provider-api": "7.0.2",
+    "@gemunion/types-jwt": "0.3.4"
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
-    "@types/react": "17.0.50",
-    "react": "17.0.2"
+    "@types/react": "18.0.21",
+    "react": "18.2.0"
   },
   "engines": {
     "node": ">=12.13"
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-api-jwt",
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "^18.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.0.10"
+  "version": "1.0.3"
 }

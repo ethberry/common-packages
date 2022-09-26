@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, PropsWithChildren } from "react";
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { getAuth } from "firebase/auth";
 
@@ -21,8 +21,8 @@ export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) =>
   });
 };
 
-export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
-  const { baseUrl, storageName } = props;
+export const FirebaseApiProvider: FC<PropsWithChildren<IApiProviderProps>> = props => {
+  const { baseUrl, storageName, children } = props;
   const authFb = getAuth(firebase);
 
   const refreshToken = async () => {
@@ -88,7 +88,7 @@ export const FirebaseApiProvider: FC<IApiProviderProps> = props => {
       getAuthToken={getAuthToken}
       customIsRefreshTokenExpired={isRefreshTokenExpired}
     >
-      {props.children}
+      {children}
     </ApiProvider>
   );
 };

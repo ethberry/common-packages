@@ -1,8 +1,8 @@
-import { FC, useContext, useState } from "react";
+import { FC, PropsWithChildren, useContext, useState } from "react";
 
 import { PopupContext } from "./context";
 
-export const PopupProvider: FC = props => {
+export const PopupProvider: FC<PropsWithChildren> = props => {
   const { children } = props;
   const [openPopups, setOpenPopups] = useState<symbol[]>([]);
 
