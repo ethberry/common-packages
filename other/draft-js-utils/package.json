@@ -17,7 +17,7 @@
     "@types/jest": "29.0.3",
     "@types/markdown-draft-js": "2.2.4",
     "jest": "29.0.3",
-    "ts-jest": "29.0.1"
+    "ts-jest": "29.0.2"
   },
   "engines": {
     "node": ">=12.13"
