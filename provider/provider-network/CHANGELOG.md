@@ -36,6 +36,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [1.0.7](https://github.com/gemunion/common-packages/compare/@gemunion/provider-network@1.0.6...@gemunion/provider-network@1.0.7) (2022-09-24)
+
+**Note:** Version bump only for package @gemunion/provider-network
+
+
+
+
+
 ## 1.0.6 (2022-09-16)
 
 
