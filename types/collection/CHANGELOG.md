@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.4 (2022-10-01)
+
+**Note:** Version bump only for package @gemunion/types-collection
+
+
+
+
+
 ## [1.5.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.2...@gemunion/types-collection@1.5.3) (2022-09-24)
 
 **Note:** Version bump only for package @gemunion/types-collection
