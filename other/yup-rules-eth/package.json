@@ -12,7 +12,7 @@
   },
   "description": "validation rules",
   "devDependencies": {
-    "@types/jest": "29.1.1",
+    "@types/jest": "29.1.2",
     "ethers": "5.7.1",
     "jest": "29.1.2",
     "jest-environment-node": "29.1.2",
