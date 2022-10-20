@@ -1,6 +1,6 @@
 import { MouseEvent } from "react";
 
-export function openUrl(url: string): void {
+export function openUrl(url: string): Window | null {
   if (typeof window !== "undefined") {
     const width = 960;
     const height = 480;
@@ -11,14 +11,18 @@ export function openUrl(url: string): void {
     if (popup) {
       popup.focus();
     }
+
+    return popup;
   }
+
+  return null;
 }
 
-export function handleLinkOnClick(e: MouseEvent<HTMLAnchorElement>): void {
+export function handleLinkOnClick(e: MouseEvent<HTMLAnchorElement>): Window | null {
   e.preventDefault();
-  openUrl((e.target as HTMLAnchorElement).href);
+  return openUrl((e.target as HTMLAnchorElement).href);
 }
 
-export function openUrlOnClick(url: string): (e: MouseEvent) => void {
-  return (_e: MouseEvent): void => openUrl(url);
+export function openUrlOnClick(url: string): (e: MouseEvent) => Window | null {
+  return (_e: MouseEvent): Window | null => openUrl(url);
 }
