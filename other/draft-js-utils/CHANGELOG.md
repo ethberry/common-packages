@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.3.25...@gemunion/draft-js-utils@1.1.0) (2022-10-22)
+
+### Features
+
+- add html support ([88e395a](https://github.com/gemunion/common-packages/commit/88e395a3bceff72990ebdca29f0073e8623fdbf1))
+- split content state and stringified version ([2234b58](https://github.com/gemunion/common-packages/commit/2234b5888acc5c6f201fbbe484e9d328fdec4db5))
+
 ## [0.3.25](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@0.3.24...@gemunion/draft-js-utils@0.3.25) (2022-10-22)
 
 ### Bug Fixes
