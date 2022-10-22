@@ -9,7 +9,15 @@ export const getText = (data: string) => {
 
 export const getHtml = (data: string) => {
   const contentState = EditorState.createWithContent(convertFromRaw(JSON.parse(data) as RawDraftContentState));
-  return convertToHTML(contentState.getCurrentContent());
+
+  return convertToHTML({
+    entityToHTML: (entity, originalText) => {
+      if (entity.type === "LINK") {
+        return `<a href="${entity.data.url as string}">${originalText}</a>`;
+      }
+      return originalText;
+    },
+  })(contentState.getCurrentContent());
 };
 
 export const getMarkdown = (data: string) => {
