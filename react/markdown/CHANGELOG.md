@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.5](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.0.4...@gemunion/markdown@2.0.5) (2022-10-22)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([9b02b0a](https://github.com/gemunion/common-packages/commit/9b02b0a4873923a4292e6af2e14c1d2197b643e8))
+
 ## 2.0.4 (2022-10-16)
 
 **Note:** Version bump only for package @gemunion/markdown
