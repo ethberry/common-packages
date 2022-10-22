@@ -8,11 +8,13 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
+    "draft-convert": "2.1.13",
     "draft-js": "0.11.7",
     "markdown-draft-js": "2.4.0"
   },
   "description": "utils for draft.js",
   "devDependencies": {
+    "@types/draft-convert": "2.1.4",
     "@types/draft-js": "0.11.9",
     "@types/jest": "29.2.0",
     "@types/markdown-draft-js": "2.2.4",
@@ -44,5 +46,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.3.25"
+  "version": "1.0.0"
 }
