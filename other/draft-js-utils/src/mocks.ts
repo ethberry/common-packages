@@ -1,6 +1,6 @@
 import { convertToRaw, EditorState } from "draft-js";
 
-export const rawStateString = JSON.stringify({
+export const rawState = {
   blocks: [
     {
       key: "7po5",
@@ -84,9 +84,13 @@ export const rawStateString = JSON.stringify({
     },
   ],
   entityMap: { "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/niuware" } } },
-});
+};
 
-export const emptyStateString = JSON.stringify(convertToRaw(EditorState.createEmpty().getCurrentContent()));
+export const rawStateString = JSON.stringify(rawState);
+
+export const emptyState = convertToRaw(EditorState.createEmpty().getCurrentContent());
+
+export const emptyStateString = JSON.stringify(emptyState);
 
 export const simpleFormatting = JSON.stringify({
   blocks: [
