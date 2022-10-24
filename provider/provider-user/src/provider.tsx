@@ -126,6 +126,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         profile,
         getProfile,
         setProfile,
+        setProfileHandle,
         logIn,
         logOut,
         signUp,
