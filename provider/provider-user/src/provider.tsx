@@ -12,7 +12,7 @@ interface IUserProviderProps<T> {
   storageName?: string;
   customLogIn?: (data?: ILoginDto, url?: string) => Promise<T | void>;
   customSignUp?: (data?: ISignUpDto, url?: string) => Promise<T | void>;
-  customLogOut?: () => Promise<void>;
+  customLogOut?: (url?: string) => Promise<void>;
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
