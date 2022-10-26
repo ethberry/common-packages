@@ -10,11 +10,11 @@
   "dependencies": {
     "@gemunion/firebase": "1.1.32",
     "@gemunion/provider-api": "7.0.3",
-    "@gemunion/provider-user": "5.0.4",
     "@gemunion/types-collection": "1.5.4"
   },
   "description": "react context provider firebase",
   "devDependencies": {
+    "@gemunion/provider-user": "5.0.4",
     "@types/react": "18.0.21",
     "@types/react-router": "5.1.19",
     "firebase": "9.10.0",
@@ -29,6 +29,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/provider-user-firebase",
   "peerDependencies": {
+    "@gemunion/provider-user": "^5.0.0",
     "firebase": "^9.0.0",
     "react": "^18.0.0",
     "react-router": "^6.0.0"
