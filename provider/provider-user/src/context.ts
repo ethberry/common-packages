@@ -23,7 +23,7 @@ export interface IUserContext<T> {
   setProfile: (data: Partial<T>) => Promise<T>;
   logIn: (data?: ILoginDto, url?: string) => Promise<T | void>;
   logOut: (url?: string) => Promise<void>;
-  signUp?: (data: ISignUpDto, url?: string) => Promise<T | void>;
+  signUp: (data: ISignUpDto, url?: string) => Promise<T | void>;
   isAuthenticated: () => boolean;
 }
 
