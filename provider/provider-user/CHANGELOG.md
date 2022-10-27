@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.5 (2022-10-27)
+
+### Bug Fixes
+
+- custom logout interface ([5c24815](https://github.com/gemunion/common-packages/commit/5c248156c310645806e64139e06283469642b6df))
+- make provider-user as abstract provider for firebase and jwt strategy ([7d4a23f](https://github.com/gemunion/common-packages/commit/7d4a23f672b6e5bb35d14b6c4f622c52decba529))
+- provider-user by adding setProfileHandle function to context ([01e2feb](https://github.com/gemunion/common-packages/commit/01e2feb4ed6221ab76a3f8631091464ab9b22f56))
+- signUp method interface ([e29f956](https://github.com/gemunion/common-packages/commit/e29f95615315acdb08999d89153131ae9a9afd00))
+
 ## [5.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@5.0.3...@gemunion/provider-user@5.0.4) (2022-10-08)
 
 **Note:** Version bump only for package @gemunion/provider-user
