@@ -21,9 +21,9 @@ export interface IUserContext<T> {
   profile: T;
   getProfile: (url?: string) => Promise<T>;
   setProfile: (data: Partial<T>) => Promise<T>;
-  logIn: (data: ILoginDto, url?: string) => Promise<T>;
+  logIn: (data?: ILoginDto, url?: string) => Promise<T | void>;
   logOut: (url?: string) => Promise<void>;
-  signUp: (data: ISignUpDto, url?: string) => Promise<T>;
+  signUp: (data: ISignUpDto, url?: string) => Promise<T | void>;
   isAuthenticated: () => boolean;
 }
 

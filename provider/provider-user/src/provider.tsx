@@ -1,19 +1,23 @@
-import { PropsWithChildren, ReactElement, useEffect, useState } from "react";
+import { PropsWithChildren, ReactElement, useEffect } from "react";
 import { useNavigate } from "react-router";
 
 import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
 
 import { ILoginDto, ISignUpDto, IUser, UserContext } from "./context";
+import { save } from "./utils";
 
 interface IUserProviderProps<T> {
-  profile?: T | null;
+  profile: T | null;
+  setUserProfile: (data: any) => void;
   storageName?: string;
+  customLogIn?: (data?: ILoginDto, url?: string) => Promise<T | void>;
+  customSignUp?: (data?: ISignUpDto, url?: string) => Promise<T | void>;
+  customLogOut?: (url?: string) => Promise<void>;
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
-  const { profile: defaultProfile = null, storageName = "user", children } = props;
+  const { customLogIn, customSignUp, customLogOut, profile, setUserProfile, storageName = "user", children } = props;
 
-  const [profile, setUserProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
 
   const api = useApi();
@@ -22,11 +26,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     const auth = localStorage.getItem(storageName);
     setUserProfile(auth ? (JSON.parse(auth) as T) : null);
   }, []);
-
-  const save = (key: string, profile: T | null): void => {
-    const json = JSON.stringify(profile);
-    localStorage.setItem(key, json);
-  };
 
   const setProfileHandle = (profile: T | null) => {
     setUserProfile(profile);
@@ -60,7 +59,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       });
   };
 
-  const logIn = async (data: ILoginDto, url?: string): Promise<T> => {
+  const logIn = async (data?: ILoginDto, url?: string): Promise<T> => {
     return api
       .fetchJson({
         url: "/auth/login",
@@ -124,11 +123,11 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
     <UserContext.Provider
       value={{
         profile,
-        getProfile,
         setProfile,
-        logIn,
-        logOut,
-        signUp,
+        getProfile,
+        logIn: customLogIn || logIn,
+        logOut: customLogOut || logOut,
+        signUp: customSignUp || signUp,
         isAuthenticated,
       }}
     >
