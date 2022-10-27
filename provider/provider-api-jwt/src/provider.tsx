@@ -12,7 +12,7 @@ import {
   isRefreshTokenExpired,
 } from "@gemunion/provider-api";
 
-export const JwtApiProvider: FC<PropsWithChildren<IApiProviderProps>> = props => {
+export const ApiProviderJwt: FC<PropsWithChildren<IApiProviderProps>> = props => {
   const { baseUrl, storageName, children } = props;
 
   const refreshToken = async () => {

@@ -21,7 +21,7 @@ export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) =>
   });
 };
 
-export const FirebaseApiProvider: FC<PropsWithChildren<IApiProviderProps>> = props => {
+export const ApiProviderFirebase: FC<PropsWithChildren<IApiProviderProps>> = props => {
   const { baseUrl, storageName, children } = props;
   const authFb = getAuth(firebase);
 
