@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@1.0.6...@gemunion/provider-api-jwt@2.0.0) (2022-10-28)
+
+- chore!: rename provider-api-jwt ([2cfae21](https://github.com/gemunion/common-packages/commit/2cfae21444d6d5443ecc0f26e4d43e095b40ca7c))
+
+### BREAKING CHANGES
+
+- `provider-api-jwt` should be used as ApiProviderJwt
+
 ## [1.0.6](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@1.0.5...@gemunion/provider-api-jwt@1.0.6) (2022-10-27)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
