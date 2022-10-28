@@ -6,10 +6,10 @@ import {
   ApiProvider,
   IApiProviderProps,
   fetchJson,
-  getToken,
-  setToken,
   isAccessTokenExpired,
   isRefreshTokenExpired,
+  getToken,
+  setToken,
 } from "@gemunion/provider-api";
 
 export const ApiProviderJwt: FC<PropsWithChildren<IApiProviderProps>> = props => {
