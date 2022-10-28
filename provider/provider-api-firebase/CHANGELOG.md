@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.1 (2022-10-28)
+
+**Note:** Version bump only for package @gemunion/provider-api-firebase
+
 # [2.0.0](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@1.0.9...@gemunion/provider-api-firebase@2.0.0) (2022-10-28)
 
 - chore!: rename provider-api-firebase ([10608a8](https://github.com/gemunion/common-packages/commit/10608a8615518b8c22e333bd1727c16234981ff9))

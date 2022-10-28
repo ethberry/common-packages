@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.0...@gemunion/provider-user@6.0.1) (2022-10-28)
+
+**Note:** Version bump only for package @gemunion/provider-user
+
 # 6.0.0 (2022-10-28)
 
 - chore!: split provider-user ([9e411cf](https://github.com/gemunion/common-packages/commit/9e411cf942a068d322f0ab3b45493bed26de0676))
