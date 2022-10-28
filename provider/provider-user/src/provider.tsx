@@ -19,7 +19,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
   const { customLogIn, customSignUp, customLogOut, profile, setUserProfile, storageName = "user", children } = props;
 
   const navigate = useNavigate();
-
   const api = useApi();
 
   useEffect(() => {
