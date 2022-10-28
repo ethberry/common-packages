@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.0.0 (2022-10-28)
+
+- chore!: split provider-user ([9e411cf](https://github.com/gemunion/common-packages/commit/9e411cf942a068d322f0ab3b45493bed26de0676))
+
+### BREAKING CHANGES
+
+- `provider-user` now was split by firebase and jwt strategies
+
 ## 5.0.5 (2022-10-27)
 
 ### Bug Fixes
