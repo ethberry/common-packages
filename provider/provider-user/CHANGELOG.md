@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.1...@gemunion/provider-user@6.0.2) (2022-11-01)
+
+### Bug Fixes
+
+- isAuthenticated wrap with useCallback to get correct profile ([56a4ae9](https://github.com/gemunion/common-packages/commit/56a4ae9e249006f7c9d1aaab8868202e44601bc4))
+
 ## [6.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.0...@gemunion/provider-user@6.0.1) (2022-10-28)
 
 **Note:** Version bump only for package @gemunion/provider-user
