@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactElement, useEffect } from "react";
+import { PropsWithChildren, ReactElement, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router";
 
 import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
@@ -114,9 +114,9 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       });
   };
 
-  const isAuthenticated = (): boolean => {
+  const isAuthenticated = useCallback((): boolean => {
     return profile !== null;
-  };
+  }, [profile]);
 
   return (
     <UserContext.Provider
