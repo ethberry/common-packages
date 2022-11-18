@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/draft-convert": "2.1.4",
     "@types/draft-js": "0.11.9",
-    "@types/jest": "29.2.2",
+    "@types/jest": "29.2.3",
     "@types/markdown-draft-js": "2.2.4",
     "jest": "29.3.1",
     "react": "18.2.0",
