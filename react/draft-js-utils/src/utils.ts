@@ -15,6 +15,9 @@ export const getHtml = (data: string) => {
       if (entity.type === "LINK") {
         return `<a href="${entity.data.url as string}">${originalText}</a>`;
       }
+      if (entity.type === "IMAGE") {
+        return `<img src="${entity.data.url as string}" alt="">`;
+      }
       return originalText;
     },
   })(contentState.getCurrentContent());

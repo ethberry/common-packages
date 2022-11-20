@@ -82,8 +82,29 @@ export const rawState = {
       entityRanges: [{ offset: 6, length: 9, key: 0 }],
       data: {},
     },
+    {
+      key: "evfmb",
+      text: " ",
+      type: "atomic",
+      depth: 0,
+      inlineStyleRanges: [],
+      entityRanges: [{ offset: 0, length: 1, key: 1 }],
+      data: {},
+    },
   ],
-  entityMap: { "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/niuware" } } },
+  entityMap: {
+    "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/niuware" } },
+    "1": {
+      type: "IMAGE",
+      mutability: "IMMUTABLE",
+      data: {
+        url: "https://firebasestorage.googleapis.com/v0/b/gemunion-firebase.appspot.com/o/DO_NOT_REMOVE_LOGO.png?alt=media&token=85c376a8-33a0-4b6b-9285-2b9022287289",
+        width: 400,
+        height: 240,
+        type: "image",
+      },
+    },
+  },
 };
 
 export const rawStateString = JSON.stringify(rawState);
