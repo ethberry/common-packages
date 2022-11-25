@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dompurify": "2.4.1",
-    "marked": "4.2.2"
+    "marked": "4.2.3"
   },
   "description": "react component to display markdown",
   "devDependencies": {
