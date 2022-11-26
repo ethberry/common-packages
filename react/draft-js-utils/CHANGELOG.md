@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@1.1.6...@gemunion/draft-js-utils@1.2.0) (2022-11-26)
+
+### Features
+
+- render images in draft ([36cdd4e](https://github.com/gemunion/common-packages/commit/36cdd4e314e4a80b20ac876e52dece26884d07fd))
+
 ## [1.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@1.1.5...@gemunion/draft-js-utils@1.1.6) (2022-11-18)
 
 **Note:** Version bump only for package @gemunion/draft-js-utils
