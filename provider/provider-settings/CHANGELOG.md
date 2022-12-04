@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.10 (2022-12-04)
+
+**Note:** Version bump only for package @gemunion/provider-settings
+
 ## [4.0.9](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.8...@gemunion/provider-settings@4.0.9) (2022-11-04)
 
 **Note:** Version bump only for package @gemunion/provider-settings
