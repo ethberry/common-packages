@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.1 (2022-12-10)
+
+**Note:** Version bump only for package @gemunion/draft-js-utils
+
 # [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/draft-js-utils@1.1.6...@gemunion/draft-js-utils@1.2.0) (2022-11-26)
 
 ### Features
