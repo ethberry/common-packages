@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "dompurify": "2.4.1",
-    "marked": "4.2.4"
+    "marked": "4.2.5"
   },
   "description": "react component to display markdown",
   "devDependencies": {
     "@gemunion/draft-js-utils": "0.3.25",
-    "@storybook/react": "6.5.14",
+    "@storybook/react": "6.5.15",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@types/dompurify": "2.4.0",
