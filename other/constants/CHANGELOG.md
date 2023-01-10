@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.9.1 (2023-01-10)
+
+### Bug Fixes
+
+- add rtl languages ([0736ce4](https://github.com/gemunion/common-packages/commit/0736ce4d2a26a216f6fd343447572a39b1bde7a2))
+
 # 0.9.0 (2022-10-27)
 
 ### Features

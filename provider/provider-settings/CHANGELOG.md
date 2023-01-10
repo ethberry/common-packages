@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.13 (2023-01-10)
+
+### Bug Fixes
+
+- add layout direction and set according to language; refactoring ([5a353d0](https://github.com/gemunion/common-packages/commit/5a353d033372583db6fd478e9ccd68cb1390d75d))
+
 ## [4.0.12](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.11...@gemunion/provider-settings@4.0.12) (2022-12-25)
 
 **Note:** Version bump only for package @gemunion/provider-settings

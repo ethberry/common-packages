@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/utils@1.1.0...@gemunion/utils@1.2.0) (2023-01-10)
+
+### Features
+
+- camel to snake case ([9acdca0](https://github.com/gemunion/common-packages/commit/9acdca081705973e20c228825fff96ba52b6c65a))
+
 # 1.1.0 (2022-12-26)
 
 ### Bug Fixes
