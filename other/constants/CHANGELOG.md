@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.10.0 (2023-01-25)
+
+### Features
+
+- gender ([71b9e2b](https://github.com/gemunion/common-packages/commit/71b9e2b8629c4fd2fd925663300de6ed0a547ab6))
+
 ## 0.9.1 (2023-01-10)
 
 ### Bug Fixes
