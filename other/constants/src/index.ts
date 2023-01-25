@@ -3,6 +3,7 @@ export * from "./company";
 export * from "./country";
 export * from "./date";
 export * from "./eth";
+export * from "./gender";
 export * from "./language";
 export * from "./phone";
 export * from "./regexp";
