@@ -1,5 +1,4 @@
 import { initializeApp } from "firebase/app";
-
 /* javascript-obfuscator:disable */
 export default initializeApp({
   apiKey:
