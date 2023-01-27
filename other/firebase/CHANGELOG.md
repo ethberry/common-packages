@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2023-01-27)
+
+### Features
+
+- add default eth private key (besu owner) [skip ci] ([6cf3129](https://github.com/gemunion/common-packages/commit/6cf3129604cf7f18e0e535ecb0ca2ef29d4c6155))
+
 ## [1.1.32](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.1.31...@gemunion/firebase@1.1.32) (2022-10-08)
 
 **Note:** Version bump only for package @gemunion/firebase

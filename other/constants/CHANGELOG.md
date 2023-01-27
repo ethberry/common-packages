@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.10.0...@gemunion/constants@0.11.0) (2023-01-27)
+
+### Features
+
+- add default eth private key (besu owner) [skip ci] ([6cf3129](https://github.com/gemunion/common-packages/commit/6cf3129604cf7f18e0e535ecb0ca2ef29d4c6155))
+
 # 0.10.0 (2023-01-25)
 
 ### Features
