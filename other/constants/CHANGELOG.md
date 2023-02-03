@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.12.0 (2023-02-03)
+
+### Features
+
+- add more privateKeys ([277ca8c](https://github.com/gemunion/common-packages/commit/277ca8c94d68c248c33e20feaf7fa6b88261274e))
+
 # [0.11.0](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.10.0...@gemunion/constants@0.11.0) (2023-01-27)
 
 ### Features
