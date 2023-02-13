@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2023-02-13)
+
+### Features
+
+- snake to camel ([56d1343](https://github.com/gemunion/common-packages/commit/56d13431f445ba7010b500d598e750ac5e9fcf4f))
+
 # [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/utils@1.1.0...@gemunion/utils@1.2.0) (2023-01-10)
 
 ### Features
