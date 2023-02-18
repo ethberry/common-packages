@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/firebase": "1.2.0",
     "@gemunion/history": "1.2.12",
-    "@gemunion/provider-api": "7.0.12",
+    "@gemunion/provider-api": "7.0.13",
     "@gemunion/types-jwt": "0.3.5"
   },
   "description": "react provider api auth strategy firebase",
@@ -48,5 +48,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.8"
+  "version": "2.0.9"
 }
