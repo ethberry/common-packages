@@ -26,7 +26,7 @@
     "@types/d3-selection": "3.0.4",
     "@types/d3-shape": "3.1.1",
     "@types/d3-transition": "3.0.3",
-    "@types/react": "18.0.27"
+    "@types/react": "18.0.28"
   },
   "engines": {
     "node": ">=12.13"
