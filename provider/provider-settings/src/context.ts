@@ -11,7 +11,7 @@ export interface ISettingsContext<T extends string> {
   getLayoutDirection: () => LAYOUT_DIRECTION;
   setTheme: (theme: ThemeType) => void;
   getTheme: () => ThemeType;
-  setReferrer: (theme: string) => void;
+  setReferrer: (referrer: string) => void;
   getReferrer: () => string;
 }
 

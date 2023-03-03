@@ -73,7 +73,7 @@ export const SettingsProvider = <T extends string>(
   };
 
   const setReferrer = useCallback(
-    (referrer: string | undefined): void => {
+    (referrer: string): void => {
       const newSettings = { ...settings, referrer };
       setSettings(newSettings);
       save(storageName, newSettings);
