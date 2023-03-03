@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.6 (2023-03-03)
+
+### Bug Fixes
+
+- sort does not extend search ([da2adf4](https://github.com/gemunion/common-packages/commit/da2adf45cfde10f0fed939e383d9af36d64cd5eb))
+
 ## 1.5.5 (2022-12-17)
 
 **Note:** Version bump only for package @gemunion/types-collection
