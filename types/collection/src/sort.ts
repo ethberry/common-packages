@@ -1,11 +1,9 @@
-import { ISearchDto } from "./search";
-
 export enum SortDirection {
   asc = "asc",
   desc = "desc",
 }
 
-export interface ISortDto<T> extends ISearchDto {
+export interface ISortDto<T> {
   sort: SortDirection;
   sortBy: keyof T;
 }
