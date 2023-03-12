@@ -14,5 +14,4 @@ addMethod(string, "draftHasText", function (errorMessage) {
 
 export const draftValidationSchema = string()
   .required("form.validations.valueMissing")
-  // @ts-ignore
   .draftHasText("form.validations.valueMissing");

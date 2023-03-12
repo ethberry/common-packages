@@ -15,5 +15,4 @@ addMethod(string, "isEthereumAddress", function (errorMessage) {
 
 export const addressValidationSchema = string()
   .required("form.validations.valueMissing")
-  // @ts-ignore
   .isEthereumAddress("form.validations.patternMismatch");
