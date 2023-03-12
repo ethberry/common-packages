@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.1.0 (2023-03-12)
+
+### Features
+
+- types for custom yup methods and bump versions of both yup rules packages ([45b8f00](https://github.com/gemunion/common-packages/commit/45b8f00dfa111827da01283d18499ffb7c877d96))
+
 ## 1.0.27 (2023-03-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules-eth
