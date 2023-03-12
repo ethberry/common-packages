@@ -1,10 +1,9 @@
-import * as Yup from "yup";
+import { object, ValidationError } from "yup";
 import { BigNumber } from "ethers";
 
 import { bigNumberValidationSchema } from "./big-number";
 
-const schemaValidatorObject = Yup.object().shape({
-  // @ts-ignore
+const schemaValidatorObject = object().shape({
   amount: bigNumberValidationSchema,
 });
 
@@ -45,7 +44,7 @@ describe("BigNumber", () => {
       schemaValidatorObject.validate({
         amount: "qwerty",
       }),
-    ).rejects.toEqual(new Yup.ValidationError("form.validations.badInput"));
+    ).rejects.toEqual(new ValidationError("form.validations.badInput"));
   });
 
   it("should fail Object", async () => {
@@ -53,11 +52,11 @@ describe("BigNumber", () => {
       schemaValidatorObject.validate({
         amount: "qwerty",
       }),
-    ).rejects.toEqual(new Yup.ValidationError("form.validations.badInput"));
+    ).rejects.toEqual(new ValidationError("form.validations.badInput"));
   });
 
   it("should fail Object", async () => {
-    const schemaValidatorObject = Yup.object().shape({
+    const schemaValidatorObject = object().shape({
       // @ts-ignore
       amount: bigNumberValidationSchema.min(BigNumber.from("1000")),
     });
@@ -65,6 +64,6 @@ describe("BigNumber", () => {
       schemaValidatorObject.validate({
         amount: value,
       }),
-    ).rejects.toEqual(new Yup.ValidationError("form.validations.rangeUnderflow"));
+    ).rejects.toEqual(new ValidationError("form.validations.rangeUnderflow"));
   });
 });

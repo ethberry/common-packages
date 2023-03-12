@@ -1,13 +1,13 @@
-import * as Yup from "yup";
+import { object, string, ValidationError } from "yup";
 import { constants } from "ethers";
 
 import "./address";
 
 const ERROR_MESSAGE = "ERROR_MESSAGE";
 
-const schemaValidatorObject = Yup.object().shape({
+const schemaValidatorObject = object().shape({
   // @ts-ignore
-  description: Yup.string().isEthereumAddress(ERROR_MESSAGE),
+  description: string().isEthereumAddress(ERROR_MESSAGE),
 });
 
 describe("Address", () => {
@@ -16,7 +16,7 @@ describe("Address", () => {
       schemaValidatorObject.validate({
         description: "",
       }),
-    ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
   });
 
   it("has wrong text", async () => {
@@ -24,7 +24,7 @@ describe("Address", () => {
       schemaValidatorObject.validate({
         description: "qwerty",
       }),
-    ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
   });
 
   it("has wrong address", async () => {

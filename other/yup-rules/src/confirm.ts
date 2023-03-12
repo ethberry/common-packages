@@ -1,5 +1,5 @@
-import * as Yup from "yup";
+import { ref, string } from "yup";
 
-export const confirmValidationSchema = Yup.string()
-  .equals([Yup.ref("password")], "form.validations.patternMismatch")
+export const confirmValidationSchema = string()
+  .equals([ref("password")], "form.validations.patternMismatch")
   .required("form.validations.valueMissing");

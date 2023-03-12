@@ -1,4 +1,4 @@
-import * as Yup from "yup";
+import { object, ValidationError } from "yup";
 import { BigNumber } from "ethers";
 
 import { schema } from "./big-schema";
@@ -9,7 +9,7 @@ describe("BigSchema", () => {
   const value = BigNumber.from("100");
 
   describe("typeError", () => {
-    const schemaValidatorObject = Yup.object().shape({
+    const schemaValidatorObject = object().shape({
       amount: schema.typeError(ERROR_MESSAGE),
     });
 
@@ -48,7 +48,7 @@ describe("BigSchema", () => {
         schemaValidatorObject.validate({
           amount: "qwerty",
         }),
-      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+      ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
     });
 
     it("should fail Object", async () => {
@@ -56,24 +56,24 @@ describe("BigSchema", () => {
         schemaValidatorObject.validate({
           amount: "qwerty",
         }),
-      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+      ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
     });
 
     it("should fail Object", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.typeError(ERROR_MESSAGE),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: "qwerty",
         }),
-      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+      ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
     });
   });
 
   describe("min", () => {
     it("should validate min (BigNumber)", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.min(BigNumber.from("1000")),
       });
       await expect(
@@ -86,58 +86,58 @@ describe("BigSchema", () => {
     });
 
     it("should validate min (BigNumber)", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.min(BigNumber.from("1000")),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: value,
         }),
-      ).rejects.toEqual(new Yup.ValidationError("form.validations.rangeUnderflow"));
+      ).rejects.toEqual(new ValidationError("form.validations.rangeUnderflow"));
     });
 
     it("should validate min (string)", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.min("1000"),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: value,
         }),
-      ).rejects.toEqual(new Yup.ValidationError("form.validations.rangeUnderflow"));
+      ).rejects.toEqual(new ValidationError("form.validations.rangeUnderflow"));
     });
 
     it("should validate min (number)", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.min(1000),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: value,
         }),
-      ).rejects.toEqual(new Yup.ValidationError("form.validations.rangeUnderflow"));
+      ).rejects.toEqual(new ValidationError("form.validations.rangeUnderflow"));
     });
 
     it("should validate with custom message", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.min(1000, ERROR_MESSAGE),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: value,
         }),
-      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+      ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
     });
 
     it("should be require", async () => {
-      const schemaValidatorObject = Yup.object().shape({
+      const schemaValidatorObject = object().shape({
         amount: schema.required(ERROR_MESSAGE),
       });
       await expect(
         schemaValidatorObject.validate({
           amount: void 0,
         }),
-      ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+      ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
     });
   });
 });

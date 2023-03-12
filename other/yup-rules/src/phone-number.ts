@@ -1,3 +1,3 @@
-import * as Yup from "yup";
+import { string } from "yup";
 
-export const phoneNumberValidationSchema = Yup.string().required("form.validations.valueMissing");
+export const phoneNumberValidationSchema = string().required("form.validations.valueMissing");

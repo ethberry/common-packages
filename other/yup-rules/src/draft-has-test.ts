@@ -1,7 +1,7 @@
-import * as Yup from "yup";
+import { addMethod, string } from "yup";
 import { convertFromRaw, EditorState, RawDraftContentState } from "draft-js";
 
-Yup.addMethod(Yup.string, "draftHasText", function (errorMessage) {
+addMethod(string, "draftHasText", function (errorMessage) {
   return this.test(`draft-has-text`, errorMessage, function (value) {
     const { path, createError } = this;
     const contentState = EditorState.createWithContent(
@@ -12,7 +12,6 @@ Yup.addMethod(Yup.string, "draftHasText", function (errorMessage) {
   });
 });
 
-export const draftValidationSchema = Yup.string()
+export const draftValidationSchema = string()
   .required("form.validations.valueMissing")
-  // @ts-ignore
   .draftHasText("form.validations.valueMissing");

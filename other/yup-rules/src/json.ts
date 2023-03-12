@@ -1,4 +1,4 @@
-import * as Yup from "yup";
+import { string } from "yup";
 
 const isValidJSON = (value?: string): any => {
   try {
@@ -10,6 +10,6 @@ const isValidJSON = (value?: string): any => {
   return true;
 };
 
-export const jsonValidationSchema = Yup.string()
+export const jsonValidationSchema = string()
   .required("form.validations.valueMissing")
   .test("is-json", "form.validations.invalidJSON", isValidJSON);

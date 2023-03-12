@@ -1,15 +1,15 @@
-import { BaseSchema } from "yup";
+import { Schema } from "yup";
 import { BigNumber } from "ethers";
 
 const isAbsent = (value: any): value is undefined | null => value == null;
 
-export class BigNumberSchema extends BaseSchema {
+export class BigNumberSchema extends Schema {
   static create() {
     return new BigNumberSchema();
   }
 
   constructor() {
-    super();
+    super({ type: "bigNumber" } as any);
 
     this.withMutation(() => {
       this.transform(function (value: any, originalValue) {
@@ -74,7 +74,7 @@ export class BigNumberSchema extends BaseSchema {
     });
   }
 
-  _typeCheck(value: any): value is any {
+  _typeCheck = (value: any): value is any => {
     const type = Object.prototype.toString.call(value).slice(8, -1);
     switch (type) {
       case "Number":
@@ -89,7 +89,7 @@ export class BigNumberSchema extends BaseSchema {
       default:
         return false;
     }
-  }
+  };
 }
 
 export const schema = new BigNumberSchema();
