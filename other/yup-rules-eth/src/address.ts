@@ -1,7 +1,7 @@
-import * as Yup from "yup";
+import { addMethod, string } from "yup";
 import { utils } from "ethers";
 
-Yup.addMethod(Yup.string, "isEthereumAddress", function (errorMessage) {
+addMethod(string, "isEthereumAddress", function (errorMessage) {
   return this.test(`test-eth-addr`, errorMessage, function (value) {
     try {
       utils.getAddress(value as string);
@@ -13,7 +13,7 @@ Yup.addMethod(Yup.string, "isEthereumAddress", function (errorMessage) {
   });
 });
 
-export const addressValidationSchema = Yup.string()
+export const addressValidationSchema = string()
   .required("form.validations.valueMissing")
   // @ts-ignore
   .isEthereumAddress("form.validations.patternMismatch");

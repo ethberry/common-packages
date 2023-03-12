@@ -1,4 +1,4 @@
-import * as Yup from "yup";
+import { object, string, ValidationError } from "yup";
 
 import { emptyStateString, simpleFormatting } from "@gemunion/draft-js-utils";
 
@@ -6,9 +6,9 @@ import "./draft-has-test";
 
 const ERROR_MESSAGE = "ERROR_MESSAGE";
 
-const schemaValidatorObject = Yup.object().shape({
+const schemaValidatorObject = object().shape({
   // @ts-ignore
-  description: Yup.string().draftHasText(ERROR_MESSAGE),
+  description: string().draftHasText(ERROR_MESSAGE),
 });
 
 describe("Draft", () => {
@@ -17,7 +17,7 @@ describe("Draft", () => {
       schemaValidatorObject.validate({
         description: emptyStateString,
       }),
-    ).rejects.toEqual(new Yup.ValidationError(ERROR_MESSAGE));
+    ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
   });
 
   it("has text", async () => {

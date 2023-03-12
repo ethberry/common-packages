@@ -1,8 +1,8 @@
-import * as Yup from "yup";
+import { string } from "yup";
 
 import { emailMaxLength } from "@gemunion/constants";
 
-export const emailValidationSchema = Yup.string()
+export const emailValidationSchema = string()
   .max(emailMaxLength, "form.validations.tooLong")
   .required("form.validations.valueMissing")
   .email("form.validations.patternMismatch");
