@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules-eth@2.1.0...@gemunion/yup-rules-eth@2.1.1) (2023-03-17)
+
+**Note:** Version bump only for package @gemunion/yup-rules-eth
+
 # 2.1.0 (2023-03-12)
 
 ### Features
