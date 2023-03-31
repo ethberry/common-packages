@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "lerna": "6.6.1",
-    "nx": "15.9.1",
+    "nx": "15.8.9",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
