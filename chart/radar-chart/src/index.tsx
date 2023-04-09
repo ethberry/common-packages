@@ -4,7 +4,7 @@ import { drawRadar } from "./utils";
 import { IRadarChart } from "./interface";
 
 export const RadarChart = (props: IRadarChart) => {
-  const chartRef = useRef<HTMLDivElement>(null);
+  const chartRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (chartRef.current) {

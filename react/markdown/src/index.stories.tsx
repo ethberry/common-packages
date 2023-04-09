@@ -1,17 +1,23 @@
-import { Story } from "@storybook/react";
-
-import { IMarkdownProps, Markdown } from ".";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { markdownString } from "@gemunion/draft-js-utils";
+
+import { Markdown } from ".";
 
 export default {
   title: "Example/Markdown",
   component: Markdown,
+} as Meta<typeof Markdown>;
+
+type Story = StoryObj<typeof Markdown>;
+
+const Template: Story = {
+  render: args => <Markdown {...args} />,
 };
 
-const Template: Story<IMarkdownProps> = args => <Markdown {...args} />;
-
-export const Simple = Template.bind({});
-Simple.args = {
-  text: markdownString,
+export const Simple = {
+  ...Template,
+  args: {
+    text: markdownString,
+  },
 };
