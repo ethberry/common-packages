@@ -37,7 +37,7 @@
     "javascript-obfuscator": "4.0.2",
     "lint-staged": "13.2.1",
     "prettier": "2.8.7",
-    "rimraf": "4.4.1",
+    "rimraf": "5.0.0",
     "storybook": "7.0.4",
     "typescript": "5.0.4",
     "webpack": "5.79.0"
