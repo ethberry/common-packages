@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.13](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.12...@gemunion/popup@1.0.13) (2023-04-14)
+
+**Note:** Version bump only for package @gemunion/popup
+
 ## [1.0.12](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.11...@gemunion/popup@1.0.12) (2023-04-07)
 
 **Note:** Version bump only for package @gemunion/popup

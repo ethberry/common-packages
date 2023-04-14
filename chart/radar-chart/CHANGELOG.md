@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.0.15...@gemunion/radar-chart@1.1.0) (2023-04-14)
+
+### Features
+
+- update storybook to v7 and fix stories ([7092a09](https://github.com/gemunion/common-packages/commit/7092a092d134e4b95ee788f61df291158ddc3a21))
+
 ## [1.0.15](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.0.14...@gemunion/radar-chart@1.0.15) (2023-04-07)
 
 **Note:** Version bump only for package @gemunion/radar-chart

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.0.26...@gemunion/markdown@2.1.0) (2023-04-14)
+
+### Features
+
+- update storybook to v7 and fix stories ([7092a09](https://github.com/gemunion/common-packages/commit/7092a092d134e4b95ee788f61df291158ddc3a21))
+
 ## [2.0.26](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.0.25...@gemunion/markdown@2.0.26) (2023-04-07)
 
 **Note:** Version bump only for package @gemunion/markdown
