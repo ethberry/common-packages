@@ -15,8 +15,8 @@
   },
   "description": "react provider api auth strategy firebase",
   "devDependencies": {
-    "@types/react": "18.0.35",
-    "firebase": "9.19.1",
+    "@types/react": "18.0.38",
+    "firebase": "9.20.0",
     "react": "18.2.0"
   },
   "engines": {
