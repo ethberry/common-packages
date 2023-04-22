@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.20](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.19...@gemunion/provider-user@6.0.20) (2023-04-22)
+
+**Note:** Version bump only for package @gemunion/provider-user
+
 ## [6.0.19](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.18...@gemunion/provider-user@6.0.19) (2023-04-14)
 
 **Note:** Version bump only for package @gemunion/provider-user
