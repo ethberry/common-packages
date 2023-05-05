@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.24](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.23...@gemunion/provider-user-firebase@1.0.24) (2023-05-05)
+
+**Note:** Version bump only for package @gemunion/provider-user-firebase
+
 ## [1.0.23](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.22...@gemunion/provider-user-firebase@1.0.23) (2023-04-29)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
