@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.12.1 (2023-05-12)
+
+### Bug Fixes
+
+- update imageUrl ([ef635f9](https://github.com/gemunion/common-packages/commit/ef635f989eb7fdf18c2473ef1db942890c761827))
+
 # 0.12.0 (2023-02-03)
 
 ### Features
