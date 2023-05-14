@@ -9,7 +9,7 @@
   },
   "description": "Coin Market Cap types",
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",

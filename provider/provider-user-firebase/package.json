@@ -22,7 +22,7 @@
     "react-router": "6.11.1"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "UNLICENSED",

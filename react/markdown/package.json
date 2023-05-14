@@ -27,7 +27,7 @@
     "ts-jest": "29.1.0"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [
     "react",
