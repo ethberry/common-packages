@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.5 (2023-05-20)
+
+### Bug Fixes
+
+- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+
 ## [2.1.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules-eth@2.1.3...@gemunion/yup-rules-eth@2.1.4) (2023-04-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules-eth

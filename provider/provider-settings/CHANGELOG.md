@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.30](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.29...@gemunion/provider-settings@4.0.30) (2023-05-20)
+
+### Bug Fixes
+
+- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+
 ## [4.0.29](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.28...@gemunion/provider-settings@4.0.29) (2023-05-12)
 
 **Note:** Version bump only for package @gemunion/provider-settings

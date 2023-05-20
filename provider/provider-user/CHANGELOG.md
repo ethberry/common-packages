@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.24](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.23...@gemunion/provider-user@6.0.24) (2023-05-20)
+
+### Bug Fixes
+
+- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+
 ## [6.0.23](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.22...@gemunion/provider-user@6.0.23) (2023-05-12)
 
 **Note:** Version bump only for package @gemunion/provider-user

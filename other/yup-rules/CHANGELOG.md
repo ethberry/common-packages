@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.9...@gemunion/yup-rules@4.1.10) (2023-05-20)
+
+### Bug Fixes
+
+- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+
 ## [4.1.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.8...@gemunion/yup-rules@4.1.9) (2023-05-12)
 
 **Note:** Version bump only for package @gemunion/yup-rules

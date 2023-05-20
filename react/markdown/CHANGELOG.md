@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.4...@gemunion/markdown@2.1.5) (2023-05-20)
+
+### Bug Fixes
+
+- update marked to 5 ([90637c1](https://github.com/gemunion/common-packages/commit/90637c14cc7bd1826d57eac81ec3335604b8907f))
+- update testing-library/react to 7 ([8ff00e7](https://github.com/gemunion/common-packages/commit/8ff00e72af5e1dba4370ee07f36389089ccc4378))
+- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+
 ## [2.1.4](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.3...@gemunion/markdown@2.1.4) (2023-05-12)
 
 **Note:** Version bump only for package @gemunion/markdown
