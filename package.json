@@ -11,16 +11,16 @@
   },
   "devDependencies": {
     "@gemunion/eslint-config": "3.0.2",
-    "@storybook/addon-actions": "7.0.12",
-    "@storybook/addon-essentials": "7.0.12",
-    "@storybook/addon-interactions": "7.0.12",
-    "@storybook/addon-links": "7.0.12",
-    "@storybook/node-logger": "7.0.12",
-    "@storybook/preset-create-react-app": "7.0.12",
-    "@storybook/react": "7.0.12",
-    "@storybook/react-webpack5": "7.0.12",
-    "@typescript-eslint/eslint-plugin": "5.59.6",
-    "@typescript-eslint/parser": "5.59.6",
+    "@storybook/addon-actions": "7.0.18",
+    "@storybook/addon-essentials": "7.0.18",
+    "@storybook/addon-interactions": "7.0.18",
+    "@storybook/addon-links": "7.0.18",
+    "@storybook/node-logger": "7.0.18",
+    "@storybook/preset-create-react-app": "7.0.18",
+    "@storybook/react": "7.0.18",
+    "@storybook/react-webpack5": "7.0.18",
+    "@typescript-eslint/eslint-plugin": "5.59.7",
+    "@typescript-eslint/parser": "5.59.7",
     "babel-plugin-inline-import": "3.0.0",
     "eslint": "8.41.0",
     "eslint-config-prettier": "8.8.0",
@@ -38,9 +38,9 @@
     "lint-staged": "13.2.2",
     "prettier": "2.8.8",
     "rimraf": "5.0.1",
-    "storybook": "7.0.12",
+    "storybook": "7.0.18",
     "typescript": "5.0.4",
-    "webpack": "5.83.1"
+    "webpack": "5.84.1"
   },
   "engines": {
     "node": ">=18"
