@@ -18,15 +18,15 @@
     "react": "18.2.0"
   },
   "devDependencies": {
-    "@storybook/react": "7.0.12",
-    "@types/d3-array": "3.0.4",
+    "@storybook/react": "7.0.18",
+    "@types/d3-array": "3.0.5",
     "@types/d3-format": "3.0.1",
     "@types/d3-path": "3.0.0",
     "@types/d3-scale": "4.0.3",
     "@types/d3-selection": "3.0.5",
     "@types/d3-shape": "3.1.1",
     "@types/d3-transition": "3.0.3",
-    "@types/react": "18.2.6"
+    "@types/react": "18.2.7"
   },
   "engines": {
     "node": ">=18"
