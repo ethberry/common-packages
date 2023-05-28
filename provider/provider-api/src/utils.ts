@@ -72,3 +72,9 @@ export const prepare = (props: IPrepareProps) => {
     });
   };
 };
+
+export const getFormData = (object: Record<string, File>) => {
+  const formData = new FormData();
+  Object.keys(object).forEach(key => formData.append(key, object[key], object[key].name));
+  return formData;
+};
