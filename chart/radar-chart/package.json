@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "d3-array": "3.2.3",
+    "d3-array": "3.2.4",
     "d3-format": "3.1.0",
     "d3-path": "3.1.0",
     "d3-scale": "4.0.2",
@@ -26,7 +26,7 @@
     "@types/d3-selection": "3.0.5",
     "@types/d3-shape": "3.1.1",
     "@types/d3-transition": "3.0.3",
-    "@types/react": "18.2.7"
+    "@types/react": "18.2.8"
   },
   "engines": {
     "node": ">=18"
