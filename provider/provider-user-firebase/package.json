@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "@gemunion/firebase": "1.2.7",
-    "@gemunion/provider-api": "7.0.24",
+    "@gemunion/provider-api": "7.0.25",
     "@gemunion/types-collection": "1.5.7"
   },
   "description": "react context provider firebase",
   "devDependencies": {
-    "@gemunion/provider-user": "6.0.25",
+    "@gemunion/provider-user": "6.0.26",
     "@types/react": "18.2.8",
     "@types/react-router": "5.1.20",
     "firebase": "9.22.1",
@@ -52,5 +52,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.27"
+  "version": "1.0.28"
 }
