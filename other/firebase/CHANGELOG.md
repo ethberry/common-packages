@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.8 (2023-06-11)
+
+**Note:** Version bump only for package @gemunion/firebase
+
 ## [1.2.7](https://github.com/gemunion/common-packages/compare/@gemunion/firebase@1.2.6...@gemunion/firebase@1.2.7) (2023-05-26)
 
 **Note:** Version bump only for package @gemunion/firebase
