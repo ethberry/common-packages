@@ -18,7 +18,7 @@
     "react": "18.2.0"
   },
   "devDependencies": {
-    "@storybook/react": "7.0.23",
+    "@storybook/react": "7.0.24",
     "@types/d3-array": "3.0.5",
     "@types/d3-format": "3.0.1",
     "@types/d3-path": "3.0.0",
