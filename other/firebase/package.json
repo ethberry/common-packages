@@ -9,7 +9,7 @@
   },
   "description": "firebase config",
   "devDependencies": {
-    "firebase": "9.23.0"
+    "firebase": "10.0.0"
   },
   "engines": {
     "node": ">=18"
@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/firebase",
   "peerDependencies": {
-    "firebase": "^9.0.0"
+    "firebase": "^9.0.0 || ^10.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
