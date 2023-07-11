@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.16...@gemunion/yup-rules@4.2.0) (2023-07-11)
+
+### Features
+
+- add dbid and url ([1cb3b95](https://github.com/gemunion/common-packages/commit/1cb3b95c900dd348273a4425918d1b3bbaaa3083))
+
 ## [4.1.16](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.15...@gemunion/yup-rules@4.1.16) (2023-06-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules

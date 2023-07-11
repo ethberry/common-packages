@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.11...@gemunion/markdown@2.1.12) (2023-07-11)
+
+### Bug Fixes
+
+- **deps:** update dependency dompurify to v3.0.5 ([1623e4b](https://github.com/gemunion/common-packages/commit/1623e4bef0a56ab766a6ca33f3355f7703ff4c52))
+
 ## [2.1.11](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.10...@gemunion/markdown@2.1.11) (2023-06-30)
 
 **Note:** Version bump only for package @gemunion/markdown
