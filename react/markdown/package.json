@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "3.0.4",
+    "dompurify": "3.0.5",
     "marked": "5.1.1"
   },
   "description": "react component to display markdown",
