@@ -10,7 +10,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@gemunion/eslint-config": "3.0.2",
+    "@gemunion/eslint-config": "4.0.1",
     "@storybook/addon-actions": "7.0.26",
     "@storybook/addon-essentials": "7.0.26",
     "@storybook/addon-interactions": "7.0.26",
