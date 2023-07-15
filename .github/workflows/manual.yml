@@ -38,9 +38,7 @@ jobs:
         run: npm run build
 
       - name: LERNA VER
-        run: lerna --version
-      - name: LERNA path
-        run: which lerna
+        run: npm run lerna:version
 
       - name: Obfuscate
         run: npm run obfuscate
@@ -61,21 +59,19 @@ jobs:
           GITHUBUSER: ${{ secrets.GITHUBUSER }}
           GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
 
-      - name: LERNA VER1
-        run: lerna --version
-      - name: LERNA path1
-        run: which lerna
+      - name: LERNA VER
+        run: npm run lerna:version
 
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com/
 
       - name: What changed
-        run: lerna changed
+        run: npm run lerna:changed
         id: lerna_changed
         continue-on-error: true
 
-#      - name: Version & Publish by lerna
-#        run: lerna version --ignore-scripts && npm run release:publish
-#        if: steps.lerna_changed.outcome == 'success'
-#        env:
-#          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
+      - name: Version & Publish by lerna via npm
+        run: npm run lerna:publish
+        if: steps.lerna_changed.outcome == 'success'
+        env:
+          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
