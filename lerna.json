@@ -10,6 +10,6 @@
     }
   },
   "packages": ["chart/*", "other/*", "react/*", "types/*", "provider/*"],
-  "useNx": true,
+  "useNx": false,
   "version": "independent"
 }
