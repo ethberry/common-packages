@@ -9,7 +9,7 @@
       "yes": true
     }
   },
-  "packages": ["chart/*", "other/*", "react/*", "types/*", "provider/*"],
+  "packages": ["chart/*", "other/*", "provider/*", "react/*", "types/*"],
   "useNx": false,
   "version": "independent"
 }
