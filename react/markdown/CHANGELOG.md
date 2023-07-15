@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.12...@gemunion/markdown@2.1.13) (2023-07-15)
+
+**Note:** Version bump only for package @gemunion/markdown
+
+
+
+
+
 ## [2.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.11...@gemunion/markdown@2.1.12) (2023-07-11)
 
 ### Bug Fixes
