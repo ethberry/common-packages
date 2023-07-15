@@ -26,7 +26,7 @@ jobs:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
       - name: Authenticate check via npm pkg.github
-        run: npm whoami --registry=https://npm.pkg.github.com/
+        run: npm whoami --registry=https://npm.pkg.github.com
 
       - name: Install Packages npm i
         run: npm i
@@ -36,9 +36,6 @@ jobs:
 
       - name: Build Packages
         run: npm run build
-
-      - name: LERNA VER
-        run: npm run lerna:version
 
       - name: Obfuscate
         run: npm run obfuscate
@@ -58,12 +55,6 @@ jobs:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
           GITHUBUSER: ${{ secrets.GITHUBUSER }}
           GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
-
-      - name: LERNA VER
-        run: npm run lerna:version
-
-      - name: Authenticate check via npm pkg.github
-        run: npm whoami --registry=https://npm.pkg.github.com/
 
       - name: What changed
         run: npm run lerna:changed

@@ -26,13 +26,16 @@ jobs:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
       - name: Authenticate check via npm pkg.github
-        run: npm whoami --registry=https://npm.pkg.github.com/
+        run: npm whoami --registry=https://npm.pkg.github.com
 
       - name: Install Packages npm i
         run: npm i
 
       - name: Bootstrap Packages
-        run: npm run bootstrap && npm run build
+        run: npm run bootstrap
+
+      - name: Build Packages
+        run: npm run build
 
       - name: Obfuscate
         run: npm run obfuscate
@@ -46,17 +49,20 @@ jobs:
       - name: Authenticate Registry & Configure Git User
         run: |
           npx npm-cli-login -u $GITHUBUSER -p $GITHUBTOKEN -e $GITHUBEMAIL -r https://npm.pkg.github.com -s @gemunion --config-path="./"
-          git config --global user.name 'trejgun'
+          git config --global user.name '@gemunion'
           git config --global user.email $GITHUBEMAIL
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
           GITHUBUSER: ${{ secrets.GITHUBUSER }}
           GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
 
-      - name: Authenticate check via npm pkg.github
-        run: npm whoami --registry=https://npm.pkg.github.com/
+      - name: What changed
+        run: npm run lerna:changed
+        id: lerna_changed
+        continue-on-error: true
 
-      - name: Version & Publish by lerna
-        run: lerna version patch --force-publish --ignore-scripts && npm run release:publish -- --force-publish
+      - name: Version & Publish by lerna via npm
+        run: npm run lerna:publish -- --force-publish
+        if: steps.lerna_changed.outcome == 'success'
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
