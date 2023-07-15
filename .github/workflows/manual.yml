@@ -17,13 +17,18 @@ jobs:
       # pulls all tags (needed for lerna to correctly version)
       - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/* # see https://stackoverflow.com/a/60184319/9285308
 
-      - name: add npmrc token
+      - name: Authenticate Registry & Configure Git User
         run: |
           echo "@gemunion:registry=https://npm.pkg.github.com" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=$GITHUBTOKEN" >> .npmrc
           git update-index --assume-unchanged .npmrc
+          npx npm-cli-login -u $GITHUBUSER -p $GITHUBTOKEN -e $GITHUBEMAIL -r https://npm.pkg.github.com -s @gemunion --config-path="./"
+          git config --global user.name '@gemunion'
+          git config --global user.email $GITHUBEMAIL
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
+          GITHUBUSER: ${{ secrets.GITHUBUSER }}
+          GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
 
       - name: Authenticate check via npm pkg.github
         run: npm whoami --registry=https://npm.pkg.github.com
@@ -45,16 +50,6 @@ jobs:
 
       - name: Rename2
         run: find . -name '*obfuscated.*.js' -exec bash -c 'mv -v "$1" "${1/-obfuscated/}"' _ {} \;
-
-      - name: Authenticate Registry & Configure Git User
-        run: |
-          npx npm-cli-login -u $GITHUBUSER -p $GITHUBTOKEN -e $GITHUBEMAIL -r https://npm.pkg.github.com -s @gemunion --config-path="./"
-          git config --global user.name '@gemunion'
-          git config --global user.email $GITHUBEMAIL
-        env:
-          GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
-          GITHUBUSER: ${{ secrets.GITHUBUSER }}
-          GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
 
       - name: What changed
         run: npm run lerna:changed
