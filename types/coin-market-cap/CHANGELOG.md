@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/types-coin-market-cap@0.1.4...@gemunion/types-coin-market-cap@0.1.5) (2023-07-18)
+
+**Note:** Version bump only for package @gemunion/types-coin-market-cap
+
+
+
+
+
 ## 0.1.4 (2023-05-20)
 
 ### Bug Fixes
