@@ -13,7 +13,7 @@
   },
   "description": "react context provider jwt",
   "devDependencies": {
-    "@gemunion/provider-user": "6.0.36",
+    "@gemunion/provider-user": "6.0.37",
     "@types/react": "18.2.15",
     "@types/react-router": "5.1.20",
     "react": "18.2.0",
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.38"
+  "version": "1.0.39"
 }
