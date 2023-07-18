@@ -56,7 +56,10 @@ jobs:
         id: lerna_changed
         continue-on-error: true
 
-      - name: Version & Publish by lerna via npm
+      - name: Version
+        run: npm run lerna:version
+
+      - name: Publish on npm
         run: npm run lerna:publish
         if: steps.lerna_changed.outcome == 'success'
         env:

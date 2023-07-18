@@ -7,7 +7,6 @@
   "dependencies": {
     "@lerna/legacy-package-management": "7.1.4",
     "lerna": "7.1.4",
-    "nx": "15.8.9",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
@@ -58,19 +57,16 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --concurrency 1 --hoist --ignore-scripts",
     "build": "lerna run build --stream",
-    "lerna:version": "lerna --version",
-    "lerna:changed": "lerna changed",
-    "lerna:publish": "lerna version --ignore-scripts && npm run release:publish",
     "clean": "sh scripts/clean.sh",
     "kill": "sudo pkill -9 node",
+    "lerna:changed": "lerna changed",
+    "lerna:publish": "lerna publish from-package --yes --exact --ignore-scripts",
+    "lerna:version": "lerna version --ignore-scripts",
     "lint": "lerna run lint --stream",
     "obfuscate": "sh scripts/obfuscate.sh",
     "precommit": "lint-staged",
     "prettier": "prettier \"other/**/*.{ts,tsx}\" \"provider/**/*.{ts,tsx}\" \"react/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\" --write",
     "registry": "lerna publish",
-    "release": "npm run release:version && npm run release:publish",
-    "release:publish": "lerna publish from-package --yes --exact --ignore-scripts",
-    "release:version": "lerna version",
     "storybook": "storybook dev -p 6006",
     "test": "sh scripts/test.sh"
   },
