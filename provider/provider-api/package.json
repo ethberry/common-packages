@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.12.5",
-    "@gemunion/history": "1.2.15",
-    "@gemunion/types-jwt": "0.3.8",
+    "@gemunion/constants": "0.12.6",
+    "@gemunion/history": "1.2.16",
+    "@gemunion/types-jwt": "0.3.9",
     "content-disposition": "0.5.4",
     "qs": "6.11.2"
   },
@@ -48,5 +48,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "7.0.33"
+  "version": "7.0.34"
 }
