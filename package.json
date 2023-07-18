@@ -19,8 +19,8 @@
     "@storybook/preset-create-react-app": "7.0.27",
     "@storybook/react": "7.0.27",
     "@storybook/react-webpack5": "7.0.27",
-    "@typescript-eslint/eslint-plugin": "6.0.0",
-    "@typescript-eslint/parser": "6.0.0",
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
     "babel-plugin-inline-import": "3.0.0",
     "eslint": "8.45.0",
     "eslint-config-prettier": "8.8.0",
@@ -40,7 +40,7 @@
     "rimraf": "5.0.1",
     "storybook": "7.0.27",
     "typescript": "5.1.6",
-    "webpack": "5.88.1"
+    "webpack": "5.88.2"
   },
   "engines": {
     "node": ">=18"
