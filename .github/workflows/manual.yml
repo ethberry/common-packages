@@ -45,12 +45,6 @@ jobs:
       - name: Obfuscate
         run: npm run obfuscate
 
-      - name: Rename1
-        run: find . -name '*obfuscated.js' -exec bash -c 'mv -v "$1" "${1/-obfuscated/}"' _ {} \;
-
-      - name: Rename2
-        run: find . -name '*obfuscated.*.js' -exec bash -c 'mv -v "$1" "${1/-obfuscated/}"' _ {} \;
-
       - name: What changed
         run: npm run lerna:changed
         id: lerna_changed
