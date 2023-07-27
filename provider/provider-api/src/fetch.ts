@@ -13,6 +13,10 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
       history.push("/login");
       return null;
     }
+    if (response.status === 402) {
+      history.push("/rate-plans");
+      return null;
+    }
     if (![200, 201].includes(response.status)) {
       return response.json().then((json: Error) => {
         throw new ApiError(json.message, response.status);
