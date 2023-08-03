@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.38...@gemunion/provider-user@6.0.39) (2023-08-03)
+
+
+### Bug Fixes
+
+* properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
+
+
+
+
+
 ## 6.0.38 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-user

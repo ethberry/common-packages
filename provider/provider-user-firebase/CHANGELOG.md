@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.43](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.42...@gemunion/provider-user-firebase@1.0.43) (2023-08-03)
+
+
+### Bug Fixes
+
+* properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
+
+
+
+
+
 ## [1.0.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.41...@gemunion/provider-user-firebase@1.0.42) (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
