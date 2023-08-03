@@ -3,7 +3,7 @@ import { FC, PropsWithChildren } from "react";
 import { ns } from "@gemunion/constants";
 
 import { ApiContext } from "./context";
-import { fetchFile, fetchJson } from "./fetch";
+import { useFetchFile, useFetchJson } from "./fetch";
 import {
   getToken,
   isAccessTokenExpired,
@@ -36,6 +36,9 @@ export const ApiProvider: FC<PropsWithChildren<IApiProviderBaseProps>> = props =
     storageName = ns,
     children,
   } = props;
+
+  const { fetchJson } = useFetchJson();
+  const { fetchFile } = useFetchFile();
 
   const initializeProvider = (): void => {
     setBaseUrl(baseUrl);

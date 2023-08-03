@@ -1,6 +1,8 @@
-import { IJwt } from "@gemunion/types-jwt";
-import { IFetchProps } from "./context";
 import { stringify } from "qs";
+
+import { IJwt } from "@gemunion/types-jwt";
+
+import { IFetchProps } from "./context";
 
 export let baseUrl = "";
 export let storageName = "jwt";
