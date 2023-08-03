@@ -39,7 +39,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       .then((json: T) => {
         setProfileHandle(json);
         if (url) {
-          navigate(url);
+          navigate(url, { replace: true });
         }
         return json;
       });

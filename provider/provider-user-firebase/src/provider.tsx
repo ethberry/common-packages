@@ -34,7 +34,7 @@ export const UserProviderFirebase = <T extends IUser>(
       .then((json: T) => {
         setProfileHandle(json);
         if (url) {
-          navigate(url);
+          navigate(url, { replace: true });
         }
         return json;
       });

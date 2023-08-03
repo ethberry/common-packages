@@ -1,6 +1,5 @@
 import { parse } from "content-disposition";
-
-import { history } from "@gemunion/history";
+import { redirect } from "react-router-dom";
 
 import { ApiError } from "./error";
 
@@ -10,12 +9,12 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
       return null;
     }
     if (response.status === 401) {
-      history.push("/login");
-      return null;
+      redirect("/login");
+      throw new ApiError("unauthorized", response.status);
     }
     if (response.status === 402) {
-      history.push("/rate-plans");
-      return null;
+      redirect("/rate-plans");
+      throw new ApiError("paymentRequired", response.status);
     }
     if (![200, 201].includes(response.status)) {
       return response.json().then((json: Error) => {
@@ -44,7 +43,7 @@ export const fetchFile = (input: RequestInfo, init?: RequestInit): Promise<void>
       return;
     }
     if (response.status === 401) {
-      history.push("/login");
+      redirect("/login");
       return;
     }
     if (![200, 201].includes(response.status)) {

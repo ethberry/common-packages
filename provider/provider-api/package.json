@@ -12,6 +12,7 @@
     "@gemunion/history": "1.2.16",
     "@gemunion/types-jwt": "0.3.9",
     "content-disposition": "0.5.4",
+    "react-router-dom": "6.14.2",
     "qs": "6.11.2"
   },
   "description": "react context provider",
