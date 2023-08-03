@@ -5,7 +5,7 @@ import { IJwt } from "@gemunion/types-jwt";
 import {
   ApiProvider,
   IApiProviderProps,
-  fetchJson,
+  useFetchJson,
   isAccessTokenExpired,
   isRefreshTokenExpired,
   getToken,
@@ -14,6 +14,7 @@ import {
 
 export const ApiProviderJwt: FC<PropsWithChildren<IApiProviderProps>> = props => {
   const { baseUrl, storageName, children } = props;
+  const { fetchJson } = useFetchJson();
 
   const refreshToken = async () => {
     const jwt = getToken();

@@ -1,6 +1,6 @@
 import { string } from "yup";
 
-import { fetchJson } from "@gemunion/provider-api";
+import { useFetchJson } from "@gemunion/provider-api";
 import { passwordMinLength, passwordScore } from "@gemunion/constants";
 
 export const passwordValidationSchema = string()
@@ -9,6 +9,7 @@ export const passwordValidationSchema = string()
   .test({
     message: "form.validations.tooWeak",
     test: (password = "") => {
+      const { fetchJson } = useFetchJson();
       // https://github.com/jquense/yup/issues/851
       if (password.length < passwordMinLength) {
         return false;
