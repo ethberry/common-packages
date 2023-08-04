@@ -1,7 +1,27 @@
 import { parse } from "content-disposition";
 import { useNavigate } from "react-router";
 
+import { history } from "@gemunion/history";
+
 import { ApiError } from "./error";
+
+export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> => {
+  return window.fetch(input, init).then(response => {
+    if (response.status === 204) {
+      return null;
+    }
+    if (response.status === 401) {
+      history.push("/login");
+      throw new ApiError("unauthorized", response.status);
+    }
+    if (![200, 201].includes(response.status)) {
+      return response.json().then((json: Error) => {
+        throw new ApiError(json.message, response.status);
+      });
+    }
+    return response.json();
+  });
+};
 
 export const useFetchJson = () => {
   const navigate = useNavigate();
