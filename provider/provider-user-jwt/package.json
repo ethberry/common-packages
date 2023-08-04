@@ -8,12 +8,12 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/provider-api": "7.0.37",
-    "@gemunion/types-collection": "1.5.10"
+    "@gemunion/provider-api": "7.0.38",
+    "@gemunion/types-collection": "1.5.11"
   },
   "description": "react context provider jwt",
   "devDependencies": {
-    "@gemunion/provider-user": "6.0.40",
+    "@gemunion/provider-user": "6.0.41",
     "@types/react": "18.2.18",
     "@types/react-router": "5.1.20",
     "react": "18.2.0",
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.42"
+  "version": "1.0.43"
 }
