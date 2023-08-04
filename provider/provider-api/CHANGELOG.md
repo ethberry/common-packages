@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.36...@gemunion/provider-api@7.0.37) (2023-08-04)
+
+
+### Bug Fixes
+
+* fetchJson for jwt and yup-rules ([7d147e2](https://github.com/gemunion/common-packages/commit/7d147e263e97d94b18a1641a86cff255c2e6dc2a))
+* navigate for fetch functions ([662849d](https://github.com/gemunion/common-packages/commit/662849dbe4c4c493523341056f9c3a450557f1af))
+
+
+
+
+
 ## [7.0.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.35...@gemunion/provider-api@7.0.36) (2023-08-03)
 
 

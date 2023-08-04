@@ -10,7 +10,7 @@
   "dependencies": {
     "@gemunion/constants": "0.12.6",
     "@gemunion/draft-js-utils": "1.2.21",
-    "@gemunion/provider-api": "7.0.36",
+    "@gemunion/provider-api": "7.0.37",
     "yup": "1.2.0"
   },
   "description": "validation rules",
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.2.8"
+  "version": "4.2.9"
 }
