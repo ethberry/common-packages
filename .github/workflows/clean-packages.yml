@@ -16,6 +16,11 @@ jobs:
       max-parallel: 1
       matrix:
         package: [
+          'types-coin-market-cap',
+          'provider-user-firebase',
+          'provider-user-jwt',
+          'markdown',
+          'types-coingecko',
           'provider-api',
           'history',
           'provider-user',
@@ -36,16 +41,11 @@ jobs:
           'yup-rules-eth',
           'provider-api-firebase',
           'provider-api-jwt',
-          'types-coin-market-cap',
-          'provider-user-firebase',
           'types-iex-cloud',
           'utils',
           'butils',
-          'provider-user-jwt',
           'provider-network',
-          'redis',
-          'markdown',
-          'types-coingecko'
+          'redis'
         ]
     runs-on: ubuntu-latest
 
