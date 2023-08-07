@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.23](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.22...@gemunion/markdown@2.1.23) (2023-08-07)
+
+
+### Bug Fixes
+
+* version of draft-js-utils ([c24683b](https://github.com/gemunion/common-packages/commit/c24683b80c1cd0615ba7989c6e968dec10d86cff))
+
+
+
+
+
 ## [2.1.22](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.21...@gemunion/markdown@2.1.22) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/markdown

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.11](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.10...@gemunion/types-jwt@0.3.11) (2023-08-07)
+
+
+### Bug Fixes
+
+* add IKeplrDto to types-jwt ([cea7015](https://github.com/gemunion/common-packages/commit/cea701508ff7f289d693c5495def2aa8df8f7345))
+* remove readonly from IKeplrDto signature types ([62593fd](https://github.com/gemunion/common-packages/commit/62593fd541baccd37aaf3d161c0b2b6e353a3469))
+
+
+
+
+
 ## 0.3.10 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/types-jwt
