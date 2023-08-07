@@ -48,13 +48,13 @@ export interface IMetamaskDto {
 }
 
 export interface PubKey {
-  readonly type: string;
-  readonly value: string;
+  type: string;
+  value: string;
 }
 
 export interface StdSignature {
-  readonly pub_key: PubKey;
-  readonly signature: string;
+  pub_key: PubKey;
+  signature: string;
 }
 
 export interface IKeplrDto {
