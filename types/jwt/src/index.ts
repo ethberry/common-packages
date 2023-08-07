@@ -46,3 +46,20 @@ export interface IMetamaskDto {
   signature: string;
   wallet: string;
 }
+
+export interface PubKey {
+  readonly type: string;
+  readonly value: string;
+}
+
+export interface StdSignature {
+  readonly pub_key: PubKey;
+  readonly signature: string;
+}
+
+export interface IKeplrDto {
+  chainPrefix: string;
+  nonce: string;
+  signature: StdSignature;
+  wallet: string;
+}
