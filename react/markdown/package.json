@@ -14,7 +14,7 @@
   "description": "react component to display markdown",
   "devDependencies": {
     "@gemunion/draft-js-utils": "1.2.22",
-    "@storybook/react": "7.2.2",
+    "@storybook/react": "7.2.3",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "14.0.0",
     "@types/dompurify": "3.0.2",
