@@ -3,96 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.35...@gemunion/provider-api-jwt@2.0.36) (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [2.0.35](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.34...@gemunion/provider-api-jwt@2.0.35) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
-
-
-
-
 
 ## 2.0.34 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
 
-
-
-
-
 ## [2.0.33](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.32...@gemunion/provider-api-jwt@2.0.33) (2023-08-04)
-
 
 ### Bug Fixes
 
-* fetchJson for jwt and yup-rules ([d5530d7](https://github.com/gemunion/common-packages/commit/d5530d70722f60cfd9d9d05c20fc57a8272902d9))
-
-
-
-
+- fetchJson for jwt and yup-rules ([d5530d7](https://github.com/gemunion/common-packages/commit/d5530d70722f60cfd9d9d05c20fc57a8272902d9))
 
 ## [2.0.32](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.31...@gemunion/provider-api-jwt@2.0.32) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
 
-
-
-
-
 ## 2.0.31 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
-
-
-
-
 
 ## [2.0.30](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.29...@gemunion/provider-api-jwt@2.0.30) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
 
-
-
-
-
 ## [2.0.29](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.28...@gemunion/provider-api-jwt@2.0.29) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
-
-
-
-
 
 ## [2.0.28](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.27...@gemunion/provider-api-jwt@2.0.28) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
 
-
-
-
-
 ## [2.0.27](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.26...@gemunion/provider-api-jwt@2.0.27) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
-
-
-
-
 
 ## [2.0.26](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.25...@gemunion/provider-api-jwt@2.0.26) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
 
-
-
-
-
 ## [2.0.25](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.24...@gemunion/provider-api-jwt@2.0.25) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
-
-
-
-
 
 ## [2.0.24](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.23...@gemunion/provider-api-jwt@2.0.24) (2023-06-24)
 

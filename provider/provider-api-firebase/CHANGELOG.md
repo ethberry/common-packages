@@ -3,101 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.38](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.37...@gemunion/provider-api-firebase@2.0.38) (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [2.0.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.36...@gemunion/provider-api-firebase@2.0.37) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## 2.0.36 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.35](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.34...@gemunion/provider-api-firebase@2.0.35) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## [2.0.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.33...@gemunion/provider-api-firebase@2.0.34) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.33](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.32...@gemunion/provider-api-firebase@2.0.33) (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## 2.0.32 (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.31](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.30...@gemunion/provider-api-firebase@2.0.31) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## [2.0.30](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.29...@gemunion/provider-api-firebase@2.0.30) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.29](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.28...@gemunion/provider-api-firebase@2.0.29) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## [2.0.28](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.27...@gemunion/provider-api-firebase@2.0.28) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.27](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.26...@gemunion/provider-api-firebase@2.0.27) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
 
-
-
-
-
 ## [2.0.26](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.25...@gemunion/provider-api-firebase@2.0.26) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
-
-
-
-
 
 ## 2.0.25 (2023-07-11)
 

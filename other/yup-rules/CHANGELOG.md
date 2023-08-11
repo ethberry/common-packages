@@ -3,93 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.2.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.10...@gemunion/yup-rules@4.2.11) (2023-08-07)
+## [4.2.12](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.11...@gemunion/yup-rules@4.2.12) (2023-08-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
+## [4.2.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.10...@gemunion/yup-rules@4.2.11) (2023-08-07)
 
-
-
+**Note:** Version bump only for package @gemunion/yup-rules
 
 ## 4.2.10 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-
-
-
-
 ## [4.2.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.8...@gemunion/yup-rules@4.2.9) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/yup-rules
-
-
-
-
 
 ## [4.2.8](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.7...@gemunion/yup-rules@4.2.8) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-
-
-
-
 ## 4.2.7 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/yup-rules
-
-
-
-
 
 ## [4.2.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.5...@gemunion/yup-rules@4.2.6) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-
-
-
-
 ## [4.2.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.4...@gemunion/yup-rules@4.2.5) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
-
-
-
-
 
 ## [4.2.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.3...@gemunion/yup-rules@4.2.4) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-
-
-
-
 ## [4.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.2...@gemunion/yup-rules@4.2.3) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
-
-
-
-
 
 ## [4.2.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.1...@gemunion/yup-rules@4.2.2) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-
-
-
-
 ## [4.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.0...@gemunion/yup-rules@4.2.1) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
-
-
-
-
 
 # [4.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.16...@gemunion/yup-rules@4.2.0) (2023-07-11)
 

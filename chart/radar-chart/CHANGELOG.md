@@ -3,85 +3,51 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.23 (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [1.1.22](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.21...@gemunion/radar-chart@1.1.22) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/radar-chart
-
-
-
-
 
 ## 1.1.21 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/radar-chart
 
-
-
-
-
 ## [1.1.20](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.19...@gemunion/radar-chart@1.1.20) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/radar-chart
-
-
-
-
 
 ## [1.1.19](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.18...@gemunion/radar-chart@1.1.19) (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/radar-chart
 
-
-
-
-
 ## 1.1.18 (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/radar-chart
-
-
-
-
 
 ## [1.1.17](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.16...@gemunion/radar-chart@1.1.17) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/radar-chart
 
-
-
-
-
 ## [1.1.16](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.15...@gemunion/radar-chart@1.1.16) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/radar-chart
-
-
-
-
 
 ## [1.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.14...@gemunion/radar-chart@1.1.15) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/radar-chart
 
-
-
-
-
 ## [1.1.14](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.13...@gemunion/radar-chart@1.1.14) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/radar-chart
 
-
-
-
-
 ## [1.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.12...@gemunion/radar-chart@1.1.13) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/radar-chart
-
-
-
-
 
 ## [1.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.11...@gemunion/radar-chart@1.1.12) (2023-07-11)
 

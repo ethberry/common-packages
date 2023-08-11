@@ -3,69 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.32 (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## 1.0.31 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/popup
-
-
-
-
 
 ## [1.0.30](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.29...@gemunion/popup@1.0.30) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/popup
 
-
-
-
-
 ## 1.0.29 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/popup
-
-
-
-
 
 ## [1.0.28](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.27...@gemunion/popup@1.0.28) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/popup
 
-
-
-
-
 ## [1.0.27](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.26...@gemunion/popup@1.0.27) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/popup
-
-
-
-
 
 ## [1.0.26](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.25...@gemunion/popup@1.0.26) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/popup
 
-
-
-
-
 ## [1.0.25](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.24...@gemunion/popup@1.0.25) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/popup
 
-
-
-
-
 ## [1.0.24](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.23...@gemunion/popup@1.0.24) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/popup
-
-
-
-
 
 ## [1.0.23](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.22...@gemunion/popup@1.0.23) (2023-06-24)
 

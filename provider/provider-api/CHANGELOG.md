@@ -3,100 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.40](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.39...@gemunion/provider-api@7.0.40) (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [7.0.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.38...@gemunion/provider-api@7.0.39) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-api
-
-
-
-
 
 ## 7.0.38 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-api
 
-
-
-
-
 ## [7.0.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.36...@gemunion/provider-api@7.0.37) (2023-08-04)
-
 
 ### Bug Fixes
 
-* fetchJson for jwt and yup-rules ([7d147e2](https://github.com/gemunion/common-packages/commit/7d147e263e97d94b18a1641a86cff255c2e6dc2a))
-* navigate for fetch functions ([662849d](https://github.com/gemunion/common-packages/commit/662849dbe4c4c493523341056f9c3a450557f1af))
-
-
-
-
+- fetchJson for jwt and yup-rules ([7d147e2](https://github.com/gemunion/common-packages/commit/7d147e263e97d94b18a1641a86cff255c2e6dc2a))
+- navigate for fetch functions ([662849d](https://github.com/gemunion/common-packages/commit/662849dbe4c4c493523341056f9c3a450557f1af))
 
 ## [7.0.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.35...@gemunion/provider-api@7.0.36) (2023-08-03)
 
-
 ### Bug Fixes
 
-* properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
-
-
-
-
+- properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
 
 ## 7.0.35 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-api
 
-
-
-
-
 ## [7.0.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.33...@gemunion/provider-api@7.0.34) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api
-
-
-
-
 
 ## [7.0.33](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.32...@gemunion/provider-api@7.0.33) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api
 
-
-
-
-
 ## [7.0.32](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.31...@gemunion/provider-api@7.0.32) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-api
-
-
-
-
 
 ## [7.0.31](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.30...@gemunion/provider-api@7.0.31) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/provider-api
 
-
-
-
-
 ## [7.0.30](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.29...@gemunion/provider-api@7.0.30) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api
 
-
-
-
-
 ## [7.0.29](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.28...@gemunion/provider-api@7.0.29) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-api
-
-
-
-
 
 ## [7.0.28](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.27...@gemunion/provider-api@7.0.28) (2023-06-24)
 

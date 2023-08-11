@@ -3,101 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.49](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.48...@gemunion/provider-settings@4.0.49) (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [4.0.48](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.47...@gemunion/provider-settings@4.0.48) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## 4.0.47 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## [4.0.46](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.45...@gemunion/provider-settings@4.0.46) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## [4.0.45](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.44...@gemunion/provider-settings@4.0.45) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## 4.0.44 (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## [4.0.43](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.42...@gemunion/provider-settings@4.0.43) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## [4.0.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.41...@gemunion/provider-settings@4.0.42) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## [4.0.41](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.40...@gemunion/provider-settings@4.0.41) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## [4.0.40](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.39...@gemunion/provider-settings@4.0.40) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## [4.0.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.38...@gemunion/provider-settings@4.0.39) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## [4.0.38](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.37...@gemunion/provider-settings@4.0.38) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-settings
 
-
-
-
-
 ## [4.0.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.36...@gemunion/provider-settings@4.0.37) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-settings
-
-
-
-
 
 ## [4.0.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.35...@gemunion/provider-settings@4.0.36) (2023-06-30)
 

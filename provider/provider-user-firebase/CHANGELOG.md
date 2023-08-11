@@ -3,112 +3,65 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.47](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.46...@gemunion/provider-user-firebase@1.0.47) (2023-08-11)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([2147098](https://github.com/gemunion/common-packages/commit/214709800294f2499dd60d3502e36e6df6472900))
+
 ## [1.0.46](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.45...@gemunion/provider-user-firebase@1.0.46) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
-
-
-
-
 
 ## 1.0.45 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.44](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.43...@gemunion/provider-user-firebase@1.0.44) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.43](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.42...@gemunion/provider-user-firebase@1.0.43) (2023-08-03)
-
 
 ### Bug Fixes
 
-* properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
-
-
-
-
+- properly redirect user for 401 or 402 api errors and replace login page after successful login ([e52160e](https://github.com/gemunion/common-packages/commit/e52160e5f6e4db88d5bf6d1bb58cf806f9c791f3))
 
 ## [1.0.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.41...@gemunion/provider-user-firebase@1.0.42) (2023-07-28)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.41](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.40...@gemunion/provider-user-firebase@1.0.41) (2023-07-23)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
-
-
-
-
 
 ## [1.0.40](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.39...@gemunion/provider-user-firebase@1.0.40) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.38...@gemunion/provider-user-firebase@1.0.39) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
-
-
-
-
 
 ## [1.0.38](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.37...@gemunion/provider-user-firebase@1.0.38) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.37](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.36...@gemunion/provider-user-firebase@1.0.37) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
-
-
-
-
 
 ## [1.0.36](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.35...@gemunion/provider-user-firebase@1.0.36) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.35](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.34...@gemunion/provider-user-firebase@1.0.35) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
 
-
-
-
-
 ## [1.0.34](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.33...@gemunion/provider-user-firebase@1.0.34) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
-
-
-
-
 
 ## [1.0.33](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.32...@gemunion/provider-user-firebase@1.0.33) (2023-07-11)
 
