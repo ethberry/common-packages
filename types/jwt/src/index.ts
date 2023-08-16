@@ -47,19 +47,23 @@ export interface IMetamaskDto {
   wallet: string;
 }
 
-export interface PubKey {
+export interface IPubKey {
   type: string;
   value: string;
 }
 
-export interface StdSignature {
-  pub_key: PubKey;
+export interface IStdSignature {
+  pub_key: IPubKey;
   signature: string;
 }
 
 export interface IKeplrDto {
   chainPrefix: string;
   nonce: string;
-  signature: StdSignature;
+  signature: IStdSignature;
   wallet: string;
+}
+
+export interface IWalletLoginButtonProps {
+  onWalletVerified: (token: string) => Promise<void>;
 }
