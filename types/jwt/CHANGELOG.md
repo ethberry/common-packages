@@ -3,49 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.3.11](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.10...@gemunion/types-jwt@0.3.11) (2023-08-07)
-
+## 0.3.12 (2023-08-16)
 
 ### Bug Fixes
 
-* add IKeplrDto to types-jwt ([cea7015](https://github.com/gemunion/common-packages/commit/cea701508ff7f289d693c5495def2aa8df8f7345))
-* remove readonly from IKeplrDto signature types ([62593fd](https://github.com/gemunion/common-packages/commit/62593fd541baccd37aaf3d161c0b2b6e353a3469))
+- add IWalletLoginButtonProps to types-jwt ([94f0caf](https://github.com/gemunion/common-packages/commit/94f0cafc7b8f6c470a35a8c7b00dc0c93122605f))
 
+## [0.3.11](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.10...@gemunion/types-jwt@0.3.11) (2023-08-07)
 
+### Bug Fixes
 
-
+- add IKeplrDto to types-jwt ([cea7015](https://github.com/gemunion/common-packages/commit/cea701508ff7f289d693c5495def2aa8df8f7345))
+- remove readonly from IKeplrDto signature types ([62593fd](https://github.com/gemunion/common-packages/commit/62593fd541baccd37aaf3d161c0b2b6e353a3469))
 
 ## 0.3.10 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/types-jwt
 
-
-
-
-
 ## [0.3.9](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.8...@gemunion/types-jwt@0.3.9) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-jwt
-
-
-
-
 
 ## [0.3.8](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.7...@gemunion/types-jwt@0.3.8) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-jwt
 
-
-
-
-
 ## [0.3.7](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.3.6...@gemunion/types-jwt@0.3.7) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-jwt
-
-
-
-
 
 ## 0.3.6 (2023-05-20)
 
