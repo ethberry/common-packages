@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.41...@gemunion/provider-api@7.0.42) (2023-08-22)
+
+### Bug Fixes
+
+- clear local storage after 401 api error ([2cf5830](https://github.com/gemunion/common-packages/commit/2cf5830895b5f25504458278f0f582ccc40c9164))
+
 ## 7.0.41 (2023-08-16)
 
 **Note:** Version bump only for package @gemunion/provider-api
