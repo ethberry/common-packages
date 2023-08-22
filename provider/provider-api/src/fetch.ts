@@ -11,6 +11,7 @@ export const fetchJson = (input: RequestInfo, init?: RequestInit): Promise<any> 
       return null;
     }
     if (response.status === 401) {
+      window.localStorage.clear();
       history.push("/login");
       throw new ApiError("unauthorized", response.status);
     }
@@ -33,6 +34,7 @@ export const useFetchJson = () => {
           return null;
         }
         if (response.status === 401) {
+          window.localStorage.clear();
           navigate("/login");
           throw new ApiError("unauthorized", response.status);
         }
@@ -73,6 +75,7 @@ export const useFetchFile = () => {
           return;
         }
         if (response.status === 401) {
+          window.localStorage.clear();
           navigate("/login");
           return;
         }
