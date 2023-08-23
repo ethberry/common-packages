@@ -15,7 +15,7 @@
   },
   "description": "react component to display markdown",
   "devDependencies": {
-    "@gemunion/draft-js-utils": "1.2.22",
+    "@gemunion/draft-js-utils": "1.2.23",
     "@storybook/react": "7.3.2",
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "14.0.0",
@@ -60,5 +60,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.1.25"
+  "version": "2.1.26"
 }
