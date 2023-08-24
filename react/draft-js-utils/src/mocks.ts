@@ -1,4 +1,5 @@
 import { convertToRaw, EditorState } from "draft-js";
+import { imageUrl } from "@gemunion/constants";
 
 export const rawState = {
   blocks: [
@@ -93,14 +94,14 @@ export const rawState = {
     },
   ],
   entityMap: {
-    "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/niuware" } },
+    "0": { type: "LINK", mutability: "MUTABLE", data: { url: "https://github.com/gemunion" } },
     "1": {
       type: "IMAGE",
       mutability: "IMMUTABLE",
       data: {
-        url: "https://firebasestorage.googleapis.com/v0/b/gemunion-firebase.appspot.com/o/DO_NOT_REMOVE_LOGO.png?alt=media&token=85c376a8-33a0-4b6b-9285-2b9022287289",
+        url: imageUrl,
         width: 400,
-        height: 240,
+        height: 400,
         type: "image",
       },
     },
