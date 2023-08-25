@@ -9,5 +9,5 @@ export interface ISortDto<T> {
 }
 
 export interface IMuiSortDto<T> {
-  order: Array<ISortDto<T>>;
+  order?: Array<ISortDto<T>>;
 }
