@@ -35,7 +35,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "husky": "4.3.8",
     "javascript-obfuscator": "4.0.2",
-    "lint-staged": "13.3.0",
+    "lint-staged": "14.0.1",
     "prettier": "3.0.2",
     "rimraf": "5.0.1",
     "storybook": "7.3.2",
