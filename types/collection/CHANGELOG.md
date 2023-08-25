@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.13 (2023-08-25)
+
+### Bug Fixes
+
+- make sort order optional ([8006b76](https://github.com/gemunion/common-packages/commit/8006b764f5ea3a6c6d8f770fe8710a6ed68ef585))
+
 ## 1.5.12 (2023-08-25)
 
 ### Bug Fixes
