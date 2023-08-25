@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.16 (2023-08-25)
+
+**Note:** Version bump only for package @gemunion/yup-rules-eth
+
 ## 2.1.15 (2023-08-23)
 
 **Note:** Version bump only for package @gemunion/yup-rules-eth
