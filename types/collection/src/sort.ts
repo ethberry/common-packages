@@ -4,6 +4,10 @@ export enum SortDirection {
 }
 
 export interface ISortDto<T> {
+  field: keyof T;
   sort: SortDirection;
-  sortBy: keyof T;
+}
+
+export interface IMuiSortDto<T> {
+  order: Array<ISortDto<T>>;
 }
