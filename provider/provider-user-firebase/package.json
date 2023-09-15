@@ -30,7 +30,7 @@
   "name": "@gemunion/provider-user-firebase",
   "peerDependencies": {
     "@gemunion/provider-user": "^5.0.0",
-    "firebase": "^9.0.0 || ^10.0.0",
+    "firebase": "^10.0.0",
     "react": "^18.0.0",
     "react-router": "^6.0.0"
   },
