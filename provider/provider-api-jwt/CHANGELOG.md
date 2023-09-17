@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.40 (2023-09-17)
+
+**Note:** Version bump only for package @gemunion/provider-api-jwt
+
 ## [2.0.39](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.38...@gemunion/provider-api-jwt@2.0.39) (2023-08-23)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt

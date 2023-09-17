@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.29 (2023-09-17)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([5c8eb01](https://github.com/gemunion/common-packages/commit/5c8eb01bd955dbf3bc35323904049dcedd875b5d))
+- **deps:** update all non-major dependencies ([b31531d](https://github.com/gemunion/common-packages/commit/b31531db3ecc3f0e7645ca409dfa1642e5af5fd6))
+- **deps:** update dependency marked to v9 ([fb7addc](https://github.com/gemunion/common-packages/commit/fb7addc90944ad9f90a1e3febf3027449f56be3a))
+
 ## [2.1.28](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.27...@gemunion/markdown@2.1.28) (2023-08-25)
 
 **Note:** Version bump only for package @gemunion/markdown

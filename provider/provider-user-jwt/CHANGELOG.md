@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.51](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-jwt@1.0.50...@gemunion/provider-user-jwt@1.0.51) (2023-09-17)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([5c8eb01](https://github.com/gemunion/common-packages/commit/5c8eb01bd955dbf3bc35323904049dcedd875b5d))
+
 ## 1.0.50 (2023-08-25)
 
 **Note:** Version bump only for package @gemunion/provider-user-jwt
