@@ -82,19 +82,17 @@ export const SettingsProvider = <T extends string>(
   );
 
   useEffect(() => {
+    if (settings.language) {
+      setLayoutDirection(settings.language === RTLLanguages.AR ? LAYOUT_DIRECTION.rtl : LAYOUT_DIRECTION.ltr);
+    }
+  }, [settings.language]);
+
+  useEffect(() => {
     const referrer = searchParams.get("referrer");
     if (referrer) {
       setReferrer(referrer);
     }
   }, [searchParams]);
-
-  useEffect(() => {
-    if (settings.language === RTLLanguages.AR) {
-      setLayoutDirection(LAYOUT_DIRECTION.rtl);
-    } else {
-      setLayoutDirection(LAYOUT_DIRECTION.ltr);
-    }
-  }, [settings.language]);
 
   return (
     <SettingsContext.Provider
