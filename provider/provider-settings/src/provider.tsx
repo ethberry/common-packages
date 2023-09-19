@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactElement, useCallback, useEffect, useState } from "react";
+import { PropsWithChildren, ReactElement, useCallback, useEffect, useLayoutEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import { EnabledLanguages, RTLLanguages, ThemeType } from "@gemunion/constants";
@@ -87,7 +87,7 @@ export const SettingsProvider = <T extends string>(
     }
   }, [settings.language]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const referrer = searchParams.get("referrer");
     if (referrer) {
       setReferrer(referrer);
