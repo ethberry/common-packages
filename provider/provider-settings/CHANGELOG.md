@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.56](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.55...@gemunion/provider-settings@4.0.56) (2023-09-19)
+
+### Bug Fixes
+
+- add useLayoutEffect for setting referrer ([163d950](https://github.com/gemunion/common-packages/commit/163d950497ae1719cdc5cffa8ee07d8c34e6b359))
+- set referrer to localStorage correctly ([73fedc4](https://github.com/gemunion/common-packages/commit/73fedc475fdad30712851a774edcc32eee2a1b84))
+
 ## [4.0.55](https://github.com/gemunion/common-packages/compare/@gemunion/provider-settings@4.0.54...@gemunion/provider-settings@4.0.55) (2023-09-17)
 
 ### Bug Fixes
