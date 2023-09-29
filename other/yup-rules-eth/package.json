@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "yup": "1.2.0"
+    "yup": "1.3.2"
   },
   "description": "validation rules",
   "devDependencies": {
