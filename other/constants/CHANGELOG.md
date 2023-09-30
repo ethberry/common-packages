@@ -3,45 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.12.8 (2023-09-30)
+
+### Bug Fixes
+
+- wallet low case ([61b7e0b](https://github.com/gemunion/common-packages/commit/61b7e0b9f1ada02869852d0a48117137dfe9c8c7))
+
 ## 0.12.7 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/constants
-
-
-
-
 
 ## [0.12.6](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.5...@gemunion/constants@0.12.6) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/constants
 
-
-
-
-
 ## [0.12.5](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.4...@gemunion/constants@0.12.5) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/constants
-
-
-
-
 
 ## [0.12.4](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.3...@gemunion/constants@0.12.4) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/constants
 
-
-
-
-
 ## 0.12.3 (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/constants
-
-
-
-
 
 ## [0.12.2](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.1...@gemunion/constants@0.12.2) (2023-05-20)
 
