@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.44](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.43...@gemunion/provider-api-firebase@2.0.44) (2023-10-06)
+
+**Note:** Version bump only for package @gemunion/provider-api-firebase
+
 ## 2.0.43 (2023-09-30)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase

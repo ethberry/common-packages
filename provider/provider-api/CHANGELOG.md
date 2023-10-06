@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.46](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api@7.0.45...@gemunion/provider-api@7.0.46) (2023-10-06)
+
+**Note:** Version bump only for package @gemunion/provider-api
+
 ## 7.0.45 (2023-09-30)
 
 **Note:** Version bump only for package @gemunion/provider-api
