@@ -5,8 +5,8 @@
     "url": "https://gemunion.io/"
   },
   "dependencies": {
-    "@lerna/legacy-package-management": "7.3.0",
-    "lerna": "7.3.0",
+    "@lerna/legacy-package-management": "7.3.1",
+    "lerna": "7.3.1",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
@@ -19,17 +19,17 @@
     "@storybook/preset-create-react-app": "7.4.6",
     "@storybook/react": "7.4.6",
     "@storybook/react-webpack5": "7.4.6",
-    "@typescript-eslint/eslint-plugin": "6.7.4",
-    "@typescript-eslint/parser": "6.7.4",
+    "@typescript-eslint/eslint-plugin": "6.7.5",
+    "@typescript-eslint/parser": "6.7.5",
     "babel-plugin-inline-import": "3.0.0",
-    "eslint": "8.50.0",
+    "eslint": "8.51.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-config-standard": "17.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "2.28.1",
     "eslint-plugin-jest": "27.4.2",
-    "eslint-plugin-n": "16.1.0",
-    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-n": "16.2.0",
+    "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0",
