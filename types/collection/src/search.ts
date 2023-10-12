@@ -11,3 +11,7 @@ export interface ISearchableDto {
 }
 
 export interface ISearchable extends ISearchableDto, IIdDateBase {}
+
+export enum InputType {
+  awaited = "awaited",
+}
