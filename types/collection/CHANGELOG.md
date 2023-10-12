@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.14 (2023-10-12)
+
+### Bug Fixes
+
+- add awaited InputType to types-collection for search ([d55dbb5](https://github.com/gemunion/common-packages/commit/d55dbb5c614ae577d494b0e335d9f0e589a076e2))
+
 ## 1.5.13 (2023-08-25)
 
 ### Bug Fixes
