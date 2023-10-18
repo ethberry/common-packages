@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.2.21 (2023-10-18)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([c6176d6](https://github.com/gemunion/common-packages/commit/c6176d6f7c473c57d8a56fa0e73baaa7a1962a0f))
+
 ## [4.2.20](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.19...@gemunion/yup-rules@4.2.20) (2023-10-06)
 
 **Note:** Version bump only for package @gemunion/yup-rules

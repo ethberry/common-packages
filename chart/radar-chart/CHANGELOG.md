@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.29 (2023-10-18)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([c6176d6](https://github.com/gemunion/common-packages/commit/c6176d6f7c473c57d8a56fa0e73baaa7a1962a0f))
+- **deps:** update all non-major dependencies ([b94c3b2](https://github.com/gemunion/common-packages/commit/b94c3b2e251b944b426e93b8035f51a56ce74428))
+
 ## [1.1.28](https://github.com/gemunion/common-packages/compare/@gemunion/radar-chart@1.1.27...@gemunion/radar-chart@1.1.28) (2023-10-06)
 
 **Note:** Version bump only for package @gemunion/radar-chart

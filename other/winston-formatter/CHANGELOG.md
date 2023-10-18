@@ -3,37 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.38 (2023-10-18)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([b94c3b2](https://github.com/gemunion/nestjs-packages/commit/b94c3b2e251b944b426e93b8035f51a56ce74428))
+
 ## 0.0.37 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
-
-
-
-
 
 ## [0.0.36](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.35...@gemunion/winston-formatter@0.0.36) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
 
-
-
-
-
 ## [0.0.35](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.34...@gemunion/winston-formatter@0.0.35) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
 
-
-
-
-
 ## [0.0.34](https://github.com/gemunion/nestjs-packages/compare/@gemunion/winston-formatter@0.0.33...@gemunion/winston-formatter@0.0.34) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
-
-
-
-
 
 ## 0.0.33 (2023-07-11)
 

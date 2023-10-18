@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.43 (2023-10-18)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([b94c3b2](https://github.com/gemunion/common-packages/commit/b94c3b2e251b944b426e93b8035f51a56ce74428))
+
 ## [2.0.42](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.41...@gemunion/provider-api-jwt@2.0.42) (2023-10-06)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt
