@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.58](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.57...@gemunion/provider-user-firebase@1.0.58) (2023-10-20)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([4b85258](https://github.com/gemunion/common-packages/commit/4b85258f2b206c18c786b10dd1deec35d70f4bb7))
+
 ## [1.0.57](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.56...@gemunion/provider-user-firebase@1.0.57) (2023-10-18)
 
 ### Bug Fixes
