@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.19 (2023-10-27)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([0a97cba](https://github.com/gemunion/common-packages/commit/0a97cba4d6c853c2b6206f4150d18bf753954ee2))
+
 ## 1.2.18 (2023-10-18)
 
 ### Bug Fixes
