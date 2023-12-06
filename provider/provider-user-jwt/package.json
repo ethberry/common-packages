@@ -14,10 +14,10 @@
   "description": "react context provider jwt",
   "devDependencies": {
     "@gemunion/provider-user": "6.0.58",
-    "@types/react": "18.2.37",
+    "@types/react": "18.2.42",
     "@types/react-router": "5.1.20",
     "react": "18.2.0",
-    "react-router": "6.19.0"
+    "react-router": "6.20.1"
   },
   "engines": {
     "node": ">=18"
