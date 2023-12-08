@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.39](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.38...@gemunion/markdown@2.1.39) (2023-12-08)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to v11 ([d6712c6](https://github.com/gemunion/common-packages/commit/d6712c6fa1d2bd4fa6475478c947414c0ad2f553))
+- rollback marked ([baf67bb](https://github.com/gemunion/common-packages/commit/baf67bbc24fd4f39d6d6f1f75004ff6c43c7238f))
+
 ## [2.1.38](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.37...@gemunion/markdown@2.1.38) (2023-12-06)
 
 **Note:** Version bump only for package @gemunion/markdown
