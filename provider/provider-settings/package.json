@@ -13,9 +13,9 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "18.2.46",
+    "@types/react": "18.2.48",
     "react": "18.2.0",
-    "react-router-dom": "6.21.1"
+    "react-router-dom": "6.21.2"
   },
   "engines": {
     "node": ">=18"
