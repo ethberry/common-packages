@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.44](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.43...@gemunion/popup@1.0.44) (2024-01-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([c19680d](https://github.com/gemunion/common-packages/commit/c19680de415e696164088d763dd6c019cf9cc7dd))
+
 ## [1.0.43](https://github.com/gemunion/common-packages/compare/@gemunion/popup@1.0.42...@gemunion/popup@1.0.43) (2023-12-30)
 
 **Note:** Version bump only for package @gemunion/popup
