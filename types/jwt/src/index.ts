@@ -45,6 +45,9 @@ export interface IMetamaskDto {
   nonce: string;
   signature: string;
   wallet: string;
+  displayName?: string;
+  email?: string;
+  imageUrl?: string;
 }
 
 export interface IPubKey {
