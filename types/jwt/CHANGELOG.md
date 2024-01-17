@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.3.13 (2024-01-17)
+
+### Bug Fixes
+
+- IMetamaskDto ([c4401a1](https://github.com/gemunion/common-packages/commit/c4401a15dd90039a5d39e72e96bf5a495329bfa6))
+
 ## 0.3.12 (2023-08-16)
 
 ### Bug Fixes

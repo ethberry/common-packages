@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@gemunion/history": "1.2.17",
-    "@gemunion/provider-api": "7.0.56",
-    "@gemunion/types-jwt": "0.3.12"
+    "@gemunion/provider-api": "7.0.57",
+    "@gemunion/types-jwt": "0.3.13"
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.52"
+  "version": "2.0.53"
 }
