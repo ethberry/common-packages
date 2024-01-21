@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.9 (2024-01-21)
+
+### Bug Fixes
+
+- types for wallet networks ([cb00a7a](https://github.com/gemunion/common-packages/commit/cb00a7aac0244b738a0d4d230235838177793107))
+
 ## 1.2.8 (2023-10-12)
 
 **Note:** Version bump only for package @gemunion/types-blockchain
