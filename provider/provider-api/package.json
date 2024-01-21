@@ -13,7 +13,7 @@
     "@gemunion/types-jwt": "0.3.13",
     "content-disposition": "0.5.4",
     "qs": "6.11.2",
-    "react-router": "6.21.2"
+    "react-router": "6.21.3"
   },
   "description": "react context provider",
   "devDependencies": {
