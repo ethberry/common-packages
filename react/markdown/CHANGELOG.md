@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.46](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.45...@gemunion/markdown@2.1.46) (2024-03-02)
+
+### Bug Fixes
+
+- update markdown to 12 ([1689ede](https://github.com/gemunion/common-packages/commit/1689ede48b0546ea20f5042a406562604787f02a))
+
 ## [2.1.45](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.44...@gemunion/markdown@2.1.45) (2024-02-19)
 
 ### Bug Fixes
