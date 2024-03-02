@@ -17,7 +17,10 @@ export const Markdown: FC<IMarkdownProps> = ({ text }) => {
   return (
     <div
       dangerouslySetInnerHTML={{
-        __html: sanitize(marked(text)),
+        __html: sanitize(
+          // https://github.com/markedjs/marked/issues/3101
+          marked.parse(text, { async: false }) as string,
+        ),
       }}
     />
   );
