@@ -13,7 +13,7 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "18.2.64",
+    "@types/react": "18.2.67",
     "@types/react-router": "5.1.20",
     "react": "18.2.0",
     "react-router": "6.22.3"
