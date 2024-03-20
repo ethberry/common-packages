@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.10 (2024-03-20)
+
+### Bug Fixes
+
+- asset type ([40d167b](https://github.com/gemunion/common-packages/commit/40d167b8406f16450d880ac8d53badb9904b90d4))
+
 ## 1.2.9 (2024-01-21)
 
 ### Bug Fixes
