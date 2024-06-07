@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0 (2024-06-07)
+
+### Features
+
+- add particle types ([9e469db](https://github.com/gemunion/common-packages/commit/9e469db64a0853ca3e7392c7f0450b25c673616c))
+
 ## 0.3.13 (2024-01-17)
 
 ### Bug Fixes
