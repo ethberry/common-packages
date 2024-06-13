@@ -10,14 +10,14 @@
   "dependencies": {
     "dompurify": "3.1.5",
     "marked": "12.0.2",
-    "marked-gfm-heading-id": "3.1.3",
-    "marked-mangle": "1.1.7"
+    "marked-gfm-heading-id": "3.2.0",
+    "marked-mangle": "1.1.8"
   },
   "description": "react component to display markdown",
   "devDependencies": {
     "@gemunion/draft-js-utils": "1.2.37",
-    "@storybook/react": "8.1.6",
-    "@testing-library/jest-dom": "6.4.5",
+    "@storybook/react": "8.1.7",
+    "@testing-library/jest-dom": "6.4.6",
     "@testing-library/react": "14.3.1",
     "@types/dompurify": "3.0.5",
     "@types/jest": "29.5.12",
