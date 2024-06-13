@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.4.0...@gemunion/types-jwt@0.4.1) (2024-06-13)
+
+### Bug Fixes
+
+- add wallet connect ([0d544e5](https://github.com/gemunion/common-packages/commit/0d544e5b7c25de205abd73fb2f00ca5823ac4d75))
+
 # 0.4.0 (2024-06-07)
 
 ### Features
