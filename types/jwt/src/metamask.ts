@@ -1,5 +1,3 @@
-export interface IMetamaskDto {
-  nonce: string;
-  signature: string;
-  wallet: string;
-}
+import { ICommonWalletDto } from "./common";
+
+export interface IMetamaskDto extends ICommonWalletDto {}
