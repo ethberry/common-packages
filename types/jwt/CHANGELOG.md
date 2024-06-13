@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.4.2 (2024-06-13)
+
+### Bug Fixes
+
+- export common types ([94465e3](https://github.com/gemunion/common-packages/commit/94465e3ebffa257efd20aaf5915f7a2edcb45299))
+
 ## [0.4.1](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.4.0...@gemunion/types-jwt@0.4.1) (2024-06-13)
 
 ### Bug Fixes
