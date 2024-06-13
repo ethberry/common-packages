@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.12](https://github.com/gemunion/common-packages/compare/@gemunion/types-blockchain@1.2.11...@gemunion/types-blockchain@1.2.12) (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/types-blockchain
+
 ## 1.2.11 (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/types-blockchain

@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/history": "1.2.18",
-    "@gemunion/provider-api": "7.0.73",
-    "@gemunion/types-jwt": "0.4.3"
+    "@gemunion/history": "1.2.19",
+    "@gemunion/provider-api": "7.0.74",
+    "@gemunion/types-jwt": "0.4.4"
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.69"
+  "version": "2.0.70"
 }

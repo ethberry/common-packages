@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.4.3...@gemunion/types-jwt@0.4.4) (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/types-jwt
+
 ## [0.4.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-jwt@0.4.2...@gemunion/types-jwt@0.4.3) (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/types-jwt

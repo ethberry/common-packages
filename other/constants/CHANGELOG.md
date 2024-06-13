@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.10](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.9...@gemunion/constants@0.12.10) (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/constants
+
 ## 0.12.9 (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/constants
