@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.55 (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([0487b09](https://github.com/gemunion/common-packages/commit/0487b09e7c6974bd51249f771363a243dca652ff))
+- **deps:** update dependency marked to v13 ([5c5f8ca](https://github.com/gemunion/common-packages/commit/5c5f8cadcf8b86eb49684fd57e7e0a8c11030992))
+- **deps:** update dependency marked-gfm-heading-id to v4 ([4ba7d2a](https://github.com/gemunion/common-packages/commit/4ba7d2aeeea6735d3df9dbfccc9fe9f4ff7dc115))
+
 ## [2.1.54](https://github.com/gemunion/common-packages/compare/@gemunion/markdown@2.1.53...@gemunion/markdown@2.1.54) (2024-06-07)
 
 **Note:** Version bump only for package @gemunion/markdown
