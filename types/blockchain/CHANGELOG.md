@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.11 (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/types-blockchain
+
 ## 1.2.10 (2024-03-20)
 
 ### Bug Fixes

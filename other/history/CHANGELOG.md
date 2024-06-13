@@ -3,37 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 1.2.17 (2023-08-04)
+## 1.2.18 (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/history
 
+## 1.2.17 (2023-08-04)
 
-
-
+**Note:** Version bump only for package @gemunion/history
 
 ## [1.2.16](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.2.15...@gemunion/history@1.2.16) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/history
 
-
-
-
-
 ## [1.2.15](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.2.14...@gemunion/history@1.2.15) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/history
 
-
-
-
-
 ## [1.2.14](https://github.com/gemunion/common-packages/compare/@gemunion/history@1.2.13...@gemunion/history@1.2.14) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/history
-
-
-
-
 
 ## 1.2.13 (2023-05-20)
 

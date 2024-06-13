@@ -16,7 +16,7 @@
   "main": "./dist/index.js",
   "name": "@gemunion/types-blockchain",
   "dependencies": {
-    "@gemunion/types-collection": "1.5.14"
+    "@gemunion/types-collection": "1.5.15"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -36,5 +36,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.2.10"
+  "version": "1.2.11"
 }

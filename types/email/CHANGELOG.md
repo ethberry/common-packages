@@ -3,37 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 0.2.17 (2023-08-04)
+## 0.2.18 (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/types-email
 
+## 0.2.17 (2023-08-04)
 
-
-
+**Note:** Version bump only for package @gemunion/types-email
 
 ## [0.2.16](https://github.com/gemunion/common-packages/compare/@gemunion/types-email@0.2.15...@gemunion/types-email@0.2.16) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-email
 
-
-
-
-
 ## [0.2.15](https://github.com/gemunion/common-packages/compare/@gemunion/types-email@0.2.14...@gemunion/types-email@0.2.15) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-email
 
-
-
-
-
 ## [0.2.14](https://github.com/gemunion/common-packages/compare/@gemunion/types-email@0.2.13...@gemunion/types-email@0.2.14) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-email
-
-
-
-
 
 ## 0.2.13 (2023-05-20)
 

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.41 (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/winston-formatter
+
 ## 0.0.40 (2024-03-30)
 
 **Note:** Version bump only for package @gemunion/winston-formatter
