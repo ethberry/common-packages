@@ -18,7 +18,7 @@
     "@gemunion/draft-js-utils": "1.2.37",
     "@storybook/react": "8.1.7",
     "@testing-library/jest-dom": "6.4.6",
-    "@testing-library/react": "14.3.1",
+    "@testing-library/react": "16.0.0",
     "@types/dompurify": "3.0.5",
     "@types/jest": "29.5.12",
     "@types/react": "18.3.3",
