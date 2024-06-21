@@ -9,3 +9,6 @@ export const lastNameMinLength = 2;
 export const lastNameMaxLength = 50;
 export const displayNameMinLength = 2;
 export const displayNameMaxLength = 50;
+
+export const titleMinLength = 2;
+export const titleMaxLength = 255;
