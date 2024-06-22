@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.11](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.10...@gemunion/constants@0.12.11) (2024-06-22)
+
+### Bug Fixes
+
+- title length ([720cfd5](https://github.com/gemunion/common-packages/commit/720cfd5e408e14439b51dbdbf69ac6787a85610f))
+
 ## [0.12.10](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.9...@gemunion/constants@0.12.10) (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/constants

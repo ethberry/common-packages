@@ -8,7 +8,7 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.12.10",
+    "@gemunion/constants": "0.12.11",
     "draft-convert": "2.1.13",
     "draft-js": "0.11.7",
     "markdown-draft-js": "2.4.0"
@@ -61,5 +61,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.2.39"
+  "version": "1.2.40"
 }
