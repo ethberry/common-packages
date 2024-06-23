@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.50](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.49...@gemunion/yup-rules@4.2.50) (2024-06-23)
+
+### Bug Fixes
+
+- title& symbol validation ([38f48d4](https://github.com/gemunion/common-packages/commit/38f48d4664d00e3e7e9d012bea9451e856a37430))
+
 ## [4.2.49](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.48...@gemunion/yup-rules@4.2.49) (2024-06-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules

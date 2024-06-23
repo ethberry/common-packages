@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.12](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.11...@gemunion/constants@0.12.12) (2024-06-23)
+
+### Bug Fixes
+
+- title& symbol validation ([38f48d4](https://github.com/gemunion/common-packages/commit/38f48d4664d00e3e7e9d012bea9451e856a37430))
+
 ## [0.12.11](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.10...@gemunion/constants@0.12.11) (2024-06-22)
 
 ### Bug Fixes
