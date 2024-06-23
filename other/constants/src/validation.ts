@@ -12,3 +12,6 @@ export const displayNameMaxLength = 50;
 
 export const titleMinLength = 2;
 export const titleMaxLength = 255;
+
+export const symbolMinLength = 2;
+export const symbolMaxLength = 32;

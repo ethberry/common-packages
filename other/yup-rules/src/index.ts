@@ -8,4 +8,6 @@ export * from "./json";
 export * from "./last-name";
 export * from "./password";
 export * from "./phone-number";
+export * from "./symbol";
+export * from "./title";
 export * from "./url";
