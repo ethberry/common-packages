@@ -12,8 +12,8 @@
     "@gemunion/history": "1.2.19",
     "@gemunion/types-jwt": "0.4.4",
     "content-disposition": "0.5.4",
-    "qs": "6.12.1",
-    "react-router": "6.24.0"
+    "qs": "6.12.2",
+    "react-router": "6.24.1"
   },
   "description": "react context provider",
   "devDependencies": {
