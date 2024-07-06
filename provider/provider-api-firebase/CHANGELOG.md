@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.76](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.75...@gemunion/provider-api-firebase@2.0.76) (2024-07-06)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([7cae83b](https://github.com/gemunion/common-packages/commit/7cae83b07ae4b915a0d1e98aaba4f6abe57671bb))
+
 ## [2.0.75](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-firebase@2.0.74...@gemunion/provider-api-firebase@2.0.75) (2024-06-28)
 
 **Note:** Version bump only for package @gemunion/provider-api-firebase
