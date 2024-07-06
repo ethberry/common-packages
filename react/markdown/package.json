@@ -8,8 +8,8 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "dompurify": "3.1.5",
-    "marked": "13.0.1",
+    "dompurify": "3.1.6",
+    "marked": "13.0.2",
     "marked-gfm-heading-id": "4.0.0",
     "marked-mangle": "1.1.8"
   },
