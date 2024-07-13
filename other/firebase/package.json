@@ -12,7 +12,7 @@
     "firebase": "10.12.3"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "keywords": [],
   "license": "UNLICENSED",

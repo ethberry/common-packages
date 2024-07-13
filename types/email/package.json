@@ -9,7 +9,7 @@
   },
   "description": "Email types",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "keywords": [],
   "license": "UNLICENSED",

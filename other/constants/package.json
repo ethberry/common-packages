@@ -12,7 +12,7 @@
   },
   "description": "constants for all needs",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "keywords": [],
   "license": "UNLICENSED",

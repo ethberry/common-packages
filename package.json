@@ -45,7 +45,7 @@
     "webpack": "5.93.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "license": "UNLICENSED",
   "name": "@gemunion/common-packages",
