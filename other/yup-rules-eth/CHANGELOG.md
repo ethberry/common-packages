@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.31](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules-eth@2.1.30...@gemunion/yup-rules-eth@2.1.31) (2024-07-16)
+
+### Bug Fixes
+
+- better validation for big number ([f428d6a](https://github.com/gemunion/common-packages/commit/f428d6a8ab40d9e9e5e00a82e685f17fa8180254))
+- better validation for big number, part 2 ([58cb744](https://github.com/gemunion/common-packages/commit/58cb74454f405845e556df5472f6742bf14326cd))
+
 ## 2.1.30 (2024-07-13)
 
 **Note:** Version bump only for package @gemunion/yup-rules-eth

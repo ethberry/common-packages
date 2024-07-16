@@ -8,13 +8,13 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/firebase": "1.2.33",
-    "@gemunion/provider-api": "7.0.79",
-    "@gemunion/types-collection": "1.5.16"
+    "@gemunion/firebase": "1.2.34",
+    "@gemunion/provider-api": "7.0.80",
+    "@gemunion/types-collection": "1.5.17"
   },
   "description": "react context provider firebase",
   "devDependencies": {
-    "@gemunion/provider-user": "6.0.85",
+    "@gemunion/provider-user": "6.0.86",
     "@types/react": "18.3.3",
     "@types/react-router": "5.1.20",
     "firebase": "10.12.3",
@@ -52,5 +52,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.89"
+  "version": "1.0.90"
 }

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.54](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.53...@gemunion/yup-rules@4.2.54) (2024-07-16)
+
+### Bug Fixes
+
+- file name ([5286c66](https://github.com/gemunion/common-packages/commit/5286c66051767b39f5a6e664d8c0f83b96609195))
+- more strict validation for imageUrl ([1f3d06e](https://github.com/gemunion/common-packages/commit/1f3d06e7c953e5b67e700b03b6a33fdb16996e81))
+
 ## [4.2.53](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.52...@gemunion/yup-rules@4.2.53) (2024-07-13)
 
 **Note:** Version bump only for package @gemunion/yup-rules
