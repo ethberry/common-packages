@@ -25,7 +25,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  min(min: BigNumberish, message = "form.validations.rangeUnderflow") {
+  min(min: BigNumber | string | number, message = "form.validations.rangeUnderflow") {
     return this.test({
       message,
       name: "min",
@@ -37,7 +37,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  max(max: BigNumberish, message = "form.validations.rangeOverflow") {
+  max(max: BigNumber | string | number, message = "form.validations.rangeOverflow") {
     return this.test({
       message,
       name: "max",
@@ -49,7 +49,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  lessThan(less: BigNumberish, message = "form.validations.rangeOverflow") {
+  lessThan(less: BigNumber | string | number, message = "form.validations.rangeOverflow") {
     return this.test({
       message,
       name: "max",
@@ -61,7 +61,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  moreThan(more: BigNumberish, message = "form.validations.rangeUnderflow") {
+  moreThan(more: BigNumber | string | number, message = "form.validations.rangeUnderflow") {
     return this.test({
       message,
       name: "min",
@@ -80,7 +80,9 @@ export class BigNumberSchema extends Schema {
         message,
         name: "required",
         skipAbsent: true,
-        test: value => !!value.length,
+        test: (_value, options) => {
+          return options.originalValue !== "";
+        },
       }),
     );
   }
