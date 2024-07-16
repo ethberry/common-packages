@@ -11,7 +11,7 @@ const schemaValidatorObject = object().shape({
 });
 
 describe("Address", () => {
-  it("has no text", async () => {
+  it("has no address", async () => {
     await expect(
       schemaValidatorObject.validate({
         description: "",
@@ -19,7 +19,7 @@ describe("Address", () => {
     ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
   });
 
-  it("has wrong text", async () => {
+  it("has wrong address", async () => {
     await expect(
       schemaValidatorObject.validate({
         description: "qwerty",
@@ -27,7 +27,7 @@ describe("Address", () => {
     ).rejects.toEqual(new ValidationError(ERROR_MESSAGE));
   });
 
-  it("has wrong address", async () => {
+  it("has proper address", async () => {
     await expect(
       schemaValidatorObject.validate({
         description: constants.AddressZero,

@@ -9,6 +9,7 @@ const schemaValidatorObject = object().shape({
 
 describe("BigNumber", () => {
   const value = BigNumber.from("100");
+
   it("should validate BigNumber", async () => {
     await expect(
       schemaValidatorObject.validate({
@@ -50,12 +51,12 @@ describe("BigNumber", () => {
   it("should fail Object", async () => {
     await expect(
       schemaValidatorObject.validate({
-        amount: "qwerty",
+        amount: {},
       }),
     ).rejects.toEqual(new ValidationError("form.validations.badInput"));
   });
 
-  it("should fail Object", async () => {
+  it("should fail Min", async () => {
     const schemaValidatorObject = object().shape({
       // @ts-ignore
       amount: bigNumberValidationSchema.min(BigNumber.from("1000")),
@@ -65,5 +66,17 @@ describe("BigNumber", () => {
         amount: value,
       }),
     ).rejects.toEqual(new ValidationError("form.validations.rangeUnderflow"));
+  });
+
+  it("should fail Max", async () => {
+    const schemaValidatorObject = object().shape({
+      // @ts-ignore
+      amount: bigNumberValidationSchema.max(BigNumber.from("10")),
+    });
+    await expect(
+      schemaValidatorObject.validate({
+        amount: value,
+      }),
+    ).rejects.toEqual(new ValidationError("form.validations.rangeOverflow"));
   });
 });

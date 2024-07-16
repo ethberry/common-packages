@@ -1,7 +1,7 @@
 import { Schema } from "yup";
-import { BigNumber } from "ethers";
+import { BigNumber, BigNumberish } from "ethers";
 
-const isAbsent = (value: any): value is undefined | null => value == null;
+const isAbsent = (value: any): boolean => value === null || value === void 0 || value === "";
 
 export class BigNumberSchema extends Schema {
   static create() {
@@ -12,18 +12,20 @@ export class BigNumberSchema extends Schema {
     super({ type: "bigNumber" } as any);
 
     this.withMutation(() => {
-      this.transform(function (value: any, originalValue) {
+      this.transform(function (value: BigNumberish, originalValue) {
+        if (value === "") {
+          return BigNumber.from("0");
+        }
         if (this.isType(value)) {
           return BigNumber.from(originalValue);
         }
         this.typeError("form.validations.badInput");
-        return value as unknown;
+        return value;
       });
     });
   }
 
-  min(min: BigNumber | string | number, message = "form.validations.rangeUnderflow") {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  min(min: BigNumberish, message = "form.validations.rangeUnderflow") {
     return this.test({
       message,
       name: "min",
@@ -35,8 +37,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  max(max: BigNumber | string | number, message = "form.validations.rangeOverflow") {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  max(max: BigNumberish, message = "form.validations.rangeOverflow") {
     return this.test({
       message,
       name: "max",
@@ -48,8 +49,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  lessThan(less: BigNumber | string | number, message = "form.validations.rangeOverflow") {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  lessThan(less: BigNumberish, message = "form.validations.rangeOverflow") {
     return this.test({
       message,
       name: "max",
@@ -61,8 +61,7 @@ export class BigNumberSchema extends Schema {
     });
   }
 
-  moreThan(more: BigNumber | string | number, message = "form.validations.rangeUnderflow") {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+  moreThan(more: BigNumberish, message = "form.validations.rangeUnderflow") {
     return this.test({
       message,
       name: "min",
@@ -72,6 +71,18 @@ export class BigNumberSchema extends Schema {
         return isAbsent(value) || value.gt(this.resolve(more));
       },
     });
+  }
+
+  required(message = "form.validations.valueMissing") {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+    return super.required(message).withMutation((schema: Schema) =>
+      schema.test({
+        message,
+        name: "required",
+        skipAbsent: true,
+        test: value => !!value.length,
+      }),
+    );
   }
 
   _typeCheck = (value: any): value is any => {
