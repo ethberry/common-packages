@@ -2,7 +2,7 @@ import { object, string, ValidationError } from "yup";
 
 import { emptyStateString, simpleFormatting } from "@gemunion/draft-js-utils";
 
-import "./draft-has-test";
+import "./draft-has-text";
 
 const ERROR_MESSAGE = "ERROR_MESSAGE";
 
