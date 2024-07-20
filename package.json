@@ -7,9 +7,8 @@
   "dependencies": {
     "@lerna/legacy-package-management": "8.1.6",
     "lerna": "8.1.6",
-    "nx": "19.5.1",
-    "react-scripts": "5.0.1",
-    "http-proxy-agent": "7.0.2"
+    "nx": "19.4.4",
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@gemunion/eslint-config": "4.0.6",
