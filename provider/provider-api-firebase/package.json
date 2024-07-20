@@ -8,9 +8,9 @@
     "url": "https://github.com/gemunion/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/firebase": "1.2.34",
+    "@gemunion/firebase": "1.2.35",
     "@gemunion/history": "1.2.20",
-    "@gemunion/provider-api": "7.0.80",
+    "@gemunion/provider-api": "7.0.81",
     "@gemunion/types-jwt": "0.4.5"
   },
   "description": "react provider api auth strategy firebase",
@@ -48,5 +48,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.78"
+  "version": "2.0.79"
 }
