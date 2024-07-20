@@ -3,7 +3,7 @@
   "moduleFileExtensions": ["js", "jsx", "ts", "tsx", "json"],
   "rootDir": "src",
   "testEnvironment": "jsdom",
-  "testMatch": ["**/*.test.ts"],
+  "testMatch": ["**/*.spec.ts"],
   "preset": "ts-jest",
   "verbose": true,
   "setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"]

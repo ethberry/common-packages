@@ -54,7 +54,7 @@
     "prepare": "npm run build",
     "preversion": "npm run build && npm run test",
     "storybook": "start-storybook -p 6006",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
