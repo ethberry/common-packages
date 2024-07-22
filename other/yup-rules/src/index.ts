@@ -11,3 +11,4 @@ export * from "./phone-number";
 export * from "./symbol";
 export * from "./title";
 export * from "./url";
+export * from "./currency";
