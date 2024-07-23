@@ -12,3 +12,4 @@ export * from "./mocks";
 export * from "./validation";
 export * from "./layout";
 export * from "./keys";
+export * from "./reducers";
