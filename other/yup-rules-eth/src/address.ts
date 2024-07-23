@@ -2,9 +2,13 @@ import { addMethod, string } from "yup";
 import { utils } from "ethers";
 
 addMethod(string, "isEthereumAddress", function (errorMessage) {
-  return this.test(`test-eth-addr`, errorMessage, function (value) {
+  return this.test("test-eth-addr", errorMessage, function (value) {
+    if (!value) {
+      return false;
+    }
+
     try {
-      utils.getAddress(value as string);
+      utils.getAddress(value);
     } catch (_e) {
       return false;
     }
