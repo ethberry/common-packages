@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.14 (2024-07-23)
+
+### Bug Fixes
+
+- remove open sea metadata ([1a2e357](https://github.com/gemunion/common-packages/commit/1a2e357554cb908a387952a38dde32a166f7adda))
+
 ## 1.2.13 (2024-07-16)
 
 **Note:** Version bump only for package @gemunion/types-blockchain
