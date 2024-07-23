@@ -3,3 +3,4 @@ export * from "./chunk-by";
 export * from "./delay";
 export * from "./fisher-yates";
 export * from "./map-series";
+export * from "./local-storage";
