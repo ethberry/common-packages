@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.3.0 (2024-07-24)
+
+### Features
+
+- add network mapping ([ee3cd8b](https://github.com/gemunion/common-packages/commit/ee3cd8baa06d157b6754d452dc567790482c63ef))
+
 ## 1.2.14 (2024-07-23)
 
 ### Bug Fixes
