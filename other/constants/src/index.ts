@@ -2,6 +2,7 @@ export * from "./collection";
 export * from "./company";
 export * from "./country";
 export * from "./date";
+export * from "./env";
 export * from "./eth";
 export * from "./gender";
 export * from "./language";
