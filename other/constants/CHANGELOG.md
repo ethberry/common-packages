@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.13.0 (2024-08-02)
+
+### Bug Fixes
+
+- testChainId ([3005cec](https://github.com/gemunion/common-packages/commit/3005cecc3addf7c887f1eea389212db614420c0b))
+
+### Features
+
+- env types ([626c491](https://github.com/gemunion/common-packages/commit/626c491d097de3d8b85de8b8693a901e368dc3af))
+
 ## [0.12.16](https://github.com/gemunion/common-packages/compare/@gemunion/constants@0.12.15...@gemunion/constants@0.12.16) (2024-07-24)
 
 **Note:** Version bump only for package @gemunion/constants
