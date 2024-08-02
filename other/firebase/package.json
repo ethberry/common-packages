@@ -9,7 +9,7 @@
   },
   "description": "firebase config",
   "devDependencies": {
-    "firebase": "10.12.4"
+    "firebase": "10.12.5"
   },
   "engines": {
     "node": ">=22"
