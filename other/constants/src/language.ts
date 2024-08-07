@@ -1,5 +1,6 @@
 export enum EnabledLanguages {
   EN = "EN",
+  AR = "AR",
 }
 
 export enum RTLLanguages {
