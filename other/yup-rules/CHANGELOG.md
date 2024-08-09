@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.62](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.61...@gemunion/yup-rules@4.2.62) (2024-08-09)
+
+### Bug Fixes
+
+- fix url validation ([aa13ed1](https://github.com/gemunion/common-packages/commit/aa13ed1791f14d3ffd841a8bcf579c6f49356348))
+- fixed urlValidationSchema and EnabledLanguages enum ([7bca083](https://github.com/gemunion/common-packages/commit/7bca083a5d76a352fe5b71356cddfe02153f49ec))
+
 ## 4.2.61 (2024-08-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
