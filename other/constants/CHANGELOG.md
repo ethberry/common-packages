@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.13.1 (2024-08-24)
+
+### Bug Fixes
+
+- move regexp to its place ([a822a0a](https://github.com/gemunion/common-packages/commit/a822a0a28279bde5568c1e62a6a59410674cd9f7))
+
 # 0.13.0 (2024-08-02)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.63](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.62...@gemunion/yup-rules@4.2.63) (2024-08-24)
+
+### Bug Fixes
+
+- move regexp to its place ([a822a0a](https://github.com/gemunion/common-packages/commit/a822a0a28279bde5568c1e62a6a59410674cd9f7))
+
 ## [4.2.62](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.61...@gemunion/yup-rules@4.2.62) (2024-08-09)
 
 ### Bug Fixes
