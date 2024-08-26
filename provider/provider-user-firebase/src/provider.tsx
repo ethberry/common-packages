@@ -9,12 +9,13 @@ import { ILoginDto, IUser, UserProvider, save } from "@gemunion/provider-user";
 interface IUserProviderFirebaseProps<T> {
   profile?: T | null;
   storageName?: string;
+  redirectUrl?: string;
 }
 
 export const UserProviderFirebase = <T extends IUser>(
   props: PropsWithChildren<IUserProviderFirebaseProps<T>>,
 ): ReactElement | null => {
-  const { profile: defaultProfile = null, storageName = "user", children } = props;
+  const { profile: defaultProfile = null, storageName = "user", redirectUrl = "/dashboard", children } = props;
 
   const [profile, setUserProfile] = useState<T | null>(defaultProfile);
   const navigate = useNavigate();
@@ -53,7 +54,7 @@ export const UserProviderFirebase = <T extends IUser>(
           refreshToken: "",
           refreshTokenExpiresAt: now + 1000 * 60 * 60,
         });
-        return getProfile(url || "/dashboard");
+        return getProfile(url || redirectUrl);
       })
       .catch(console.error);
   };
