@@ -15,9 +15,9 @@
   "description": "react context provider firebase",
   "devDependencies": {
     "@gemunion/provider-user": "6.0.92",
-    "@types/react": "18.3.4",
+    "@types/react": "18.3.5",
     "@types/react-router": "5.1.20",
-    "firebase": "10.13.0",
+    "firebase": "10.13.1",
     "react": "18.3.1",
     "react-router": "6.26.1"
   },
