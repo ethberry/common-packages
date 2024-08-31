@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.97](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user-firebase@1.0.96...@gemunion/provider-user-firebase@1.0.97) (2024-08-31)
+
+### Bug Fixes
+
+- added redirectUrl prop ([876e5dd](https://github.com/gemunion/common-packages/commit/876e5ddccbb9041be6b6918260214d7b9e229231))
+
 ## 1.0.96 (2024-08-24)
 
 **Note:** Version bump only for package @gemunion/provider-user-firebase
