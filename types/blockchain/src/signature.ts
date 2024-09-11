@@ -5,16 +5,18 @@ export interface IServerSignature {
   bytecode?: string;
 }
 
-export interface IAsset {
+export interface ISignatureAsset {
   tokenType: number;
   token: string;
   tokenId: string;
   amount: string;
 }
 
-export interface IParams {
-  nonce: Uint8Array;
-  externalId: number;
+export interface ISignatureParams {
+  externalId: number | string;
   expiresAt: number;
+  nonce: Uint8Array;
+  extra: string;
+  receiver: string;
   referrer: string;
 }
