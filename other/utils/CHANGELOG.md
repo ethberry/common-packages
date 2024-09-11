@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2024-09-11)
+
+### Features
+
+- add comparator ([292ff5b](https://github.com/gemunion/common-packages/commit/292ff5bb6d5e8ef80d724f14781c7f210fff8578))
+
 ## 1.3.11 (2024-08-24)
 
 ### Bug Fixes

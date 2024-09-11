@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.1 (2024-09-11)
+
+### Bug Fixes
+
+- properly name types ([39721f2](https://github.com/gemunion/common-packages/commit/39721f292580a5359c22c647ce0738dd0cf3b81c))
+
 # 1.3.0 (2024-07-24)
 
 ### Features
