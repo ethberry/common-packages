@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.23](https://github.com/gemunion/nestjs-packages/compare/@gemunion/utils-eth@1.0.1...@gemunion/utils-eth@1.1.23) (2024-09-11)
+
+### Bug Fixes
+
+- move in utils-eth ([e8adf3e](https://github.com/gemunion/nestjs-packages/commit/e8adf3e1b9745691cdb2d9b58ef4605d6bf7e62a))
+- path ([29ab5c0](https://github.com/gemunion/nestjs-packages/commit/29ab5c0faf9296dff32fe34a0490e086e1f3d799))
+
 ## 1.1.22 (2024-07-27)
 
 ### Bug Fixes

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/gemunion/common-packages/compare/@gemunion/utils@1.4.0...@gemunion/utils@1.5.0) (2024-09-11)
+
+### Bug Fixes
+
+- code style ([da4776d](https://github.com/gemunion/common-packages/commit/da4776db643a2abcad315bfd8c7c51dd6f4bd2e5))
+- path ([29ab5c0](https://github.com/gemunion/common-packages/commit/29ab5c0faf9296dff32fe34a0490e086e1f3d799))
+
+### Features
+
+- array comparator ([836623b](https://github.com/gemunion/common-packages/commit/836623badb2b746b15a1590efc37b4a8c94efc50))
+
 # 1.4.0 (2024-09-11)
 
 ### Features
