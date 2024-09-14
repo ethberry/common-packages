@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.50 (2024-09-14)
+
+**Note:** Version bump only for package @gemunion/draft-js-utils
+
 ## 1.2.49 (2024-08-24)
 
 **Note:** Version bump only for package @gemunion/draft-js-utils

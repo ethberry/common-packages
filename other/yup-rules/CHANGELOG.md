@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.2.65 (2024-09-14)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
 ## [4.2.64](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.63...@gemunion/yup-rules@4.2.64) (2024-08-31)
 
 **Note:** Version bump only for package @gemunion/yup-rules
