@@ -2,19 +2,25 @@ import { JsonRpcProvider } from "ethers";
 
 import { delay } from "@gemunion/utils";
 
-export const blockAwait = async function (provider: JsonRpcProvider, blockDelay = 2): Promise<void> {
-  const initialBlock = await provider.getBlock("latest");
-  if (!initialBlock) {
-    throw Error("latest block is null");
+export const waitForConfirmation = async function (
+  provider: JsonRpcProvider,
+  blockDelay = 1,
+  millisecondsDelay = 1000,
+): Promise<void> {
+  const initialBlockNumber = await provider.getBlockNumber();
+  if (!initialBlockNumber) {
+    throw Error("Unable to retrieve the block number");
   }
-  let currentBlock;
-  let delayB;
-  do {
-    await delay(5000);
-    currentBlock = await provider.getBlock("latest");
-    if (!currentBlock) {
-      throw Error("latest block is null");
+
+  while (true) {
+    await delay(millisecondsDelay);
+    const currentBlockNumber = await provider.getBlockNumber();
+    if (!currentBlockNumber) {
+      throw new Error("Unable to retrieve the block number");
     }
-    delayB = currentBlock.number - initialBlock.number;
-  } while (delayB < blockDelay);
+
+    if (currentBlockNumber - initialBlockNumber >= blockDelay) {
+      break;
+    }
+  }
 };

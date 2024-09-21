@@ -5,6 +5,6 @@ export const abiEncode = function (value: string, type: string): string {
   return abiCoder.encode([type], [value]);
 };
 
-export const keccak256Utf = function (value: string): string {
+export const keccak256Utf8 = function (value: string): string {
   return keccak256(toUtf8Bytes(value));
 };
