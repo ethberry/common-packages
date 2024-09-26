@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import { markdownString } from "@gemunion/draft-js-utils";
+import { markdownString } from "@ethberry/draft-js-utils";
 
 import { Markdown } from ".";
 

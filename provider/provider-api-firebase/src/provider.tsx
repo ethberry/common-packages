@@ -1,10 +1,10 @@
 import { FC, PropsWithChildren } from "react";
 import { getAuth } from "firebase/auth";
 
-import firebase from "@gemunion/firebase";
-import { history } from "@gemunion/history";
-import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@gemunion/provider-api";
-import { IJwt } from "@gemunion/types-jwt";
+import firebase from "@ethberry/firebase";
+import { history } from "@ethberry/history";
+import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@ethberry/provider-api";
+import { IJwt } from "@ethberry/types-jwt";
 
 import { useInterval } from "./hook";
 

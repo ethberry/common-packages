@@ -1,7 +1,7 @@
 import { PropsWithChildren, ReactElement, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router";
 
-import { ApiError, IJwt, useApi } from "@gemunion/provider-api";
+import { ApiError, IJwt, useApi } from "@ethberry/provider-api";
 
 import { ILoginDto, ISignUpDto, IUser, UserContext } from "./context";
 import { save } from "./utils";

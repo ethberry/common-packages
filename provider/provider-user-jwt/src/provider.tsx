@@ -1,6 +1,6 @@
 import { PropsWithChildren, ReactElement, useState } from "react";
 
-import { IUser, UserProvider } from "@gemunion/provider-user";
+import { IUser, UserProvider } from "@ethberry/provider-user";
 
 interface IUserProviderJwtProps<T> {
   profile?: T | null;

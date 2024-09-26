@@ -1,6 +1,6 @@
 import { FC, PropsWithChildren } from "react";
 
-import { ns } from "@gemunion/constants";
+import { ns } from "@ethberry/constants";
 
 import { ApiContext } from "./context";
 import { useFetchFile, useFetchJson } from "./fetch";

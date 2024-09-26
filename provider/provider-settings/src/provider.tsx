@@ -1,8 +1,8 @@
 import { PropsWithChildren, ReactElement, useCallback, useEffect, useLayoutEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
-import { EnabledLanguages, RTLLanguages, ThemeType } from "@gemunion/constants";
-import { IUser, useUser } from "@gemunion/provider-user";
+import { EnabledLanguages, RTLLanguages, ThemeType } from "@ethberry/constants";
+import { IUser, useUser } from "@ethberry/provider-user";
 
 import { SettingsContext } from "./context";
 import { ISettings, ISettingsProviderProps, LAYOUT_DIRECTION } from "./interfaces";
@@ -29,7 +29,7 @@ export const SettingsProvider = <T extends string>(
 
   const getLanguage = (): T => {
     // @ts-ignore
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+     
     return settings.language || (user.isAuthenticated() && user.profile.language) || defaultLanguage;
   };
 

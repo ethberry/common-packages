@@ -2,9 +2,9 @@ import { PropsWithChildren, ReactElement, useState } from "react";
 import { useNavigate } from "react-router";
 import { getAuth, signOut } from "firebase/auth";
 
-import firebase from "@gemunion/firebase";
-import { useApi } from "@gemunion/provider-api";
-import { ILoginDto, IUser, UserProvider, save } from "@gemunion/provider-user";
+import firebase from "@ethberry/firebase";
+import { useApi } from "@ethberry/provider-api";
+import { ILoginDto, IUser, UserProvider, save } from "@ethberry/provider-user";
 
 interface IUserProviderFirebaseProps<T> {
   profile?: T | null;

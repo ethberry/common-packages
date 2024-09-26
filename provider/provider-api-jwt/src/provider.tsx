@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 
-import { history } from "@gemunion/history";
-import { IJwt } from "@gemunion/types-jwt";
+import { history } from "@ethberry/history";
+import { IJwt } from "@ethberry/types-jwt";
 import {
   ApiProvider,
   IApiProviderProps,
@@ -10,7 +10,7 @@ import {
   isRefreshTokenExpired,
   getToken,
   setToken,
-} from "@gemunion/provider-api";
+} from "@ethberry/provider-api";
 
 export const ApiProviderJwt: FC<PropsWithChildren<IApiProviderProps>> = props => {
   const { baseUrl, storageName, children } = props;
