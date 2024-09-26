@@ -1,6 +1,6 @@
 import { stringify } from "qs";
 
-import { IJwt } from "@gemunion/types-jwt";
+import { IJwt } from "@ethberry/types-jwt";
 
 import { IFetchProps } from "./context";
 

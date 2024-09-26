@@ -1,11 +1,9 @@
 import { createContext } from "react";
-import { IJwt } from "@gemunion/types-jwt";
+import { IJwt } from "@ethberry/types-jwt";
 
 type TMethods = "POST" | "GET" | "PUT" | "DELETE" | "PATCH";
 
-export interface IPayload {
-  [key: string]: any;
-}
+export type IPayload = Record<string, any>;
 
 export interface IFetchProps {
   url: string;

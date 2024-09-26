@@ -95,8 +95,10 @@ export class BigNumberSchema extends Schema {
         try {
           BigNumber.from(value);
           return true;
-        } catch (_e) {}
-        return false;
+        } catch (e) {
+          void e;
+          return false;
+        }
       case "Object":
         return BigNumber.isBigNumber(value);
       default:

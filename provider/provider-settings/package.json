@@ -2,14 +2,14 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.13.1",
-    "@gemunion/provider-user": "6.0.95"
+    "@ethberry/constants": "0.13.1",
+    "@ethberry/provider-user": "6.0.95"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -23,7 +23,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/provider-settings",
+  "name": "@ethberry/provider-settings",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-router-dom": "^6.0.0"

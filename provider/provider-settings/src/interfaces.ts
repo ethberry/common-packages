@@ -1,4 +1,4 @@
-import { ThemeType } from "@gemunion/constants";
+import { ThemeType } from "@ethberry/constants";
 
 export interface ISettings<T extends string> {
   language?: T;

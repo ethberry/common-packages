@@ -1,4 +1,4 @@
-import { IIdDateBase } from "@gemunion/types-collection";
+import { IIdDateBase } from "@ethberry/types-collection";
 
 export interface IDeployable extends IIdDateBase {
   address: string;

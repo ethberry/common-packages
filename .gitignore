@@ -8,11 +8,6 @@ coverage/
 # OS
 .DS_Store
 
-# env
-.env
-.env.*
-!.env.sample
-
 # NODE
 node_modules/
 npm-debug.log

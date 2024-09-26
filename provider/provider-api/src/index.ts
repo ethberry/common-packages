@@ -6,4 +6,4 @@ export * from "./validation";
 export * from "./hook";
 export * from "./utils";
 
-export * from "@gemunion/types-jwt";
+export * from "@ethberry/types-jwt";

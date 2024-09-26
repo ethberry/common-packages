@@ -1,7 +1,7 @@
 import { parse } from "content-disposition";
 import { useNavigate } from "react-router";
 
-import { history } from "@gemunion/history";
+import { history } from "@ethberry/history";
 
 import { ApiError } from "./error";
 

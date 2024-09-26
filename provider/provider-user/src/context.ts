@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { IIdBase } from "@gemunion/types-collection";
+import { IIdBase } from "@ethberry/types-collection";
 
 export interface IUser extends IIdBase {
   language: string;

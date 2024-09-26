@@ -1,5 +1,4 @@
 import { FC, PropsWithChildren } from "react";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { getAuth } from "firebase/auth";
 
 import firebase from "@gemunion/firebase";

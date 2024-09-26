@@ -1,6 +1,6 @@
 import { string } from "yup";
 
-import { lastNameMinLength, lastNameMaxLength } from "@gemunion/constants";
+import { lastNameMinLength, lastNameMaxLength } from "@ethberry/constants";
 
 export const lastNameValidationSchema = string()
   .min(lastNameMinLength, "form.validations.tooShort")

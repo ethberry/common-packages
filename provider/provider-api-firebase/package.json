@@ -2,16 +2,16 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/firebase": "1.2.39",
-    "@gemunion/history": "1.2.20",
-    "@gemunion/provider-api": "7.0.89",
-    "@gemunion/types-jwt": "0.4.5"
+    "@ethberry/firebase": "1.2.39",
+    "@ethberry/history": "1.2.20",
+    "@ethberry/provider-api": "7.0.89",
+    "@ethberry/types-jwt": "0.4.5"
   },
   "description": "react provider api auth strategy firebase",
   "devDependencies": {
@@ -25,7 +25,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/provider-api-firebase",
+  "name": "@ethberry/provider-api-firebase",
   "peerDependencies": {
     "firebase": "^10.0.0",
     "react": "^18.0.0"

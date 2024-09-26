@@ -1,5 +1,5 @@
 import { convertToRaw, EditorState } from "draft-js";
-import { imageUrl } from "@gemunion/constants";
+import { imageUrl } from "@ethberry/constants";
 
 export const rawState = {
   blocks: [

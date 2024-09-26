@@ -1,6 +1,6 @@
 import { object, string, ValidationError } from "yup";
 
-import { emptyStateString, simpleFormatting } from "@gemunion/draft-js-utils";
+import { emptyStateString, simpleFormatting } from "@ethberry/draft-js-utils";
 
 import "./draft-has-text";
 

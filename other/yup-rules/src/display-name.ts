@@ -1,6 +1,6 @@
 import { string } from "yup";
 
-import { displayNameMinLength, displayNameMaxLength } from "@gemunion/constants";
+import { displayNameMinLength, displayNameMaxLength } from "@ethberry/constants";
 
 export const displayNameValidationSchema = string()
   .min(displayNameMinLength, "form.validations.tooShort")

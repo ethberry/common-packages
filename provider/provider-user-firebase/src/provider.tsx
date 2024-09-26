@@ -69,7 +69,9 @@ export const UserProviderFirebase = <T extends IUser>(
     }
   };
 
-  const customSignUp = async (_data: any, _url?: string) => {};
+  const customSignUp = async (_data: any, _url?: string) => {
+    // empty
+  };
 
   return (
     <UserProvider

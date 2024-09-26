@@ -1,6 +1,6 @@
 import { string } from "yup";
 
-import { titleMinLength, titleMaxLength } from "@gemunion/constants";
+import { titleMinLength, titleMaxLength } from "@ethberry/constants";
 
 export const titleValidationSchema = string()
   .required("form.validations.valueMissing")

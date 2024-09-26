@@ -2,10 +2,10 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
     "dompurify": "3.1.6",
@@ -15,7 +15,7 @@
   },
   "description": "react component to display markdown",
   "devDependencies": {
-    "@gemunion/draft-js-utils": "1.2.50",
+    "@ethberry/draft-js-utils": "1.2.50",
     "@storybook/react": "8.3.2",
     "@testing-library/jest-dom": "6.5.0",
     "@testing-library/react": "16.0.1",
@@ -36,7 +36,7 @@
   ],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/markdown",
+  "name": "@ethberry/markdown",
   "peerDependencies": {
     "react": "^18.0.0"
   },

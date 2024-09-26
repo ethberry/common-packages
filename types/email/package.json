@@ -2,10 +2,10 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "description": "Email types",
   "engines": {
@@ -14,7 +14,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/types-email",
+  "name": "@ethberry/types-email",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

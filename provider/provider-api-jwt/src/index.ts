@@ -1,3 +1,3 @@
 export * from "./provider";
 
-export * from "@gemunion/provider-api";
+export * from "@ethberry/provider-api";

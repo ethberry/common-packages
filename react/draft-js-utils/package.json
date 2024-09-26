@@ -2,13 +2,13 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.13.1",
+    "@ethberry/constants": "0.13.1",
     "draft-convert": "2.1.13",
     "draft-js": "0.11.7",
     "markdown-draft-js": "2.4.0"
@@ -30,7 +30,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/draft-js-utils",
+  "name": "@ethberry/draft-js-utils",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

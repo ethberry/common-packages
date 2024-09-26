@@ -2,15 +2,15 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@gemunion/constants": "0.13.1",
-    "@gemunion/history": "1.2.20",
-    "@gemunion/types-jwt": "0.4.5",
+    "@ethberry/constants": "0.13.1",
+    "@ethberry/history": "1.2.20",
+    "@ethberry/types-jwt": "0.4.5",
     "content-disposition": "0.5.4",
     "qs": "6.13.0",
     "react-router": "6.26.2"
@@ -27,7 +27,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/provider-api",
+  "name": "@ethberry/provider-api",
   "peerDependencies": {
     "react": "^18.0.0"
   },

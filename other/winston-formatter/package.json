@@ -2,7 +2,7 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
     "url": "https://github.com/gemunion/nestjs-packages/issues"
@@ -17,7 +17,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/winston-formatter",
+  "name": "@ethberry/winston-formatter",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

@@ -9,11 +9,11 @@ addMethod(string, "isEthereumAddress", function (errorMessage) {
 
     try {
       utils.getAddress(value);
-    } catch (_e) {
+      return true;
+    } catch (e) {
+      void e;
       return false;
     }
-
-    return true;
   });
 });
 

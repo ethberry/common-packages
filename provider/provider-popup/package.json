@@ -2,10 +2,10 @@
   "author": {
     "email": "trejgun+impulse@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -18,7 +18,7 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/provider-popup",
+  "name": "@ethberry/provider-popup",
   "peerDependencies": {
     "react": "^18.0.0"
   },

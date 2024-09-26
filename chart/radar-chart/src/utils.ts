@@ -189,7 +189,7 @@ export const drawRadar = (props: IRadarChart) => {
   blobWrapper
     .append("path")
     .attr("class", "radarArea2")
-    .attr("d", d => radarLine(d) as string)
+    .attr("d", d => radarLine(d)!)
     .attr("fill", (_d, i): string => c(String(i)) as string)
     .style("fill-opacity", opacityArea)
     .on("mouseover", function () {
@@ -208,7 +208,7 @@ export const drawRadar = (props: IRadarChart) => {
     .append("path")
     .attr("class", "radarStroke")
     .attr("d", d => radarLine(d))
-    .style("stroke", (_d, i): string => <string>c(i as unknown as string))
+    .style("stroke", (_d, i): string => c(i as unknown as string) as string)
     .attr("stroke-width", strokeWidth)
     .style("fill", "none")
     .attr("clip-path", (_d, i) => `url(#clipPath-${i})`);

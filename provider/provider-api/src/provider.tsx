@@ -42,7 +42,9 @@ export const ApiProvider: FC<PropsWithChildren<IApiProviderBaseProps>> = props =
 
   const initializeProvider = (): void => {
     setBaseUrl(baseUrl);
-    storageName && setStorageName(`jwt_${storageName}`);
+    if (storageName) {
+      setStorageName(`jwt_${storageName}`);
+    }
   };
   initializeProvider();
 

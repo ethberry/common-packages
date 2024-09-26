@@ -1,8 +1,8 @@
 {
   "author": {
-    "email": "trejgun+gemunion@gmail.com",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "dependencies": {
     "@lerna/legacy-package-management": "8.1.8",
@@ -11,7 +11,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@gemunion/eslint-config": "4.0.6",
+    "@ethberry/eslint-config": "5.0.3",
     "@storybook/addon-actions": "8.3.2",
     "@storybook/addon-essentials": "8.3.2",
     "@storybook/addon-interactions": "8.3.2",
@@ -21,20 +21,6 @@
     "@storybook/react": "8.3.2",
     "@storybook/react-webpack5": "8.3.2",
     "@storybook/types": "8.3.2",
-    "@typescript-eslint/eslint-plugin": "8.6.0",
-    "@typescript-eslint/parser": "8.6.0",
-    "babel-plugin-inline-import": "3.0.0",
-    "eslint": "8.57.1",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-config-standard": "17.1.0",
-    "eslint-import-resolver-typescript": "3.6.3",
-    "eslint-plugin-import": "2.30.0",
-    "eslint-plugin-jest": "27.9.0",
-    "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-promise": "6.6.0",
-    "eslint-plugin-react": "7.36.1",
-    "eslint-plugin-react-hooks": "4.6.2",
     "husky": "4.3.8",
     "javascript-obfuscator": "4.1.1",
     "lint-staged": "15.2.10",
@@ -48,13 +34,13 @@
     "node": ">=22"
   },
   "license": "UNLICENSED",
-  "name": "@gemunion/common-packages",
+  "name": "@ethberry/common-packages",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/common-packages"
+    "url": "https://github.com/ethberry/common-packages"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --concurrency 1 --hoist --ignore-scripts",
@@ -64,7 +50,7 @@
     "lerna:changed": "lerna changed",
     "lerna:publish": "lerna publish from-package --yes --exact --ignore-scripts",
     "lerna:version": "lerna version --ignore-scripts",
-    "lint": "lerna run lint --stream",
+    "lint": "lerna run lint --concurrency 1",
     "obfuscate": "sh scripts/obfuscate.sh",
     "prettier": "prettier \"other/**/*.{ts,tsx}\" \"provider/**/*.{ts,tsx}\" \"react/**/*.{ts,tsx}\" \"types/**/*.{ts,tsx}\" --write",
     "storybook": "storybook dev -p 6006",

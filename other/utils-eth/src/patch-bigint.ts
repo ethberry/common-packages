@@ -3,7 +3,7 @@ export function patchBigInt() {
   // eslint-disable-next-line no-extend-native
   Object.defineProperty(BigInt.prototype, "toJSON", {
     value: function () {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-call,@typescript-eslint/no-unsafe-return
       return this.toString();
     },
     configurable: true,

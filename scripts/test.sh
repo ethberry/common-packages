@@ -8,7 +8,4 @@ export NODE_ENV=test
 
 lerna bootstrap --hoist --ignore-scripts
 lerna run build --stream
-
-# lerna run lint --stream --parallel
-
-lerna exec -- npm run test
+lerna run test --concurrency 1

@@ -2,10 +2,10 @@
   "author": {
     "email": "trejgun+gemunion@gmail.com",
     "name": "TrejGun",
-    "url": "https://gemunion.io/"
+    "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/common-packages/issues"
+    "url": "https://github.com/ethberry/common-packages/issues"
   },
   "description": "Blockchain types",
   "engines": {
@@ -14,9 +14,9 @@
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@gemunion/types-blockchain",
+  "name": "@ethberry/types-blockchain",
   "dependencies": {
-    "@gemunion/types-collection": "1.5.17"
+    "@ethberry/types-collection": "1.5.17"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

@@ -1,7 +1,7 @@
 import { string } from "yup";
 
-import { fetchJson } from "@gemunion/provider-api";
-import { passwordMinLength, passwordScore } from "@gemunion/constants";
+import { fetchJson } from "@ethberry/provider-api";
+import { passwordMinLength, passwordScore } from "@ethberry/constants";
 
 export const passwordValidationSchema = string()
   .min(passwordMinLength, "form.validations.tooShort")

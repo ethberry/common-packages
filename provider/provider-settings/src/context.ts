@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { ThemeType } from "@gemunion/constants";
+import { ThemeType } from "@ethberry/constants";
 
 import { LAYOUT_DIRECTION } from "./interfaces";
 

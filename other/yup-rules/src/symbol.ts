@@ -1,6 +1,6 @@
 import { string } from "yup";
 
-import { symbolMinLength, symbolMaxLength } from "@gemunion/constants";
+import { symbolMinLength, symbolMaxLength } from "@ethberry/constants";
 
 export const symbolValidationSchema = string()
   .required("form.validations.valueMissing")

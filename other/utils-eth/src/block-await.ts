@@ -1,6 +1,6 @@
 import { JsonRpcProvider } from "ethers";
 
-import { delay } from "@gemunion/utils";
+import { delay } from "@ethberry/utils";
 
 export const waitForConfirmation = async function (
   provider: JsonRpcProvider,
@@ -12,6 +12,7 @@ export const waitForConfirmation = async function (
     throw Error("Unable to retrieve the block number");
   }
 
+  // eslint-disable-next-line no-constant-condition
   while (true) {
     await delay(millisecondsDelay);
     const currentBlockNumber = await provider.getBlockNumber();

@@ -26,8 +26,9 @@ export enum BatchTypes {
   delayedQuote = "delayed-quote",
 }
 
-export type IIexBatch = {
-  [key: string]: {
+export type IIexBatch = Record<
+  string,
+  {
     [BatchTypes.company]?: IIexCompany;
     [BatchTypes.financials]?: IIexFinancialsWrapper;
     [BatchTypes.ohlc]?: IIexOhlc;
@@ -42,5 +43,5 @@ export type IIexBatch = {
     [BatchTypes.indicator]?: unknown;
     [BatchTypes.volumeByVenue]?: Array<IIexVolumeByVenue>;
     [BatchTypes.delayedQuote]?: unknown;
-  };
-};
+  }
+>;

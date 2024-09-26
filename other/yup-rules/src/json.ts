@@ -3,11 +3,11 @@ import { string } from "yup";
 const isValidJSON = (value?: string): any => {
   try {
     JSON.parse(value!);
+    return true;
   } catch (e) {
+    void e;
     return false;
   }
-
-  return true;
 };
 
 export const jsonValidationSchema = string()
