@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.86 (2024-09-26)
+
+### Bug Fixes
+
+- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+- ethberry ([18a2f68](https://github.com/gemunion/common-packages/commit/18a2f6851e724858b70936e81b81554eb67c3267))
+
 ## [2.0.85](https://github.com/gemunion/common-packages/compare/@gemunion/provider-api-jwt@2.0.84...@gemunion/provider-api-jwt@2.0.85) (2024-09-21)
 
 **Note:** Version bump only for package @gemunion/provider-api-jwt

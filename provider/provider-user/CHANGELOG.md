@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 6.0.96 (2024-09-26)
+
+### Bug Fixes
+
+- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+- ethberry ([18a2f68](https://github.com/gemunion/common-packages/commit/18a2f6851e724858b70936e81b81554eb67c3267))
+
 ## [6.0.95](https://github.com/gemunion/common-packages/compare/@gemunion/provider-user@6.0.94...@gemunion/provider-user@6.0.95) (2024-09-21)
 
 **Note:** Version bump only for package @gemunion/provider-user

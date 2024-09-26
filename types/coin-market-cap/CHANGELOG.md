@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.12 (2024-09-26)
+
+### Bug Fixes
+
+- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+
 ## 0.1.11 (2024-07-16)
 
 **Note:** Version bump only for package @gemunion/types-coin-market-cap

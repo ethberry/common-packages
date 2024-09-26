@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.1 (2024-09-26)
+
+### Bug Fixes
+
+- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+
 # [1.5.0](https://github.com/gemunion/common-packages/compare/@gemunion/utils@1.4.0...@gemunion/utils@1.5.0) (2024-09-11)
 
 ### Bug Fixes

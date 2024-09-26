@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/history": "1.2.20",
-    "@ethberry/provider-api": "7.0.89",
-    "@ethberry/types-jwt": "0.4.5"
+    "@ethberry/history": "1.2.21",
+    "@ethberry/provider-api": "7.0.90",
+    "@ethberry/types-jwt": "0.4.6"
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=Gemun Ion Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.85"
+  "version": "2.0.86"
 }

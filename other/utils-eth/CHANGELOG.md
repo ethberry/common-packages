@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.25 (2024-09-26)
+
+### Bug Fixes
+
+- eslint + ethberry ([f070ed2](https://github.com/gemunion/nestjs-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+
 ## 1.1.24 (2024-09-21)
 
 ### Bug Fixes
