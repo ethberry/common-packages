@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.26](https://github.com/gemunion/nestjs-packages/compare/@ethberry/utils-eth@1.1.25...@ethberry/utils-eth@1.1.26) (2024-09-27)
+
+### Bug Fixes
+
+- ethberry ([87d0b50](https://github.com/gemunion/nestjs-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
+
 ## 1.1.25 (2024-09-26)
 
 ### Bug Fixes

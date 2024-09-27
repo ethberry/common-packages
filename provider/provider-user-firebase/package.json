@@ -8,13 +8,13 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/firebase": "1.2.40",
-    "@ethberry/provider-api": "7.0.90",
-    "@ethberry/types-collection": "1.5.18"
+    "@ethberry/firebase": "1.2.41",
+    "@ethberry/provider-api": "7.0.91",
+    "@ethberry/types-collection": "1.5.19"
   },
   "description": "react context provider firebase",
   "devDependencies": {
-    "@ethberry/provider-user": "6.0.96",
+    "@ethberry/provider-user": "6.0.97",
     "@types/react": "18.3.8",
     "@types/react-router": "5.1.20",
     "firebase": "10.13.2",
@@ -52,5 +52,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.100"
+  "version": "1.0.101"
 }

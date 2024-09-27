@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.89](https://github.com/gemunion/common-packages/compare/@ethberry/provider-api-firebase@2.0.88...@ethberry/provider-api-firebase@2.0.89) (2024-09-27)
+
+### Bug Fixes
+
+- ethberry ([87d0b50](https://github.com/gemunion/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
+
 ## 2.0.88 (2024-09-26)
 
 ### Bug Fixes

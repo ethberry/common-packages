@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.97](https://github.com/gemunion/common-packages/compare/@ethberry/provider-user@6.0.96...@ethberry/provider-user@6.0.97) (2024-09-27)
+
+### Bug Fixes
+
+- ethberry ([87d0b50](https://github.com/gemunion/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
+
 ## 6.0.96 (2024-09-26)
 
 ### Bug Fixes
