@@ -1,6 +1,6 @@
 {
   "author": {
-    "email": "trejgun+gemunion@gmail.com",
+    "email": "trejgun+ethberry@gmail.com",
     "name": "TrejGun",
     "url": "https://ethberry.io/"
   },
@@ -44,7 +44,7 @@
     "test": "exit 0"
   },
   "sideEffects": false,
-  "title": "-=Gemun Ion Studio=-",
+  "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
   "version": "4.0.103"
 }

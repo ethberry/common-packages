@@ -5,19 +5,16 @@
     "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/ethberry/common-packages/issues"
+    "url": "https://github.com/gemunion/common-packages/issues"
   },
-  "dependencies": {
-    "zxcvbn": "4.4.2"
-  },
-  "description": "constants for all needs",
+  "description": "Coin Gecko types",
   "engines": {
-    "node": ">=22"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "UNLICENSED",
   "main": "./dist/index.js",
-  "name": "@ethberry/constants",
+  "name": "@ethberry/types-coin-gecko",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -36,5 +33,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "0.13.2"
+  "version": "0.3.2"
 }
