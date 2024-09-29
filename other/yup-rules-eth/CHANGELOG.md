@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.39 (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [2.1.38](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules-eth@2.1.37...@ethberry/yup-rules-eth@2.1.38) (2024-09-27)
 
 ### Bug Fixes

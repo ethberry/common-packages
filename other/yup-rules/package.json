@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.3",
-    "@ethberry/draft-js-utils": "1.2.52",
-    "@ethberry/provider-api": "7.0.92",
+    "@ethberry/constants": "0.13.4",
+    "@ethberry/draft-js-utils": "1.2.53",
+    "@ethberry/provider-api": "7.0.93",
     "yup": "1.4.0"
   },
   "description": "validation rules",
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.2.69"
+  "version": "4.2.70"
 }

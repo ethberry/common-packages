@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.69](https://github.com/ethberry/common-packages/compare/@ethberry/radar-chart@1.1.68...@ethberry/radar-chart@1.1.69) (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [1.1.68](https://github.com/ethberry/common-packages/compare/@ethberry/radar-chart@1.1.67...@ethberry/radar-chart@1.1.68) (2024-09-29)
 
 **Note:** Version bump only for package @ethberry/radar-chart

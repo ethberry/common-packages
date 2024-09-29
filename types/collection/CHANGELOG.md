@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.20 (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [1.5.19](https://github.com/ethberry/common-packages/compare/@ethberry/types-collection@1.5.18...@ethberry/types-collection@1.5.19) (2024-09-27)
 
 ### Bug Fixes

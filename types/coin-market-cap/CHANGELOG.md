@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.14 (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [0.1.13](https://github.com/ethberry/common-packages/compare/@ethberry/types-coin-market-cap@0.1.12...@ethberry/types-coin-market-cap@0.1.13) (2024-09-27)
 
 ### Bug Fixes

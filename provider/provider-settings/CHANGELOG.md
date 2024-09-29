@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.106](https://github.com/ethberry/common-packages/compare/@ethberry/provider-settings@4.0.105...@ethberry/provider-settings@4.0.106) (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [4.0.105](https://github.com/ethberry/common-packages/compare/@ethberry/provider-settings@4.0.104...@ethberry/provider-settings@4.0.105) (2024-09-29)
 
 **Note:** Version bump only for package @ethberry/provider-settings

@@ -8,8 +8,8 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.3",
-    "@ethberry/provider-user": "6.0.98"
+    "@ethberry/constants": "0.13.4",
+    "@ethberry/provider-user": "6.0.99"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -46,5 +46,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "4.0.105"
+  "version": "4.0.106"
 }

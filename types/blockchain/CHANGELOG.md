@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.4 (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([02f844a](https://github.com/ethberry/common-packages/commit/02f844ac2eb6ee3f54323cff8fa7126bc9e78be2))
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [1.3.3](https://github.com/ethberry/common-packages/compare/@ethberry/types-blockchain@1.3.2...@ethberry/types-blockchain@1.3.3) (2024-09-27)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.99](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user@6.0.98...@ethberry/provider-user@6.0.99) (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [6.0.98](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user@6.0.97...@ethberry/provider-user@6.0.98) (2024-09-29)
 
 **Note:** Version bump only for package @ethberry/provider-user

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.3 (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [1.5.2](https://github.com/ethberry/common-packages/compare/@ethberry/utils@1.5.1...@ethberry/utils@1.5.2) (2024-09-27)
 
 ### Bug Fixes

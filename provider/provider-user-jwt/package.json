@@ -8,12 +8,12 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/provider-api": "7.0.92",
-    "@ethberry/types-collection": "1.5.19"
+    "@ethberry/provider-api": "7.0.93",
+    "@ethberry/types-collection": "1.5.20"
   },
   "description": "react context provider jwt",
   "devDependencies": {
-    "@ethberry/provider-user": "6.0.98",
+    "@ethberry/provider-user": "6.0.99",
     "@types/react": "18.3.10",
     "@types/react-router": "5.1.20",
     "react": "18.3.1",
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.0.100"
+  "version": "1.0.101"
 }

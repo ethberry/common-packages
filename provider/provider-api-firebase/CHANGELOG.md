@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.91](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-firebase@2.0.90...@ethberry/provider-api-firebase@2.0.91) (2024-09-29)
+
+### Bug Fixes
+
+- ethberry ([ac210cf](https://github.com/ethberry/common-packages/commit/ac210cfe82c5b5979206bfdc0ca97368ac20ea8f))
+
 ## [2.0.90](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-firebase@2.0.89...@ethberry/provider-api-firebase@2.0.90) (2024-09-29)
 
 **Note:** Version bump only for package @ethberry/provider-api-firebase
