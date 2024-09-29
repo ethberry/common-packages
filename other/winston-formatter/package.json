@@ -5,7 +5,7 @@
     "url": "https://ethberry.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/nestjs-packages/issues"
+    "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
     "winston": "3.14.2"
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gemunion/nestjs-packages"
+    "url": "https://github.com/ethberry/nestjs-packages"
   },
   "scripts": {
     "build": "tsc",

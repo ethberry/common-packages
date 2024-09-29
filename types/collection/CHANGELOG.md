@@ -3,23 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.5.19](https://github.com/gemunion/common-packages/compare/@ethberry/types-collection@1.5.18...@ethberry/types-collection@1.5.19) (2024-09-27)
+## [1.5.19](https://github.com/ethberry/common-packages/compare/@ethberry/types-collection@1.5.18...@ethberry/types-collection@1.5.19) (2024-09-27)
 
 ### Bug Fixes
 
-- ethberry ([87d0b50](https://github.com/gemunion/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
+- ethberry ([87d0b50](https://github.com/ethberry/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
 
 ## 1.5.18 (2024-09-26)
 
 ### Bug Fixes
 
-- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+- eslint + ethberry ([f070ed2](https://github.com/ethberry/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
 
 ## 1.5.17 (2024-07-16)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.5.16](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.15...@gemunion/types-collection@1.5.16) (2024-06-13)
+## [1.5.16](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.5.15...@gemunion/types-collection@1.5.16) (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -31,33 +31,33 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- add awaited InputType to types-collection for search ([d55dbb5](https://github.com/gemunion/common-packages/commit/d55dbb5c614ae577d494b0e335d9f0e589a076e2))
+- add awaited InputType to types-collection for search ([d55dbb5](https://github.com/ethberry/common-packages/commit/d55dbb5c614ae577d494b0e335d9f0e589a076e2))
 
 ## 1.5.13 (2023-08-25)
 
 ### Bug Fixes
 
-- make sort order optional ([8006b76](https://github.com/gemunion/common-packages/commit/8006b764f5ea3a6c6d8f770fe8710a6ed68ef585))
+- make sort order optional ([8006b76](https://github.com/ethberry/common-packages/commit/8006b764f5ea3a6c6d8f770fe8710a6ed68ef585))
 
 ## 1.5.12 (2023-08-25)
 
 ### Bug Fixes
 
-- IMuiSortDto ([58cec82](https://github.com/gemunion/common-packages/commit/58cec829014620b2a78b0960950ebdc656e620fd))
+- IMuiSortDto ([58cec82](https://github.com/ethberry/common-packages/commit/58cec829014620b2a78b0960950ebdc656e620fd))
 
 ## 1.5.11 (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.5.10](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.9...@gemunion/types-collection@1.5.10) (2023-07-18)
+## [1.5.10](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.5.9...@gemunion/types-collection@1.5.10) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.5.9](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.8...@gemunion/types-collection@1.5.9) (2023-07-18)
+## [1.5.9](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.5.8...@gemunion/types-collection@1.5.9) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.5.8](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.7...@gemunion/types-collection@1.5.8) (2023-07-18)
+## [1.5.8](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.5.7...@gemunion/types-collection@1.5.8) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -65,13 +65,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+- updatenode to 18 ([834795a](https://github.com/ethberry/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
 
 ## 1.5.6 (2023-03-03)
 
 ### Bug Fixes
 
-- sort does not extend search ([da2adf4](https://github.com/gemunion/common-packages/commit/da2adf45cfde10f0fed939e383d9af36d64cd5eb))
+- sort does not extend search ([da2adf4](https://github.com/ethberry/common-packages/commit/da2adf45cfde10f0fed939e383d9af36d64cd5eb))
 
 ## 1.5.5 (2022-12-17)
 
@@ -81,7 +81,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.5.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.5.2...@gemunion/types-collection@1.5.3) (2022-09-24)
+## [1.5.3](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.5.2...@gemunion/types-collection@1.5.3) (2022-09-24)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -89,7 +89,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- searchable dto ([6815d38](https://github.com/gemunion/common-packages/commit/6815d3884067081d9f2ae893a9ed053699576c21))
+- searchable dto ([6815d38](https://github.com/ethberry/common-packages/commit/6815d3884067081d9f2ae893a9ed053699576c21))
 
 ## 1.5.1 (2022-09-03)
 
@@ -99,61 +99,61 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add bytecode to server signature ([4dbd72f](https://github.com/gemunion/common-packages/commit/4dbd72f3644bf787124122a380f843837176b575))
+- add bytecode to server signature ([4dbd72f](https://github.com/ethberry/common-packages/commit/4dbd72f3644bf787124122a380f843837176b575))
 
 ## 1.4.5 (2022-07-23)
 
 ### Bug Fixes
 
-- add expiresAt ([70d9e63](https://github.com/gemunion/common-packages/commit/70d9e634dd2ce2a190ac1aeb25635b8687ecf2c5))
+- add expiresAt ([70d9e63](https://github.com/ethberry/common-packages/commit/70d9e634dd2ce2a190ac1aeb25635b8687ecf2c5))
 
 ## 1.4.4 (2022-07-02)
 
 ### Bug Fixes
 
-- IContract -> IDeployable ([7d67f74](https://github.com/gemunion/common-packages/commit/7d67f740f7e495822c1bf0843a30489e78d3b0fa))
+- IContract -> IDeployable ([7d67f74](https://github.com/ethberry/common-packages/commit/7d67f740f7e495822c1bf0843a30489e78d3b0fa))
 
-## [1.4.3](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.4.2...@gemunion/types-collection@1.4.3) (2022-06-10)
+## [1.4.3](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.4.2...@gemunion/types-collection@1.4.3) (2022-06-10)
 
 ### Bug Fixes
 
-- types ([39f6957](https://github.com/gemunion/common-packages/commit/39f69577c68b9e92fee62b8e4eace2f5216ebe68))
+- types ([39f6957](https://github.com/ethberry/common-packages/commit/39f69577c68b9e92fee62b8e4eace2f5216ebe68))
 
 ## 1.4.2 (2022-06-05)
 
 ### Bug Fixes
 
-- delete contract oz ([7d7c1ea](https://github.com/gemunion/common-packages/commit/7d7c1eafa8d6ed25c6c288ce56534f1763186dd1))
-- id base entity ([ca336b1](https://github.com/gemunion/common-packages/commit/ca336b142533246de324dd05b642fb77c3574879))
+- delete contract oz ([7d7c1ea](https://github.com/ethberry/common-packages/commit/7d7c1eafa8d6ed25c6c288ce56534f1763186dd1))
+- id base entity ([ca336b1](https://github.com/ethberry/common-packages/commit/ca336b142533246de324dd05b642fb77c3574879))
 
 ## 1.4.1 (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-# [1.4.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.2.1...@gemunion/types-collection@1.4.0) (2022-05-20)
+# [1.4.0](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.2.1...@gemunion/types-collection@1.4.0) (2022-05-20)
 
 ### Features
 
-- server signature ([c369321](https://github.com/gemunion/common-packages/commit/c3693219239e320e36668fa238dd913946d48c07))
+- server signature ([c369321](https://github.com/ethberry/common-packages/commit/c3693219239e320e36668fa238dd913946d48c07))
 
 # 1.3.0 (2022-05-15)
 
 ### Features
 
-- chainId ([2c8742c](https://github.com/gemunion/common-packages/commit/2c8742c417941c5fe6d6869ee06abf90ba945c84))
+- chainId ([2c8742c](https://github.com/ethberry/common-packages/commit/2c8742c417941c5fe6d6869ee06abf90ba945c84))
 
 ## 1.2.1 (2022-05-08)
 
 ### Bug Fixes
 
-- split typings ([b110a9a](https://github.com/gemunion/common-packages/commit/b110a9a6600a1394af31c08455c34869478d272e))
+- split typings ([b110a9a](https://github.com/ethberry/common-packages/commit/b110a9a6600a1394af31c08455c34869478d272e))
 
-# [1.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@1.1.1...@gemunion/types-collection@1.2.0) (2022-05-05)
+# [1.2.0](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@1.1.1...@gemunion/types-collection@1.2.0) (2022-05-05)
 
 ### Features
 
-- add oz contract ([6905415](https://github.com/gemunion/common-packages/commit/69054154bdd61b075d83e820f27b33686122350f))
-- bump version ([8d040c4](https://github.com/gemunion/common-packages/commit/8d040c4b9d625a5e5e9a679b3dc738022da55fbf))
+- add oz contract ([6905415](https://github.com/ethberry/common-packages/commit/69054154bdd61b075d83e820f27b33686122350f))
+- bump version ([8d040c4](https://github.com/ethberry/common-packages/commit/8d040c4b9d625a5e5e9a679b3dc738022da55fbf))
 
 ## 1.1.1 (2022-05-02)
 
@@ -163,21 +163,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- searchable interface ([79ef0ba](https://github.com/gemunion/common-packages/commit/79ef0ba676388fd012b6b2b3a7895178cb7cc01b))
+- searchable interface ([79ef0ba](https://github.com/ethberry/common-packages/commit/79ef0ba676388fd012b6b2b3a7895178cb7cc01b))
 
 ## 1.0.2 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [1.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@0.2.0...@gemunion/types-collection@1.0.1) (2021-12-20)
+## [1.0.1](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@0.2.0...@gemunion/types-collection@1.0.1) (2021-12-20)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/types-collection@0.1.17...@gemunion/types-collection@0.2.0) (2021-12-16)
+# [0.2.0](https://github.com/ethberry/common-packages/compare/@gemunion/types-collection@0.1.17...@gemunion/types-collection@0.2.0) (2021-12-16)
 
 ### Features
 
-- base entity ([2306f22](https://github.com/gemunion/common-packages/commit/2306f22253eaa97e1b492fd4104be8d698d62e0f))
+- base entity ([2306f22](https://github.com/ethberry/common-packages/commit/2306f22253eaa97e1b492fd4104be8d698d62e0f))
 
 ## 0.1.17 (2021-10-09)
 
@@ -187,7 +187,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.1.15](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.14...@gemunion/types-collection@0.1.15) (2021-08-29)
+## [0.1.15](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.14...@gemunion/types-collection@0.1.15) (2021-08-29)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -199,7 +199,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.1.12](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.11...@gemunion/types-collection@0.1.12) (2021-08-16)
+## [0.1.12](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.11...@gemunion/types-collection@0.1.12) (2021-08-16)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -207,19 +207,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
 ## 0.1.10 (2021-08-07)
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/nestjs-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
-## [0.1.9](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.8...@gemunion/types-collection@0.1.9) (2021-08-06)
+## [0.1.9](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.8...@gemunion/types-collection@0.1.9) (2021-08-06)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.1.8](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.7...@gemunion/types-collection@0.1.8) (2021-07-22)
+## [0.1.8](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.7...@gemunion/types-collection@0.1.8) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -227,11 +227,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.1.6](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.5...@gemunion/types-collection@0.1.6) (2021-07-10)
+## [0.1.6](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.5...@gemunion/types-collection@0.1.6) (2021-07-10)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.1.5](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.1.4...@gemunion/types-collection@0.1.5) (2021-07-08)
+## [0.1.5](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.1.4...@gemunion/types-collection@0.1.5) (2021-07-08)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -251,17 +251,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-# [0.1.0](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.0.95...@gemunion/types-collection@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.0.95...@gemunion/types-collection@0.1.0) (2021-06-09)
 
 ### Features
 
-- use fetchJson ([fc3d86e](https://github.com/gemunion/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+- use fetchJson ([fc3d86e](https://github.com/ethberry/nestjs-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 ## 0.0.95 (2021-06-01)
 
 ### Features
 
-- send app name to logDna ([df3476a](https://github.com/gemunion/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+- send app name to logDna ([df3476a](https://github.com/ethberry/nestjs-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 ## 0.0.94 (2021-05-31)
 
@@ -271,7 +271,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- typeOrm config logging ([7734340](https://github.com/gemunion/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+- typeOrm config logging ([7734340](https://github.com/ethberry/nestjs-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 ## 0.0.92 (2021-05-14)
 
@@ -281,17 +281,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/nestjs-packages/issues/48)) ([1854092](https://github.com/gemunion/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+- **deps:** update all non-major dependencies ([#48](https://github.com/ethberry/nestjs-packages/issues/48)) ([1854092](https://github.com/ethberry/nestjs-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
-## [0.0.90](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.0.89...@gemunion/types-collection@0.0.90) (2021-05-07)
-
-**Note:** Version bump only for package @gemunion/types-collection
-
-## [0.0.89](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.0.88...@gemunion/types-collection@0.0.89) (2021-05-07)
+## [0.0.90](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.0.89...@gemunion/types-collection@0.0.90) (2021-05-07)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
-## [0.0.88](https://github.com/gemunion/nestjs-packages/compare/@gemunion/types-collection@0.0.87...@gemunion/types-collection@0.0.88) (2021-05-07)
+## [0.0.89](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.0.88...@gemunion/types-collection@0.0.89) (2021-05-07)
+
+**Note:** Version bump only for package @gemunion/types-collection
+
+## [0.0.88](https://github.com/ethberry/nestjs-packages/compare/@gemunion/types-collection@0.0.87...@gemunion/types-collection@0.0.88) (2021-05-07)
 
 **Note:** Version bump only for package @gemunion/types-collection
 
@@ -299,7 +299,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/nestjs-packages/issues/47)) ([06b9b84](https://github.com/gemunion/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/ethberry/nestjs-packages/issues/47)) ([06b9b84](https://github.com/ethberry/nestjs-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 ## 0.0.86 (2021-05-06)
 

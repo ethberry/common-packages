@@ -3,23 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.2.69](https://github.com/gemunion/common-packages/compare/@ethberry/yup-rules@4.2.68...@ethberry/yup-rules@4.2.69) (2024-09-29)
+## [4.2.69](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules@4.2.68...@ethberry/yup-rules@4.2.69) (2024-09-29)
 
 **Note:** Version bump only for package @ethberry/yup-rules
 
-## [4.2.68](https://github.com/gemunion/common-packages/compare/@ethberry/yup-rules@4.2.67...@ethberry/yup-rules@4.2.68) (2024-09-27)
+## [4.2.68](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules@4.2.67...@ethberry/yup-rules@4.2.68) (2024-09-27)
 
 ### Bug Fixes
 
-- ethberry ([87d0b50](https://github.com/gemunion/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
+- ethberry ([87d0b50](https://github.com/ethberry/common-packages/commit/87d0b50780ead2cbf28891acf0676174e24030b7))
 
 ## 4.2.67 (2024-09-26)
 
 ### Bug Fixes
 
-- eslint + ethberry ([f070ed2](https://github.com/gemunion/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
+- eslint + ethberry ([f070ed2](https://github.com/ethberry/common-packages/commit/f070ed2fac05247d0d232638ba3d930ac2891237))
 
-## [4.2.66](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.65...@gemunion/yup-rules@4.2.66) (2024-09-21)
+## [4.2.66](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.65...@gemunion/yup-rules@4.2.66) (2024-09-21)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -27,87 +27,87 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.64](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.63...@gemunion/yup-rules@4.2.64) (2024-08-31)
+## [4.2.64](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.63...@gemunion/yup-rules@4.2.64) (2024-08-31)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.63](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.62...@gemunion/yup-rules@4.2.63) (2024-08-24)
+## [4.2.63](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.62...@gemunion/yup-rules@4.2.63) (2024-08-24)
 
 ### Bug Fixes
 
-- move regexp to its place ([a822a0a](https://github.com/gemunion/common-packages/commit/a822a0a28279bde5568c1e62a6a59410674cd9f7))
+- move regexp to its place ([a822a0a](https://github.com/ethberry/common-packages/commit/a822a0a28279bde5568c1e62a6a59410674cd9f7))
 
-## [4.2.62](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.61...@gemunion/yup-rules@4.2.62) (2024-08-09)
+## [4.2.62](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.61...@gemunion/yup-rules@4.2.62) (2024-08-09)
 
 ### Bug Fixes
 
-- fix url validation ([aa13ed1](https://github.com/gemunion/common-packages/commit/aa13ed1791f14d3ffd841a8bcf579c6f49356348))
-- fixed urlValidationSchema and EnabledLanguages enum ([7bca083](https://github.com/gemunion/common-packages/commit/7bca083a5d76a352fe5b71356cddfe02153f49ec))
+- fix url validation ([aa13ed1](https://github.com/ethberry/common-packages/commit/aa13ed1791f14d3ffd841a8bcf579c6f49356348))
+- fixed urlValidationSchema and EnabledLanguages enum ([7bca083](https://github.com/ethberry/common-packages/commit/7bca083a5d76a352fe5b71356cddfe02153f49ec))
 
 ## 4.2.61 (2024-08-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.60](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.59...@gemunion/yup-rules@4.2.60) (2024-07-24)
+## [4.2.60](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.59...@gemunion/yup-rules@4.2.60) (2024-07-24)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.59](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.58...@gemunion/yup-rules@4.2.59) (2024-07-23)
+## [4.2.59](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.58...@gemunion/yup-rules@4.2.59) (2024-07-23)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.58](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.57...@gemunion/yup-rules@4.2.58) (2024-07-23)
+## [4.2.58](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.57...@gemunion/yup-rules@4.2.58) (2024-07-23)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.57](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.56...@gemunion/yup-rules@4.2.57) (2024-07-22)
+## [4.2.57](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.56...@gemunion/yup-rules@4.2.57) (2024-07-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.56](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.55...@gemunion/yup-rules@4.2.56) (2024-07-22)
+## [4.2.56](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.55...@gemunion/yup-rules@4.2.56) (2024-07-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.55](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.54...@gemunion/yup-rules@4.2.55) (2024-07-20)
+## [4.2.55](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.54...@gemunion/yup-rules@4.2.55) (2024-07-20)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.54](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.53...@gemunion/yup-rules@4.2.54) (2024-07-16)
+## [4.2.54](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.53...@gemunion/yup-rules@4.2.54) (2024-07-16)
 
 ### Bug Fixes
 
-- file name ([5286c66](https://github.com/gemunion/common-packages/commit/5286c66051767b39f5a6e664d8c0f83b96609195))
-- more strict validation for imageUrl ([1f3d06e](https://github.com/gemunion/common-packages/commit/1f3d06e7c953e5b67e700b03b6a33fdb16996e81))
+- file name ([5286c66](https://github.com/ethberry/common-packages/commit/5286c66051767b39f5a6e664d8c0f83b96609195))
+- more strict validation for imageUrl ([1f3d06e](https://github.com/ethberry/common-packages/commit/1f3d06e7c953e5b67e700b03b6a33fdb16996e81))
 
-## [4.2.53](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.52...@gemunion/yup-rules@4.2.53) (2024-07-13)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.2.52](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.51...@gemunion/yup-rules@4.2.52) (2024-07-06)
+## [4.2.53](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.52...@gemunion/yup-rules@4.2.53) (2024-07-13)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.51](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.50...@gemunion/yup-rules@4.2.51) (2024-06-28)
+## [4.2.52](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.51...@gemunion/yup-rules@4.2.52) (2024-07-06)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.2.51](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.50...@gemunion/yup-rules@4.2.51) (2024-06-28)
 
 ### Bug Fixes
 
-- validation message ([43aea31](https://github.com/gemunion/common-packages/commit/43aea314f19d4ad23f984cc77022d3de8c35f75d))
+- validation message ([43aea31](https://github.com/ethberry/common-packages/commit/43aea314f19d4ad23f984cc77022d3de8c35f75d))
 
-## [4.2.50](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.49...@gemunion/yup-rules@4.2.50) (2024-06-23)
+## [4.2.50](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.49...@gemunion/yup-rules@4.2.50) (2024-06-23)
 
 ### Bug Fixes
 
-- title& symbol validation ([38f48d4](https://github.com/gemunion/common-packages/commit/38f48d4664d00e3e7e9d012bea9451e856a37430))
+- title& symbol validation ([38f48d4](https://github.com/ethberry/common-packages/commit/38f48d4664d00e3e7e9d012bea9451e856a37430))
 
-## [4.2.49](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.48...@gemunion/yup-rules@4.2.49) (2024-06-22)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.2.48](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.47...@gemunion/yup-rules@4.2.48) (2024-06-13)
+## [4.2.49](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.48...@gemunion/yup-rules@4.2.49) (2024-06-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.47](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.46...@gemunion/yup-rules@4.2.47) (2024-06-13)
+## [4.2.48](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.47...@gemunion/yup-rules@4.2.48) (2024-06-13)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.2.47](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.46...@gemunion/yup-rules@4.2.47) (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -115,73 +115,73 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.45](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.44...@gemunion/yup-rules@4.2.45) (2024-06-13)
+## [4.2.45](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.44...@gemunion/yup-rules@4.2.45) (2024-06-13)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.44](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.43...@gemunion/yup-rules@4.2.44) (2024-06-07)
+## [4.2.44](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.43...@gemunion/yup-rules@4.2.44) (2024-06-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.43](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.42...@gemunion/yup-rules@4.2.43) (2024-05-16)
+## [4.2.43](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.42...@gemunion/yup-rules@4.2.43) (2024-05-16)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.42](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.41...@gemunion/yup-rules@4.2.42) (2024-04-28)
+## [4.2.42](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.41...@gemunion/yup-rules@4.2.42) (2024-04-28)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.41](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.40...@gemunion/yup-rules@4.2.41) (2024-04-24)
+## [4.2.41](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.40...@gemunion/yup-rules@4.2.41) (2024-04-24)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.40](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.39...@gemunion/yup-rules@4.2.40) (2024-04-23)
+## [4.2.40](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.39...@gemunion/yup-rules@4.2.40) (2024-04-23)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.39](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.38...@gemunion/yup-rules@4.2.39) (2024-04-14)
+## [4.2.39](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.38...@gemunion/yup-rules@4.2.39) (2024-04-14)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.38](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.37...@gemunion/yup-rules@4.2.38) (2024-03-30)
+## [4.2.38](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.37...@gemunion/yup-rules@4.2.38) (2024-03-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.37](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.36...@gemunion/yup-rules@4.2.37) (2024-03-20)
+## [4.2.37](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.36...@gemunion/yup-rules@4.2.37) (2024-03-20)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.36](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.35...@gemunion/yup-rules@4.2.36) (2024-03-11)
+## [4.2.36](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.35...@gemunion/yup-rules@4.2.36) (2024-03-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.35](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.34...@gemunion/yup-rules@4.2.35) (2024-03-02)
+## [4.2.35](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.34...@gemunion/yup-rules@4.2.35) (2024-03-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.34](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.33...@gemunion/yup-rules@4.2.34) (2024-02-19)
+## [4.2.34](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.33...@gemunion/yup-rules@4.2.34) (2024-02-19)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.33](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.32...@gemunion/yup-rules@4.2.33) (2024-02-03)
+## [4.2.33](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.32...@gemunion/yup-rules@4.2.33) (2024-02-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.32](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.31...@gemunion/yup-rules@4.2.32) (2024-01-21)
+## [4.2.32](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.31...@gemunion/yup-rules@4.2.32) (2024-01-21)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.31](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.30...@gemunion/yup-rules@4.2.31) (2024-01-17)
+## [4.2.31](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.30...@gemunion/yup-rules@4.2.31) (2024-01-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.30](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.29...@gemunion/yup-rules@4.2.30) (2024-01-16)
+## [4.2.30](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.29...@gemunion/yup-rules@4.2.30) (2024-01-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([c19680d](https://github.com/gemunion/common-packages/commit/c19680de415e696164088d763dd6c019cf9cc7dd))
+- **deps:** update all non-major dependencies ([c19680d](https://github.com/ethberry/common-packages/commit/c19680de415e696164088d763dd6c019cf9cc7dd))
 
-## [4.2.29](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.28...@gemunion/yup-rules@4.2.29) (2023-12-30)
+## [4.2.29](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.28...@gemunion/yup-rules@4.2.29) (2023-12-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -189,41 +189,41 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([25f3562](https://github.com/gemunion/common-packages/commit/25f35620e4e689583fadc25d5a42704955a59c6e))
+- **deps:** update all non-major dependencies ([25f3562](https://github.com/ethberry/common-packages/commit/25f35620e4e689583fadc25d5a42704955a59c6e))
 
-## [4.2.27](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.26...@gemunion/yup-rules@4.2.27) (2023-12-06)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.2.26](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.25...@gemunion/yup-rules@4.2.26) (2023-11-18)
+## [4.2.27](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.26...@gemunion/yup-rules@4.2.27) (2023-12-06)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.25](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.24...@gemunion/yup-rules@4.2.25) (2023-11-12)
+## [4.2.26](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.25...@gemunion/yup-rules@4.2.26) (2023-11-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.24](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.23...@gemunion/yup-rules@4.2.24) (2023-11-04)
+## [4.2.25](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.24...@gemunion/yup-rules@4.2.25) (2023-11-12)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.23](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.22...@gemunion/yup-rules@4.2.23) (2023-10-27)
+## [4.2.24](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.23...@gemunion/yup-rules@4.2.24) (2023-11-04)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.22](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.21...@gemunion/yup-rules@4.2.22) (2023-10-20)
+## [4.2.23](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.22...@gemunion/yup-rules@4.2.23) (2023-10-27)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.2.22](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.21...@gemunion/yup-rules@4.2.22) (2023-10-20)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([4b85258](https://github.com/gemunion/common-packages/commit/4b85258f2b206c18c786b10dd1deec35d70f4bb7))
+- **deps:** update all non-major dependencies ([4b85258](https://github.com/ethberry/common-packages/commit/4b85258f2b206c18c786b10dd1deec35d70f4bb7))
 
 ## 4.2.21 (2023-10-18)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([c6176d6](https://github.com/gemunion/common-packages/commit/c6176d6f7c473c57d8a56fa0e73baaa7a1962a0f))
+- **deps:** update all non-major dependencies ([c6176d6](https://github.com/ethberry/common-packages/commit/c6176d6f7c473c57d8a56fa0e73baaa7a1962a0f))
 
-## [4.2.20](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.19...@gemunion/yup-rules@4.2.20) (2023-10-06)
+## [4.2.20](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.19...@gemunion/yup-rules@4.2.20) (2023-10-06)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -235,21 +235,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([5c8eb01](https://github.com/gemunion/common-packages/commit/5c8eb01bd955dbf3bc35323904049dcedd875b5d))
+- **deps:** update all non-major dependencies ([5c8eb01](https://github.com/ethberry/common-packages/commit/5c8eb01bd955dbf3bc35323904049dcedd875b5d))
 
-## [4.2.17](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.16...@gemunion/yup-rules@4.2.17) (2023-08-25)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.2.16](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.15...@gemunion/yup-rules@4.2.16) (2023-08-25)
+## [4.2.17](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.16...@gemunion/yup-rules@4.2.17) (2023-08-25)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.14...@gemunion/yup-rules@4.2.15) (2023-08-23)
+## [4.2.16](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.15...@gemunion/yup-rules@4.2.16) (2023-08-25)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.14](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.13...@gemunion/yup-rules@4.2.14) (2023-08-22)
+## [4.2.15](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.14...@gemunion/yup-rules@4.2.15) (2023-08-23)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.2.14](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.13...@gemunion/yup-rules@4.2.14) (2023-08-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -257,11 +257,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.12](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.11...@gemunion/yup-rules@4.2.12) (2023-08-11)
+## [4.2.12](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.11...@gemunion/yup-rules@4.2.12) (2023-08-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.10...@gemunion/yup-rules@4.2.11) (2023-08-07)
+## [4.2.11](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.10...@gemunion/yup-rules@4.2.11) (2023-08-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -269,11 +269,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.8...@gemunion/yup-rules@4.2.9) (2023-08-04)
+## [4.2.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.8...@gemunion/yup-rules@4.2.9) (2023-08-04)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.8](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.7...@gemunion/yup-rules@4.2.8) (2023-08-03)
+## [4.2.8](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.7...@gemunion/yup-rules@4.2.8) (2023-08-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -281,99 +281,99 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.5...@gemunion/yup-rules@4.2.6) (2023-07-18)
+## [4.2.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.5...@gemunion/yup-rules@4.2.6) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.4...@gemunion/yup-rules@4.2.5) (2023-07-18)
+## [4.2.5](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.4...@gemunion/yup-rules@4.2.5) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.3...@gemunion/yup-rules@4.2.4) (2023-07-18)
+## [4.2.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.3...@gemunion/yup-rules@4.2.4) (2023-07-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.2...@gemunion/yup-rules@4.2.3) (2023-07-17)
+## [4.2.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.2...@gemunion/yup-rules@4.2.3) (2023-07-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.1...@gemunion/yup-rules@4.2.2) (2023-07-15)
+## [4.2.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.1...@gemunion/yup-rules@4.2.2) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.2.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.2.0...@gemunion/yup-rules@4.2.1) (2023-07-15)
+## [4.2.1](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.2.0...@gemunion/yup-rules@4.2.1) (2023-07-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-# [4.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.16...@gemunion/yup-rules@4.2.0) (2023-07-11)
+# [4.2.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.16...@gemunion/yup-rules@4.2.0) (2023-07-11)
 
 ### Features
 
-- add dbid and url ([1cb3b95](https://github.com/gemunion/common-packages/commit/1cb3b95c900dd348273a4425918d1b3bbaaa3083))
+- add dbid and url ([1cb3b95](https://github.com/ethberry/common-packages/commit/1cb3b95c900dd348273a4425918d1b3bbaaa3083))
 
-## [4.1.16](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.15...@gemunion/yup-rules@4.1.16) (2023-06-30)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.14...@gemunion/yup-rules@4.1.15) (2023-06-24)
+## [4.1.16](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.15...@gemunion/yup-rules@4.1.16) (2023-06-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.14](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.13...@gemunion/yup-rules@4.1.14) (2023-06-17)
+## [4.1.15](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.14...@gemunion/yup-rules@4.1.15) (2023-06-24)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.12...@gemunion/yup-rules@4.1.13) (2023-06-11)
+## [4.1.14](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.13...@gemunion/yup-rules@4.1.14) (2023-06-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.11...@gemunion/yup-rules@4.1.12) (2023-06-03)
+## [4.1.13](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.12...@gemunion/yup-rules@4.1.13) (2023-06-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.10...@gemunion/yup-rules@4.1.11) (2023-05-26)
+## [4.1.12](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.11...@gemunion/yup-rules@4.1.12) (2023-06-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.9...@gemunion/yup-rules@4.1.10) (2023-05-20)
+## [4.1.11](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.10...@gemunion/yup-rules@4.1.11) (2023-05-26)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.1.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.9...@gemunion/yup-rules@4.1.10) (2023-05-20)
 
 ### Bug Fixes
 
-- updatenode to 18 ([834795a](https://github.com/gemunion/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
+- updatenode to 18 ([834795a](https://github.com/ethberry/common-packages/commit/834795aca8d9c351fde907fbdb511f437c707f11))
 
-## [4.1.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.8...@gemunion/yup-rules@4.1.9) (2023-05-12)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [4.1.8](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.7...@gemunion/yup-rules@4.1.8) (2023-05-05)
+## [4.1.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.8...@gemunion/yup-rules@4.1.9) (2023-05-12)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.7](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.6...@gemunion/yup-rules@4.1.7) (2023-04-29)
+## [4.1.8](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.7...@gemunion/yup-rules@4.1.8) (2023-05-05)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.5...@gemunion/yup-rules@4.1.6) (2023-04-22)
+## [4.1.7](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.6...@gemunion/yup-rules@4.1.7) (2023-04-29)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.4...@gemunion/yup-rules@4.1.5) (2023-04-14)
+## [4.1.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.5...@gemunion/yup-rules@4.1.6) (2023-04-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.3...@gemunion/yup-rules@4.1.4) (2023-04-07)
+## [4.1.5](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.4...@gemunion/yup-rules@4.1.5) (2023-04-14)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.2...@gemunion/yup-rules@4.1.3) (2023-03-31)
+## [4.1.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.3...@gemunion/yup-rules@4.1.4) (2023-04-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.1...@gemunion/yup-rules@4.1.2) (2023-03-24)
+## [4.1.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.2...@gemunion/yup-rules@4.1.3) (2023-03-31)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [4.1.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@4.1.0...@gemunion/yup-rules@4.1.1) (2023-03-17)
+## [4.1.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.1...@gemunion/yup-rules@4.1.2) (2023-03-24)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [4.1.1](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@4.1.0...@gemunion/yup-rules@4.1.1) (2023-03-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -381,7 +381,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- types for custom yup methods and bump versions of both yup rules packages ([45b8f00](https://github.com/gemunion/common-packages/commit/45b8f00dfa111827da01283d18499ffb7c877d96))
+- types for custom yup methods and bump versions of both yup rules packages ([45b8f00](https://github.com/ethberry/common-packages/commit/45b8f00dfa111827da01283d18499ffb7c877d96))
 
 ## 3.0.23 (2023-03-11)
 
@@ -391,31 +391,31 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.21](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.20...@gemunion/yup-rules@3.0.21) (2023-02-11)
+## [3.0.21](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.20...@gemunion/yup-rules@3.0.21) (2023-02-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.20](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.19...@gemunion/yup-rules@3.0.20) (2023-02-03)
+## [3.0.20](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.19...@gemunion/yup-rules@3.0.20) (2023-02-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.19](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.18...@gemunion/yup-rules@3.0.19) (2023-01-27)
+## [3.0.19](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.18...@gemunion/yup-rules@3.0.19) (2023-01-27)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.18](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.17...@gemunion/yup-rules@3.0.18) (2023-01-27)
+## [3.0.18](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.17...@gemunion/yup-rules@3.0.18) (2023-01-27)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.17](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.16...@gemunion/yup-rules@3.0.17) (2023-01-25)
+## [3.0.17](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.16...@gemunion/yup-rules@3.0.17) (2023-01-25)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.16](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.15...@gemunion/yup-rules@3.0.16) (2023-01-21)
+## [3.0.16](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.15...@gemunion/yup-rules@3.0.16) (2023-01-21)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.14...@gemunion/yup-rules@3.0.15) (2023-01-14)
+## [3.0.15](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.14...@gemunion/yup-rules@3.0.15) (2023-01-14)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -423,7 +423,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.13](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.12...@gemunion/yup-rules@3.0.13) (2022-12-10)
+## [3.0.13](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.12...@gemunion/yup-rules@3.0.13) (2022-12-10)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -431,11 +431,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.10...@gemunion/yup-rules@3.0.11) (2022-11-18)
+## [3.0.11](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.10...@gemunion/yup-rules@3.0.11) (2022-11-18)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.9...@gemunion/yup-rules@3.0.10) (2022-11-11)
+## [3.0.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.9...@gemunion/yup-rules@3.0.10) (2022-11-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -451,55 +451,55 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.5...@gemunion/yup-rules@3.0.6) (2022-10-22)
+## [3.0.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.5...@gemunion/yup-rules@3.0.6) (2022-10-22)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([9b02b0a](https://github.com/gemunion/common-packages/commit/9b02b0a4873923a4292e6af2e14c1d2197b643e8))
+- **deps:** update all non-major dependencies ([9b02b0a](https://github.com/ethberry/common-packages/commit/9b02b0a4873923a4292e6af2e14c1d2197b643e8))
 
 ## 3.0.5 (2022-10-16)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.3...@gemunion/yup-rules@3.0.4) (2022-10-08)
+## [3.0.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.3...@gemunion/yup-rules@3.0.4) (2022-10-08)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.2...@gemunion/yup-rules@3.0.3) (2022-10-01)
+## [3.0.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.2...@gemunion/yup-rules@3.0.3) (2022-10-01)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.1...@gemunion/yup-rules@3.0.2) (2022-09-24)
+## [3.0.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.1...@gemunion/yup-rules@3.0.2) (2022-09-24)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [3.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@3.0.0...@gemunion/yup-rules@3.0.1) (2022-09-24)
+## [3.0.1](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@3.0.0...@gemunion/yup-rules@3.0.1) (2022-09-24)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-# [3.0.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.13...@gemunion/yup-rules@3.0.0) (2022-09-24)
+# [3.0.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.13...@gemunion/yup-rules@3.0.0) (2022-09-24)
 
-- chore!: add support of react 18 ([a292dd1](https://github.com/gemunion/common-packages/commit/a292dd1097084f8833b3e445dcf245789c9bd4ed))
+- chore!: add support of react 18 ([a292dd1](https://github.com/ethberry/common-packages/commit/a292dd1097084f8833b3e445dcf245789c9bd4ed))
 
 ### BREAKING CHANGES
 
 - react 18
 
-## [2.0.13](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.12...@gemunion/yup-rules@2.0.13) (2022-09-16)
+## [2.0.13](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.12...@gemunion/yup-rules@2.0.13) (2022-09-16)
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([47a4ea3](https://github.com/gemunion/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
+- **deps:** update all non-major dependencies ([47a4ea3](https://github.com/ethberry/common-packages/commit/47a4ea3eda898fdc5b67c6fc73fc6e8ee90ca55d))
 
 ## 2.0.12 (2022-09-14)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.10...@gemunion/yup-rules@2.0.11) (2022-09-03)
+## [2.0.11](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.10...@gemunion/yup-rules@2.0.11) (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.9...@gemunion/yup-rules@2.0.10) (2022-09-03)
+## [2.0.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.9...@gemunion/yup-rules@2.0.10) (2022-09-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -511,13 +511,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([17ab489](https://github.com/gemunion/common-packages/commit/17ab4898f95628fa11aad359f272510afe5a784e))
+- **deps:** update all non-major dependencies ([17ab489](https://github.com/ethberry/common-packages/commit/17ab4898f95628fa11aad359f272510afe5a784e))
 
-## [2.0.7](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.6...@gemunion/yup-rules@2.0.7) (2022-07-31)
+## [2.0.7](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.6...@gemunion/yup-rules@2.0.7) (2022-07-31)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.5...@gemunion/yup-rules@2.0.6) (2022-07-23)
+## [2.0.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.5...@gemunion/yup-rules@2.0.6) (2022-07-23)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -525,11 +525,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.3...@gemunion/yup-rules@2.0.4) (2022-07-02)
+## [2.0.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.3...@gemunion/yup-rules@2.0.4) (2022-07-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@2.0.2...@gemunion/yup-rules@2.0.3) (2022-06-25)
+## [2.0.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@2.0.2...@gemunion/yup-rules@2.0.3) (2022-06-25)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -537,19 +537,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [2.0.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.10...@gemunion/yup-rules@2.0.1) (2022-06-19)
+## [2.0.1](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.10...@gemunion/yup-rules@2.0.1) (2022-06-19)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.8.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.9...@gemunion/yup-rules@1.8.10) (2022-06-19)
+## [1.8.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.9...@gemunion/yup-rules@1.8.10) (2022-06-19)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.8.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.8...@gemunion/yup-rules@1.8.9) (2022-06-17)
+## [1.8.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.8...@gemunion/yup-rules@1.8.9) (2022-06-17)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.8.8](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.7...@gemunion/yup-rules@1.8.8) (2022-06-12)
+## [1.8.8](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.7...@gemunion/yup-rules@1.8.8) (2022-06-12)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -557,17 +557,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.8.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.5...@gemunion/yup-rules@1.8.6) (2022-06-04)
+## [1.8.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.5...@gemunion/yup-rules@1.8.6) (2022-06-04)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.8.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.4...@gemunion/yup-rules@1.8.5) (2022-06-02)
+## [1.8.5](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.4...@gemunion/yup-rules@1.8.5) (2022-06-02)
 
 ### Bug Fixes
 
-- work around webpack ([0a63f14](https://github.com/gemunion/common-packages/commit/0a63f1414a7928207d652b8321cd69cf0b29df34))
+- work around webpack ([0a63f14](https://github.com/ethberry/common-packages/commit/0a63f1414a7928207d652b8321cd69cf0b29df34))
 
-## [1.8.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.8.3...@gemunion/yup-rules@1.8.4) (2022-06-02)
+## [1.8.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.8.3...@gemunion/yup-rules@1.8.4) (2022-06-02)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -587,46 +587,46 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- make error message match BE validation ([96b57fa](https://github.com/gemunion/common-packages/commit/96b57fae9f230ea03a4bb45319198928bb0b8168))
+- make error message match BE validation ([96b57fa](https://github.com/ethberry/common-packages/commit/96b57fae9f230ea03a4bb45319198928bb0b8168))
 
 ### Features
 
-- test password locally without request to be ([c0bfb0f](https://github.com/gemunion/common-packages/commit/c0bfb0f07b722c8df4fc69765ec0e956806e270b))
+- test password locally without request to be ([c0bfb0f](https://github.com/ethberry/common-packages/commit/c0bfb0f07b722c8df4fc69765ec0e956806e270b))
 
-## [1.7.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.1...@gemunion/yup-rules@1.7.2) (2022-05-07)
+## [1.7.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.7.1...@gemunion/yup-rules@1.7.2) (2022-05-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.7.1](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.7.0...@gemunion/yup-rules@1.7.1) (2022-05-05)
+## [1.7.1](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.7.0...@gemunion/yup-rules@1.7.1) (2022-05-05)
 
 ### Bug Fixes
 
-- even better bigNumber ([3577cb5](https://github.com/gemunion/common-packages/commit/3577cb5f088a27667b6e61f92c5a60eb232cdbed))
+- even better bigNumber ([3577cb5](https://github.com/ethberry/common-packages/commit/3577cb5f088a27667b6e61f92c5a60eb232cdbed))
 
-# [1.7.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.6.0...@gemunion/yup-rules@1.7.0) (2022-05-05)
+# [1.7.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.6.0...@gemunion/yup-rules@1.7.0) (2022-05-05)
 
 ### Bug Fixes
 
-- bump version ([be81acf](https://github.com/gemunion/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
-- **deps:** update all non-major dependencies ([fe894ba](https://github.com/gemunion/common-packages/commit/fe894ba67ef1ca2c9d4012b4f45b69691409f5fd))
-- export validator ([ad1639f](https://github.com/gemunion/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
+- bump version ([be81acf](https://github.com/ethberry/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
+- **deps:** update all non-major dependencies ([fe894ba](https://github.com/ethberry/common-packages/commit/fe894ba67ef1ca2c9d4012b4f45b69691409f5fd))
+- export validator ([ad1639f](https://github.com/ethberry/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
 
 ### Features
 
-- address validation ([9b4a212](https://github.com/gemunion/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
-- big number ([9a6686e](https://github.com/gemunion/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
+- address validation ([9b4a212](https://github.com/ethberry/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
+- big number ([9a6686e](https://github.com/ethberry/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
 
-# [1.6.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.4.1...@gemunion/yup-rules@1.6.0) (2022-05-05)
+# [1.6.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.4.1...@gemunion/yup-rules@1.6.0) (2022-05-05)
 
 ### Bug Fixes
 
-- bump version ([be81acf](https://github.com/gemunion/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
-- export validator ([ad1639f](https://github.com/gemunion/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
+- bump version ([be81acf](https://github.com/ethberry/common-packages/commit/be81acfa8c49cab5ea449abbd5a64a5375516019))
+- export validator ([ad1639f](https://github.com/ethberry/common-packages/commit/ad1639fc1055868034bfe0c02729d687b2533f29))
 
 ### Features
 
-- address validation ([9b4a212](https://github.com/gemunion/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
-- big number ([9a6686e](https://github.com/gemunion/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
+- address validation ([9b4a212](https://github.com/ethberry/common-packages/commit/9b4a2125c84f0043bb390cb1004fc0823ea270ee))
+- big number ([9a6686e](https://github.com/ethberry/common-packages/commit/9a6686eb25770d819059e947a0d058a65df81bfc))
 
 ## 1.4.1 (2022-05-02)
 
@@ -636,9 +636,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- draft has text ([d7903cc](https://github.com/gemunion/common-packages/commit/d7903cc4ad1756e3ad6af67024390286bedb9b63))
+- draft has text ([d7903cc](https://github.com/ethberry/common-packages/commit/d7903cc4ad1756e3ad6af67024390286bedb9b63))
 
-## [1.3.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.14...@gemunion/yup-rules@1.3.15) (2022-03-30)
+## [1.3.15](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.14...@gemunion/yup-rules@1.3.15) (2022-03-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -654,15 +654,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.11](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.10...@gemunion/yup-rules@1.3.11) (2022-03-08)
+## [1.3.11](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.10...@gemunion/yup-rules@1.3.11) (2022-03-08)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.9...@gemunion/yup-rules@1.3.10) (2022-03-05)
+## [1.3.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.9...@gemunion/yup-rules@1.3.10) (2022-03-05)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.8...@gemunion/yup-rules@1.3.9) (2022-02-26)
+## [1.3.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.8...@gemunion/yup-rules@1.3.9) (2022-02-26)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -670,7 +670,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.7](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.6...@gemunion/yup-rules@1.3.7) (2022-02-11)
+## [1.3.7](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.6...@gemunion/yup-rules@1.3.7) (2022-02-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -682,17 +682,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- yup rules ([5d877aa](https://github.com/gemunion/common-packages/commit/5d877aa6ab0b0d17ceb4502f5b42bde0ca2275e9))
+- yup rules ([5d877aa](https://github.com/ethberry/common-packages/commit/5d877aa6ab0b0d17ceb4502f5b42bde0ca2275e9))
 
 ## 1.3.4 (2022-01-10)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.2...@gemunion/yup-rules@1.3.3) (2021-12-27)
+## [1.3.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.2...@gemunion/yup-rules@1.3.3) (2021-12-27)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [1.3.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@1.3.1...@gemunion/yup-rules@1.3.2) (2021-12-25)
+## [1.3.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@1.3.1...@gemunion/yup-rules@1.3.2) (2021-12-25)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -700,25 +700,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-# [1.3.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.14...@gemunion/yup-rules@1.3.0) (2021-12-11)
+# [1.3.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.14...@gemunion/yup-rules@1.3.0) (2021-12-11)
 
 ### Bug Fixes
 
-- history 5 ([0fdf3d4](https://github.com/gemunion/common-packages/commit/0fdf3d43cc6d0712c620a9e344ea2c778e35c0f0))
+- history 5 ([0fdf3d4](https://github.com/ethberry/common-packages/commit/0fdf3d43cc6d0712c620a9e344ea2c778e35c0f0))
 
 ### Features
 
-- history 5 ([2fbabdc](https://github.com/gemunion/common-packages/commit/2fbabdcdd5c8b686068e83ded4494f86c0695465))
-- history 5 ([376a60c](https://github.com/gemunion/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
+- history 5 ([2fbabdc](https://github.com/ethberry/common-packages/commit/2fbabdcdd5c8b686068e83ded4494f86c0695465))
+- history 5 ([376a60c](https://github.com/ethberry/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
 
-# [1.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.14...@gemunion/yup-rules@1.1.0) (2021-12-11)
+# [1.1.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.14...@gemunion/yup-rules@1.1.0) (2021-12-11)
 
 ### Features
 
-- history 5 ([2fbabdc](https://github.com/gemunion/common-packages/commit/2fbabdcdd5c8b686068e83ded4494f86c0695465))
-- history 5 ([376a60c](https://github.com/gemunion/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
+- history 5 ([2fbabdc](https://github.com/ethberry/common-packages/commit/2fbabdcdd5c8b686068e83ded4494f86c0695465))
+- history 5 ([376a60c](https://github.com/ethberry/common-packages/commit/376a60cf9e917e8ab4cf789e52cc03425515d13f))
 
-## [0.2.14](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.13...@gemunion/yup-rules@0.2.14) (2021-12-11)
+## [0.2.14](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.13...@gemunion/yup-rules@0.2.14) (2021-12-11)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -726,7 +726,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.12](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.11...@gemunion/yup-rules@0.2.12) (2021-11-30)
+## [0.2.12](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.11...@gemunion/yup-rules@0.2.12) (2021-11-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -734,72 +734,72 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.9...@gemunion/yup-rules@0.2.10) (2021-11-05)
+## [0.2.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.9...@gemunion/yup-rules@0.2.10) (2021-11-05)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.8...@gemunion/yup-rules@0.2.9) (2021-10-29)
+## [0.2.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.8...@gemunion/yup-rules@0.2.9) (2021-10-29)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.8](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.7...@gemunion/yup-rules@0.2.8) (2021-10-22)
+## [0.2.8](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.7...@gemunion/yup-rules@0.2.8) (2021-10-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.7](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.6...@gemunion/yup-rules@0.2.7) (2021-10-15)
+## [0.2.7](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.6...@gemunion/yup-rules@0.2.7) (2021-10-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.5...@gemunion/yup-rules@0.2.6) (2021-10-09)
+## [0.2.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.5...@gemunion/yup-rules@0.2.6) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.4...@gemunion/yup-rules@0.2.5) (2021-10-09)
+## [0.2.5](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.4...@gemunion/yup-rules@0.2.5) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.3...@gemunion/yup-rules@0.2.4) (2021-10-09)
+## [0.2.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.3...@gemunion/yup-rules@0.2.4) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.2...@gemunion/yup-rules@0.2.3) (2021-10-09)
+## [0.2.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.2...@gemunion/yup-rules@0.2.3) (2021-10-09)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.2.2](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.2.0...@gemunion/yup-rules@0.2.2) (2021-10-03)
+## [0.2.2](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.2.0...@gemunion/yup-rules@0.2.2) (2021-10-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-# [0.2.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.27...@gemunion/yup-rules@0.2.0) (2021-10-02)
+# [0.2.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.27...@gemunion/yup-rules@0.2.0) (2021-10-02)
 
 ### Features
 
-- implement json input validation ([#161](https://github.com/gemunion/common-packages/issues/161)) ([747afcf](https://github.com/gemunion/common-packages/commit/747afcf644f7fae23e08ecf4a0119b2931ae211b))
+- implement json input validation ([#161](https://github.com/ethberry/common-packages/issues/161)) ([747afcf](https://github.com/ethberry/common-packages/commit/747afcf644f7fae23e08ecf4a0119b2931ae211b))
 
-## [0.1.27](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.26...@gemunion/yup-rules@0.1.27) (2021-09-26)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [0.1.26](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.25...@gemunion/yup-rules@0.1.26) (2021-09-21)
+## [0.1.27](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.26...@gemunion/yup-rules@0.1.27) (2021-09-26)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.25](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.24...@gemunion/yup-rules@0.1.25) (2021-09-17)
+## [0.1.26](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.25...@gemunion/yup-rules@0.1.26) (2021-09-21)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [0.1.25](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.24...@gemunion/yup-rules@0.1.25) (2021-09-17)
 
 ### Bug Fixes
 
-- change title ([ac380fb](https://github.com/gemunion/common-packages/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
-- remove jsx option ([b50cc0c](https://github.com/gemunion/common-packages/commit/b50cc0cee5ce264be4931b677e71aa4deb6957e5))
+- change title ([ac380fb](https://github.com/ethberry/common-packages/commit/ac380fb380c031c3826c03550c1bb19d1f81c43b))
+- remove jsx option ([b50cc0c](https://github.com/ethberry/common-packages/commit/b50cc0cee5ce264be4931b677e71aa4deb6957e5))
 
-## [0.1.24](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.23...@gemunion/yup-rules@0.1.24) (2021-08-30)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [0.1.23](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.22...@gemunion/yup-rules@0.1.23) (2021-08-30)
+## [0.1.24](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.23...@gemunion/yup-rules@0.1.24) (2021-08-30)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.22](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.21...@gemunion/yup-rules@0.1.22) (2021-08-22)
+## [0.1.23](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.22...@gemunion/yup-rules@0.1.23) (2021-08-30)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [0.1.22](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.21...@gemunion/yup-rules@0.1.22) (2021-08-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -815,9 +815,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
-## [0.1.18](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.17...@gemunion/yup-rules@0.1.18) (2021-08-07)
+## [0.1.18](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.17...@gemunion/yup-rules@0.1.18) (2021-08-07)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -825,25 +825,25 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- move repo to org ([ac9a7e5](https://github.com/gemunion/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
+- move repo to org ([ac9a7e5](https://github.com/ethberry/common-packages/commit/ac9a7e51e47bf69ef30b19abbc67274405c13200))
 
-## [0.1.16](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.15...@gemunion/yup-rules@0.1.16) (2021-08-06)
-
-**Note:** Version bump only for package @gemunion/yup-rules
-
-## [0.1.15](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.14...@gemunion/yup-rules@0.1.15) (2021-07-22)
+## [0.1.16](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.15...@gemunion/yup-rules@0.1.16) (2021-08-06)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.14](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.13...@gemunion/yup-rules@0.1.14) (2021-07-22)
+## [0.1.15](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.14...@gemunion/yup-rules@0.1.15) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.13](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.12...@gemunion/yup-rules@0.1.13) (2021-07-22)
+## [0.1.14](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.13...@gemunion/yup-rules@0.1.14) (2021-07-22)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.12](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.11...@gemunion/yup-rules@0.1.12) (2021-07-15)
+## [0.1.13](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.12...@gemunion/yup-rules@0.1.13) (2021-07-22)
+
+**Note:** Version bump only for package @gemunion/yup-rules
+
+## [0.1.12](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.11...@gemunion/yup-rules@0.1.12) (2021-07-15)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -851,11 +851,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.10](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.9...@gemunion/yup-rules@0.1.10) (2021-07-10)
+## [0.1.10](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.9...@gemunion/yup-rules@0.1.10) (2021-07-10)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.9](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.8...@gemunion/yup-rules@0.1.9) (2021-07-08)
+## [0.1.9](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.8...@gemunion/yup-rules@0.1.9) (2021-07-08)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -867,19 +867,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.6](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.5...@gemunion/yup-rules@0.1.6) (2021-06-21)
+## [0.1.6](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.5...@gemunion/yup-rules@0.1.6) (2021-06-21)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.5](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.4...@gemunion/yup-rules@0.1.5) (2021-06-19)
+## [0.1.5](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.4...@gemunion/yup-rules@0.1.5) (2021-06-19)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.4](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.3...@gemunion/yup-rules@0.1.4) (2021-06-16)
+## [0.1.4](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.3...@gemunion/yup-rules@0.1.4) (2021-06-16)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.1.3](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.1.2...@gemunion/yup-rules@0.1.3) (2021-06-09)
+## [0.1.3](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.1.2...@gemunion/yup-rules@0.1.3) (2021-06-09)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
@@ -891,17 +891,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-# [0.1.0](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.117...@gemunion/yup-rules@0.1.0) (2021-06-09)
+# [0.1.0](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.117...@gemunion/yup-rules@0.1.0) (2021-06-09)
 
 ### Features
 
-- use fetchJson ([fc3d86e](https://github.com/gemunion/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
+- use fetchJson ([fc3d86e](https://github.com/ethberry/common-packages/commit/fc3d86e0a27e2cf4387d8706222abae24bde9b16))
 
 ## 0.0.117 (2021-06-01)
 
 ### Features
 
-- send app name to logDna ([df3476a](https://github.com/gemunion/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
+- send app name to logDna ([df3476a](https://github.com/ethberry/common-packages/commit/df3476a4a17098fdf80f99cf2400d114cd4e47ad))
 
 ## 0.0.116 (2021-05-31)
 
@@ -911,7 +911,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- typeOrm config logging ([7734340](https://github.com/gemunion/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
+- typeOrm config logging ([7734340](https://github.com/ethberry/common-packages/commit/77343402c7e0c63d3d19bfc55df29b961f68eaaa))
 
 ## 0.0.114 (2021-05-14)
 
@@ -921,13 +921,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **deps:** update all non-major dependencies ([#48](https://github.com/gemunion/common-packages/issues/48)) ([1854092](https://github.com/gemunion/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
+- **deps:** update all non-major dependencies ([#48](https://github.com/ethberry/common-packages/issues/48)) ([1854092](https://github.com/ethberry/common-packages/commit/1854092c4d51e9ec43aa1d75bb43037c21b11630))
 
 ## 0.0.112 (2021-05-06)
 
 ### Bug Fixes
 
-- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/gemunion/common-packages/issues/47)) ([06b9b84](https://github.com/gemunion/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
+- **deps:** update dependency aws-sdk to v2.902.0 ([#47](https://github.com/ethberry/common-packages/issues/47)) ([06b9b84](https://github.com/ethberry/common-packages/commit/06b9b845709c6eb67b7e04277f86ecb9bf19fc73))
 
 ## 0.0.111 (2021-05-06)
 
@@ -965,23 +965,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.0.102](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.101...@gemunion/yup-rules@0.0.102) (2021-04-08)
+## [0.0.102](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.101...@gemunion/yup-rules@0.0.102) (2021-04-08)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.0.101](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.100...@gemunion/yup-rules@0.0.101) (2021-04-05)
+## [0.0.101](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.100...@gemunion/yup-rules@0.0.101) (2021-04-05)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.0.100](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.99...@gemunion/yup-rules@0.0.100) (2021-04-03)
+## [0.0.100](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.99...@gemunion/yup-rules@0.0.100) (2021-04-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.0.99](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.98...@gemunion/yup-rules@0.0.99) (2021-04-03)
+## [0.0.99](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.98...@gemunion/yup-rules@0.0.99) (2021-04-03)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
-## [0.0.98](https://github.com/gemunion/common-packages/compare/@gemunion/yup-rules@0.0.97...@gemunion/yup-rules@0.0.98) (2021-03-29)
+## [0.0.98](https://github.com/ethberry/common-packages/compare/@gemunion/yup-rules@0.0.97...@gemunion/yup-rules@0.0.98) (2021-03-29)
 
 **Note:** Version bump only for package @gemunion/yup-rules
 
