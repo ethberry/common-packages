@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.105](https://github.com/gemunion/common-packages/compare/@ethberry/provider-settings@4.0.104...@ethberry/provider-settings@4.0.105) (2024-09-29)
+
+**Note:** Version bump only for package @ethberry/provider-settings
+
 ## [4.0.104](https://github.com/gemunion/common-packages/compare/@ethberry/provider-settings@4.0.103...@ethberry/provider-settings@4.0.104) (2024-09-27)
 
 ### Bug Fixes

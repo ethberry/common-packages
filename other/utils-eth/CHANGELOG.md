@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.27](https://github.com/gemunion/nestjs-packages/compare/@ethberry/utils-eth@1.1.26...@ethberry/utils-eth@1.1.27) (2024-09-29)
+
+### Bug Fixes
+
+- recursivelyDecodeResult ([1231c95](https://github.com/gemunion/nestjs-packages/commit/1231c95c2844257255500560e43efb3c3d524047))
+
 ## [1.1.26](https://github.com/gemunion/nestjs-packages/compare/@ethberry/utils-eth@1.1.25...@ethberry/utils-eth@1.1.26) (2024-09-27)
 
 ### Bug Fixes

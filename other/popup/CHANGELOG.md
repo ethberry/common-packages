@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.64](https://github.com/gemunion/common-packages/compare/@ethberry/popup@1.0.63...@ethberry/popup@1.0.64) (2024-09-29)
+
+**Note:** Version bump only for package @ethberry/popup
+
 ## [1.0.63](https://github.com/gemunion/common-packages/compare/@ethberry/popup@1.0.62...@ethberry/popup@1.0.63) (2024-09-27)
 
 ### Bug Fixes
