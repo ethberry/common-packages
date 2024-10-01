@@ -52,6 +52,7 @@
     "lerna:version": "lerna version --ignore-scripts",
     "lint": "lerna run lint --concurrency 1",
     "obfuscate": "sh scripts/obfuscate.sh",
+    "prepare": "husky",
     "prettier": "prettier . --write",
     "storybook": "storybook dev -p 6006",
     "test": "sh scripts/test.sh"
