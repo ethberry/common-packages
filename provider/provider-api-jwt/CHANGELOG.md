@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.90](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-jwt@2.0.89...@ethberry/provider-api-jwt@2.0.90) (2024-10-04)
+
+**Note:** Version bump only for package @ethberry/provider-api-jwt
+
 ## [2.0.89](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-jwt@2.0.88...@ethberry/provider-api-jwt@2.0.89) (2024-09-29)
 
 ### Bug Fixes

@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/constants": "0.13.4",
+    "@ethberry/constants": "0.13.5",
     "@ethberry/history": "1.2.23",
     "@ethberry/types-jwt": "0.4.8",
     "content-disposition": "0.5.4",
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "7.0.93"
+  "version": "7.0.94"
 }

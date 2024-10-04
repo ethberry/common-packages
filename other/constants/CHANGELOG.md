@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/ethberry/common-packages/compare/@ethberry/constants@0.13.4...@ethberry/constants@0.13.5) (2024-10-04)
+
+### Bug Fixes
+
+- ethberry ([8696313](https://github.com/ethberry/common-packages/commit/869631358c31e2e9d150820908d8d61c7e394e27))
+
 ## 0.13.4 (2024-09-29)
 
 ### Bug Fixes

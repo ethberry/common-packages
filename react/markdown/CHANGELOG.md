@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.80](https://github.com/ethberry/common-packages/compare/@ethberry/markdown@2.1.79...@ethberry/markdown@2.1.80) (2024-10-04)
+
+**Note:** Version bump only for package @ethberry/markdown
+
 ## [2.1.79](https://github.com/ethberry/common-packages/compare/@ethberry/markdown@2.1.78...@ethberry/markdown@2.1.79) (2024-09-29)
 
 ### Bug Fixes
