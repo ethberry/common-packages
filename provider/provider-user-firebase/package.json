@@ -15,9 +15,9 @@
   "description": "react context provider firebase",
   "devDependencies": {
     "@ethberry/provider-user": "6.0.99",
-    "@types/react": "18.3.10",
+    "@types/react": "18.3.11",
     "@types/react-router": "5.1.20",
-    "firebase": "10.13.2",
+    "firebase": "10.14.0",
     "react": "18.3.1",
     "react-router": "6.26.2"
   },
