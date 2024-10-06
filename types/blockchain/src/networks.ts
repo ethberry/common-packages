@@ -25,4 +25,6 @@ export enum Networks {
 
   IMMUTABLE = 13371,
   IMMUTABLE_TEST = 13473,
+
+  HARDHAT = 31337,
 }
