@@ -1,7 +1,11 @@
 export * from "./case";
 export * from "./chunk-by";
 export * from "./comparator";
+export * from "./deep-clone";
 export * from "./delay";
 export * from "./fisher-yates";
 export * from "./local-storage";
 export * from "./map-series";
+export * from "./omit";
+export * from "./pick";
+// export * from "./transform";
