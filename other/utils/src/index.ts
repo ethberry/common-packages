@@ -8,4 +8,5 @@ export * from "./local-storage";
 export * from "./map-series";
 export * from "./omit";
 export * from "./pick";
+export * from "./query-param";
 // export * from "./transform";
