@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "winston": "3.14.2"
+    "winston": "3.15.0"
   },
   "description": "winston formatter",
   "engines": {
