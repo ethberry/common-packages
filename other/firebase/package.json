@@ -9,7 +9,7 @@
   },
   "description": "firebase config",
   "devDependencies": {
-    "firebase": "10.14.1"
+    "firebase": "11.0.1"
   },
   "engines": {
     "node": ">=22"
@@ -19,7 +19,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/firebase",
   "peerDependencies": {
-    "firebase": "^10.0.0"
+    "firebase": "^10.0.0 || ^11.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

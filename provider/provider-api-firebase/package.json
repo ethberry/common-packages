@@ -16,7 +16,7 @@
   "description": "react provider api auth strategy firebase",
   "devDependencies": {
     "@types/react": "18.3.12",
-    "firebase": "10.14.1",
+    "firebase": "11.0.1",
     "react": "18.3.1"
   },
   "engines": {
@@ -27,7 +27,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/provider-api-firebase",
   "peerDependencies": {
-    "firebase": "^10.0.0",
+    "firebase": "^10.0.0 || ^11.0.0",
     "react": "^18.0.0"
   },
   "publishConfig": {
