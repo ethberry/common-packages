@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.105 (2024-11-03)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([7bca8f2](https://github.com/ethberry/common-packages/commit/7bca8f2fc362e9608b8b2a7955aac1a9fc6f4861))
+
 ## [1.0.104](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user-firebase@1.0.103...@ethberry/provider-user-firebase@1.0.104) (2024-10-04)
 
 **Note:** Version bump only for package @ethberry/provider-user-firebase

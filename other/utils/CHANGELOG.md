@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.6.0 (2024-11-03)
+
+### Bug Fixes
+
+- add more utils ([3f345ce](https://github.com/ethberry/common-packages/commit/3f345cea6924227b1d6613babb7770b7bde0c8d5))
+
+### Features
+
+- objectToQueryString ([ced75fd](https://github.com/ethberry/common-packages/commit/ced75fd58bf7e092d0807a20248e89e110878660))
+
 ## 1.5.3 (2024-09-29)
 
 ### Bug Fixes

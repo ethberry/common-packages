@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.50 (2024-11-03)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([7bca8f2](https://github.com/ethberry/nestjs-packages/commit/7bca8f2fc362e9608b8b2a7955aac1a9fc6f4861))
+- **deps:** update dependency winston to v3.16.0 ([44bdaf0](https://github.com/ethberry/nestjs-packages/commit/44bdaf0c57eb3335c69d54402ecc58660458870a))
+
 ## 0.0.49 (2024-09-29)
 
 ### Bug Fixes

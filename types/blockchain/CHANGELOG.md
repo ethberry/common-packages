@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.3.5 (2024-11-03)
+
+### Bug Fixes
+
+- add hardhat chain id ([f3baed0](https://github.com/ethberry/common-packages/commit/f3baed0415402b5037d052c96b16fc9a7504be7f))
+- chainId ([4b44e10](https://github.com/ethberry/common-packages/commit/4b44e109e8eade661edfd7df1b7478d3d22da43e))
+
 ## 1.3.4 (2024-09-29)
 
 ### Bug Fixes

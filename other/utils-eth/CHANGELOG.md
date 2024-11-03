@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.30 (2024-11-03)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([7bca8f2](https://github.com/ethberry/nestjs-packages/commit/7bca8f2fc362e9608b8b2a7955aac1a9fc6f4861))
+
 ## [1.1.29](https://github.com/ethberry/nestjs-packages/compare/@ethberry/utils-eth@1.1.28...@ethberry/utils-eth@1.1.29) (2024-10-04)
 
 **Note:** Version bump only for package @ethberry/utils-eth

@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/nestjs-packages/issues"
   },
   "dependencies": {
-    "@ethberry/utils": "1.5.3"
+    "@ethberry/utils": "1.6.0"
   },
   "description": "blockchain utils",
   "devDependencies": {
@@ -42,5 +42,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "1.1.29"
+  "version": "1.1.30"
 }
