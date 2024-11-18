@@ -12,8 +12,8 @@
     "@ethberry/history": "1.2.23",
     "@ethberry/types-jwt": "0.4.8",
     "content-disposition": "0.5.4",
-    "qs": "6.13.0",
-    "react-router": "6.27.0"
+    "qs": "6.13.1",
+    "react-router": "6.28.0"
   },
   "description": "react context provider",
   "devDependencies": {
