@@ -15,9 +15,9 @@
   },
   "description": "react provider api auth strategy firebase",
   "devDependencies": {
-    "@types/react": "18.3.14",
+    "@types/react": "19.0.1",
     "firebase": "11.0.2",
-    "react": "18.3.1"
+    "react": "19.0.0"
   },
   "engines": {
     "node": ">=22"
@@ -28,7 +28,7 @@
   "name": "@ethberry/provider-api-firebase",
   "peerDependencies": {
     "firebase": "^10.0.0 || ^11.0.0",
-    "react": "^18.0.0"
+    "react": "^18.0.0 || ^19.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
