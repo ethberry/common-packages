@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.1](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api@8.0.0...@ethberry/provider-api@8.0.1) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/provider-api
+
 # [8.0.0](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api@7.0.96...@ethberry/provider-api@8.0.0) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/provider-api

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.5.21 (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/types-collection
+
 ## 1.5.20 (2024-09-29)
 
 ### Bug Fixes

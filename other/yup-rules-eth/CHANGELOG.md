@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.42 (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/yup-rules-eth
+
 ## [2.1.41](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules-eth@2.1.40...@ethberry/yup-rules-eth@2.1.41) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/yup-rules-eth

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user-jwt@2.0.0...@ethberry/provider-user-jwt@2.0.1) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/provider-user-jwt
+
 # [2.0.0](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user-jwt@1.0.104...@ethberry/provider-user-jwt@2.0.0) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/provider-user-jwt
