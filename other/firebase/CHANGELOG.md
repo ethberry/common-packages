@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.45](https://github.com/ethberry/common-packages/compare/@ethberry/firebase@1.2.44...@ethberry/firebase@1.2.45) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/firebase
+
 ## 1.2.44 (2024-11-03)
 
 ### Bug Fixes

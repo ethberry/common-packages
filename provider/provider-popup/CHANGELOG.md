@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.68](https://github.com/ethberry/common-packages/compare/@ethberry/provider-popup@1.0.67...@ethberry/provider-popup@1.0.68) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/provider-popup
+
 ## 1.0.67 (2024-11-03)
 
 ### Bug Fixes

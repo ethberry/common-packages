@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.51](https://github.com/ethberry/nestjs-packages/compare/@ethberry/winston-formatter@0.0.50...@ethberry/winston-formatter@0.0.51) (2024-12-07)
+
+### Bug Fixes
+
+- fix after deps update ([03f3543](https://github.com/ethberry/nestjs-packages/commit/03f3543f7e94ea0bf9d3ec6481dce8507f59dfdb))
+
 ## 0.0.50 (2024-11-03)
 
 ### Bug Fixes
