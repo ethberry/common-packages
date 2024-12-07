@@ -8,7 +8,7 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "yup": "1.4.0"
+    "yup": "1.5.0"
   },
   "description": "validation rules",
   "devDependencies": {
