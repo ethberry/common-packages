@@ -8,9 +8,9 @@
     "url": "https://github.com/ethberry/common-packages/issues"
   },
   "dependencies": {
-    "@ethberry/firebase": "1.2.45",
+    "@ethberry/firebase": "2.0.0",
     "@ethberry/history": "1.2.23",
-    "@ethberry/provider-api": "7.0.96",
+    "@ethberry/provider-api": "8.0.0",
     "@ethberry/types-jwt": "0.4.8"
   },
   "description": "react provider api auth strategy firebase",
@@ -48,5 +48,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "2.0.94"
+  "version": "3.0.0"
 }

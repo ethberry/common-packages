@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/ethberry/common-packages/compare/@ethberry/popup@1.0.68...@ethberry/popup@2.0.0) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/popup
+
 ## [1.0.68](https://github.com/ethberry/common-packages/compare/@ethberry/popup@1.0.67...@ethberry/popup@1.0.68) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/popup

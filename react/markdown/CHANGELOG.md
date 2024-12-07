@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/ethberry/common-packages/compare/@ethberry/markdown@2.1.83...@ethberry/markdown@3.0.0) (2024-12-07)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to v15 ([32f6536](https://github.com/ethberry/common-packages/commit/32f65366155ba02bc2c1ec12273da90aeacce3cc))
+
 ## [2.1.83](https://github.com/ethberry/common-packages/compare/@ethberry/markdown@2.1.82...@ethberry/markdown@2.1.83) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/markdown

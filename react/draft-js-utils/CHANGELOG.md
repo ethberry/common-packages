@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/ethberry/common-packages/compare/@ethberry/draft-js-utils@1.2.55...@ethberry/draft-js-utils@2.0.0) (2024-12-07)
+
+**Note:** Version bump only for package @ethberry/draft-js-utils
+
 ## 1.2.55 (2024-11-03)
 
 ### Bug Fixes
