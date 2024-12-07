@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dompurify": "3.2.2",
-    "marked": "14.1.4",
+    "marked": "15.0.3",
     "marked-gfm-heading-id": "4.1.1",
     "marked-mangle": "1.1.10"
   },
