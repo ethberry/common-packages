@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/react": "19.0.1",
     "react": "19.0.0",
-    "react-router-dom": "6.28.0"
+    "react-router-dom": "7.0.2"
   },
   "engines": {
     "node": ">=22"
@@ -26,7 +26,7 @@
   "name": "@ethberry/provider-settings",
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
-    "react-router-dom": "^6.0.0"
+    "react-router-dom": "^6.0.0 || ^7.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
