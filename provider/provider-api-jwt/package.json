@@ -14,8 +14,8 @@
   },
   "description": "react provider api auth strategy jwt",
   "devDependencies": {
-    "@types/react": "18.3.14",
-    "react": "18.3.1"
+    "@types/react": "19.0.1",
+    "react": "19.0.0"
   },
   "engines": {
     "node": ">=22"
@@ -25,7 +25,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/provider-api-jwt",
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": "^18.0.0 || ^19.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

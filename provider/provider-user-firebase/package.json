@@ -15,10 +15,10 @@
   "description": "react context provider firebase",
   "devDependencies": {
     "@ethberry/provider-user": "6.0.102",
-    "@types/react": "18.3.14",
+    "@types/react": "19.0.1",
     "@types/react-router": "5.1.20",
     "firebase": "11.0.2",
-    "react": "18.3.1",
+    "react": "19.0.0",
     "react-router": "6.28.0"
   },
   "engines": {
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "@ethberry/provider-user": "^5.0.0",
     "firebase": "^10.0.0 || ^11.0.0",
-    "react": "^18.0.0",
+    "react": "^18.0.0 || ^19.0.0",
     "react-router": "^6.0.0"
   },
   "publishConfig": {

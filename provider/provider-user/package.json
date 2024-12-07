@@ -13,9 +13,9 @@
   },
   "description": "react context provider",
   "devDependencies": {
-    "@types/react": "18.3.14",
+    "@types/react": "19.0.1",
     "@types/react-router": "5.1.20",
-    "react": "18.3.1",
+    "react": "19.0.0",
     "react-router": "6.28.0"
   },
   "engines": {
@@ -26,7 +26,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/provider-user",
   "peerDependencies": {
-    "react": "^18.0.0",
+    "react": "^18.0.0 || ^19.0.0",
     "react-router": "^6.0.0"
   },
   "publishConfig": {
