@@ -14,8 +14,7 @@
   "description": "react context provider",
   "devDependencies": {
     "@types/react": "19.0.1",
-    "react": "19.0.0",
-    "react-router-dom": "7.0.2"
+    "react": "19.0.0"
   },
   "engines": {
     "node": ">=22"
@@ -25,8 +24,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/provider-settings",
   "peerDependencies": {
-    "react": "^18.0.0 || ^19.0.0",
-    "react-router-dom": "^6.0.0 || ^7.0.0"
+    "react": "^19.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

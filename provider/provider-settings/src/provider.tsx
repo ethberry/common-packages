@@ -1,5 +1,5 @@
 import { PropsWithChildren, ReactElement, useCallback, useEffect, useLayoutEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router";
 
 import { EnabledLanguages, RTLLanguages, ThemeType } from "@ethberry/constants";
 import { IUser, useUser } from "@ethberry/provider-user";
@@ -29,7 +29,7 @@ export const SettingsProvider = <T extends string>(
 
   const getLanguage = (): T => {
     // @ts-ignore
-     
+
     return settings.language || (user.isAuthenticated() && user.profile.language) || defaultLanguage;
   };
 

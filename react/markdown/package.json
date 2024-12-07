@@ -38,7 +38,7 @@
   "main": "./dist/index.js",
   "name": "@ethberry/markdown",
   "peerDependencies": {
-    "react": "^18.0.0 || ^19.0.0"
+    "react": "^19.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

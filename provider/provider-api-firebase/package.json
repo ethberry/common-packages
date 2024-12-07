@@ -27,8 +27,8 @@
   "main": "./dist/index.js",
   "name": "@ethberry/provider-api-firebase",
   "peerDependencies": {
-    "firebase": "^10.0.0 || ^11.0.0",
-    "react": "^18.0.0 || ^19.0.0"
+    "firebase": "^11.0.0",
+    "react": "^19.0.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
