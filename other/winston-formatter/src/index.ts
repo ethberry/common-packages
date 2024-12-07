@@ -17,24 +17,24 @@ export const formatter = format.combine(
     let text = "";
     if (level === "error") {
       color = chalk.red;
-      text = [color(message), stack].join("\n");
+      text = [color(message as string), stack].join("\n");
     } else if (level === "info") {
       color = chalk.green;
-      text = color(message);
+      text = color(message as string);
     } else if (level === "warn") {
       color = chalk.yellow;
-      text = color(message);
+      text = color(message as string);
     } else if (level === "debug") {
       color = chalk.magentaBright;
-      text = color(message);
+      text = color(message as string);
     } else if (level === "verbose") {
       color = chalk.cyanBright;
-      text = color(message);
+      text = color(message as string);
     }
 
     return [
       color(`[Nest] ${process.pid}   -`),
-      new Date(timestamp)
+      new Date(timestamp as string)
         .toISOString()
         .replace("T", " ")
         .replace(/\.\d{3}Z/, ""),
