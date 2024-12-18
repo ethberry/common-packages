@@ -11,7 +11,7 @@
     "@ethberry/constants": "0.13.6",
     "@ethberry/draft-js-utils": "2.0.1",
     "@ethberry/provider-api": "8.0.1",
-    "yup": "1.5.0"
+    "yup": "1.6.1"
   },
   "description": "validation rules",
   "devDependencies": {
