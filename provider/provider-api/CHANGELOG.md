@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.2](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api@8.0.1...@ethberry/provider-api@8.0.2) (2025-01-25)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([1c49d39](https://github.com/ethberry/common-packages/commit/1c49d39f3f2e76fdeaca08ae54d005f77cbee2ac))
+
 ## [8.0.1](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api@8.0.0...@ethberry/provider-api@8.0.1) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/provider-api
