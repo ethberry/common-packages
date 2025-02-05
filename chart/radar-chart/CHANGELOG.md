@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.3](https://github.com/ethberry/common-packages/compare/@ethberry/radar-chart@2.0.2...@ethberry/radar-chart@2.0.3) (2025-02-05)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([8f6b458](https://github.com/ethberry/common-packages/commit/8f6b4587574bd9453ecdff1991909a1194cda970))
+
 ## [2.0.2](https://github.com/ethberry/common-packages/compare/@ethberry/radar-chart@2.0.1...@ethberry/radar-chart@2.0.2) (2025-01-25)
 
 ### Bug Fixes
