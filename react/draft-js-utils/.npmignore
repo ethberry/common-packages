@@ -2,4 +2,5 @@
 /src
 /tsconfig.json
 /jest.config.json
+/setup-jest.ts
 **/*.test.*
