@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-firebase@3.0.3...@ethberry/provider-api-firebase@3.1.0) (2025-02-09)
+
+### Features
+
+- rework providers ([fced44f](https://github.com/ethberry/common-packages/commit/fced44f01c41491bc7cda50df18a0eb58de02b35))
+
 ## [3.0.3](https://github.com/ethberry/common-packages/compare/@ethberry/provider-api-firebase@3.0.2...@ethberry/provider-api-firebase@3.0.3) (2025-02-05)
 
 **Note:** Version bump only for package @ethberry/provider-api-firebase

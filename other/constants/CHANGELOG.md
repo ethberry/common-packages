@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.13.7 (2025-02-09)
+
+### Bug Fixes
+
+- update imegeUrl ([597a7bc](https://github.com/ethberry/common-packages/commit/597a7bc89baa62b231f45de591ac94aca0b7da09))
+
 ## 0.13.6 (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/constants

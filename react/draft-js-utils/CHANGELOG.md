@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.0.2 (2025-02-09)
+
+### Bug Fixes
+
+- jsdom is a pice of crap ([0fcdb46](https://github.com/ethberry/common-packages/commit/0fcdb464b37160cd326e85d1fb0ab4896fedd868))
+- update imegeUrl ([597a7bc](https://github.com/ethberry/common-packages/commit/597a7bc89baa62b231f45de591ac94aca0b7da09))
+
 ## [2.0.1](https://github.com/ethberry/common-packages/compare/@ethberry/draft-js-utils@2.0.0...@ethberry/draft-js-utils@2.0.1) (2024-12-07)
 
 **Note:** Version bump only for package @ethberry/draft-js-utils
