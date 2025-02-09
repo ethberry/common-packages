@@ -9,7 +9,7 @@
   },
   "description": "firebase config",
   "devDependencies": {
-    "firebase": "11.2.0"
+    "firebase": "11.3.0"
   },
   "engines": {
     "node": ">=22"
