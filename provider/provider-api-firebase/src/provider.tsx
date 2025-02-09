@@ -3,26 +3,14 @@ import { getAuth } from "firebase/auth";
 
 import firebase from "@ethberry/firebase";
 import { history } from "@ethberry/history";
-import { ApiProvider, IApiProviderProps, getToken, setToken, isAccessTokenExpired } from "@ethberry/provider-api";
+import { ApiProvider, getToken, IApiProviderProps, isAccessTokenExpired, setToken } from "@ethberry/provider-api";
 import { IJwt } from "@ethberry/types-jwt";
 
 import { useInterval } from "./hook";
 
-export const ensureAsyncConditionIsTrue = async (getCondition: () => boolean) => {
-  return new Promise(resolve => {
-    setTimeout(() => {
-      if (getCondition()) {
-        resolve(true);
-      } else {
-        resolve(ensureAsyncConditionIsTrue(getCondition));
-      }
-    }, 1000);
-  });
-};
-
 export const ApiProviderFirebase: FC<PropsWithChildren<IApiProviderProps>> = props => {
   const { baseUrl, storageName, children } = props;
-  const authFb = getAuth(firebase);
+  const auth = getAuth(firebase);
 
   const refreshToken = async () => {
     const jwt = getToken();
@@ -32,12 +20,8 @@ export const ApiProviderFirebase: FC<PropsWithChildren<IApiProviderProps>> = pro
       setToken(null);
     }
 
-    if (!authFb.currentUser) {
-      await ensureAsyncConditionIsTrue(() => !!authFb.currentUser);
-    }
-
-    return authFb.currentUser
-      ? authFb.currentUser
+    return auth.currentUser
+      ? auth.currentUser
           .getIdToken(true)
           .then((accessToken: string) => {
             const now = Date.now();

@@ -13,6 +13,7 @@ export interface ILoginDto {
 
 export interface ISignUpDto {
   email: string;
+  displayName: string;
   password: string;
   confirm: string;
 }
@@ -21,9 +22,9 @@ export interface IUserContext<T> {
   profile: T;
   getProfile: (url?: string) => Promise<T>;
   setProfile: (data: Partial<T>) => Promise<T>;
-  logIn: (data?: ILoginDto, url?: string) => Promise<T | void>;
-  logOut: (url?: string) => Promise<void>;
+  logIn: (data: ILoginDto, url?: string) => Promise<T | void>;
   signUp: (data: ISignUpDto, url?: string) => Promise<T | void>;
+  logOut: (url?: string) => Promise<void>;
   isAuthenticated: () => boolean;
 }
 

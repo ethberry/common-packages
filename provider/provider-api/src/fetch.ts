@@ -35,11 +35,11 @@ export const useFetchJson = () => {
         }
         if (response.status === 401) {
           window.localStorage.clear();
-          navigate("/login");
+          void navigate("/login");
           throw new ApiError("unauthorized", response.status);
         }
         if (response.status === 402) {
-          navigate("/rate-plans");
+          void navigate("/rate-plans");
           throw new ApiError("paymentRequired", response.status);
         }
         if (![200, 201].includes(response.status)) {
@@ -76,7 +76,7 @@ export const useFetchFile = () => {
         }
         if (response.status === 401) {
           window.localStorage.clear();
-          navigate("/login");
+          void navigate("/login");
           return;
         }
         if (![200, 201].includes(response.status)) {

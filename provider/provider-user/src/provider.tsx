@@ -1,7 +1,7 @@
 import { PropsWithChildren, ReactElement, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router";
 
-import { ApiError, IJwt, useApi } from "@ethberry/provider-api";
+import { useApi } from "@ethberry/provider-api";
 
 import { ILoginDto, ISignUpDto, IUser, UserContext } from "./context";
 import { save } from "./utils";
@@ -10,9 +10,9 @@ interface IUserProviderProps<T> {
   profile: T | null;
   setUserProfile: (data: any) => void;
   storageName?: string;
-  customLogIn?: (data?: ILoginDto, url?: string) => Promise<T | void>;
-  customSignUp?: (data?: ISignUpDto, url?: string) => Promise<T | void>;
-  customLogOut?: (url?: string) => Promise<void>;
+  customLogIn: (data: ILoginDto) => Promise<T | void>;
+  customSignUp: (data: ISignUpDto) => Promise<T | void>;
+  customLogOut: () => Promise<void>;
 }
 
 export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProviderProps<T>>): ReactElement | null => {
@@ -39,7 +39,7 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       .then((json: T) => {
         setProfileHandle(json);
         if (url) {
-          navigate(url, { replace: true });
+          void navigate(url, { replace: true });
         }
         return json;
       });
@@ -58,62 +58,6 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
       });
   };
 
-  const logIn = async (data?: ILoginDto, url?: string): Promise<T> => {
-    return api
-      .fetchJson({
-        url: "/auth/login",
-        method: "POST",
-        data,
-      })
-      .then((json: IJwt) => {
-        api.setToken(json);
-        return getProfile(url);
-      })
-      .catch((e: ApiError) => {
-        api.setToken(null);
-        throw e;
-      });
-  };
-
-  const logOut = async (url?: string): Promise<void> => {
-    return api
-      .fetchJson({
-        url: "/auth/logout",
-        method: "POST",
-        data: {
-          refreshToken: api.getToken()?.refreshToken,
-        },
-      })
-      .then(() => {
-        setProfileHandle(null);
-        api.setToken(null);
-        if (url) {
-          navigate(url);
-        }
-      })
-      .catch((e: ApiError) => {
-        api.setToken(null);
-        throw e;
-      });
-  };
-
-  const signUp = async (data: ISignUpDto, url = "/"): Promise<T> => {
-    return api
-      .fetchJson({
-        url: "/auth/signup",
-        method: "POST",
-        data,
-      })
-      .then((json: IJwt) => {
-        api.setToken(json);
-        return getProfile(url);
-      })
-      .catch((e: ApiError) => {
-        api.setToken(null);
-        throw e;
-      });
-  };
-
   const isAuthenticated = useCallback((): boolean => {
     return profile !== null;
   }, [profile]);
@@ -124,9 +68,21 @@ export const UserProvider = <T extends IUser>(props: PropsWithChildren<IUserProv
         profile,
         setProfile,
         getProfile,
-        logIn: customLogIn || logIn,
-        logOut: customLogOut || logOut,
-        signUp: customSignUp || signUp,
+        logIn: (data: ILoginDto, url?: string) =>
+          customLogIn(data).then(() => {
+            return getProfile(url);
+          }),
+        signUp: (data: ISignUpDto, url?: string) =>
+          customSignUp(data).then(() => {
+            return getProfile(url);
+          }),
+        logOut: (url?: string) =>
+          customLogOut().then(() => {
+            setProfileHandle(null);
+            if (url) {
+              void navigate(url, { replace: true });
+            }
+          }),
         isAuthenticated,
       }}
     >
