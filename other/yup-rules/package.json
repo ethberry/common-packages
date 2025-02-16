@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.7",
-    "@ethberry/draft-js-utils": "2.0.2",
-    "@ethberry/provider-api": "8.1.0",
+    "@ethberry/draft-js-utils": "2.0.3",
+    "@ethberry/provider-api": "8.1.1",
     "yup": "1.6.1"
   },
   "description": "validation rules",
@@ -51,5 +51,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

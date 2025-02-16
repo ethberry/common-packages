@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/constants": "0.13.7",
-    "@ethberry/provider-user": "7.1.0"
+    "@ethberry/provider-user": "7.1.1"
   },
   "description": "react context provider",
   "devDependencies": {
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "5.0.4"
+  "version": "5.0.5"
 }

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.1.1](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user@7.1.0...@ethberry/provider-user@7.1.1) (2025-02-16)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([78d0e6c](https://github.com/ethberry/common-packages/commit/78d0e6cd8d8bc7705995387d80dee5bffdd2f8f1))
+
 # [7.1.0](https://github.com/ethberry/common-packages/compare/@ethberry/provider-user@7.0.3...@ethberry/provider-user@7.1.0) (2025-02-09)
 
 ### Features
