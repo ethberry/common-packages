@@ -15,11 +15,11 @@
   "description": "react context provider firebase",
   "devDependencies": {
     "@ethberry/provider-user": "7.1.1",
-    "@types/react": "19.0.9",
+    "@types/react": "19.0.10",
     "@types/react-router": "5.1.20",
     "firebase": "11.3.1",
     "react": "19.0.0",
-    "react-router": "7.1.5"
+    "react-router": "7.2.0"
   },
   "engines": {
     "node": ">=22"
