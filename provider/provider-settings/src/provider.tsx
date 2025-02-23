@@ -15,7 +15,7 @@ export const SettingsProvider = <T extends string>(
     defaultLanguage = EnabledLanguages.EN,
     defaultLayoutDirection = LAYOUT_DIRECTION.ltr,
     defaultThemeType = ThemeType.light,
-    defaultReferrer = "0x0000000000000000000000000000000000000000", // do not import ethers!
+    defaultReferrer = "0x0000000000000000000000000000000000000000",
     storageName = "settings",
     children,
   } = props;
