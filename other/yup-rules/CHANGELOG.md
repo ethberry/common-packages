@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.6](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules@5.0.5...@ethberry/yup-rules@5.0.6) (2025-02-23)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([afa46b5](https://github.com/ethberry/common-packages/commit/afa46b5f44676e0fde688d28a57cad40fdcd1ca4))
+
 ## [5.0.5](https://github.com/ethberry/common-packages/compare/@ethberry/yup-rules@5.0.4...@ethberry/yup-rules@5.0.5) (2025-02-16)
 
 **Note:** Version bump only for package @ethberry/yup-rules

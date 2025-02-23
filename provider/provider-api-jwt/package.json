@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ethberry/history": "1.2.24",
-    "@ethberry/provider-api": "8.1.1",
+    "@ethberry/provider-api": "8.1.2",
     "@ethberry/types-jwt": "0.4.9"
   },
   "description": "react provider api auth strategy jwt",
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.0.5"
+  "version": "3.0.6"
 }

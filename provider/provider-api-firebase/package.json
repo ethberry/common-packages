@@ -10,7 +10,7 @@
   "dependencies": {
     "@ethberry/firebase": "2.0.4",
     "@ethberry/history": "1.2.24",
-    "@ethberry/provider-api": "8.1.1",
+    "@ethberry/provider-api": "8.1.2",
     "@ethberry/types-jwt": "0.4.9"
   },
   "description": "react provider api auth strategy firebase",
@@ -48,5 +48,5 @@
   "sideEffects": false,
   "title": "-=EthBerry Studio=-",
   "types": "./dist/index.d.ts",
-  "version": "3.1.1"
+  "version": "3.1.2"
 }

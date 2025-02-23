@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/ethberry/common-packages/compare/@ethberry/provider-popup@2.0.3...@ethberry/provider-popup@2.0.4) (2025-02-23)
+
+### Bug Fixes
+
+- **deps:** update all non-major dependencies ([afa46b5](https://github.com/ethberry/common-packages/commit/afa46b5f44676e0fde688d28a57cad40fdcd1ca4))
+
 ## 2.0.3 (2025-02-16)
 
 ### Bug Fixes
