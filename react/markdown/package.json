@@ -16,7 +16,7 @@
   "description": "react component to display markdown",
   "devDependencies": {
     "@ethberry/draft-js-utils": "2.0.4",
-    "@storybook/react": "8.5.8",
+    "@storybook/react": "8.6.3",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.2.0",
     "@types/jest": "29.5.14",
